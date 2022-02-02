@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_one/modules/home_detail_screen.dart';
 import 'package:flutter_one/modules/home_main_screen.dart';
+
 import 'routes/index.dart';
 
 void main() {
@@ -20,7 +21,11 @@ class MyApp extends StatelessWidget {
       ),
       routes: <String, WidgetBuilder>{
         Routes.homeScreen: (context) => const HomeMainScreen(),
-        Routes.homeDetailScreen: (context) => const HomeDetailScreen(),
+        Routes.homeDetailScreen: (context) {
+          print('********');
+          var a = ModalRoute.of(context)?.settings.arguments;
+          return const HomeDetailScreen(title: 'aaaa');
+        },
       },
       home: const HomeMainScreen(),
     );

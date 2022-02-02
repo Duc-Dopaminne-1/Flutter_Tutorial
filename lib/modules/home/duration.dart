@@ -68,7 +68,14 @@ class _HomeDurationState extends State<HomeDuration> {
             // setState(() {
             //   title = 'duc dep trai';
             // });
-            Navigator.of(context).pushNamed(Routes.homeDetailScreen);
+            // Navigator.push(
+            //   context,
+            //   MaterialPageRoute(
+            //       builder: (context) =>
+            //           const HomeDetailScreen(title: 'duc dep ')),
+            // );
+            Navigator.pushNamed(context, Routes.homeDetailScreen,
+                arguments: {'title': 'duc skt 11'});
           },
         ),
         GridView.count(

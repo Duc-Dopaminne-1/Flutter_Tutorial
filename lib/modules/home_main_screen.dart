@@ -12,14 +12,14 @@ class HomeMainScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeMainScreen> {
-  String name = 'duc';
+  String? name;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: BaseAppBar(
-        title: const Text(
-          '3333',
+        title: Text(
+          name ?? "sd",
           style: TextStyle(color: Colors.black),
         ),
         appBar: AppBar(),
@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeMainScreen> {
             children: [
               const HomeDuration(title: '2'),
               GestureDetector(
-                child: Text('$name'),
+                child: Text(name ?? "1111"),
                 onTap: () {
                   setState(() {
                     name = '4444';
