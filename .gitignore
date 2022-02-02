@@ -91,3 +91,5 @@ android/**/.settings
 **/generated_plugins.mk
 **/GeneratedPluginRegistrant.swift
 lib/generated_plugin_registrant.dart
+build/
+dart_tool/
