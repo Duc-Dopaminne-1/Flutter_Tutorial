@@ -2,5 +2,20 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ALTP-NodeJS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EduSofts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FLex-Help-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bidbid-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dope_marketting_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flexhelp-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flexiplus-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/Detox-Lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/Detox-Lib/detox/ios/COSTouchVisualizer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/Detox-Lib/detox/ios/DTXLoggingInfra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/Detox-Lib/detox/ios/LNViewHierarchyDumper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/ideahunter-smartcontract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/nestjs-microservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/xdlt-online" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/instasalon-manager-revamp" vcs="Git" />
   </component>
 </project>
