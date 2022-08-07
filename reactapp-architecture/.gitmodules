@@ -1,0 +1,4 @@
+[submodule "showsourcing-schema"]
+	path = showsourcing-schema
+	url = git@gitlab.com:APRAET/showsourcing-schema.git
+	branch = december-10

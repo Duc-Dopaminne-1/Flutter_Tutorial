@@ -1,0 +1,9 @@
+query GetSummaryPropertyPost {
+  summaryPropertyPosts {
+    propertyPostInfoByApproveStatus
+    propertyPostInfoByPostStatus
+  }
+  summaryByCrawlerTrackingStatus {
+    totalCount
+  }
+}

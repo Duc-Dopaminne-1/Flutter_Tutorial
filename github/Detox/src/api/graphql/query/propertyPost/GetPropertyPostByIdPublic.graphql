@@ -1,0 +1,156 @@
+query GetPropertyPostByIdPublic($propertyPostId: Uuid!) {
+  propertyPostDetail(propertyPostId: $propertyPostId) {
+    isPrivate
+    propertyPostId
+    panoramaImageCode
+    propertyPostApprovalStatusId
+    negotiable
+    isFollowed
+    totalFollower
+    totalShare
+    totalSpam
+    width
+    length
+    images
+    recordVersion
+    createdByUserId
+    expiredDate
+    approvedBy
+    approvedDatetime
+    sendingApprovalFrom
+    rejectedDatetime
+    rejectedReason
+    requestedUpdatingReason
+    updatedDatetime
+    createdDatetime
+    lastModified
+
+    propertyCode
+    propertyName
+    postTitle
+    postDescription
+    blockCode
+    blockName
+
+    postTypeId
+    propertyPostStatusId
+    propertyTypeId
+    propertySubTypeId
+    propertySubTypeName
+
+    bookingFee
+    price
+    priceNoVat
+    priceVat
+    commission
+    saleCommissionCurrencyUnitId
+    buyCommission
+    saleCommission
+    unitOfMeasureId
+    unitOfMeasure {
+      unitOfMeasureId
+      unitOfMeasureCode
+      unitOfMeasureName
+      numberOfDecimal
+      multiplyWithBaseUnit
+      isRound
+    }
+
+    buildingArea
+    capetAreas
+    totalSiteArea
+    buildingLine
+    direction
+    latitude
+    longitude
+    floor
+    numberOfFloor
+    numberOfBedrooms
+    numberOfBathrooms
+
+    houseDesign
+
+    internalFacility
+    nearFacility
+    propertyPostForRentDto {
+      propertyPostForRentId
+      rentCommission
+      rentCommissionCurrencyUnitId
+      rentPeriod
+      rentPrice
+      isRented
+    }
+    legalInfoId
+    collateralizedAtBankId
+    isCollateralized
+
+    addressId
+    propertyAddress {
+      countryId
+      countryName
+      cityId
+      cityName
+      districtId
+      districtName
+      wardId
+      wardName
+      homeAddress
+      streetName
+    }
+    isSold
+    isRented
+    forRent
+    forSale
+    ownerId
+    ownerIsAuthor
+    owner {
+      userId
+      customerFullName
+      customerPhone
+      customerEmail
+    }
+    longitude
+    latitude
+    sellerInfo {
+      sellerId
+      fullName
+      avatar
+      avatars
+      email
+      phoneNumber
+      isAgent
+      agentRating
+      agentRankingName
+      agentGroupDescription
+    }
+    projectId
+    freeTextProject
+    projectInfo {
+      projectId
+      projectName
+      projectImage
+      projectDescription
+    }
+    supportRequestTypeIds
+    isShowGoogleStreetView
+    guaranteedPackage {
+      contractDocument
+      contractPrepaymentAmount
+      contractRefuseNote
+      contractStatus
+      guaranteedPackageEndTime
+    }
+    contractStatus
+    guaranteedPackageEndTime
+    staffUserId
+    postServiceType
+    propertyLocation
+    alleyWidth
+    commissionTpl
+    commissionBuyer
+    commissionSeller
+    matterportUrl
+    detailPath
+    rating
+  }
+}

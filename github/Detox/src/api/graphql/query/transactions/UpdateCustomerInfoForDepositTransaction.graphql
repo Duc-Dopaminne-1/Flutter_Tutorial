@@ -1,0 +1,10 @@
+mutation UpdateCustomerInfoForDepositTransaction(
+  $request: UpdateCustomerInfoForDepositTransactionInput!
+) {
+  updateCustomerInfoForDepositTransaction(request: $request) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    __typename
+  }
+}

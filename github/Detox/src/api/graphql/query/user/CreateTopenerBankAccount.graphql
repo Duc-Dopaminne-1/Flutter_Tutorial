@@ -1,0 +1,7 @@
+mutation CreateTopenerBankAccountFO($input: CreateTopenerBankAccountFOInput!) {
+  createTopenerBankAccountFO(createTopenerBankAccountFOInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.topenlandcorp.dev.topenland",
+      "sha256_cert_fingerprints": [
+        "D0:E4:E3:9E:02:71:4D:78:B9:53:C4:DE:5C:98:BA:4F:76:4A:3F:BB:10:F4:60:73:A2:25:57:FB:0B:06:12:0F"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.topenlandcorp.qa.topenland",
+      "sha256_cert_fingerprints": [
+        "D0:E4:E3:9E:02:71:4D:78:B9:53:C4:DE:5C:98:BA:4F:76:4A:3F:BB:10:F4:60:73:A2:25:57:FB:0B:06:12:0F"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.topenlandcorp.uat.topenland",
+      "sha256_cert_fingerprints": [
+        "D0:E4:E3:9E:02:71:4D:78:B9:53:C4:DE:5C:98:BA:4F:76:4A:3F:BB:10:F4:60:73:A2:25:57:FB:0B:06:12:0F"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.topenlandcorp.sec.topenland",
+      "sha256_cert_fingerprints": [
+        "D0:E4:E3:9E:02:71:4D:78:B9:53:C4:DE:5C:98:BA:4F:76:4A:3F:BB:10:F4:60:73:A2:25:57:FB:0B:06:12:0F"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.topenland",
+      "sha256_cert_fingerprints": [
+        "D0:E4:E3:9E:02:71:4D:78:B9:53:C4:DE:5C:98:BA:4F:76:4A:3F:BB:10:F4:60:73:A2:25:57:FB:0B:06:12:0F"
+      ]
+    }
+  }
+]

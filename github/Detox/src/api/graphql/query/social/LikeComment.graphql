@@ -1,0 +1,8 @@
+mutation likeComment($input: LikeCommentInput!) {
+  likeCommentForFrontOffice(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isLikeComment
+  }
+}

@@ -1,0 +1,7 @@
+mutation createSearchTerm($input: CreateSearchTermInput!) {
+  createSearchTerm(createSearchTermInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

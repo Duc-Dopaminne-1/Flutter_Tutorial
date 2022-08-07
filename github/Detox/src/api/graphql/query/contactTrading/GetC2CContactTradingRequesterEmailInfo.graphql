@@ -1,0 +1,6 @@
+query C2CContactTradingRequesterEmailInfo($id: Uuid) {
+  c2cContactTradingRequesterEmailInfo(c2cContactTradingId: $id) {
+    requesterEmail
+    customerEmail
+  }
+}

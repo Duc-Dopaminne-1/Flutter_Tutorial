@@ -1,0 +1,12 @@
+query GetRequestServiceTypes($where: RequestTypeDtoFilter, $orderBy: RequestTypeDtoSort) {
+  requestTypes(page: 1, pageSize: 20, where: $where, order_by: $orderBy) {
+    edges {
+      requestTypeId
+      requestTypeName
+      requestTypeDescription
+      isDisplayHomepage
+      sortOrder
+    }
+    totalCount
+  }
+}

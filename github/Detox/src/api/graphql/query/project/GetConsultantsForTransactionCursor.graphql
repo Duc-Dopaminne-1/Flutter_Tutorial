@@ -1,0 +1,34 @@
+query GetForTransactionCursor(
+  $request: GetConsultantsForTransactionInput!
+  $first: PaginationAmount
+  $after: String!
+) {
+  getConsultantsForTransactionCursor(
+    getConsultantsForTransactionInput: $request
+    first: $first
+    after: $after
+  ) {
+    edges {
+      node {
+        staffId
+        staffCode
+        profilePhoto
+        profilePhotos
+        fullName
+        phoneNumber
+        staffGroupId
+        staffGroupDescription
+        rating
+        isGroupLeader
+      }
+      cursor
+    }
+    totalCount
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      startCursor
+      endCursor
+    }
+  }
+}

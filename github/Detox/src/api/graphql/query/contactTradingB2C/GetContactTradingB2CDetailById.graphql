@@ -1,0 +1,34 @@
+query GetContactTradingB2CDetailById($contactTradingB2CId: Uuid!) {
+  getContactTradingB2CDetailById(contactTradingB2CId: $contactTradingB2CId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    contactTradingB2CDto {
+      agentFullName
+      agentId
+      consultantFullName
+      consultantId
+      consultantPhoneNumber
+      contactTradingB2CId
+      contactTradingB2CCode
+      contactTradingB2CStatusDescription
+      contactTradingB2CStatusId
+      contactTradingB2CStatusName
+      contactTypeName
+      customerEmail
+      floor
+      propertyBlockName
+      customerFullName
+      customerPhoneNumber
+      projectId
+      projectName
+      propertyPostCode
+      propertyPostId
+      propertyPostInfo
+      propertyTypeName
+      requestDate
+      requesterFullName
+      updatedDate
+    }
+  }
+}

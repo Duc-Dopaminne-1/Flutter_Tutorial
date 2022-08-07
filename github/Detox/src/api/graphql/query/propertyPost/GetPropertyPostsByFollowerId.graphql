@@ -1,0 +1,70 @@
+query GetPropertyPostsByFollowerId(
+  $followerId: Uuid!
+  $pageSize: PaginationAmount!
+  $cursor: String!
+  $filter: PropertyPostDtoFilter
+) {
+  curPropertyPostsByFollowerId(
+    followerId: $followerId
+    first: $pageSize
+    after: $cursor
+    where: $filter
+    order_by: {createdDatetime: ASC}
+  ) {
+    edges {
+      node {
+        isFollowed
+        totalFollower
+        createdByUserId
+        propertyPostId
+        propertyTypeId
+        propertyName
+        postTitle
+        price
+        images
+        numberOfBedrooms
+        numberOfBathrooms
+        buildingArea
+        direction
+        capetAreas
+        commission
+        propertyPostApprovalStatusId
+        saleCommissionCurrencyUnitId
+        unitOfMeasureId
+        unitOfMeasure {
+          unitOfMeasureId
+          unitOfMeasureCode
+          unitOfMeasureName
+          numberOfDecimal
+          multiplyWithBaseUnit
+          isRound
+        }
+        propertyAddress {
+          streetName
+          wardName
+          cityName
+          districtName
+        }
+        forSale
+        forRent
+        propertyPostForRentDto {
+          propertyPostForRentId
+          rentCommission
+          rentCommissionCurrencyUnitId
+          rentPeriod
+          rentPrice
+          isRented
+        }
+        postServiceType
+        contractStatus
+        guaranteedPackageEndTime
+        guaranteedPackage {
+          contractStatus
+          guaranteedPackageEndTime
+        }
+      }
+      cursor
+    }
+    totalCount
+  }
+}

@@ -1,0 +1,8 @@
+mutation UserInterestedC2CDemand($request: UserInterestedC2CDemandInput!) {
+  userInterestedC2CDemand(request: $request) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    c2CDemandId
+  }
+}

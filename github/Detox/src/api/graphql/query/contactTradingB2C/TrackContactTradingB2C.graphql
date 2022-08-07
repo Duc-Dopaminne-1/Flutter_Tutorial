@@ -1,0 +1,7 @@
+mutation TrackContactTradingB2C($input: TrackContactTradingB2CInput!) {
+  trackContactTradingB2C(trackContactTradingB2CInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,9 @@
+query GetRequestTypes($where: RequestTypeDtoFilter, $orderBy: RequestTypeDtoSort) {
+  requestTypes(where: $where, order_by: $orderBy) {
+    edges {
+      requestTypeId
+      requestTypeName
+      requestTypeDescription
+    }
+  }
+}

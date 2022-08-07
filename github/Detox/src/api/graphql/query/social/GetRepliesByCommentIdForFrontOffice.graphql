@@ -1,0 +1,31 @@
+query GetRepliesByCommentIdForFrontOffice(
+  $commentId: Uuid!
+  $first: PaginationAmount
+  $after: String!
+) {
+  curRepliesByCommentIdForFrontOffice(commentId: $commentId, first: $first, after: $after) {
+    edges {
+      node {
+        commentId
+        feedObjectId
+        feedObjectTitle
+        feedObjectTypeId
+        totalLike
+        feedItemId
+        createdDatetime
+        currentUserLikeComment
+        content
+        userInfo {
+          fullName
+          profilePhoto
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+      startCursor
+      hasPreviousPage
+    }
+  }
+}

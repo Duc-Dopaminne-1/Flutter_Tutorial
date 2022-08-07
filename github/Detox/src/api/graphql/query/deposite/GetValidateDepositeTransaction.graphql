@@ -1,0 +1,8 @@
+query GetValidateDepositeTransaction($depositeTransactionId: Uuid!) {
+  validateDepositeTransaction(depositeTransactionId: $depositeTransactionId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isValid
+  }
+}

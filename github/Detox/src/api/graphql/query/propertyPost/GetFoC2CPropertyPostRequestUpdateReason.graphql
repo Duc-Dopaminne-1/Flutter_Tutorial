@@ -1,0 +1,8 @@
+query GetFoC2CPropertyPostRequestUpdateReason($propertyPostId: Uuid!) {
+  getFoC2CPropertyPostRequestUpdateReason(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    requestedUpdatingReason
+  }
+}

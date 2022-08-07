@@ -1,0 +1,10 @@
+query GetSupportRequestStatuses {
+  supportRequestStatuses(pageSize: 999) {
+    edges {
+      supportRequestStatusId
+      supportRequestStatusName
+      supportRequestStatusDescription
+      isActive
+    }
+  }
+}

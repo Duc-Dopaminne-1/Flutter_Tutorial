@@ -1,0 +1,26 @@
+query getB2C2CProjectsFo(
+  $page: Int
+  $pageSize: Int
+  $propertyTypeId: String
+  $projectName: String
+) {
+  getB2C2CProjectsFo(
+    propertyTypeId: $propertyTypeId
+    page: $page
+    pageSize: $pageSize
+    projectName: $projectName
+  ) {
+    downloadUrl
+    edges {
+      b2C2CProjectId
+      b2C2CProjectName
+      b2CProjectId
+      investorId
+      investorName
+      propertyTypeId
+    }
+    pageSize
+    totalCount
+    totalPages
+  }
+}

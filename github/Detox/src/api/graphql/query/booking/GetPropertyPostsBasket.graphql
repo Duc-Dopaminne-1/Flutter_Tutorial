@@ -1,0 +1,40 @@
+query GetPropertyPostsBasket($input: GetPropertyPostsBasketInputType!) {
+  propertyPostsBasket(request: $input) {
+    errorCode
+    errorMessage
+    propertyPostsByBlockNameDto {
+      blockName
+      totalOfPropertyPosts
+      totalOfEmptyPropertyPosts
+      totalOfSoldPropertyPosts
+      totalOfBookedPropertyPosts
+      propertyPosts {
+        floor
+        propertyPosts {
+          propertyPostId
+          propertyCode
+          price
+          priceNoVat
+          priceVat
+          numberOfBedrooms
+          numberOfBathrooms
+          direction
+          buildingArea
+          numberOfBookingTransactions
+          assigned
+          unitOfMeasure {
+            unitOfMeasureId
+            unitOfMeasureCode
+            unitOfMeasureName
+            numberOfDecimal
+            multiplyWithBaseUnit
+            isRound
+          }
+          saleTrackingStatusId
+          saleTrackingStatusName
+          saleTrackingStatusDescription
+        }
+      }
+    }
+  }
+}

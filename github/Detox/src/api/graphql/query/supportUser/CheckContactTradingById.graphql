@@ -1,0 +1,9 @@
+query CheckContactTradingById($input: CheckContactTradingByIdInput!) {
+  checkContactTradingById(checkContactTradingByIdInput: $input) {
+    errorMessage
+    errorCode
+    errorMessageCode
+    buy
+    rent
+  }
+}

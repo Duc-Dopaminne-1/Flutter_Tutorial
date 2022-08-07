@@ -1,0 +1,13 @@
+query GetGuaranteedPackages {
+  guaranteedPackages(page: 1, pageSize: 999, order_by: {guaranteedPackageCode: DESC}) {
+    totalCount
+    edges {
+      guaranteedPackageId
+      guaranteedPackageName
+      guaranteedPackageCode
+      guaranteedPackageDescription
+      guaranteedPackagePrepaymentRate
+      guaranteedPackageValidMonths
+    }
+  }
+}

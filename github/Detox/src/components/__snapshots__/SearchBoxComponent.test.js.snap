@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderColor": "#26894F",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
+      },
+      undefined,
+    ]
+  }
+>
+  <TextInput
+    autoCapitalize="none"
+    autoCorrect={false}
+    delayTimeout={500}
+    maxLength={128}
+    onChangeText={[Function]}
+    placeholder=""
+    style={
+      Array [
+        Object {
+          "color": "#333333",
+          "flex": 1,
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 16,
+          "includeFontPadding": true,
+          "paddingLeft": 4,
+        },
+        undefined,
+      ]
+    }
+    value=""
+  />
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#26894F",
+          "fontSize": 20,
+        },
+        undefined,
+        Object {
+          "fontFamily": "icomoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;

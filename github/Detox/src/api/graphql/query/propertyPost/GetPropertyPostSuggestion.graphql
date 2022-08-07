@@ -1,0 +1,51 @@
+query GetPropertyPostSuggestion(
+  $pageSize: PaginationAmount!
+  $cursor: String!
+  $filter: PropertyPostSuggestionDtoFilter
+) {
+  curPropertyPostSuggestions(
+    first: $pageSize
+    after: $cursor
+    where: $filter
+    order_by: {propertyPostSuggestionCreatedDatetime: DESC}
+  ) {
+    edges {
+      node {
+        propertyTypeId
+        propertyPostId
+        propertyName
+        postTitle
+        price
+        images
+        numberOfBedrooms
+        numberOfBathrooms
+        buildingArea
+        capetAreas
+        propertyPostApprovalStatusId
+        unitOfMeasure {
+          unitOfMeasureId
+          unitOfMeasureCode
+          unitOfMeasureName
+          numberOfDecimal
+          multiplyWithBaseUnit
+          isRound
+        }
+        propertyAddress {
+          streetName
+          wardName
+          cityName
+          districtName
+        }
+        commission
+        isFollowed
+        totalFollower
+        direction
+        postServiceType
+        contractStatus
+        guaranteedPackageEndTime
+      }
+      cursor
+    }
+    totalCount
+  }
+}

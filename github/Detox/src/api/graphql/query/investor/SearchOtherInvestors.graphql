@@ -1,0 +1,17 @@
+query SearchOtherInvestors($input: SearchFOInvestorInput!) {
+  searchFOInvestors(searchFOInvestorInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    investorInfoDtos {
+      investorId
+      investorCode
+      logo
+      investorName
+      detailPath
+      isActive
+      isDeleted
+    }
+    totalCount
+  }
+}

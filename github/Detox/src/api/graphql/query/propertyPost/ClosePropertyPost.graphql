@@ -1,0 +1,7 @@
+mutation ClosePropertyPost($closePropertyPostInput: ClosePropertyPostInput!) {
+  closePropertyPost(closePropertyPostInput: $closePropertyPostInput) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

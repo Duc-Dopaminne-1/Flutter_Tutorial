@@ -1,0 +1,18 @@
+query GetUserDetail($userId: Uuid) {
+  userById(userId: $userId) {
+    userDto {
+      userId
+      firstName
+      lastName
+      profilePhoto
+      profilePhotos
+      roleName
+      updatedDatetime
+      createdDatetime
+      phoneNumber
+      email
+      isVerifyProfilePhoto
+      gender
+    }
+  }
+}

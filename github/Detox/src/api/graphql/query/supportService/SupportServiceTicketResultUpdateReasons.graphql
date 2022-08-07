@@ -1,0 +1,12 @@
+query GetsupportServiceTicketResultUpdateReasons(
+  $orderBy: SupportServiceTicketResultUpdateReasonDtoSort
+  $page: Int
+) {
+  supportServiceTicketResultUpdateReasons(order_by: $orderBy, page: $page, pageSize: 999) {
+    edges {
+      supportServiceTicketResultUpdateReasonId
+      supportServiceTicketResultUpdateReasonName
+      supportServiceTicketResultUpdateReasonDescription
+    }
+  }
+}

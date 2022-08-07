@@ -1,0 +1,473 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|auth/WelcomeScreen Default 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "flex": 1,
+      },
+      undefined,
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "borderRadius": 10,
+        "height": "100%",
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 24,
+          "includeFontPadding": true,
+          "marginBottom": 16,
+        }
+      }
+    >
+      Chúc mừng!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 15,
+          "includeFontPadding": true,
+          "marginTop": 5,
+        }
+      }
+    >
+      Quý khách đã trở thành thành viên TopenLand
+    </Text>
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "title": "EARN_EXTRA_INCOME",
+          },
+          Object {
+            "title": "DEDICATED_SUPPORT",
+          },
+          Object {
+            "title": "INCREASE_REAL_ESTATE_KNOWLEDGE",
+          },
+          Object {
+            "title": "MORE_CUSTOMERS",
+          },
+          Object {
+            "title": "ABUNDANT_AND_VARIOUS_SOURCES",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "flexGrow": 1,
+          "marginTop": 20,
+        }
+      }
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginBottom": 16,
+                  "padding": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/ic_success_fill.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginHorizontal": 10,
+                    "marginTop": 0,
+                  }
+                }
+              >
+                Tăng thu nhập
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginBottom": 16,
+                  "padding": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/ic_success_fill.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginHorizontal": 10,
+                    "marginTop": 0,
+                  }
+                }
+              >
+                Được hỗ trợ nghiệp vụ
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginBottom": 16,
+                  "padding": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/ic_success_fill.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginHorizontal": 10,
+                    "marginTop": 0,
+                  }
+                }
+              >
+                Nâng cao kiến thức và kỹ năng nghề
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginBottom": 16,
+                  "padding": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/ic_success_fill.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginHorizontal": 10,
+                    "marginTop": 0,
+                  }
+                }
+              >
+                Mở rộng mối quan hệ Topener và khách hàng
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "marginBottom": 16,
+                  "padding": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/ic_success_fill.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginHorizontal": 10,
+                    "marginTop": 0,
+                  }
+                }
+              >
+                Tiếp cận nguồn sản phẩm đa dạng
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#26894F",
+          "borderRadius": 8,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginTop": 10,
+          "opacity": 1,
+          "paddingVertical": 13,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#FFFFFF",
+            },
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+          ]
+        }
+      >
+        Nâng cấp thành đối tác
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#767676",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginTop": 10,
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#828282",
+            },
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+          ]
+        }
+      >
+        Để sau
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

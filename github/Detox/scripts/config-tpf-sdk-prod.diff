@@ -1,0 +1,26 @@
+diff --git a/libs/react-native-tpf-sdk/package.json b/libs/react-native-tpf-sdk/package.json
+index 9e9c21b3d..9bb190205 100644
+--- a/libs/react-native-tpf-sdk/package.json
++++ b/libs/react-native-tpf-sdk/package.json
+@@ -41,7 +41,7 @@
+   "dependencies": {
+     "crypto-js": "^4.1.1",
+     "react-native-vnpay-merchant": "file:sdk/react-native-vnpay-merchant",
+-    "topenid-client": "file:sdk/topenid-client-1.0.9.tgz"
++    "topenid-client": "file:sdk/topenid-client-1.0.3.tgz"
+   },
+   "peerDependencies": {
+     "@react-native-async-storage/async-storage": ">=1.15.9",
+diff --git a/package.json b/package.json
+index bb7f069de..a78bcb79b 100644
+--- a/package.json
++++ b/package.json
+@@ -263,7 +263,7 @@
+     "rn-fetch-blob": "^0.12.0",
+     "sanitize-html": "^1.27.0",
+     "stringee-react-native": "^1.4.27",
+-    "topenid-client": "file:./libs/react-native-tpf-sdk/sdk/topenid-client-1.0.9.tgz",
++    "topenid-client": "file:./libs/react-native-tpf-sdk/sdk/topenid-client-1.0.3.tgz",
+     "url": "^0.11.0",
+     "victory-native": "^36.3.0"
+   },

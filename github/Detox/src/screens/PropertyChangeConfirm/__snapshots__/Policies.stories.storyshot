@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|b2c/Policies default 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F7FA",
+        "borderColor": "#CCD1D9",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 8,
+        "opacity": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/file_fill.png",
+        }
+      }
+      style={
+        Object {
+          "height": 24,
+          "width": 24,
+        }
+      }
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#313131",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "marginLeft": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      Chính sách đặt cọc 1
+    </Text>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/download_fill.png",
+        }
+      }
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5F7FA",
+        "borderColor": "#CCD1D9",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 8,
+        "opacity": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/file_fill.png",
+        }
+      }
+      style={
+        Object {
+          "height": 24,
+          "width": 24,
+        }
+      }
+    />
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#313131",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "marginLeft": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      Chính sách đặt cọc 2
+    </Text>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/download_fill.png",
+        }
+      }
+      style={
+        Array [
+          Object {},
+          undefined,
+        ]
+      }
+    />
+  </View>
+</View>
+`;

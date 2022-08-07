@@ -1,0 +1,15 @@
+query GetServiceTicketResultByIdForFrontOffice($SupportServiceTicketResultId: Uuid!) {
+  getServiceTicketResultByIdForFrontOffice(
+    supportServiceTicketResultId: $SupportServiceTicketResultId
+  ) {
+    errorCode
+    supportServiceTicketResult {
+      autoAcceptTicketInMinutes
+      resultImages
+      resultDocuments
+      resultDescriptions
+      supportServiceTicketResultId
+      note
+    }
+  }
+}

@@ -1,0 +1,8 @@
+mutation GenerateTopenMapTPLAccessToken($payload: GenerateTopenMapTPLAccessTokenInput!) {
+  generateTopenMapTPLAccessToken(request: $payload) {
+    authToken
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

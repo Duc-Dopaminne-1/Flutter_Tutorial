@@ -1,0 +1,49 @@
+query GetFoC2CPropertyPostsHomePageV1($input: GetFoC2CPropertyPostsHomePageV1Input!) {
+  getFoC2CPropertyPostsHomePageV1(getFoC2CPropertyPostsHomePageV1Input: $input) {
+    propertyPostInfoDtos {
+      propertyPostId
+      images
+      price
+      postTitle
+      unitOfMeasureId
+      propertyTypeId
+      propertyAddress {
+        homeAddress
+        streetName
+        wardName
+        districtName
+        cityName
+        __typename
+      }
+      numberOfBedrooms
+      numberOfBathrooms
+      buildingArea
+      totalSiteArea
+      capetAreas
+      commission
+      isCreatedByAgent
+      isFollowed
+      isGuaranteed
+      direction
+      sellerInfo {
+        sellerId
+        fullName
+        avatar
+        avatars
+        email
+        phoneNumber
+        isAgent
+        agentRating
+        agentRankingName
+        agentGroupDescription
+        __typename
+      }
+      forSale
+      forRent
+      detailPath
+      saleCommissionCurrencyUnitId
+      __typename
+    }
+    __typename
+  }
+}

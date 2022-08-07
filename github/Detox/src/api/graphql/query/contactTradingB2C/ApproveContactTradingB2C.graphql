@@ -1,0 +1,8 @@
+mutation ApproveContactTradingB2C($input: ApproveContactTradingB2CInput!) {
+  approveContactTradingB2C(approveContactTradingB2CInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    contactTradingB2CId
+  }
+}

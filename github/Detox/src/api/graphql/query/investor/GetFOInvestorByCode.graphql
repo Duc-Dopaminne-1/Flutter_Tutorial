@@ -1,0 +1,41 @@
+query GetFOInvestorByCode($foInvestorCode: String!) {
+  getFOInvestorByCode(foInvestorCode: $foInvestorCode) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    investorInfoDto {
+      investorId
+      investorCode
+      investorName
+      website
+      logo
+      phoneNumber
+      areas
+      establishmentDate
+      charterCapital
+      introduce
+      activityImages
+      createdBy
+      createdByUserFullName
+      createdDatetime
+      lastModified
+      deletedDatetime
+      deletedBy
+      isActive
+      isDeleted
+      detailPath
+      projectCountByStatuses {
+        statusName
+        count
+      }
+      address {
+        countryId
+        cityId
+        districtId
+        wardId
+        streetName
+        homeAddress
+      }
+    }
+  }
+}

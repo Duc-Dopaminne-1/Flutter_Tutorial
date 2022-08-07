@@ -1,0 +1,41 @@
+query GetAgentGroupInfoById($input: agentGroupInput) {
+  agentGroupInfoById(getAgentGroupInfoByIdInput: $input) {
+    numberOfMembersInAllGroups
+    parentAgentGroup {
+      familyGroupNames
+      agentGroupId
+      agentGroupName
+      agentGroupDescription
+      numberOfMembers
+      needViewMore
+      allMembers {
+        agentId
+        agentCode
+        firstName
+        lastName
+        profilePhoto
+        isAgentLeader
+        agentRankName
+        agentRankingDescription
+      }
+    }
+    childAgentGroups {
+      familyGroupNames
+      agentGroupId
+      agentGroupName
+      agentGroupDescription
+      numberOfMembers
+      needViewMore
+      allMembers {
+        agentId
+        agentCode
+        firstName
+        lastName
+        profilePhoto
+        isAgentLeader
+        agentRankName
+        agentRankingDescription
+      }
+    }
+  }
+}

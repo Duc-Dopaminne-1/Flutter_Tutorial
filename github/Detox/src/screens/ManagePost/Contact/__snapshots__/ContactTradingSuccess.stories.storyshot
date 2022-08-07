@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|contact/ContactTradingSuccess B2C 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "flexGrow": 1,
+        "justifyContent": "center",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 21,
+          "includeFontPadding": true,
+          "textAlign": "center",
+        }
+      }
+    >
+      Liên hệ đăng ký thành công
+    </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#26894F",
+            "fontSize": 128,
+          },
+          Object {
+            "alignSelf": "center",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰸞
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#515050",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 13,
+          "includeFontPadding": true,
+          "marginBottom": 15,
+          "textAlign": "center",
+        }
+      }
+    >
+      Đội ngũ tư vấn của TopenLand sẽ liên hệ với quý khách trong thời gian sớm nhất, hoặc vui lòng liên hệ
+ hotline: 
+      <Text
+        style={
+          Object {
+            "color": "#26894F",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "lineHeight": 24,
+          }
+        }
+      >
+        1900 8000
+      </Text>
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "row",
+        "padding": 16,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#26894F",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginEnd": 16,
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingTop": 10,
+          "width": "30%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#26894F",
+            },
+            undefined,
+          ]
+        }
+      >
+        Tiếp tục mua
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#26894F",
+          "borderRadius": 8,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#FFFFFF",
+            },
+            undefined,
+          ]
+        }
+      >
+        Xem chi tiết
+      </Text>
+    </View>
+  </View>,
+]
+`;
+
+exports[`Storyshots z|contact/ContactTradingSuccess C2C 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "flexGrow": 1,
+        "justifyContent": "center",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 21,
+          "includeFontPadding": true,
+          "textAlign": "center",
+        }
+      }
+    >
+      Liên hệ đăng ký thành công
+    </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#26894F",
+            "fontSize": 128,
+          },
+          Object {
+            "alignSelf": "center",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰸞
+    </Text>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#515050",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 13,
+          "includeFontPadding": true,
+          "marginBottom": 15,
+          "textAlign": "center",
+        }
+      }
+    >
+      Đội ngũ tư vấn của TopenLand sẽ liên hệ với quý khách trong thời gian sớm nhất, hoặc vui lòng liên hệ
+ hotline: 
+      <Text
+        style={
+          Object {
+            "color": "#26894F",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "lineHeight": 24,
+          }
+        }
+      >
+        1900 8000
+      </Text>
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "row",
+        "padding": 16,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#26894F",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginEnd": 16,
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingTop": 10,
+          "width": "30%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#26894F",
+            },
+            undefined,
+          ]
+        }
+      >
+        Tiếp tục tìm kiếm
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#26894F",
+          "borderRadius": 8,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#FFFFFF",
+            },
+            undefined,
+          ]
+        }
+      >
+        Xem chi tiết
+      </Text>
+    </View>
+  </View>,
+]
+`;

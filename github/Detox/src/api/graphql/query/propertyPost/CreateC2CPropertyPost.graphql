@@ -1,0 +1,122 @@
+mutation CreateC2CPropertyPost($createC2CPropertyPost: CreateC2CPropertyPostInput!) {
+  createC2CPropertyPost(createC2CPropertyPostInput: $createC2CPropertyPost) {
+    errorCode
+    errorMessage
+    errorMessageCode
+
+    propertyPostDto {
+      propertyPostId
+      createdByUserId
+      propertyCode
+      propertyName
+      postTitle
+      postDescription
+      blockCode
+      blockName
+
+      postTypeId
+      propertyPostStatusId
+      propertyTypeId
+      propertySubTypeId
+      propertySubTypeName
+
+      bookingFee
+      price
+      priceNoVat
+      priceVat
+      commission
+      buyCommission
+      saleCommission
+      unitOfMeasureId
+      unitOfMeasure {
+        unitOfMeasureId
+        unitOfMeasureCode
+        unitOfMeasureName
+        numberOfDecimal
+        multiplyWithBaseUnit
+        isRound
+      }
+
+      buildingArea
+      capetAreas
+      totalSiteArea
+      buildingLine
+      direction
+      balconyDirection
+      latitude
+      longitude
+      floor
+      numberOfFloor
+      numberOfBedrooms
+      numberOfBathrooms
+
+      houseDesign
+      images
+      internalFacility
+      nearFacility
+
+      propertyPostApprovalStatusId
+      approvedBy
+      approvedDatetime
+      sendingApprovalFrom
+      rejectedDatetime
+      rejectedReason
+
+      legalInfoId
+      collateralizedAtBankId
+      expiredDate
+
+      projectId
+      projectInfo {
+        projectDescription
+        projectImage
+        projectId
+        projectName
+      }
+      freeTextProject
+
+      addressId
+      propertyAddress {
+        countryId
+        countryName
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        homeAddress
+        streetName
+      }
+
+      ownerId
+      ownerIsAuthor
+      owner {
+        userId
+        customerFullName
+        customerPhone
+        customerEmail
+      }
+      isPrivate
+      supportRequestTypeIds
+
+      staffGroups
+      staffGroupDescriptions
+      length
+      width
+      isShowGoogleStreetView
+      postServiceType
+
+      guaranteedPackageId
+      saleCommissionCurrencyUnitId
+      propertyPostApprovalStatusDescription
+      detailPath
+      propertyTypeDescription
+    }
+    badWordListDto {
+      originalContent
+      highlightedContent
+      badWords
+    }
+  }
+}

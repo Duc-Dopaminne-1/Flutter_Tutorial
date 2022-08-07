@@ -1,0 +1,8 @@
+query CheckLockPropertyPostForDeposite($propertyPostId: Uuid!) {
+  checkLockPropertyPostForDeposite(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isLocked
+  }
+}

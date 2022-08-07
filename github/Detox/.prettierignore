@@ -1,0 +1,9 @@
+.azure
+.watchmanconfig
+__mock__
+android
+build
+fastlane
+ios
+libs
+src/api/graphql/generated/*

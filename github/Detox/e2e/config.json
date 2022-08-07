@@ -1,0 +1,11 @@
+{
+  "testEnvironment": "./environment",
+  "testRunner": "jest-circus/runner",
+  "testTimeout": 120000,
+  "testRegex": "\\.e2e\\.js$",
+  "reporters": [
+    "detox/runners/jest/streamlineReporter",
+    "jest-image-snapshot/src/outdated-snapshot-reporter.js"
+  ],
+  "verbose": true
+}

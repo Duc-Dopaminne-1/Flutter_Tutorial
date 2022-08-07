@@ -1,0 +1,41 @@
+query SearchAgents($input: SearchAgentInput!) {
+  searchAgents(searchAgentInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    totalCount
+    agentInfoDtos {
+      sellingTotal
+      agentId
+      latitude
+      longitude
+      profilePhoto
+      userName
+      agentGroupDescription
+      agentId
+      instruction
+      permanentAddress
+      nationalId
+      agentCode
+      firstName
+      lastName
+      email
+      phoneNumber
+      agentGroupId
+      isInitialAccount
+      rating
+      isAgentLeader
+      preferPropertyTypes
+      preferPropertyPriceFrom
+      preferPropertyPriceTo
+      workingAreas
+      profilePhoto
+      agentRankingName
+      agentRankingLevel
+      agentGroupName
+      updatedDatetime
+      createdDatetime
+      agentRankingDescription
+    }
+  }
+}

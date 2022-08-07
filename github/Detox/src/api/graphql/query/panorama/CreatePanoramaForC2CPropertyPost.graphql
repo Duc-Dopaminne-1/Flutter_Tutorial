@@ -1,0 +1,7 @@
+mutation CreatePanoramaForC2CPropertyPost($input: CreatePanoramaForC2CPropertyPostInput!) {
+  createPanoramaForC2CPropertyPost(createPanoramaForC2CPropertyPostInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

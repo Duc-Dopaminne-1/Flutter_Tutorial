@@ -1,0 +1,13 @@
+mutation ChangePushNotificationMode($input: ChangePushNotificationModeInput!) {
+  changePushNotificationMode(request: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}
+
+# {
+#   "input": {
+#     "isEnable": true
+#   }
+# }

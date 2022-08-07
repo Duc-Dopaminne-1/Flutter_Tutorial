@@ -1,0 +1,13 @@
+query GetPolicyByPostIdForTransaction($propertyPostId: String, $isBooking: Boolean!) {
+  policyByPropertyPostIdForTransaction(
+    request: {propertyPostId: $propertyPostId, isBooking: $isBooking}
+  ) {
+    edges {
+      startDate
+      endDate
+      policyTypeId
+      policyName
+      attachment
+    }
+  }
+}

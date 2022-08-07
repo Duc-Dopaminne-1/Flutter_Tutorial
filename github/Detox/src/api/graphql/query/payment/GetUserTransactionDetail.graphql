@@ -1,0 +1,24 @@
+query GetUserTransactionDetail($input: userTransactionInput!) {
+  userTransactionById(userTransactionInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    userTransactionDto {
+      createdDatetime
+      expectedAmount
+      fundAccountId
+      transactionId
+      paidAmount
+      paidDatetime
+      paymentUnit
+      productName
+      transactionType
+      paymentTransferNumber
+      transactionPaymentStatus
+      userTransactionId
+      paymentNotes
+      transactionServiceType
+      propertyPostId
+    }
+  }
+}

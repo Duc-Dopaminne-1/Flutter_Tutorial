@@ -1,0 +1,12 @@
+mutation FastPayBookingTransaction($payBookingTransactionInput: PayBookingTransactionInput!) {
+  fastPayBookingTransaction(payBookingTransactionInput: $payBookingTransactionInput) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    linkPaymentUrl
+    returnUrl
+    ipnUrl
+    disablePayment
+    transactionId
+  }
+}

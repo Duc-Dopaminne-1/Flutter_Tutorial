@@ -1,0 +1,7 @@
+mutation updateTopenerInfoForTransaction($input: UpdateTopenerInfoForTransactionInput!) {
+  updateTopenerInfoForTransaction(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

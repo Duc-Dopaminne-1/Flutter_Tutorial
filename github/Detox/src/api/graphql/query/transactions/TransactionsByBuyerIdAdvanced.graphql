@@ -1,0 +1,49 @@
+query TransactionsByBuyerIdAdvanced(
+  $input: GetTransactionsByBuyerIdAdvancedInput!
+  $pageSize: PaginationAmount
+  $cursor: String
+  $orderBy: TransactionsByBuyerIdDtoSort
+) {
+  curTransactionsByBuyerIdAdvanced(
+    request: $input
+    first: $pageSize
+    after: $cursor
+    order_by: $orderBy
+  ) {
+    edges {
+      node {
+        buyerId
+        propertyPostInfo
+        transactionAmount
+        bookingCode
+        propertyCode
+        projectName
+        transactionDatetime
+        depositeCode
+        transactionStatusDescription
+        transactionStatusName
+        bookingTransactionId
+        depositeTransactionId
+        transactionType
+        saleAgentInfo {
+          firstName
+          lastName
+        }
+      }
+      cursor
+    }
+    totalCount
+  }
+}
+
+# {
+#   "input": {
+#     "fromDatetime": 1588923572414,
+#     "keywords": "",
+#     "toDatetime": 1589441972416,
+#     "transactionStatuses": "[]"
+#   },
+#   "pageSize": 20,
+#   "cursor": "",
+#   "orderBy": {"transactionDatetime": "DESC"}
+# }

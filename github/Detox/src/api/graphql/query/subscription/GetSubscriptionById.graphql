@@ -1,0 +1,13 @@
+query GetSubscriptionById($packageId: Uuid) {
+  getSubscriptionPackageById(subscriptionPackageId: $packageId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    subscriptionPackageDto {
+      subscriptionPackageId
+      subscriptionPackageName
+      subscriptionPackagePrice
+      subscriptionPackageValidDays
+    }
+  }
+}

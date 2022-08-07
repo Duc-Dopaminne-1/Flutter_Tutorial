@@ -1,0 +1,35 @@
+query contactTradingB2CCreatedByCurrentUser(
+  $page: Int
+  $pageSize: Int
+  $projectId: String
+  $order_by: ContactTradingB2CCreatedByCurrentUserDtoSort
+  $where: ContactTradingB2CCreatedByCurrentUserDtoFilter
+) {
+  contactTradingB2CCreatedByCurrentUser(
+    order_by: $order_by
+    projectId: $projectId
+    page: $page
+    pageSize: $pageSize
+    where: $where
+  ) {
+    downloadUrl
+    edges {
+      contactTradingB2CId
+      contactTradingB2CCode
+      contactTradingB2CStatusId
+      contactTradingB2CStatusDescription
+      contactTradingB2CStatusName
+      customerFullName
+      projectInfoDto {
+        projectId
+        projectName
+        propertyPostCode
+        propertyPostId
+        startYear
+      }
+      requestDate
+    }
+    totalCount
+    __typename
+  }
+}

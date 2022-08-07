@@ -1,0 +1,55 @@
+query GetPropertyByUserId(
+  $pageSize: PaginationAmount!
+  $cursor: String!
+  $filter: PropertyPostDtoFilter!
+) {
+  curPropertyPosts(
+    first: $pageSize
+    after: $cursor
+    where: $filter
+    order_by: {createdDatetime: ASC}
+  ) {
+    edges {
+      node {
+        isFollowed
+        totalFollower
+        totalShare
+        totalSpam
+        direction
+        isPrivate
+        propertyPostId
+        createdByUserId
+        propertyTypeId
+        propertyName
+        postTitle
+        price
+        images
+        numberOfBedrooms
+        numberOfBathrooms
+        buildingArea
+        capetAreas
+        commission
+        saleCommissionCurrencyUnitId
+        propertyPostApprovalStatusId
+        unitOfMeasureId
+        unitOfMeasure {
+          unitOfMeasureId
+          unitOfMeasureCode
+          unitOfMeasureName
+          numberOfDecimal
+          multiplyWithBaseUnit
+          isRound
+        }
+        propertyAddress {
+          homeAddress
+          streetName
+          wardName
+          cityName
+          districtName
+        }
+      }
+      cursor
+    }
+    totalCount
+  }
+}

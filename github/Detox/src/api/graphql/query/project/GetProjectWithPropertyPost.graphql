@@ -1,0 +1,33 @@
+#is it no need anymore?
+query GetProjectWithPropertyPost {
+  projectWithPropertyPosts {
+    edges {
+      isFollowed
+      totalFollower
+
+      projectId
+      projectName
+      projectCode
+      overviewDescription
+      overviewMediaInfo
+      projectDescription
+      minPrice
+      commissionRates
+      bankInfo
+      featurePhotos
+
+      propertyTypeId
+      projectStatusId
+      projectTypeName
+      projectAddress {
+        cityId
+        countryId
+        districtId
+        wardId
+        homeAddress
+        streetName
+      }
+    }
+    totalCount
+  }
+}

@@ -1,0 +1,7 @@
+mutation UnlockDepositForB2CPropertyPost($input: UnlockDepositForB2CPropertyPostInput!) {
+  unlockDepositForB2CPropertyPost(unlockDepositForB2CPropertyPostInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

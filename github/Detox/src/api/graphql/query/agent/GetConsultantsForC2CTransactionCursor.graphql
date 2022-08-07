@@ -1,0 +1,34 @@
+query GetConsultantsForC2CTransactionCursor(
+  $first: PaginationAmount
+  $after: String!
+  $input: GetConsultantsForC2CTransactionInput!
+) {
+  getConsultantsForC2CTransactionCursor(
+    first: $first
+    after: $after
+    getConsultantsForC2CTransactionInput: $input
+  ) {
+    totalCount
+    edges {
+      node {
+        userId
+        staffId
+        staffCode
+        profilePhoto
+        fullName
+        phoneNumber
+        staffGroupId
+        staffGroupDescription
+        rating
+        isGroupLeader
+      }
+      cursor
+    }
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      startCursor
+      endCursor
+    }
+  }
+}

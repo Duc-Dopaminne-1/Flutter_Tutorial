@@ -1,0 +1,8 @@
+query GetUserFollowOnPostsByPropertyPostIds($input: GetUserFollowOnPostsByPropertyPostIdsInput!) {
+  getUserFollowOnPostsByPropertyPostIds(getUserFollowOnPostsByPropertyPostIdsInput: $input) {
+    userFollowOnPostDtos {
+      isFollowed
+      propertyPostId
+    }
+  }
+}

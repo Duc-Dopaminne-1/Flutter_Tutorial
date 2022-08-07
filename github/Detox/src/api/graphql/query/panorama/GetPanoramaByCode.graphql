@@ -1,0 +1,20 @@
+query GetPanoramaByCode($panoramaImageCode: String!) {
+  getPanoramaByCode(panoramaImageCode: $panoramaImageCode) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    panoramaImageDto {
+      panoramaImageId
+      panoramaImageCode
+      panoramaImageJson
+      panoramaImageApprovalStatusId
+      panoramaImageApprovalStatusName
+      panoramaImageApprovalStatusDescription
+      panoramaRequestUpdateReasonId
+      panoramaRequestUpdateReasonName
+      panoramaRequestUpdateReasonDescription
+      propertyPostId
+      recordVersion
+    }
+  }
+}

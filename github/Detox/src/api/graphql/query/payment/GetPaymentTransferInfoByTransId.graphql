@@ -1,0 +1,21 @@
+query GetPaymentTransferInfoByTransId($input: Uuid!) {
+  bankPaymentTransferInfoByTransId(transactionId: $input) {
+    bankPaymentTransferInfoDto {
+      bankAccountName
+      bankAccountNumber
+      bankTransferContents
+      expectedAmount
+      paidAmount
+      paymentUnit
+      productName
+      transactionDatetime
+      transactionPaymentStatus
+      projectId
+      paidDatetime
+      userTransactionId
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

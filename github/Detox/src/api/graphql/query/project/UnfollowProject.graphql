@@ -1,0 +1,14 @@
+mutation UnfollowProject($input: FollowProject!) {
+  unfollowProject(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    projectDto {
+      projectId
+      projectName
+      isFollowed
+      totalFollower
+      totalShare
+    }
+  }
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>TpfClientSample (UAT)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>topenfintech</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app requires access to the calendar</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Điều này cho phép bạn sử dụng camera để quét mã QR </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Điều này cho phép bạn sử dụng định vị để xác định vị trí hiện tại.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Your message to user when the photo library is accessed for the first time</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Your message to user when the photo library is accessed for the first time</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SVN-Gilroy Black Italic</string>
+		<string>SVN-Gilroy Light Italic</string>
+		<string>SVN-Gilroy Black</string>
+		<string>SVN-Gilroy Bold</string>
+		<string>SVN-Gilroy Bold Italic</string>
+		<string>SVN-Gilroy XBold</string>
+		<string>SVN-Gilroy XBold Italic</string>
+		<string>SVN-Gilroy Heavy Italic</string>
+		<string>SVN-Gilroy Heavy</string>
+		<string>SVN-Gilroy Light</string>
+		<string>SVN-Gilroy Medium</string>
+		<string>SVN-Gilroy Medium Italic</string>
+		<string>SVN-Gilroy Regular</string>
+		<string>SVN-Gilroy Italic</string>
+		<string>SVN-Gilroy SemiBold</string>
+		<string>SVN-Gilroy SemiBold Italic</string>
+		<string>SVN-Gilroy Thin</string>
+		<string>SVN-Gilroy Thin Italic</string>
+		<string>SVN-Gilroy Xlight Italic</string>
+		<string>SVN-Gilroy Xlight</string>
+		<string>SVN-Gilroy Black Italic.otf</string>
+		<string>SVN-Gilroy Black.otf</string>
+		<string>SVN-Gilroy Bold Italic.otf</string>
+		<string>SVN-Gilroy Bold.otf</string>
+		<string>SVN-Gilroy Heavy Italic.otf</string>
+		<string>SVN-Gilroy Heavy.otf</string>
+		<string>SVN-Gilroy Italic.otf</string>
+		<string>SVN-Gilroy Light Italic.otf</string>
+		<string>SVN-Gilroy Light.otf</string>
+		<string>SVN-Gilroy Medium Italic.otf</string>
+		<string>SVN-Gilroy Medium.otf</string>
+		<string>SVN-Gilroy Regular.otf</string>
+		<string>SVN-Gilroy SemiBold Italic.otf</string>
+		<string>SVN-Gilroy SemiBold.otf</string>
+		<string>SVN-Gilroy Thin Italic.otf</string>
+		<string>SVN-Gilroy Thin.otf</string>
+		<string>SVN-Gilroy XBold Italic.otf</string>
+		<string>SVN-Gilroy XBold.otf</string>
+		<string>SVN-Gilroy Xlight Italic.otf</string>
+		<string>SVN-Gilroy Xlight.otf</string>
+		<string>Montserrat Regular.ttf</string>
+		<string>Montserrat Medium.ttf</string>
+		<string>Montserrat Bold.ttf</string>
+		<string>Montserrat SemiBold.ttf</string>
+		<string>Montserrat Italic.ttf</string>
+		<string>Montserrat Black.ttf</string>
+		<string>Lato Regular.ttf</string>
+		<string>Lato Medium.ttf</string>
+		<string>Lato SemiBold.ttf</string>
+		<string>Lato Italic.ttf</string>
+		<string>Lato Black.ttf</string>
+		<string>Lato Bold.ttf</string>
+		<string>Poppins Regular.otf</string>
+		<string>Poppins Medium.otf</string>
+		<string>Poppins SemiBold.otf</string>
+		<string>Poppins Italic.otf</string>
+		<string>Poppins Black.otf</string>
+		<string>Poppins Bold.otf</string>
+		<string>Nunito Black.ttf</string>
+		<string>Nunito Bold.ttf</string>
+		<string>Nunito Italic.ttf</string>
+		<string>Nunito Medium.ttf</string>
+		<string>Nunito Regular.ttf</string>
+		<string>Nunito SemiBold.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

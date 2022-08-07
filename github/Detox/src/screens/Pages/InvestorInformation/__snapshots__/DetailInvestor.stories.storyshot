@@ -1,0 +1,819 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|DetailInvestor default 1`] = `
+Array [
+  <Text
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    testID="storyConfigId"
+  >
+    {"isCaptureScrollViewContent":true}
+  </Text>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="captureButton"
+  >
+    <Text>
+      Capture
+    </Text>
+    <Text
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      testID="captureURL"
+    />
+  </View>,
+  <RCTScrollView
+    testID="captureScrollView"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <RCTScrollView>
+          <View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                }
+              }
+            >
+              <Image
+                resizeMode="cover"
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/img_banner_investor.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 282,
+                    "width": "100%",
+                  }
+                }
+              />
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderColor": "#C4C4C4",
+                    "borderRadius": 80,
+                    "borderWidth": 3,
+                    "left": 10,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "top": 200,
+                    "zIndex": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "height": 115,
+                      "width": 115,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 57.5,
+                          "height": 115,
+                          "left": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "width": 115,
+                        },
+                        Object {
+                          "backgroundColor": "#929292",
+                        },
+                      ]
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../src/assets/images/profile/avatar.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "borderRadius": 57.5,
+                          "height": 115,
+                          "left": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "width": 115,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "paddingVertical": 16,
+                    },
+                    Object {
+                      "marginTop": 20,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "paddingHorizontal": 16,
+                      },
+                      Object {
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 20,
+                        "includeFontPadding": true,
+                        "marginTop": 16,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  Chủ đầu tư mới
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#F5F7FA",
+                      "borderRadius": 8,
+                      "flexDirection": "row",
+                      "height": 60,
+                      "marginTop": 16,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#A3A3A3",
+                        }
+                      }
+                    >
+                      Sắp mở bán
+                    </Text>
+                    <Text
+                      style={
+                        Object {
+                          "fontFamily": "Nunito-Bold",
+                          "fontSize": 24,
+                          "includeFontPadding": true,
+                        }
+                      }
+                    >
+                      0
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F0F0F0",
+                        "marginVertical": 8,
+                        "width": 1,
+                      }
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#A3A3A3",
+                        }
+                      }
+                    >
+                      Đang mở bán
+                    </Text>
+                    <Text
+                      style={
+                        Object {
+                          "fontFamily": "Nunito-Bold",
+                          "fontSize": 24,
+                          "includeFontPadding": true,
+                        }
+                      }
+                    >
+                      0
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#F0F0F0",
+                        "marginVertical": 8,
+                        "width": 1,
+                      }
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#A3A3A3",
+                        }
+                      }
+                    >
+                      Đã bán
+                    </Text>
+                    <Text
+                      style={
+                        Object {
+                          "fontFamily": "Nunito-Bold",
+                          "fontSize": 24,
+                          "includeFontPadding": true,
+                        }
+                      }
+                    >
+                      0
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#F5F7FA",
+                      "height": 8,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "padding": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 20,
+                      "includeFontPadding": true,
+                    }
+                  }
+                >
+                  Giới thiệu
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#A3A3A3",
+                      }
+                    }
+                  >
+                    Địa chỉ
+                    : 
+                  </Text>
+                  <Text>
+                    123 123.
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#A3A3A3",
+                      }
+                    }
+                  >
+                    Website
+                    : 
+                  </Text>
+                  <Text>
+                    <View
+                      accessibilityState={
+                        Object {
+                          "disabled": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignSelf": "flex-start",
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "alignSelf": "flex-start",
+                              "color": "#26894F",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        https://google.com
+                      </Text>
+                    </View>
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#A3A3A3",
+                      }
+                    }
+                  >
+                    Số điện thoại
+                    : 
+                  </Text>
+                  <Text>
+                    0948228282
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#A3A3A3",
+                      }
+                    }
+                  >
+                    Lĩnh vực
+                    : 
+                  </Text>
+                  <Text>
+                    Công nghệ thông tin
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#A3A3A3",
+                      }
+                    }
+                  >
+                    Ngày thành lập
+                    : 
+                  </Text>
+                  <Text>
+                    09/03/2022
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#A3A3A3",
+                      }
+                    }
+                  >
+                    Vốn điều lệ
+                    : 
+                  </Text>
+                  <Text>
+                    23000 tỷ
+                  </Text>
+                </View>
+                <Text
+                  style={
+                    Object {
+                      "marginTop": 16,
+                    }
+                  }
+                >
+                   1231231231231
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#F5F7FA",
+                      "height": 8,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "marginVertical": 16,
+                    "paddingLeft": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 20,
+                      "includeFontPadding": true,
+                      "marginBottom": 16,
+                    }
+                  }
+                >
+                  Hoạt động
+                </Text>
+                <RCTScrollView
+                  horizontal={true}
+                  showsHorizontalScrollIndicator={false}
+                >
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                          },
+                          Object {
+                            "borderRadius": 16,
+                            "height": 155,
+                            "marginEnd": 16,
+                            "width": 276,
+                          },
+                          Object {
+                            "backgroundColor": "#929292",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "icomoon",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </RCTScrollView>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#F5F7FA",
+                      "height": 8,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "fontFamily": "Nunito-Bold",
+                    "fontSize": 20,
+                    "includeFontPadding": true,
+                    "marginLeft": 16,
+                    "marginTop": 16,
+                  }
+                }
+              >
+                Dự án thuộc chủ đầu tư
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 200,
+                    "justifyContent": "center",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/images/img_empty_list.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "marginBottom": 16,
+                    }
+                  }
+                />
+                <Text>
+                  Chưa có dự án nào
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#F5F7FA",
+                      "height": 8,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "marginTop": 16,
+                    "paddingHorizontal": 16,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 20,
+                        "includeFontPadding": true,
+                        "marginBottom": 16,
+                      }
+                    }
+                  >
+                    Chủ đầu tư khác
+                  </Text>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    nativeID="animatedComponent"
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#26894F",
+                            "fontFamily": "Nunito-Bold",
+                            "fontSize": 14,
+                            "includeFontPadding": true,
+                            "marginEnd": 4,
+                          },
+                        ]
+                      }
+                    >
+                      Xem thêm
+                    </Text>
+                  </View>
+                </View>
+                <RCTScrollView
+                  horizontal={true}
+                  showsHorizontalScrollIndicator={false}
+                >
+                  <View>
+                    <View
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "borderColor": "#A3A3A3",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "height": 132,
+                          "marginEnd": 16,
+                          "opacity": 1,
+                          "padding": 12,
+                          "width": 132,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Object {
+                              "height": 50,
+                              "width": 50,
+                            },
+                          ]
+                        }
+                      >
+                        <FastImageView
+                          resizeMode="contain"
+                          source={null}
+                          style={
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            }
+                          }
+                        />
+                      </View>
+                      <Text
+                        numberOfLines={3}
+                        style={
+                          Object {
+                            "fontFamily": "Nunito-Bold",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        Chủ đầu tư mới
+                      </Text>
+                    </View>
+                  </View>
+                </RCTScrollView>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

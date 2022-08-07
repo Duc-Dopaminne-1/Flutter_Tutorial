@@ -1,0 +1,37 @@
+query GetUserC2CDemands(
+  $page: Int
+  $pageSize: Int
+  $request: GetUserC2CDemandsInput!
+  $order_by: C2CDemandDtoSort!
+  $where: C2CDemandDtoFilter!
+) {
+  getUserC2CDemands(
+    page: $page
+    pageSize: $pageSize
+    request: $request
+    order_by: $order_by
+    where: $where
+  ) {
+    edges {
+      c2CDemandCode
+      c2CDemandId
+      title
+      propertyTypeName
+      forSale
+      placeDto {
+        cityId
+        cityName
+        districts {
+          districtName
+          districtId
+        }
+      }
+      priceRangeDto {
+        priceTo
+        priceFrom
+      }
+      createdDatetime
+    }
+    totalCount
+  }
+}

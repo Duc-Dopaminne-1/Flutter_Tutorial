@@ -1,0 +1,17 @@
+query GetProjectAdditionalData($input: projectsAdditionalForSearchInput!) {
+  getProjectsAdditionalForSearch(projectsAdditionalForSearchInput: $input) {
+    edges {
+      projectId
+      isFollowed
+      totalFollower
+      totalShare
+    }
+  }
+}
+
+# {
+#   "input": {
+#     "userId": "83756763-d927-46f7-9ede-7acfc821c3d8",
+#     "projectIds": "[\"829dbd2d-2676-449e-a0ec-f06c266b03fc\"]"
+#   }
+# }

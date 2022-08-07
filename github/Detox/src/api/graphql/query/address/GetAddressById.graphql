@@ -1,0 +1,11 @@
+query GetAddressById($wardId: Int, $districtId: Int, $cityId: Int) {
+  wardById(wardId: $wardId) {
+    wardName
+  }
+  districtById(districtId: $districtId) {
+    districtName
+  }
+  cityById(cityId: $cityId) {
+    cityName
+  }
+}

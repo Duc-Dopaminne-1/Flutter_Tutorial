@@ -1,0 +1,12 @@
+mutation PayAgentSubscriptionTransction($input: payAgentSubscriptionInput!) {
+  payAgentSubscriptionTransction(payAgentSubscriptionInput: $input) {
+    disablePayment
+    errorCode
+    errorMessageCode
+    errorMessage
+    ipnUrl
+    linkPaymentUrl
+    returnUrl
+    transactionId
+  }
+}

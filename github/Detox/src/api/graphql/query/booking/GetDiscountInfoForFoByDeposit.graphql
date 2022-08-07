@@ -1,0 +1,11 @@
+query getDiscountInfoForFoByDeposit($b2CDepositTransactionId: Uuid!) {
+  getDiscountInfoForFoByDeposit(b2CDepositTransactionId: $b2CDepositTransactionId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    discountDetailDto {
+      issuedPrice
+      priceAfterDiscount
+    }
+  }
+}

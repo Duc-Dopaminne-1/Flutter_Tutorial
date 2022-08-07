@@ -1,0 +1,15 @@
+mutation FollowProject($input: FollowProject!) {
+  followProject(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    projectDto {
+      projectId
+      projectName
+      isFollowed
+      isFollowed
+      totalFollower
+      totalShare
+    }
+  }
+}

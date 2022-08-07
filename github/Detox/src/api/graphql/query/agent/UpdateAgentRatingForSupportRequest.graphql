@@ -1,0 +1,7 @@
+mutation UpdateAgentRatingForSupportRequest($input: UpdateAgentRatingForSupportRequestInput!) {
+  updateAgentRatingForSupportRequest(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

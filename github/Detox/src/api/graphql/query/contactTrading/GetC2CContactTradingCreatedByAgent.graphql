@@ -1,0 +1,55 @@
+query C2CContactTradingCreatedByAgent(
+  $where: C2CContactTradingDtoFilter
+  $page: Int
+  $keywords: String
+  $pageSize: Int
+  $order_by: C2CContactTradingDtoSort
+) {
+  c2cContactTradingCreatedByAgent(
+    where: $where
+    page: $page
+    keywords: $keywords
+    pageSize: $pageSize
+    order_by: $order_by
+  ) {
+    totalCount
+    edges {
+      agentOwnerId
+      assigneeId
+      contactTradingCode
+      contactTradingId
+      contactTradingStatusId
+      contactType
+      createdByUserId
+      createdDatetime
+      customerEmail
+      customerFullName
+      customerPhoneNumber
+      isActive
+      deposit {
+        depositStatus
+      }
+      negotiationDescription
+      negotiationPrice
+      negotiationDate
+      propertyPostId
+      propertyPostUrl
+      requesterAddress
+      requesterEmail
+      requesterFullName
+      requesterGender
+      requesterId
+      requesterIsAgency
+      requesterLastContact
+      requesterPhoneNumber
+      updatedByUserId
+      updatedDatetime
+      pendingReason
+      pendingNote
+      cityName
+      districtName
+      propertyCode
+      propertyPrice
+    }
+  }
+}

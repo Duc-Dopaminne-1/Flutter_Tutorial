@@ -1,0 +1,28 @@
+query GetSupportServiceTicketsByPropertyPostId($page: Int, $pageSize: Int, $propertyPostId: Uuid!) {
+  getSupportServiceTicketsByPropertyPostId(
+    page: $page
+    pageSize: $pageSize
+    propertyPostId: $propertyPostId
+  ) {
+    edges {
+      supportServiceId
+      supportServiceName
+      supportServiceTicketId
+      ticketStatusId
+      ticketStatusName
+      ticketCode
+      ticketNote
+      appointmentDatetime
+      propertyPostCode
+      propertyPostId
+      currentExecutorId
+      currentExecutorName
+      requesterId
+      requesterFullName
+      createdDatetime
+      consultantStaffId
+      consultantStaffName
+    }
+    __typename
+  }
+}

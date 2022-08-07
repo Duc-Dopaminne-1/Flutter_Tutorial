@@ -1,0 +1,20 @@
+query GetPanoramaByPropertyPostId($propertyPostId: Uuid!) {
+  getPanoramaByPropertyPostId(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    panoramaImageDto {
+      panoramaImageId
+      panoramaImageCode
+      panoramaImageJson
+      panoramaImageApprovalStatusId
+      panoramaImageApprovalStatusName
+      panoramaImageApprovalStatusDescription
+      panoramaRequestUpdateReasonId
+      panoramaRequestUpdateReasonName
+      panoramaRequestUpdateReasonDescription
+      propertyPostId
+      recordVersion
+    }
+  }
+}

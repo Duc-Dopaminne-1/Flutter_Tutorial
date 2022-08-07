@@ -1,0 +1,9 @@
+mutation CreateC2CContactTradingFO($input: CreateC2CContactTradingInput!) {
+  createC2CContactTradingFO(createC2CContactTradingInput: $input) {
+    contactTradingCode
+    contactTradingId
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

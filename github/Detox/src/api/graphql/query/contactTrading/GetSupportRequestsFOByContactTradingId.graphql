@@ -1,0 +1,20 @@
+query GetSupportRequestsFOByContactTradingId($contactTradingId: Uuid!) {
+  supportRequestsFOByContactTradingId(contactTradingId: $contactTradingId) {
+    errorMessage
+    errorCode
+    errorMessageCode
+    supportRequestContactTradingDtos {
+      __typename @include(if: false)
+      businessCategoryTypeName
+      assigneeFullName
+      requestTypeDescription
+      requestTypeId
+      supportRequestId
+      supportRequestCode
+      supportRequestStatusDescription
+      supportRequestStatusId
+      updatedDatetime
+      createdDatetime
+    }
+  }
+}

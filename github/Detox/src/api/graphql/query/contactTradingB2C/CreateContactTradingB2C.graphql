@@ -1,0 +1,8 @@
+mutation CreateContactTradingB2C($input: CreateContactTradingB2CInput!) {
+  createContactTradingB2C(createContactTradingB2CInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    contactTradingB2CId
+  }
+}

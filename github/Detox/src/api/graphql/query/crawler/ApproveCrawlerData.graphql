@@ -1,0 +1,8 @@
+mutation ApproveCrawlerData($input: ApproveCrawlerDataInput!) {
+  approveCrawlerData(approveCrawlerDataInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    propertyPostId
+  }
+}

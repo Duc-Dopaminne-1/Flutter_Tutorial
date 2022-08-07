@@ -1,0 +1,29 @@
+query GetFastPaymentTransferInfoByTransId($input: Uuid!) {
+  fastPaymentTransferInfoByTransId(transactionId: $input) {
+    fastPaymentTransferInfoDto {
+      expectedAmount
+      fundAccount {
+        branchAddress
+        branchName
+        cityId
+        faxNumber
+        fundAccountId
+        fundEmail
+        phoneNumber
+      }
+      fundAccountId
+      paidAmount
+      paidDatetime
+      paymentCode
+      paymentUnit
+      productName
+      projectId
+      transactionDatetime
+      transactionPaymentStatus
+      userTransactionId
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

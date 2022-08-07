@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>881815873852-fdlo53qajcs9asl96ki5vf1d9a6mots3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.881815873852-fdlo53qajcs9asl96ki5vf1d9a6mots3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB8fvYAFnKc7Xn8rvoTykg69ClKu1Y0Kvs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>881815873852</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.topenlandcorp.dev.topenland</string>
+	<key>PROJECT_ID</key>
+	<string>onesignal-dev-7a449</string>
+	<key>STORAGE_BUCKET</key>
+	<string>onesignal-dev-7a449.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:881815873852:ios:5423f84b1fbf58468a9639</string>
+	<key>DATABASE_URL</key>
+	<string>https://onesignal-dev-7a449.firebaseio.com</string>
+</dict>
+</plist>

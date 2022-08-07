@@ -1,0 +1,1000 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|b2c/BottomInfoTransaction Default 1`] = `
+Array [
+  <Text
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    testID="storyConfigId"
+  >
+    {"isCaptureScrollViewContent":true}
+  </Text>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="captureButton"
+  >
+    <Text>
+      Capture
+    </Text>
+    <Text
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      testID="captureURL"
+    />
+  </View>,
+  <RCTScrollView
+    testID="captureScrollView"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "padding": 16,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderTopColor": "#E4E4E4",
+                "borderTopWidth": 1,
+                "margin": 16,
+                "paddingTop": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#808D97",
+                      "flex": 1,
+                      "fontSize": 14,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Mã giao dịch:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "flex": 2,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                #MD123SDFHJKL213
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginTop": 16,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Bold",
+                    "fontSize": 21,
+                    "includeFontPadding": true,
+                  }
+                }
+              >
+                Thông tin sản phẩm
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#808D97",
+                      "flex": 1,
+                      "fontSize": 14,
+                    }
+                  }
+                >
+                  Tên dự án:
+                </Text>
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={false}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignSelf": "flex-start",
+                      "color": "#333333",
+                      "flex": 2,
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "alignSelf": "flex-start",
+                          "color": "#26894F",
+                          "fontFamily": "Nunito-Bold",
+                          "fontSize": 14,
+                          "includeFontPadding": true,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Reverside Đà nẵng
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Mã sản phẩm: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  R01-2392
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Tầng: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  1
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Tháp: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Ruby
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Hạn ký hợp đồng: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  12/12/2022
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 16,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#808D97",
+                      "flex": 1,
+                      "fontSize": 14,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                % Hoa hồng: 
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "flex": 2,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "marginVertical": 16,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Bold",
+                    "fontSize": 21,
+                    "includeFontPadding": true,
+                  }
+                }
+              >
+                Thông tin người có nhu cầu
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Họ và tên: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Email: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  tranvanc@gmail.com
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Điện thoại: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Loại giấy tờ: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Số ID: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  213123123
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Ngày cấp: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  12/12/2022
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Nơi cấp: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  TP.HCM
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Ngày sinh: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  08/09/1992
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Giới tính: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Nữ
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Địa chỉ thường trú: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  18a Kỳ Đồng, Phường 9, Quận 3, Tp.HCM
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Địa chỉ liên lạc: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  11 Huỳnh Tịnh Của
+                </Text>
+              </View>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Bold",
+                    "fontSize": 21,
+                    "includeFontPadding": true,
+                  }
+                }
+              >
+                Thông tin CVTV
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Tên CVTV
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Trần Hoa Hồng
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Email: 
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "flex": 2,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  hoangtran@gmail.com
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#808D97",
+                        "flex": 1,
+                        "fontSize": 14,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Số điện thoại: 
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "flex": 2,
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    nativeID="animatedComponent"
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../src/assets/images/call/call.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "height": 21,
+                          "marginRight": 8,
+                          "tintColor": "#26894F",
+                          "width": 21,
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#26894F",
+                          "fontFamily": "Nunito-Bold",
+                          "fontSize": 12,
+                          "includeFontPadding": true,
+                        }
+                      }
+                    >
+                      Gọi điện
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={false}
+                    nativeID="animatedComponent"
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                        "marginLeft": 16,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../src/assets/images/message_fill.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "height": 21,
+                          "marginRight": 8,
+                          "tintColor": "#26894F",
+                          "width": 21,
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#26894F",
+                          "fontFamily": "Nunito-Bold",
+                          "fontSize": 12,
+                          "includeFontPadding": true,
+                        }
+                      }
+                    >
+                      Nhắn tin
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

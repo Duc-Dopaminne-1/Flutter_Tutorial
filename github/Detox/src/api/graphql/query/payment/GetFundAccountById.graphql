@@ -1,0 +1,14 @@
+query GetFundAccountById($fundAccountId: Uuid!) {
+  fundAccountById(fundAccountId: $fundAccountId) {
+    fundAccountId
+    cityId
+    branchAddress
+    branchName
+    fundAccountNo
+    fundAccountDescription
+    remark
+    phoneNumber
+    faxNumber
+    fundEmail
+  }
+}

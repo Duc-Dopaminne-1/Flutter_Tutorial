@@ -1,0 +1,37 @@
+query GetProjectById($projectId: Uuid!) {
+  foProjectById(projectId: $projectId) {
+    isFollowed
+    projectDescription
+    totalFollower
+    projectId
+    projectName
+    projectCode
+    minPrice
+    commissionRates
+    projectStatusName
+    featurePhotos
+    investorOwnerName
+    overallDescription
+    propertyTypeId
+    projectTypeName
+    projectStatusId
+    projectPostStatusName
+    projectProgress
+    projectStatusDescription
+    startYear
+    totalArea
+    projectAddress {
+      projectAddressId
+      cityId
+      districtId
+      wardId
+      streetName
+      homeAddress
+      longitude
+      latitude
+      cityName
+      districtName
+      wardName
+    }
+  }
+}

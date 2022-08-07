@@ -1,0 +1,21 @@
+query SearchAllCourses($input: SearchArticleRequest!) {
+  searchArticles(request: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    totalCount
+    articleDtos {
+      id
+      slug
+      title
+      preview
+      articleType
+      articleTypeId
+      articleSubTypeId
+      highlightTag
+      highlightTagId
+      createdDatetime
+      previewImageUrl
+    }
+  }
+}

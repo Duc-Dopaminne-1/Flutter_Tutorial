@@ -1,0 +1,8 @@
+mutation completeContactTradingB2C($input: CompleteContactTradingB2CInput!) {
+  completeContactTradingB2C(completeContactTradingB2CInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    __typename
+  }
+}

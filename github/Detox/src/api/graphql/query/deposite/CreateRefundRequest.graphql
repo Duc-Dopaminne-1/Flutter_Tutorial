@@ -1,0 +1,7 @@
+mutation createRefundRequest($input: CreateRefundRequestInput!) {
+  createRefundRequest(request: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,7 @@
+mutation DeleteFollowerOfCurrentUserForFrontOffice($input: DeleteFollowerOfCurrentUserInput!) {
+  deleteFollowerOfCurrentUserForFrontOffice(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

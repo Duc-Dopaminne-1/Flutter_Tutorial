@@ -1,0 +1,13 @@
+query CheckPropertyPostLockedForBookingBySeasonId(
+  $input: CheckPropertyPostLockedForBookingBySeasonIdInput!
+) {
+  checkPropertyPostLockedForBookingBySeasonId(
+    checkPropertyPostLockedForBookingBySeasonIdInput: $input
+  ) {
+    isLocked
+    errorCode
+    errorMessage
+    errorMessageCode
+    openDatetime
+  }
+}

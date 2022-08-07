@@ -1,0 +1,14 @@
+query GetCustomerInfoChangeHistoryByIdForFO($id: Uuid!) {
+  getCustomerInfoChangeHistoryByIdForFO(customerInfoChangeHistoryId: $id) {
+    customerInfoChangeHistoryDto {
+      index
+      customerInfoChangeHistoryId
+      depositTransactionId
+      customerId
+      newData
+      oldData
+      createdDatetime
+      createdByUserId
+    }
+  }
+}

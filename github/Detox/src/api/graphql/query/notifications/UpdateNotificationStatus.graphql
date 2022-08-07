@@ -1,0 +1,7 @@
+mutation UpdateNotificationStatus($input: UpdateUserNotificationRequestInput!) {
+  updateUserNotification(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "59U73DMV6Y.com.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post"
+				]
+			}
+		]
+	}
+}

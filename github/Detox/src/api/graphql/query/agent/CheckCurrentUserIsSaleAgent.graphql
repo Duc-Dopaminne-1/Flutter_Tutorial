@@ -1,0 +1,8 @@
+query CheckCurrentUserIsSaleAgent($input: CheckCurrentUserIsSaleAgentInput!) {
+  checkCurrentUserIsSaleAgent(request: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isSaleAgent
+  }
+}

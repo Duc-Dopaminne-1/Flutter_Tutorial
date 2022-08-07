@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|search/FilterAgentContainer default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginHorizontal": 16,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "includeFontPadding": true,
+        }
+      }
+    >
+      Bộ lọc
+    </Text>
+  </View>
+  <RCTScrollView
+    alwaysBounceVertical={false}
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "paddingTop": 16,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#828282",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                  "includeFontPadding": true,
+                },
+                Object {
+                  "color": "#313131",
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 15,
+                  "includeFontPadding": true,
+                },
+              ]
+            }
+          >
+            Loại bất động sản
+             
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingTop": 8,
+              },
+              true,
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+              },
+            ]
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "opacity": 1,
+                "width": 359,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#26894F",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "paddingTop": 2,
+                  },
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 15,
+                      "includeFontPadding": true,
+                      "paddingLeft": 8,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Căn hộ
+              </Text>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "opacity": 1,
+                "width": 359,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#26894F",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "paddingTop": 2,
+                  },
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 15,
+                      "includeFontPadding": true,
+                      "paddingLeft": 8,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Biệt thự
+              </Text>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "opacity": 1,
+                "width": 359,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#26894F",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "paddingTop": 2,
+                  },
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 15,
+                      "includeFontPadding": true,
+                      "paddingLeft": 8,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Nhà phố
+              </Text>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "opacity": 1,
+                "width": 359,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#26894F",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "paddingTop": 2,
+                  },
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 15,
+                      "includeFontPadding": true,
+                      "paddingLeft": 8,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Đất nền
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginTop": 4,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#E4E4E4",
+                "fontSize": 24,
+              },
+              Object {
+                "paddingTop": 2,
+              },
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰄱
+        </Text>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 15,
+                  "includeFontPadding": true,
+                  "paddingLeft": 8,
+                },
+                undefined,
+              ]
+            }
+          >
+            Tìm đối tác đang ở gần tôi nhất
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginVertical": 16,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#26894F",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginEnd": 16,
+          "marginTop": 8,
+          "opacity": 1,
+          "paddingBottom": 12,
+          "paddingTop": 10,
+          "width": "30%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#26894F",
+            },
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+          ]
+        }
+      >
+        Xóa bộ lọc
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#26894F",
+          "borderRadius": 8,
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginTop": 8,
+          "opacity": 1,
+          "paddingVertical": 13,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#FFFFFF",
+            },
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+          ]
+        }
+      >
+        Tìm kiếm
+      </Text>
+    </View>
+  </View>
+</View>
+`;

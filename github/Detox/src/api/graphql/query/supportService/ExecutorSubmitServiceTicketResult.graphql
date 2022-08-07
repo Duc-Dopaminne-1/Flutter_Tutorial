@@ -1,0 +1,7 @@
+mutation ExecutorSubmitServiceTicketResult($input: ExecutorSubmitServiceTicketResultInput!) {
+  executorSubmitServiceTicketResult(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

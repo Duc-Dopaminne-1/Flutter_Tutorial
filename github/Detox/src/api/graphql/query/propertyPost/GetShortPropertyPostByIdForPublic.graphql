@@ -1,0 +1,82 @@
+query GetShortPropertyPostByIdForPublic($propertyPostId: Uuid!) {
+  propertyPostDetail(propertyPostId: $propertyPostId) {
+    propertyPostId
+    postTitle
+    postDescription
+    postTypeId
+    propertyPostStatusId
+    propertyTypeId
+    propertyTypeName
+    isCreateByAgent
+    addressId
+    propertyAddress {
+      countryId
+      countryName
+      cityId
+      cityName
+      districtId
+      districtName
+      wardId
+      wardName
+      homeAddress
+      streetName
+    }
+    unitOfMeasureId
+    unitOfMeasure {
+      unitOfMeasureId
+      unitOfMeasureCode
+      unitOfMeasureName
+      numberOfDecimal
+      multiplyWithBaseUnit
+      isRound
+    }
+    sellerInfo {
+      sellerId
+      fullName
+      phoneNumber
+      email
+      isAgent
+      agentRating
+      agentRankingName
+      agentGroupDescription
+      avatar
+      avatars
+    }
+    propertyPostForRentDto {
+      propertyPostForRentId
+      rentCommission
+      rentCommissionCurrencyUnitId
+      rentPeriod
+      rentPrice
+    }
+    isSold
+    isRented
+    forRent
+    forSale
+    numberOfFloor
+    numberOfBedrooms
+    numberOfBathrooms
+    images
+    price
+    priceNoVat
+    priceVat
+    commission
+    saleCommissionCurrencyUnitId
+    buildingArea
+    direction
+    capetAreas
+    totalSiteArea
+    latitude
+    longitude
+    propertyPostApprovalStatusId
+    isFollowed
+    guaranteedPackage {
+      contractStatus
+      guaranteedPackageEndTime
+    }
+    contractStatus
+    guaranteedPackageEndTime
+    postServiceType
+    rating
+  }
+}

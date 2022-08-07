@@ -1,0 +1,8 @@
+query HaveContactTradingB2CByPropertyPostId($propertyPostId: Uuid!) {
+  haveContactTradingB2CByPropertyPostId(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    haveContactTradingB2C
+  }
+}

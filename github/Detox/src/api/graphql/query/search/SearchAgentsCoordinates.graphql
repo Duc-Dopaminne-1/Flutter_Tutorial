@@ -1,0 +1,14 @@
+query SearchAgentsCoordinates($input: SearchAgentInput!) {
+  searchAgents(searchAgentInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    agentInfoDtos {
+      agentId
+      profilePhoto
+      latitude
+      longitude
+    }
+    totalCount
+  }
+}

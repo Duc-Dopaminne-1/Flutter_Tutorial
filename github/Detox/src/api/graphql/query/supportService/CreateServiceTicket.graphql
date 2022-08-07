@@ -1,0 +1,8 @@
+mutation CreateServiceTicket($input: CreateServiceTicketInput!) {
+  createServiceTicketForFrontOffice(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    supportServiceTicketId
+  }
+}

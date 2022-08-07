@@ -1,0 +1,13 @@
+query GetSupportServiceTypesForFrontOffice {
+  getSupportServiceTypesForFrontOffice {
+    errorCode
+    errorMessage
+    errorMessageCode
+    requestTypes {
+      price
+      requestTypeId
+      requestTypeName
+      requestTypeDescription
+    }
+  }
+}

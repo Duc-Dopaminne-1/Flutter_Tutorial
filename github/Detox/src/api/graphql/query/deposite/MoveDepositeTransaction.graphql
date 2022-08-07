@@ -1,0 +1,21 @@
+mutation MoveDepositeTransaction($input: MoveDepositeTransactionInput!) {
+  moveDepositeTransaction(moveDepositeTransactionInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    depositeTransactionDto {
+      depositeTransactionId
+      depositeStatusId
+      numberOfChanging
+      priorDepositeTransactionId
+    }
+  }
+}
+
+# {
+#   "moveDepositeTransactionInput": {
+#     "currentDepositeTransactionId": "2c4cdfa6-e6bc-4601-b1f7-7c6398eb50a5",
+#     "newPropertyPostId": "1849f7b5-f5d7-41e4-a7f0-e479b6fdf241",
+#     "saleAgentId": "1aefd7a1-a46d-405d-a0e7-5ad9e21e2cf1"
+#   }
+# }

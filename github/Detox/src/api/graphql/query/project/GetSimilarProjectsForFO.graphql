@@ -1,0 +1,29 @@
+query getSimilarProjectsForFO($getSimilarProjectsForFOInput: GetSimilarProjectsForFOInput!) {
+  getSimilarProjectsForFO(getSimilarProjectsForFOInput: $getSimilarProjectsForFOInput) {
+    edges {
+      detailPath
+      fastProjectId
+      projectCode
+      projectStatusId
+      projectStatusName
+      projectId
+      projectName
+      featurePhotos
+      investorOwnerName
+      projectStatusDescription
+      propertyTypeId
+      minPrice
+      projectAddress {
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        streetName
+        homeAddress
+      }
+    }
+    totalCount
+  }
+}

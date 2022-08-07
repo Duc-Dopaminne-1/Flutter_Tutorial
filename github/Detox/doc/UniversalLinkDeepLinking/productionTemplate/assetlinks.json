@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.topenland",
+      "sha256_cert_fingerprints": [
+        "7F:3F:36:2B:39:34:88:9A:C4:9F:87:89:C3:26:18:E9:78:4B:FD:6C:50:FA:4B:AC:97:4F:D7:21:40:57:FB:A1"
+      ]
+    }
+  }
+]

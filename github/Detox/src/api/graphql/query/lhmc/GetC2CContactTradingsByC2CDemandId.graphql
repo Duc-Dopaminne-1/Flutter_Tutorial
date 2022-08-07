@@ -1,0 +1,25 @@
+query GetC2CContactTradingsByC2CDemandId(
+  $c2CDemandId: Uuid!
+  $page: Int
+  $pageSize: Int
+  $order_by: C2CDemandContactTradingDtoSort!
+) {
+  getC2CContactTradingsByC2CDemandId(
+    c2CDemandId: $c2CDemandId
+    page: $page
+    pageSize: $pageSize
+    order_by: $order_by
+  ) {
+    edges {
+      c2CDemandCode
+      c2CDemandId
+      createdDatetime
+      createdByUserId
+      contactTradingId
+      contactTradingCode
+      propertyPostId
+      propertyCode
+    }
+    totalCount
+  }
+}

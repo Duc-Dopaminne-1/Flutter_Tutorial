@@ -1,0 +1,12 @@
+query GetContactTradingRatingById($input: Uuid!) {
+  contactTradingRatingById(supportRequestId: $input) {
+    postTitle
+    agentId
+    agentFirstName
+    agentLastName
+    agentImage
+    agentRating
+    isShowingBuyer
+    staffRating
+  }
+}

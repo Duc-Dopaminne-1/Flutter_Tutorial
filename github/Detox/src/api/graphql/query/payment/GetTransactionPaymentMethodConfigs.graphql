@@ -1,0 +1,21 @@
+query GetTransactionPaymentMethodConfigs($where: TransactionPaymentMethodConfigDtoFilter) {
+  transactionPaymentMethodConfigs(
+    page: 1
+    pageSize: 999
+    order_by: {paymentMethodOrder: ASC}
+    where: $where
+  ) {
+    edges {
+      transactionType
+      paymentMethod
+      isActive
+      paymentMethodOrder
+      transactionPaymentUnitDtos {
+        transactionPaymentUnitId
+        paymentMethod
+        paymentUnitCode
+        isActive
+      }
+    }
+  }
+}

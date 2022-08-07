@@ -1,0 +1,9 @@
+query GetDistrictsByCityId($where: DistrictDtoFilter) {
+  districts(pageSize: 100, where: $where) {
+    edges {
+      districtId
+      districtName
+    }
+    totalCount
+  }
+}

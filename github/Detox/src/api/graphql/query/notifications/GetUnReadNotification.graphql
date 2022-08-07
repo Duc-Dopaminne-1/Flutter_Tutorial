@@ -1,0 +1,5 @@
+query GetUnReadNotification {
+  notificationsByUserId(where: {isUnread: true}) {
+    totalCount
+  }
+}

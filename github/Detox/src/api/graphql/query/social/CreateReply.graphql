@@ -1,0 +1,8 @@
+mutation createReply($input: CreateCommentInput!) {
+  createCommentForFrontOffice(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    recaptchaEnable
+  }
+}

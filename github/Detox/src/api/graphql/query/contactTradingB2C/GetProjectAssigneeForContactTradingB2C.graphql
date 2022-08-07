@@ -1,0 +1,10 @@
+query GetProjectAssigneeForContactTradingB2C($keyWords: String, $page: Int, $pageSize: Int) {
+  getProjectAssigneeForContactTradingB2C(keyWords: $keyWords, page: $page, pageSize: $pageSize) {
+    downloadUrl
+    edges {
+      projectId
+      projectName
+    }
+    totalCount
+  }
+}

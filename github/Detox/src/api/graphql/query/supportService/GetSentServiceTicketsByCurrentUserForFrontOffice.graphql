@@ -1,0 +1,30 @@
+query GetSentServiceTicketsByCurrentUserForFrontOffice(
+  $page: Int
+  $pageSize: Int
+  $orderBy: SentServiceTicketForFrontOfficeDtoSort
+  $where: SentServiceTicketForFrontOfficeDtoFilter
+) {
+  getSentServiceTicketsByCurrentUserForFrontOffice(
+    page: $page
+    pageSize: $pageSize
+    order_by: $orderBy
+    where: $where
+  ) {
+    edges {
+      ticketCode
+      ticketStatusId
+      propertyPostId
+      ticketStatusName
+      supportServiceName
+      propertyPostCode
+      supportServiceId
+      supportServiceTicketId
+      currentExecutorName
+      currentExecutorId
+      propertyPostDetailPath
+      appointmentDatetime
+      createdDatetime
+    }
+    totalCount
+  }
+}

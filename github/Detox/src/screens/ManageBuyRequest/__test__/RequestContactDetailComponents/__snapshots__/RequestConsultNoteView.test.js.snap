@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#A3A3A3",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          },
+          Object {},
+        ]
+      }
+    >
+      Ghi chú tư vấn:
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 16,
+          },
+          Object {
+            "width": 16,
+          },
+        ]
+      }
+    />
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "height": 8,
+      }
+    }
+  />,
+  <TextInput
+    multiline={true}
+    onChangeText={[Function]}
+    style={
+      Object {
+        "borderColor": "#E4E4E4",
+        "borderWidth": 1,
+        "height": 80,
+        "padding": 8,
+        "width": "100%",
+      }
+    }
+    value=""
+  />,
+]
+`;

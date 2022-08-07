@@ -1,0 +1,7 @@
+mutation CreateContactTradingRequest($input: CreateContactTradingRequestInput!) {
+  createContactTradingRequest(createContactTradingRequestInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

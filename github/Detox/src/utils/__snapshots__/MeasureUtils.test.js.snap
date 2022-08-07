@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`price format correctly 1 1`] = `"1 VND"`;
+
+exports[`price format correctly 1.1233456789 1`] = `"1 VND"`;
+
+exports[`price format correctly 10 1`] = `"10 VND"`;
+
+exports[`price format correctly 10.1233456789 1`] = `"10 VND"`;
+
+exports[`price format correctly 12 1`] = `"12 VND"`;
+
+exports[`price format correctly 12.1233456789 1`] = `"12 VND"`;
+
+exports[`price format correctly 100 1`] = `"100 VND"`;
+
+exports[`price format correctly 100.1233456789 1`] = `"100 VND"`;
+
+exports[`price format correctly 123 1`] = `"123 VND"`;
+
+exports[`price format correctly 123.1233456789 1`] = `"123 VND"`;
+
+exports[`price format correctly 1000 1`] = `"1,000 VND"`;
+
+exports[`price format correctly 1000.1233456789 1`] = `"1,000 VND"`;
+
+exports[`price format correctly 1234 1`] = `"1,234 VND"`;
+
+exports[`price format correctly 1234.1233456789 1`] = `"1,234 VND"`;
+
+exports[`price format correctly 10000 1`] = `"10,000 VND"`;
+
+exports[`price format correctly 10000.1233456789 1`] = `"10,000 VND"`;
+
+exports[`price format correctly 12345 1`] = `"12,345 VND"`;
+
+exports[`price format correctly 12345.1233456789 1`] = `"12,345 VND"`;
+
+exports[`price format correctly 100000 1`] = `"100,000 VND"`;
+
+exports[`price format correctly 100000.1233456789 1`] = `"100,000 VND"`;
+
+exports[`price format correctly 123456 1`] = `"123,456 VND"`;
+
+exports[`price format correctly 123456.1233456789 1`] = `"123,456 VND"`;
+
+exports[`price format correctly 1000000 1`] = `"1 triệu"`;
+
+exports[`price format correctly 1000000.1233456789 1`] = `"1 triệu"`;
+
+exports[`price format correctly 1234567 1`] = `"1.234 triệu"`;
+
+exports[`price format correctly 1234567.123345679 1`] = `"1.234 triệu"`;
+
+exports[`price format correctly 10000000 1`] = `"10 triệu"`;
+
+exports[`price format correctly 10000000.123345679 1`] = `"10 triệu"`;
+
+exports[`price format correctly 12345678 1`] = `"12.345 triệu"`;
+
+exports[`price format correctly 12345678.123345679 1`] = `"12.345 triệu"`;
+
+exports[`price format correctly 100000000 1`] = `"100 triệu"`;
+
+exports[`price format correctly 100000000.12334567 1`] = `"100 triệu"`;
+
+exports[`price format correctly 123456789 1`] = `"123.456 triệu"`;
+
+exports[`price format correctly 123456789.12334567 1`] = `"123.456 triệu"`;
+
+exports[`price format correctly 1000000000 1`] = `"1 tỷ"`;
+
+exports[`price format correctly 1000000000.1233457 1`] = `"1 tỷ"`;
+
+exports[`price format correctly 1234567890 1`] = `"1.234 tỷ"`;
+
+exports[`price format correctly 1234567890.1233456 1`] = `"1.234 tỷ"`;
+
+exports[`price format correctly 12345678901 1`] = `"12.345 tỷ"`;
+
+exports[`price format correctly 12345678901.123346 1`] = `"12.345 tỷ"`;
+
+exports[`price format correctly 123456789012 1`] = `"123.456 tỷ"`;
+
+exports[`price format correctly 123456789012.12335 1`] = `"123.456 tỷ"`;
+
+exports[`price format correctly 1234567890123 1`] = `"1,234.567 tỷ"`;
+
+exports[`price format correctly 1234567890123.1233 1`] = `"1,234.567 tỷ"`;
+
+exports[`price format correctly 12345678901234 1`] = `"12,345.678 tỷ"`;
+
+exports[`price format correctly 12345678901234.123 1`] = `"12,345.678 tỷ"`;
+
+exports[`price format correctly 123456789012345 1`] = `"123,456.789 tỷ"`;
+
+exports[`price format correctly 123456789012345.12 1`] = `"123,456.789 tỷ"`;

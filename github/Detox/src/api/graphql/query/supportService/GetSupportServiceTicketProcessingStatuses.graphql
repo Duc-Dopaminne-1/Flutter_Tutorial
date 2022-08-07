@@ -1,0 +1,12 @@
+query GetsupportServiceTicketProcessingStatuses(
+  $orderBy: SupportServiceTicketProcessingStatusDtoSort
+  $page: Int
+) {
+  supportServiceTicketProcessingStatuses(order_by: $orderBy, page: $page, pageSize: 999) {
+    edges {
+      supportServiceTicketProcessingStatusId
+      supportServiceTicketProcessingStatusName
+      supportServiceTicketProcessingStatusDescription
+    }
+  }
+}

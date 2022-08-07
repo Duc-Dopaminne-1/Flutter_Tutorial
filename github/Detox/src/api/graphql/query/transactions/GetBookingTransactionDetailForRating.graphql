@@ -1,0 +1,24 @@
+query GetBookingTransactionDetailForRating($bookingTransactionId: Uuid!) {
+  bookingTransactionDetailForRating(bookingTransactionId: $bookingTransactionId) {
+    bookingCode
+    depositeCode
+    propertyCode
+    projectName
+
+    buyAgentInfo {
+      agentId
+      agentCode
+      firstName
+      lastName
+      profilePhoto
+    }
+
+    saleAgentInfo {
+      agentId
+      agentCode
+      firstName
+      lastName
+      profilePhoto
+    }
+  }
+}

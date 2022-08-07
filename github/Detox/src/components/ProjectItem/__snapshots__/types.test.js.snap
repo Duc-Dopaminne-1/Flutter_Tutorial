@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`map project 1`] = `
+Object {
+  "projectInfo": Object {
+    "availableText": "Còn trống",
+    "availableValue": 98,
+    "bannerImage": "https://sandbox-new.topenland.com/gateway/downloader/personal/image-0197c078-9a71-4778-b557-1a92d96b967f.png",
+    "countDownTime": 1604484000000,
+    "investorOwnerLogo": "https://sandbox-new.topenland.com/gateway/downloader/personal/image-48b64bdf-afc8-46a1-bf24-2f4bf0c31670.png",
+    "investorOwnerName": "Công ty TNHH Đại Phúc",
+    "isFollowed": false,
+    "minPrice": 10000000,
+    "overallDescription": "<p><strong>200 </strong>Căn hộ | <strong>20 </strong>Tầng | <strong>20 </strong>Shop</p>
+",
+    "projectAddress": "132 Hùng Vương, Phường 10, Quận 5, Hồ Chí Minh.",
+    "projectId": "e94f41e0-d299-4172-91cf-0f637d01e4ac",
+    "projectName": "New Galaxy",
+    "projectStatusId": "966d2a2a-dd36-45d8-b4da-a73a1acc576b",
+    "projectStatusName": "Đang mở bán",
+    "startYear": 2019,
+    "statusLabel": "Có đặt chỗ",
+    "statusValue": 0,
+    "totalArea": "10000m2",
+    "totalViewer": 256,
+  },
+}
+`;

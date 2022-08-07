@@ -1,0 +1,7 @@
+mutation CreateSupportRequest($input: CreateSupportRequestInput!) {
+  createSupportRequest(createSupportRequestInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

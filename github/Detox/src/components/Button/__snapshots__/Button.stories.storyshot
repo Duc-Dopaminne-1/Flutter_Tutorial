@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button CustomButtonWithArrowRight 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#26894F",
+      "borderRadius": 5,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "marginTop": 8,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingTop": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 16,
+          "includeFontPadding": true,
+          "marginHorizontal": 8,
+        },
+        Object {
+          "color": "#FFFFFF",
+        },
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    Title
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/ic_chevron_right.png",
+      }
+    }
+    style={
+      Object {
+        "height": 20,
+        "position": "absolute",
+        "right": 10,
+        "tintColor": "#FFFFFF",
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Storyshots Button LinkTextButton 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignSelf": "flex-start",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "flex-start",
+          "color": "#26894F",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 14,
+          "includeFontPadding": true,
+        },
+        undefined,
+      ]
+    }
+  >
+    Title
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Button ViewMoreButton 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#26894F",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "height": 41,
+      "justifyContent": "center",
+      "marginHorizontal": 80,
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 9,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 16,
+          "includeFontPadding": true,
+          "marginHorizontal": 8,
+        },
+        Object {
+          "color": "#26894F",
+        },
+        Object {
+          "fontFamily": "Nunito-Bold",
+          "includeFontPadding": true,
+        },
+      ]
+    }
+  >
+    Xem tất cả
+  </Text>
+</View>
+`;

@@ -1,0 +1,239 @@
+query GetMasterData {
+  contactTradingStatus {
+    edges {
+      contactTradingStatusName
+      contactTradingStatusId
+      contactTradingStatusDescription
+    }
+  }
+  contactTradingRelevantPropertyStatus {
+    edges {
+      contactTradingPropertyConsultationStatusId
+      contactTradingPropertyConsultationStatusName
+      contactTradingPropertyConsultationStatusDescription
+    }
+  }
+  projectStatus {
+    edges {
+      projectStatusName
+      projectStatusId
+      projectStatusDescription
+    }
+  }
+  saleSeasonStatuses {
+    edges {
+      saleSeasonStatusId
+      saleSeasonStatusName
+      saleSeasonStatusDescription
+    }
+  }
+  saleTrackingStatus {
+    edges {
+      saleTrackingStatusId
+      saleTrackingStatusName
+      saleTrackingStatusDescription
+    }
+  }
+  bookingStatus {
+    edges {
+      bookingStatusId
+      bookingStatusName
+      bookingStatusDescription
+    }
+  }
+  projectPostStatus {
+    edges {
+      projectPostStatusName
+      projectPostStatusId
+      projectPostStatusDescription
+    }
+  }
+  agentRankings {
+    totalCount
+    edges {
+      agentRankingId
+      agentRankingName
+      agentRankingDescription
+    }
+  }
+  propertyTypes {
+    edges {
+      propertyTypeId
+      propertyTypeName
+      propertyTypeDescription
+      isActive
+    }
+  }
+  propertyPostStatus {
+    edges {
+      propertyPostStatusId
+      propertyPostStatusName
+      propertyPostStatusDescription
+      isActive
+    }
+  }
+  legalInfoes {
+    edges {
+      legalInfoId
+      legalInfoName
+      legalInfoDescription
+      isActive
+      isDeleted
+    }
+  }
+  banks {
+    edges {
+      bankId
+      bankName
+      bankDescription
+      bankCode
+      isActive
+    }
+  }
+  unitOfMeasures {
+    edges {
+      unitOfMeasureId
+      unitOfMeasureName
+      unitOfMeasureCode
+      multiplyWithBaseUnit
+      isRound
+    }
+  }
+  propertyPostApprovalStatus {
+    totalCount
+    edges {
+      propertyPostApprovalStatusId
+      propertyPostApprovalStatusName
+      propertyPostApprovalStatusDescription
+    }
+  }
+  postTypes {
+    edges {
+      postTypeId
+      postTypeName
+    }
+  }
+  cities(pageSize: 1000) {
+    totalCount
+    edges {
+      cityId
+      cityName
+    }
+  }
+  pendingReasons {
+    edges {
+      pendingReasonId
+      pendingReasonName
+      pendingReasonDescription
+    }
+  }
+  subscriptionPackageStatus {
+    edges {
+      subscriptionPackageStatusId
+      subscriptionPackageStatusName
+      subscriptionPackageStatusDescription
+    }
+  }
+  internalFacilities {
+    edges {
+      internalFacilityId
+      internalFacilityName
+      internalFacilityCode
+    }
+  }
+  nearFacilities {
+    edges {
+      nearFacilityId
+      nearFacilityName
+      nearFacilityCode
+    }
+  }
+  fundAccounts {
+    edges {
+      cityId
+      fundAccountId
+      fundAccountCode
+      branchAddress
+      branchName
+      phoneNumber
+      faxNumber
+      fundEmail
+    }
+  }
+  paymentUnits {
+    edges {
+      paymentUnitId
+      paymentMethod
+      paymentUnitCode
+      paymentUnitName
+    }
+  }
+  feedObjectTypes(pageSize: 999) {
+    edges {
+      feedObjectTypeId
+      feedObjectTypeName
+      feedObjectTypeDescription
+      isActive
+    }
+    totalCount
+  }
+  getContactTradingRejectReasons {
+    edges {
+      contactTradingRejectReasonId
+      rejectReasonName
+      rejectReasonDescription
+      sortOrder
+      isActive
+    }
+  }
+  getC2CDepositRejectReasons(order_by: {sortOrder: ASC}) {
+    edges {
+      c2CDepositRejectReasonId
+      rejectReasonName
+      rejectReasonDescription
+      isActive
+      sortOrder
+    }
+  }
+
+  getSupportServiceTypesForFrontOffice {
+    requestTypes {
+      price
+      requestTypeId
+      requestTypeName
+      requestTypeDescription
+    }
+  }
+
+  supportServiceTicketStatuses {
+    edges {
+      supportServiceTicketStatusId
+      supportServiceTicketStatusName
+      supportServiceTicketStatusDescription
+    }
+  }
+
+  supportServiceTicketProcessingStatuses {
+    edges {
+      supportServiceTicketProcessingStatusId
+      supportServiceTicketProcessingStatusName
+      supportServiceTicketProcessingStatusDescription
+    }
+  }
+
+  supportServiceTicketCancelReasons {
+    edges {
+      supportServiceTicketCancelReasonId
+      supportServiceTicketCancelReasonName
+      supportServiceTicketCancelReasonDescription
+    }
+  }
+
+  supportServiceTicketRejectReasons {
+    edges {
+      supportServiceTicketRejectReasonId
+      supportServiceTicketRejectReasonName
+      supportServiceTicketRejectReasonDescription
+    }
+  }
+}

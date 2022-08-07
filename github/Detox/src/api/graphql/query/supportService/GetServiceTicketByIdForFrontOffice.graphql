@@ -1,0 +1,60 @@
+query GetServiceTicketByIdForFrontOffice($SupportServiceTicketId: Uuid!) {
+  getServiceTicketByIdForFrontOffice(supportServiceTicketId: $SupportServiceTicketId) {
+    errorCode
+    supportServiceTicket {
+      supportServiceTicketId
+      supportServiceId
+      supportServiceName
+      ticketPaymentStatusId
+      propertyPostId
+      ticketCode
+      appointmentDatetime
+      requesterId
+      requesterFullName
+      requester {
+        fullName
+        phoneNumber
+        profilePhotos
+        profilePhoto
+        userId
+      }
+      ticketStatusId
+      ticketStatusName
+      currentExecutorId
+      currentExecutorName
+      currentExecutor {
+        fullName
+        phoneNumber
+        profilePhotos
+        profilePhoto
+      }
+      updatedDatetime
+      consultantStaffId
+      consultantStaffName
+      ticketNote
+      supportServiceTicketProcessings {
+        reasonId
+        reasonNote
+        ticketProcessingStatusId
+        ticketProcessingStatusName
+        supportServiceTicketProcessingId
+        updatedDatetime
+      }
+      supportServiceTicketResult {
+        autoAcceptTicketInMinutes
+        supportServiceTicketResultId
+        ticketResultStatusId
+        note
+        ticketResultStatusId
+        rejectReasonId
+        rejectReasonNote
+        resultDescriptions
+        resultDocuments
+        resultImages
+        ticketResultStatusId
+      }
+      nextStates
+      currentAllStates
+    }
+  }
+}

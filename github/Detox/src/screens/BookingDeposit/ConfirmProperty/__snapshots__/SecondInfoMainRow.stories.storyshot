@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|b2c/SecondInfoMainRow Mode Booking 1`] = `
+<View
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#F5F7FA",
+        "borderColor": "#E8E8E8",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "height": 60,
+        "justifyContent": "center",
+        "marginBottom": 4,
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 13,
+              "includeFontPadding": true,
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        Giá từ
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+            Object {
+              "color": "#FD1D1D",
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        11 Triệu/m2
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderColor": "#E8E8E8",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 60,
+        "marginBottom": 10,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColor": "#F5F7FA",
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 13,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Hoa hồng
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+            Object {
+              "color": "#26894F",
+              "marginTop": 2,
+            },
+          ]
+        }
+      >
+        1%
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColor": "#F5F7FA",
+            "flex": 1,
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 13,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Số lượt đã đặt chỗ
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+            Object {
+              "color": "#E53030",
+              "marginTop": 2,
+            },
+          ]
+        }
+      >
+        10
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "marginVertical": 16,
+      }
+    }
+  >
+    Deposit Mode
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "backgroundColor": "#F5F7FA",
+        "borderColor": "#E8E8E8",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "height": 60,
+        "justifyContent": "center",
+        "marginBottom": 4,
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 13,
+              "includeFontPadding": true,
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        Giá (đã bao gồm VAT)
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 13,
+              "includeFontPadding": true,
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        Đơn giá
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+            Object {
+              "color": "#FD1D1D",
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        432,123 VNĐ
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+            Object {
+              "color": "#313131",
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        112,123 VNĐ/m2
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderColor": "#E8E8E8",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 60,
+        "marginBottom": 10,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColor": "#F5F7FA",
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 13,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Hoa hồng
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+            Object {
+              "color": "#26894F",
+              "marginTop": 2,
+            },
+          ]
+        }
+      >
+        1%
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "paddingHorizontal": 12,
+          },
+          Object {
+            "backgroundColor": "#F5F7FA",
+            "flex": 1,
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 13,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Số lượt đã đặt chỗ
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+            },
+            Object {
+              "color": "#E53030",
+              "marginTop": 2,
+            },
+          ]
+        }
+      >
+        10
+      </Text>
+    </View>
+  </View>
+</View>
+`;

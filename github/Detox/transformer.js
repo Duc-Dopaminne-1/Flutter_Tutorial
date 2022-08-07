@@ -1,0 +1,26 @@
+const obfuscatingTransformer = require('react-native-obfuscating-transformer');
+
+module.exports = obfuscatingTransformer({
+  upstreamTransformer: require('metro-react-native-babel-transformer'),
+  compact: true,
+  controlFlowFlattening: true,
+  controlFlowFlatteningThreshold: 1,
+  deadCodeInjection: true,
+  deadCodeInjectionThreshold: 1,
+  debugProtection: true,
+  debugProtectionInterval: true,
+  disableConsoleOutput: true,
+  identifierNamesGenerator: 'hexadecimal',
+  log: false,
+  renameGlobals: false,
+  rotateStringArray: true,
+  selfDefending: true,
+  shuffleStringArray: true,
+  splitStrings: true,
+  splitStringsChunkLength: '5',
+  stringArray: true,
+  stringArrayEncoding: 'rc4',
+  stringArrayThreshold: 1,
+  transformObjectKeys: true,
+  unicodeEscapeSequence: false,
+});

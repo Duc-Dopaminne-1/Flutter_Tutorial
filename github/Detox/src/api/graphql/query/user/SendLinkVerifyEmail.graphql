@@ -1,0 +1,7 @@
+mutation SendLinkVerifyEmail($input: SendLinkVerifyEmailFOInput!) {
+  sendLinkVerifyEmailFO(sendLinkVerifyEmailFOInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

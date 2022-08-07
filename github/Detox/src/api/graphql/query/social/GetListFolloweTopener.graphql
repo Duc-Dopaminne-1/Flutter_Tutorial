@@ -1,0 +1,28 @@
+query GetTopenersByCurrentUserForFrontOffice(
+  $page: Int
+  $pageSize: Int
+  $input: GetTopenersByCurrentUserInput
+  $orderBy: GetTopenersByCurrentUserDtoSort
+) {
+  getTopenersByCurrentUserForFrontOffice(
+    page: $page
+    pageSize: $pageSize
+    input: $input
+    order_by: $orderBy
+  ) {
+    edges {
+      userId
+      fullName
+      phoneNumber
+      profilePhoto
+      isFollow
+      profilePhotos
+      agentRating
+      agentGroupId
+      agentGroupName
+      agentRankingId
+      agentRankingName
+    }
+    totalCount
+  }
+}

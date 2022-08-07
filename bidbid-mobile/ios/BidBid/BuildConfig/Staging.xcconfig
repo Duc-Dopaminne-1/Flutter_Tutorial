@@ -1,0 +1,16 @@
+//
+//  Staging.xcconfig
+//  BidBid
+//
+//  Created by DUC SKT on 11/30/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include? "tmp.xcconfig"
+REVERSED_CLIENT_ID=com.googleusercontent.apps.840831319470-6986fd2mg8mtrf31jevapdjc1dm93ppg
+FB_URL_SCHEMA=fb799515583974916
+FACEBOOK_ID=799515583974916
+FACEBOOK_NAME=BidBid
+APP_DISPLAY_NAME=BidBid
+CODE_PUSH_IOS=VhJ5E-fyx6C5enC_D54tjW4csv5vExsN-SN3Z

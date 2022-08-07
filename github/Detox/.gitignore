@@ -1,0 +1,102 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/README.md
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/.env
+fastlane/.env.default
+*.dSYM.zip
+vendor/
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# .vscode
+.vscode/.react/
+
+# android build
+/android/.project
+/android/app/.project
+.project
+
+# test folder
+/cache
+junit.xml
+artifacts/
+storybook/stories.json
+.jest-image-snapshot-touched-files
+e2e/__image_snapshots__/__diff_output__
+
+# dev note
+/.Dev*
+
+#sonar queue:
+.scannerwork
+
+# react-native-config codegen
+/.env
+config/graphql/.env
+ios/tmp.xcconfig
+ios/DevTopenland/App.entitlements
+ios/DevTopenland/GoogleService-Info.plist
+android/gradle.properties
+android/app/google-services.json
+
+# tpf
+libs/react-native-tpf-sdk/.vscode/
+libs/react-native-tpf-sdk/screen_shots/
+libs/react-native-tpf-sdk/**.pdf
+libs/react-native-tpf-sdk/react-native-tpf-sdk-*.tgz

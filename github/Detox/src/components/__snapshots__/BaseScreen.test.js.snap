@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "flex": 1,
+      },
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+        },
+        undefined,
+      ],
+      Object {},
+    ]
+  }
+  testID=""
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFB",
+          "flex": 1,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "zIndex": 99,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingVertical": 16,
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "zIndex": 99,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="BackButton"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 20,
+                "left": 20,
+                "right": 20,
+                "top": 20,
+              }
+            }
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "paddingEnd": 12,
+                "paddingVertical": 8,
+                "zIndex": 99,
+              }
+            }
+            testID="BackButton"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/arrow_left_linear.png",
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#313131",
+                  "flex": 1,
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                },
+                Object {},
+                null,
+              ]
+            }
+          >
+            Trở về
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

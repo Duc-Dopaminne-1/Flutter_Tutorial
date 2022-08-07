@@ -1,0 +1,592 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots EmptyListView BUY_REQUEST 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/img_empty_list.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 100,
+            "marginBottom": 20,
+            "width": 100,
+          },
+          Object {
+            "height": 156,
+            "width": 142,
+          },
+          Object {
+            "paddingVertical": 16,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#767676",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "paddingHorizontal": 16,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#333333",
+          },
+        ]
+      }
+    >
+      Quý khách chưa có yêu cầu nào!
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView CHAT 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/ic_empty_conversation.png",
+        }
+      }
+      style={
+        Object {
+          "height": 100,
+          "marginBottom": 20,
+          "width": 100,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#767676",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "paddingHorizontal": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Chưa có dữ liệu hiển thị
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView PAYMENT 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/img_empty_list.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 100,
+            "marginBottom": 20,
+            "width": 100,
+          },
+          Object {
+            "height": 156,
+            "width": 142,
+          },
+          Object {
+            "paddingVertical": 16,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#767676",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "paddingHorizontal": 16,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#333333",
+          },
+        ]
+      }
+    >
+      Quý khách chưa có thanh toán nào!
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView RECENT_AGENT 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      Object {
+        "zIndex": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/img_empty_list.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 100,
+            "marginBottom": 20,
+            "width": 100,
+          },
+          Object {
+            "height": 156,
+            "width": 142,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#767676",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "paddingHorizontal": 16,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#333333",
+          },
+        ]
+      }
+    >
+      Bạn chưa có yêu cầu hỗ trợ nào với Tư vấn của chúng tôi trong thời gian vừa qua.
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginTop": 16,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#26894F",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Xem danh sách đề xuất
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView SUGGESTED_AGENT 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/img_no_result.png",
+        }
+      }
+      style={
+        Object {
+          "height": 100,
+          "marginBottom": 20,
+          "width": 100,
+        }
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#767676",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "paddingHorizontal": 16,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#333333",
+          },
+        ]
+      }
+    >
+      Không tìm thấy Tư vấn phù hợp.
+Vui lòng điều chỉnh tiêu chí tìm kiếm để tiếp tục.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView YOUR_PROPERTY 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/img_empty_list.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 100,
+            "marginBottom": 20,
+            "width": 100,
+          },
+          Object {
+            "height": 156,
+            "width": 142,
+          },
+          Object {
+            "paddingVertical": 16,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#767676",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "paddingHorizontal": 16,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#333333",
+          },
+        ]
+      }
+    >
+      Chưa có dữ liệu hiển thị
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/img_no_result.png",
+        }
+      }
+      style={
+        Object {
+          "height": 100,
+          "marginBottom": 20,
+          "width": 100,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#767676",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "paddingHorizontal": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Chưa có dữ liệu hiển thị
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView error 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#767676",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "paddingHorizontal": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Kết nối chưa thành công, vui lòng thử lại
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots EmptyListView loading 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#767676",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "paddingHorizontal": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Đang tải ...
+    </Text>
+  </View>
+</View>
+`;

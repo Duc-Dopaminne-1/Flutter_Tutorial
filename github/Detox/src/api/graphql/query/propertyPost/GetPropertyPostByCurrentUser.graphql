@@ -1,0 +1,53 @@
+query getPropertyPostByCurrentUser(
+  $page: Int
+  $pageSize: Int
+  $where: PropertyPostDtoFilter
+  $sort: PropertyPostDtoSort
+  $keywords: String
+) {
+  propertyPostsByCurrentUser(
+    page: $page
+    pageSize: $pageSize
+    where: $where
+    order_by: $sort
+    keywords: $keywords
+  ) {
+    edges {
+      guaranteedPackageEndTime
+      postServiceType
+      contractStatus
+      propertyPostId
+      propertyCode
+      postTitle
+      price
+      buildingArea
+      numberOfBedrooms
+      numberOfBathrooms
+      images
+      propertyAddress {
+        countryName
+        cityName
+        districtName
+        wardName
+        homeAddress
+        streetName
+      }
+      propertyPostApprovalStatusId
+      direction
+      commission
+      saleCommissionCurrencyUnitId
+      propertyPostForRentDto {
+        rentPrice
+        rentCommission
+        rentCommissionCurrencyUnitId
+        rentPeriod
+        isRented
+      }
+      forSale
+      forRent
+      isSold
+      createdDatetime
+    }
+    totalCount
+  }
+}

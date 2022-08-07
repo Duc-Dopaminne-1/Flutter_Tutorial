@@ -1,0 +1,54 @@
+query GetFollowedProjectByFollowerId(
+  $followerId: Uuid!
+  $pageSize: PaginationAmount
+  $cursor: String
+  $filter: ProjectWithPropertyPostDtoFilter
+) {
+  curProjectWithPropertyPostsByFollowerId(
+    followerId: $followerId
+    first: $pageSize
+    after: $cursor
+    where: $filter
+    order_by: {createdDatetime: ASC}
+  ) {
+    totalCount
+    edges {
+      node {
+        isFollowed
+        totalFollower
+        projectId
+        projectName
+        projectCode
+        minPrice
+        commissionRates
+        projectStatusName
+        featurePhotos
+        investorOwnerName
+        propertyTypeId
+        projectStatusId
+        projectTypeName
+        projectStatusDescription
+        projectAddress {
+          cityId
+          countryId
+          districtId
+          wardId
+          homeAddress
+          streetName
+          cityName
+          districtName
+          wardName
+        }
+        unitOfMeasureProject {
+          calculateSize
+          multiplyWithBaseUnit
+          numberOfDecimal
+          unitOfMeasureCode
+          unitOfMeasureId
+          unitOfMeasureName
+        }
+      }
+      cursor
+    }
+  }
+}

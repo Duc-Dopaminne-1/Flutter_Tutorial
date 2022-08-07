@@ -1,0 +1,40 @@
+mutation GetTopenerReadC2CDemand($c2CDemandId: Uuid!) {
+  topenerReadC2CDemand(c2CDemandId: $c2CDemandId) {
+    errorCode
+    errorMessage
+    c2CDemandDto {
+      c2CDemandCode
+      c2CDemandId
+      title
+      propertyTypeId
+      propertyTypeName
+      forSale
+      placeDto {
+        cityId
+        cityName
+        districts {
+          districtName
+          districtId
+        }
+      }
+      priceRangeDto {
+        priceTo
+        priceFrom
+      }
+      squareRangeDto {
+        squareTo
+        squareFrom
+      }
+      propertyLocation
+      projectId
+      numberOfBathrooms
+      numberOfBedrooms
+      directionJson
+      isUserReadNotification
+      isInterested
+      createdDatetime
+      requesterIsBuyer
+      requesterId
+    }
+  }
+}

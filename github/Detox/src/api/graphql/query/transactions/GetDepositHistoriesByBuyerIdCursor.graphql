@@ -1,0 +1,41 @@
+query GetDepositHistoriesByBuyerIdCursor(
+  $input: GetTransactionsByBuyerIdAdvancedInput!
+  $first: PaginationAmount
+  $after: String!
+  $orderBy: TransactionsByBuyerIdDtoSort
+  $where: TransactionsByBuyerIdDtoFilter
+) {
+  depositHistoriesByBuyerIdCursor(
+    request: $input
+    first: $first
+    after: $after
+    order_by: $orderBy
+    where: $where
+  ) {
+    edges {
+      node {
+        propertyPostId
+        buyerId
+        propertyPostInfo
+        transactionAmount
+        bookingCode
+        propertyCode
+        projectName
+        paymentDatetime
+        transactionDatetime
+        depositeCode
+        transactionStatusDescription
+        transactionStatusName
+        bookingTransactionId
+        depositeTransactionId
+        transactionType
+        saleAgentInfo {
+          firstName
+          lastName
+        }
+      }
+      cursor
+    }
+    totalCount
+  }
+}

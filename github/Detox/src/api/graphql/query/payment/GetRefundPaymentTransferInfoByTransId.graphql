@@ -1,0 +1,60 @@
+query GetRefundPaymentTransferInfoByTransId($transactionId: Uuid!) {
+  refundPaymentTransferInfoByTransId(transactionId: $transactionId) {
+    refundPaymentTransferInfoDto {
+      bankAccountName
+      bankAccountNo
+      bankInfo {
+        bankAddress
+        bankCode
+        bankDescription
+        bankEmail
+        bankId
+        bankName
+        bankTelephone
+        bankWebsite
+      }
+      branchName
+      cityId
+      customerInfo {
+        customerEmail
+        customerFirstName
+        customerLastName
+        customerPhone
+      }
+      fundAccount {
+        branchAddress
+        branchName
+        cityId
+        faxNumber
+        fundAccountDescription
+        fundAccountId
+        fundAccountNo
+        fundEmail
+        phoneNumber
+        remark
+      }
+      notes
+      paidAmount
+      paidDatetime
+      paidFundAccount {
+        branchAddress
+        branchName
+        cityId
+        faxNumber
+        fundAccountDescription
+        fundAccountId
+        fundAccountNo
+        fundEmail
+        phoneNumber
+        remark
+      }
+      projectId
+      refundAmount
+      refundDatetime
+      refundContents
+      vnpayAccountNumber
+      transactionId
+      transactionType
+    }
+  }
+}

@@ -1,0 +1,13 @@
+mutation PayTransaction($input: payTransactionInput!) {
+  payTransaction(payTransactionInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    disablePayment
+    ipnUrl
+    linkPaymentUrl
+    returnUrl
+    transactionId
+    paymentCode
+  }
+}

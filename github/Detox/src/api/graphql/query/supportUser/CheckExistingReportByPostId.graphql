@@ -1,0 +1,3 @@
+query CheckExistingReportByPostId($input: Uuid!) {
+  checkExistingReportByPostId(propertyPostId: $input)
+}

@@ -1,0 +1,14 @@
+mutation UpdateAgentRating($input: UpdateAgentRatingInput!) {
+  updateAgentRating(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}
+
+# {
+#   "input":
+#   {
+#     "depositeTransactionId": "{{DEPOSITE_TRANSACTION_ID}}"
+#   }
+# }

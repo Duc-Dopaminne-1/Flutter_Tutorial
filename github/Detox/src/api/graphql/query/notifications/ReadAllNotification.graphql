@@ -1,0 +1,7 @@
+mutation ReadAllNotification {
+  markReadAllUserNotifications {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,10 @@
+!.commitlintrc.js
+!.commitlint.context.js
+!.eslintrc.js
+__mock__
+android
+build
+ios
+libs
+node_modules
+src/api/graphql/generated/graphql.tsx

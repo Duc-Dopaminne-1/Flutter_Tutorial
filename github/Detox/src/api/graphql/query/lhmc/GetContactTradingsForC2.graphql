@@ -1,0 +1,10 @@
+query GetContactTradingsForC2CDemand($where: ContactTradingForC2CDemandDtoFilter) {
+  getContactTradingsForC2CDemand(where: $where) {
+    edges {
+      contactTradingId
+      contactTradingStatusId
+      createdDatetime
+      propertyDetailPath
+    }
+  }
+}

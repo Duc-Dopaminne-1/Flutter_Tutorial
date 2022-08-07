@@ -1,0 +1,30 @@
+query GetUserById($userId: Uuid) {
+  userById(userId: $userId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+
+    userDto {
+      firstName
+      lastName
+      userName
+      phoneNumber
+      email
+      emailConfirmed
+      dob {
+        toDateTime
+      }
+      referralCode
+      gender
+      userId
+      roleId
+      roleName
+      profilePhoto
+      profilePhotos
+      updatedDatetime
+      createdDatetime
+      pushNotificationId
+      isVerifyProfilePhoto
+    }
+  }
+}

@@ -1,0 +1,57 @@
+query GetComments(
+  $input: GetCommentsByObjectIdCursorInput!
+  $first: PaginationAmount
+  $after: String
+  $before: String
+) {
+  curCommentsByObjectIdForFrontOffice(
+    input: $input
+    first: $first
+    after: $after
+    before: $before
+  ) {
+    edges {
+      node {
+        commentId
+        feedObjectTypeId
+        feedObjectId
+        feedItemId
+        feedObjectTitle
+        totalLike
+        currentUserLikeComment
+        userInfo {
+          userId
+          fullName
+          profilePhoto
+          profilePhotos
+        }
+        createdDatetime
+        content
+        replies {
+          commentId
+          feedObjectTypeId
+          feedObjectId
+          feedObjectTitle
+          feedItemId
+          totalLike
+          createdDatetime
+          currentUserLikeComment
+          content
+          userInfo {
+            userId
+            fullName
+            profilePhoto
+            profilePhotos
+          }
+        }
+        totalReply
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+      startCursor
+      hasPreviousPage
+    }
+  }
+}

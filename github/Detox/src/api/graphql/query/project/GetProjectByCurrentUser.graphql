@@ -1,0 +1,60 @@
+query GetProjectByCurrentUser(
+  $pageSize: Int
+  $page: Int
+  $keyword: String
+  $userId: Uuid!
+  $filter: ProjectWithPropertyPostDtoFilter
+) {
+  projectWithPropertyPostsByUserId(
+    pageSize: $pageSize
+    page: $page
+    keyword: $keyword
+    where: $filter
+    userId: $userId
+    order_by: {createdDatetime: ASC}
+  ) {
+    edges {
+      totalFollower
+      projectId
+      projectName
+      projectCode
+      minPrice
+      commissionRates
+      projectStatusName
+      featurePhotos
+      investorOwnerName
+      propertyTypeId
+      projectStatusId
+      projectTypeName
+      projectStatusDescription
+      projectAddress {
+        cityId
+        countryId
+        districtId
+        wardId
+        homeAddress
+        streetName
+        cityName
+        districtName
+        wardName
+      }
+      unitOfMeasureProject {
+        calculateSize
+        multiplyWithBaseUnit
+        numberOfDecimal
+        unitOfMeasureCode
+        unitOfMeasureId
+        unitOfMeasureName
+      }
+    }
+  }
+}
+
+query GetUserFollowOnProjectsByProjectIds($request: GetUserFollowOnProjectsByProjectIdsInput!) {
+  getUserFollowOnProjectsByProjectIds(getUserFollowOnProjectsByProjectIdsInput: $request) {
+    userFollowOnProjectDtos {
+      projectId
+      isFollowed
+    }
+  }
+}

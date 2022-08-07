@@ -1,0 +1,7 @@
+query CheckPropertyPostUpdateC2CContactTradingStatus($propertyPostId: Uuid!) {
+  checkPropertyPostUpdateC2CContactTradingStatus(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./",
+    "rootDirs":["src"],
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@components": [
+        "src/components"
+      ],
+      "@constants": [
+        "src/constants"
+      ],
+      "@modules": [
+        "src/modules"
+      ],
+      "@services": [
+        "src/services"
+      ],
+      "@redux": [
+        "src/redux"
+      ],
+      "@res": [
+        "src/res"
+      ],
+      "@screens": [
+        "src/screens"
+      ],
+      "@utils": [
+        "src/utils"
+      ],
+      "@models": [
+        "src/models"
+      ],
+      "@types": [
+        "src/types"
+      ],
+      "@navigation": [
+        "src/navigation"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@redux/*": [
+        "src/redux/*"
+      ],
+      "@res/*": [
+        "src/res/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@navigation/*": [
+        "src/navigation/*"
+      ],
+      "@e2e/*": [
+        "e2e/*"
+      ],
+    },
+    "skipLibCheck": true,
+  },
+  "include": [
+    "./src/**/*", "gulpfile.ts", // Check all of the file in this directory by using eslint rules.
+  ],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
+}

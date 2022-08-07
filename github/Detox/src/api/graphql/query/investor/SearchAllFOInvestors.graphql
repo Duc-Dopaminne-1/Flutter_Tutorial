@@ -1,0 +1,43 @@
+query SearchAllFOInvestors($input: SearchFOInvestorInput!) {
+  searchFOInvestors(searchFOInvestorInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    investorInfoDtos {
+      investorId
+      investorCode
+      logo
+      investorName
+      website
+      phoneNumber
+      areas
+      establishmentDate
+      charterCapital
+      introduce
+      activityImages
+      createdBy
+      createdByUserFullName
+      createdDatetime
+      createdByUserName
+      lastModified
+      modifiedByUserName
+      deletedDatetime
+      deletedBy
+      isActive
+      isDeleted
+      detailPath
+      address {
+        countryId
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        streetName
+        homeAddress
+      }
+    }
+    totalCount
+  }
+}

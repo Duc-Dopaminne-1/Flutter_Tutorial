@@ -1,0 +1,45 @@
+query GetSupportServiceTicketDetail($supportServiceTicketId: Uuid!) {
+  getSupportServiceTicketDetail(supportServiceTicketId: $supportServiceTicketId) {
+    errorCode
+    supportServiceTicketDto {
+      supportServiceId
+      supportServiceName
+      supportServiceTicketId
+      ticketStatusId
+      ticketStatusName
+      ticketCode
+      ticketNote
+      appointmentDatetime
+      propertyPostCode
+      propertyPostId
+      currentExecutorId
+      currentExecutorName
+      currentExecutor {
+        userId
+        fullName
+        phoneNumber
+        profilePhoto
+        profilePhotos
+      }
+      requesterId
+      requesterFullName
+      requester {
+        userId
+        fullName
+        phoneNumber
+        profilePhoto
+        profilePhotos
+      }
+      createdDatetime
+      consultantStaffId
+      consultantStaffName
+      price
+    }
+    supportServiceTicketResultDto {
+      supportServiceTicketResultId
+      resultDescriptions
+      resultDocuments
+      resultImages
+    }
+  }
+}

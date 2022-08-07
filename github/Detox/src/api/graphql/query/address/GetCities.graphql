@@ -1,0 +1,9 @@
+query GetAllCities {
+  cities(pageSize: 99) {
+    edges {
+      cityId
+      cityName
+    }
+    totalCount
+  }
+}

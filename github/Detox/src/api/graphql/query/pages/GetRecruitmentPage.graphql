@@ -1,0 +1,15 @@
+query GetRecruitmentPage($input: GetPagesWithPaging!) {
+  recruitmentPage(request: $input) {
+    edges {
+      createdBy
+      createdDatetime
+      title
+      preview
+      body
+      id
+      slug
+    }
+    totalCount
+    currentPage
+  }
+}

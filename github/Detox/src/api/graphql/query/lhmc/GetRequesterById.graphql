@@ -1,0 +1,7 @@
+query GetRequesterById($customerId: Uuid) {
+  customerById(customerId: $customerId) {
+    customerEmail
+    customerFullName
+    customerPhone
+  }
+}

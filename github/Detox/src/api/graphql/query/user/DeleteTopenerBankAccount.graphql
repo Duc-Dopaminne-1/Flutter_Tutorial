@@ -1,0 +1,7 @@
+mutation DeleteTopenerBankAccountFO($input: DeleteTopenerBankAccountFOInput!) {
+  deleteTopenerBankAccountFO(deleteTopenerBankAccountFOInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

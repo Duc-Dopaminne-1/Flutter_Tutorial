@@ -1,0 +1,12 @@
+query CheckPropertyPostAvailableForBookingBySeasonId(
+  $input: CheckPropertyPostAvailableForBookingBySeasonIdInput!
+) {
+  checkPropertyPostAvailableForBookingBySeasonId(
+    checkPropertyPostAvailableForBookingBySeasonIdInput: $input
+  ) {
+    isAvailable
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

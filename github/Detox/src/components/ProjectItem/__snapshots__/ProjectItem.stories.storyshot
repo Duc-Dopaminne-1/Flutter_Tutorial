@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|b2c/ItemProject default 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 5,
+      "flexWrap": "nowrap",
+      "marginBottom": 20,
+      "marginEnd": 16,
+      "opacity": 1,
+      "width": 276,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 8,
+          "height": 212,
+          "width": 276,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            Object {
+              "borderRadius": 8,
+              "height": 212,
+              "width": 276,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "position": "absolute",
+              },
+              Object {
+                "borderRadius": 8,
+                "height": 212,
+                "width": 276,
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <FastImageView
+          imageStyle={
+            Object {
+              "borderRadius": 8,
+              "height": 212,
+              "width": 276,
+            }
+          }
+          indicator={[Function]}
+          onFastImageLoadEnd={[Function]}
+          renderError={[Function]}
+          resizeMode="cover"
+          size={115}
+          source={
+            Object {
+              "uri": "https://sandbox-citus.topenland.com/gateway/downloader/sale/image-e6ed2056-7c84-401b-8a75-ae306118d61c.png_248_140.jpeg",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <BVLinearGradient
+      colors={
+        Array [
+          16777215,
+          167772160,
+          2147483648,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 0.5,
+          "y": 1,
+        }
+      }
+      locations={null}
+      startPoint={
+        Object {
+          "x": 0.5,
+          "y": 0,
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 8,
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#26894F",
+            "borderRadius": 100,
+            "height": 79,
+            "justifyContent": "center",
+            "left": -17,
+            "position": "absolute",
+            "top": -21,
+            "width": 79,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 15,
+              "justifyContent": "center",
+              "position": "absolute",
+              "right": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 12,
+              }
+            }
+          >
+            Giá từ
+          </Text>
+          <Text
+            adjustsFontSizeToFit={true}
+            numberOfLines={1}
+            onTextLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Bold",
+                  "includeFontPadding": true,
+                  "textAlign": "center",
+                  "width": 40,
+                },
+                Object {
+                  "fontSize": 16,
+                },
+              ]
+            }
+            testID="max-lines"
+          >
+            4 tỷ
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "left": 8,
+              "position": "absolute",
+              "top": 8,
+            },
+            undefined,
+            Object {
+              "top": 140,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E53030",
+                "borderRadius": 100,
+                "flexDirection": "row",
+                "height": 20,
+                "justifyContent": "center",
+                "marginRight": 8,
+                "paddingHorizontal": 10,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                },
+                Object {},
+              ]
+            }
+          >
+            Đang mở bán
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "padding": 8,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+              "marginVertical": 4,
+            }
+          }
+        >
+          [binh2] du an can ho
+        </Text>
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          so nha ten duong, Phường 1, Bình Thạnh, Hồ Chí Minh.
+        </Text>
+      </View>
+    </BVLinearGradient>
+  </View>
+</View>
+`;

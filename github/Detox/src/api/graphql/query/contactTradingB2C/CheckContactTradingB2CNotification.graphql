@@ -1,0 +1,8 @@
+query CheckContactTradingB2CNotification($notificationId: Uuid!) {
+  checkContactTradingB2CNotification(notificationId: $notificationId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isValid
+  }
+}

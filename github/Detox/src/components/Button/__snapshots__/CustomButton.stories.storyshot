@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots CustomButton default 1`] = `
+<View
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <Text>
+    default
+  </Text>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#26894F",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "opacity": 1,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginHorizontal": 8,
+          },
+          Object {
+            "color": "#FFFFFF",
+          },
+          undefined,
+        ]
+      }
+    >
+      Title
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "height": 12,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text>
+    primary
+  </Text>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#26894F",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰐗
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginHorizontal": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      Title
+    </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      󰐗
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": undefined,
+          "height": 12,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text>
+    outline
+  </Text>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderColor": "#26894F",
+        "borderRadius": 8,
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "marginHorizontal": 8,
+          },
+          Object {
+            "color": "#26894F",
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;

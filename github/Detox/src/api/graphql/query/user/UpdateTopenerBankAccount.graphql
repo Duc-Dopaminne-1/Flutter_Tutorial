@@ -1,0 +1,7 @@
+mutation UpdateTopenerBankAccountFO($input: UpdateTopenerBankAccountFOInput!) {
+  updateTopenerBankAccountFO(updateTopenerBankAccountFOInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

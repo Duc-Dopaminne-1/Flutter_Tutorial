@@ -1,0 +1,3 @@
+query CheckBookingTransactionIsRated($input: String!) {
+  checkBookingTransactionIsRated(input: $input)
+}

@@ -1,0 +1,14 @@
+query GetAgentRankings {
+  agentRankings {
+    edges {
+      agentRankingId
+      agentRankingName
+      agentRankingDescription
+      agentRankingDegreeOrder
+      numberOfApprovedPosts
+      numberOfReferalAgents
+      numberOfB2CTransaction
+      numberOfC2CTransaction
+    }
+  }
+}

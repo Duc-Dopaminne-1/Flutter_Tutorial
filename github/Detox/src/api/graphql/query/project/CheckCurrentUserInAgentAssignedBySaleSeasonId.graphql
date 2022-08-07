@@ -1,0 +1,10 @@
+query CheckCurrentUserInAgentAssignedBySaleSeasonId(
+  $request: CheckCurrentUserInAgentAssignedBySaleSeasonIdInput!
+) {
+  checkCurrentUserInAgentAssignedBySaleSeasonId(request: $request) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isExist
+  }
+}

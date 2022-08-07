@@ -1,0 +1,56 @@
+query getC2CPropertyPostByIdPublicLastVersionFO($propertyPostId: Uuid!) {
+  getC2CPropertyPostByIdPublicLastVersionFO(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessageCode
+    propertyPostDto {
+      propertyPostApprovalStatusId
+      buildingArea
+      propertyPostId
+      propertyCode
+      postTitle
+      propertyName
+      numberOfBedrooms
+      numberOfBathrooms
+      price
+      commission
+      commissionTpl
+      createdByUserId
+      direction
+      detailPath
+      images
+      owner {
+        userId
+        customerFullName
+        customerPhone
+        customerEmail
+      }
+      ownerIsAuthor
+      sellerInfo {
+        sellerId
+        fullName
+        avatar
+        avatars
+        email
+        phoneNumber
+        isAgent
+        agentGroupDescription
+      }
+      saleCommissionCurrencyUnitId
+      isCreateByAgent
+      propertyAddress {
+        countryName
+        cityName
+        districtName
+        wardName
+        homeAddress
+        streetName
+      }
+      propertyPostForRentDto {
+        isRented
+        rentPrice
+        rentCommission
+        rentCommissionCurrencyUnitId
+      }
+    }
+  }
+}

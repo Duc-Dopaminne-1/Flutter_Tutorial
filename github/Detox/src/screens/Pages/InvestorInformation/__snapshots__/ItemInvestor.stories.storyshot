@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|ItemInvestor default 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#F0F0F0",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "opacity": 1,
+        "paddingBottom": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderColor": "#C4C4C4",
+          "borderRadius": 22,
+          "borderWidth": 1,
+          "height": 44,
+          "width": 44,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "borderRadius": 22,
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={null}
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "lineHeight": 24,
+          }
+        }
+      >
+        toanglan2
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "lineHeight": 22,
+          }
+        }
+      >
+        test1 test, An Phú Tây, Bình Chánh, Hồ Chí Minh.
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "lineHeight": 22,
+          }
+        }
+      >
+        0123456789
+      </Text>
+    </View>
+  </View>
+</View>
+`;

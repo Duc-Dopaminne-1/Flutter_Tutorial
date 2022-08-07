@@ -1,0 +1,14 @@
+query SearchProjectsCoordinates($input: SearchProjectInput!) {
+  searchProjects(searchProjectInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    projectInfoDtos {
+      projectId
+      latitude
+      longitude
+      minPrice
+    }
+    totalCount
+  }
+}

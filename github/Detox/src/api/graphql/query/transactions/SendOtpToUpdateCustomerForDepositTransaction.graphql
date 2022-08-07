@@ -1,0 +1,10 @@
+mutation SendOtpToUpdateCustomerForDepositTransaction(
+  $request: SendOtpToUpdateCustomerForDepositTransactionInput!
+) {
+  sendOtpToUpdateCustomerForDepositTransaction(request: $request) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    __typename
+  }
+}

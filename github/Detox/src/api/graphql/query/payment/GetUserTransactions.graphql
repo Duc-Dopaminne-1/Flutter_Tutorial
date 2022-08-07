@@ -1,0 +1,25 @@
+query GetUserTransactions(
+  $where: UserTransactionDtoFilter
+  $page: Int
+  $pageSize: Int
+  $order_by: UserTransactionDtoSort
+) {
+  userTransactions(where: $where, page: $page, pageSize: $pageSize, order_by: $order_by) {
+    totalCount
+    edges {
+      createdDatetime
+      expectedAmount
+      transactionId
+      paidAmount
+      paymentUnit
+      productName
+      transactionType
+      paymentTransferNumber
+      transactionPaymentStatus
+      paidDatetime
+      userTransactionId
+      transactionServiceType
+      propertyPostId
+    }
+  }
+}

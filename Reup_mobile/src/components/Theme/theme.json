@@ -1,0 +1,743 @@
+{
+  "theme_manager": {
+    "signin": {
+      "bgContainer": "rgba(0,0,0,0.7)",
+      "bgContent": "#ffffff",
+      "textcolor": "#000",
+      "buttonColor": "#fff",
+      "headerTitle": "#1B72BF",
+      "buttonLogin": "#1B72BF",
+      "titleSmall": "#1B72BF",
+      "bgDivider": "#DBDBDB"
+    },
+    "keyboard": {
+      "arrowActive": "#1B72BF"
+    },
+    "signup": {
+      "bgContainer": "rgba(0,0,0,0.7)",
+      "bgContent": "#ffffff",
+      "headerTitle": "#1B72BF",
+      "headerDescription": "#333333",
+      "errorText": "red",
+      "buttonContainer": "#1B72BF",
+      "buttonTitle": "white",
+      "title": "#1B72BF",
+      "titleSmall": "#1B72BF",
+      "bgDivider": "#DBDBDB",
+      "haveAccountText": "#707070"
+    },
+    "home": {
+      "backgroundColor": "#F3F3F3",
+      "statisticsBackgroundColor": "#1B72BF",
+      "statisticsTextColor": "#FFFFFF",
+      "statisticsRoundColor": "#FFFFFF",
+      "titleTextColor": "#FFFFFF",
+      "headerBackground": "transparent"
+    },
+    "monthly_report": {
+      "backgroundColor": "#FFFFFF",
+      "titleColor": "#707070",
+      "monthColor": "#1B72BF",
+      "monthSelectColor": "#1B72BF",
+      "proceedsColor": "#1B72BF",
+      "weeklyTitleColor": "#1B72BF",
+      "weekTitleColor": "#333333",
+      "listMoneyColor": [
+        "#70AD47",
+        "#E300C0",
+        "#2E79D4",
+        "#F28200"
+      ]
+    },
+    "sectionHeader": {
+      "title": "#1B72BF"
+    },
+    "productItem": {
+      "image": "#E6E6E6",
+      "textView": "#DBDBDB",
+      "price": "#1B72BF",
+      "waiting": "#707070",
+      "denied": "#333333",
+      "approved": "#1B72BF"
+    },
+    "maintenanceRequest": {
+      "backgroundColor": "#FFFFFF",
+      "titleColor": "#1B72BF",
+      "listItemColor": [
+        "#3D90D9",
+        "#FF5D15",
+        "#00AF08",
+        "#AF9800"
+      ]
+    },
+    "searchBar": {
+      "placeholderText": "#707070",
+      "background": "#FFFFFF",
+      "border": "#DBDBDB"
+    },
+    "new_building": {
+      "background": "#FFFFFF",
+      "button_background": "#FFFFFF",
+      "header_title": "#ffffff",
+      "inputBorder": "#DBDBDB",
+      "text": "#707070",
+      "button": "#1B72BF"
+    },
+    "new_staff": {
+      "inputBorder": "#DBDBDB",
+      "text": "#707070",
+      "icon": "#1B72BF",
+      "background": "#FFFFFF",
+      "header_title": "#ffffff"
+    },
+    "staff": {
+      "containerBackground": "#F3F3F3",
+      "contentBackground": "#FFFFFF",
+      "borderLine": "#DBDBDB",
+      "button": "#1B72BF",
+      "nameText": "#000",
+      "idText": "#888888",
+      "staff_add_position": "#1FA207",
+      "staff_create_position": "#1B72BF"
+    },
+    "maintenanceRequestListContent": {
+      "iconBlue": "#1B72BF",
+      "headerLabel": "#1B72BF",
+      "headerText": "#333333",
+      "divider": "#F1F1F1",
+      "colorPriorityLow": "#FEA43C",
+      "bgPriorityLow": "#FFEFDD",
+      "colorPriorityMedium": "#726ACB",
+      "bgPriorityMedium": "#F1F0F9",
+      "colorPriorityHigh": "#FE3C7D",
+      "bgPriorityHigh": "#FFEDF4"
+    },
+    "productItemGrid": {
+      "container": "#F1F1F1",
+      "title": "black",
+      "price": "#1B72BF"
+    },
+    "productList": {
+      "headers": "white",
+      "title": "#1B72BF",
+      "line": "#DBDBDB",
+      "viewMore": "#D0E9FF",
+      "textViewMore": "#1B72BF",
+      "viewDatePickers": "white",
+      "title_show_product": "#707070",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "backgroundColorGridView": "#FFFFFF",
+      "backgroundColorListView": "#FFFFFF"
+    },
+    "customDateTimePicker": {
+      "containers": "#DBDBDB",
+      "dateTextStyle": "#707070"
+    },
+    "forgot_password": {
+      "buttonReset": "#1B72BF"
+    },
+    "otp": {
+      "button": "#1B72BF"
+    },
+    "reset_password": {
+      "button": "#1B72BF"
+    },
+    "reset_password_success": {
+      "button": "#1B72BF"
+    },
+    "building_detail": {
+      "contact_button": "#B24C0A",
+      "contact_button_text": "#FFFFFF",
+      "item_info_text": "#333333",
+      "item_info_email": "#1B72BF",
+      "line_view": "#F7F7FB"
+    },
+    "maintenanceRequestScreen": {
+      "contentDropdownStyle": "#D0E9FF",
+      "buildingText": "#1B72BF",
+      "backgroundColor": "#FFFFFF"
+    },
+    "itemBottomTab": {
+      "activeColor": "#065FAF",
+      "inactiveColor": "#1B72BF"
+    },
+    "myProfile": {
+      "container": "white",
+      "textAddFamily": "#1b72bf",
+      "backgroundDeleteBtn": "#dbdbdb",
+      "backgroundColorAddBtn": "#d0e9ff",
+      "iconImageBtn": "#333333",
+      "imageBtnHeader": "#DBDBDB"
+    },
+    "avatar_header": {},
+    "filter_button": {
+      "textColor": "#1B72BF",
+      "tintColorArrowIcon": "#1B72BF",
+      "backgroundColorContentDropDown": "#D0E9FF"
+    },
+    "for_lease_for_sale": {
+      "texColor": "#1B72BF"
+    },
+    "staff_detail": {
+      "background": "#F9F9FC",
+      "blockBackground": "#FFFFFF",
+      "headerBorder": "#DBDBDB",
+      "lineContentBorder": "#F1F1F1",
+      "blockHeader": "#1B72BF",
+      "buttonDeleteText": "#1B72BF",
+      "buttonDeleteBackground": "#d0e9ff",
+    },
+    "report": {
+      "backgroundFilter": "#FFFFFF",
+      "backgroundOpen": "#EFFFD0",
+      "backgroundClose": "#E6E6E6",
+      "textOpen": "#1FA207",
+      "textClose": "#707070",
+      "name": "#333333",
+      "id": "#1B72BF",
+      "title": "#1B72BF",
+      "maintenance": {
+        "modal": {
+          "backgroundContainer": "#fff",
+          "backgroundHeader": "#1B72BF",
+          "colorTitleHeader": "#fff",
+          "backgroundFlatlist": "#F9F9FC",
+          "backgroundWrapButton": "#F9F9FC",
+          "backgroundButton": "#DBDBDB",
+          "textButton": "#333333"
+        },
+        "chart": {
+          "grid": "rgba(0, 0, 0, 0.07)",
+          "lineChart": "#EBE5E5",
+          "tickLabels": "#000",
+          "fill": "#7E7B7B",
+          "barFill": "#007bff",
+          "firstYear": "rgb(71,181,53)",
+          "lastYear": "#dc3545",
+          "line": "#DBDBDB",
+          "title": "#1B72BF",
+          "headerBackground": "white",
+          "firstLine": "#dc3545",
+          "secondLine": "rgb(71,181,53)",
+          "dot": "rgb(71,181,53)",
+          "stroke": "#adb5bd",
+          "background": "#fff",
+          "label": "#000"
+        },
+        "backgroundModal": "#000000"
+      },
+      "vacancy": {
+        "background": "#FFFFFF",
+        "chart": {
+          "lineChart": "#4FC0F2",
+          "lastChart": "#FFFFFF",
+          "backgroundColor": "#FFFFFF",
+          "label": "#4E4B4B",
+          "dot": "rgb(71,181,53)",
+          "line": "#adb5bd"
+        }
+      }
+    },
+    "avatarHeader": {
+      "title": "#fff",
+      "des": "#DBDBDB",
+      "leftImageStyle": "white",
+      "textDropdown": "#DBDBDB"
+    },
+    "tenant": {
+      "contentBackground": "#FFFFFF",
+      "borderLine": "#DBDBDB",
+      "button": "#1B72BF"
+    },
+    "tenant_detail": {
+      "contentBackground": "#FFFFFF",
+      "deleteTenantBgrButton": "#d0e9ff",
+      "transferBgrButton": "#1FA207",
+      "buttonText": "#FFFFFF",
+      "nameText": "#333333",
+      "descriptionText": "#888888",
+      "addItem": "#D0E9FF",
+      "addItemText": "#1B72BF"
+    },
+    "search_filter_bar": {
+      "backgroundContainer": "#FFFFFF",
+      "textColorDropDown": "#1B72BF"
+    },
+    "building_system": {
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "backgroundColorFlatlist": "#FFFFFF",
+      "backgroundColorContentContainer": "#FFFFFF",
+      "backgroundColorContainerAddBuildingBtn": "#FFFFFF",
+      "textColorNameBuilding": "#333333",
+      "textColorNameNation": "#888888",
+      "textColorAddBuilding": "#FFFFFF",
+      "indicator": "#707070"
+    },
+    "calendar": {
+      "whiteBackground": "#FFFFFF",
+      "greenBackground": "rgb(31, 162, 7)",
+      "yellowBackground": "rgb(242,185,64)",
+      "veryLightPinkBackground": "rgb(219,219,219)",
+      "blueBackground": "rgb(27,114,191)",
+      "textColorTitle": "#333333",
+      "textColorWhite": "#FFFFFF",
+      "submitButton": "#1B72BF",
+      "textColorSubmit": "#FFFFFF",
+      "textColorFilter": "#1B72BF",
+      "approve": "rgb(198, 134, 0)",
+      "button_reject": "rgb(241, 241, 241)",
+      "reject": "rgb(51, 51, 51)",
+      "modal": {
+        "title": "#1B72BF"
+      },
+      "lineGrayBackground": "#c9c9c9",
+      "brownishGrey": "rgb(112,112,112)",
+      "approveBackground": "#9bd0ff",
+      "niceBlueTwo": "rgb(27,114,191)"
+    },
+    "event_log": {
+      "whiteBackground": "#FFFFFF",
+      "textColorAddEvent": "#FFFFFF",
+      "textColorEventName": "#333333",
+      "textColorEventType": "#888888",
+      "textColorEventDetail": "#707070",
+      "deleteEventButton": "#1B72BF",
+      "divider": "#F1F1F1"
+    },
+    "transfer_apartment": {
+      "contentSd": "#ffffff",
+      "contentBottom": "#ffffff",
+      "inputStyle": "#707070",
+      "headerTitle": "#ffffff",
+      "headerTitleStyle": "#333333",
+      "buttonSubmit": "#1B72BF"
+    },
+    "document": {
+      "textColorNameDocument": "#333333",
+      "textColorDate": "#666666",
+      "backgroundColorContentContainer": "#FFFFFF",
+      "separator": "#DBDBDB",
+      "textColorTypeDocument": "#1b72bf"
+    },
+    "category_details": {
+      "backgroundColorSearchFilterBar": "#FFFFFF",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "backgroundColorImageBtnHeafer": "#DBDBDB",
+      "textColorFilter": "#1B72BF",
+      "backgroundColorCustomFlatlist": "#FFFFFF",
+      "tintColorIconImageBtn": "#333333",
+      "backgroundColorContainerDeleteCategoryBtn": "#FFFFFF",
+      "backgroundColorDeleteCategoryBtn": "#1B72BF",
+      "textColorTextDeleteCategoryBtn": "#FFFFFF"
+    },
+    "category_details_item": {
+      "textColorActive": "#BF731B",
+      "backgroundActive": "#FFE4D0",
+      "textColorInactive": "#707070",
+      "backgroundInactive": "#E6E6E6",
+      "textColorName": "#333333",
+      "textColorDescription": "#888888"
+    },
+    "group_radio_button": {
+      "borderColorCustomRadioBtn": "#1B72BF",
+      "backgroundColorActiveRadioBtn": "#1B72BF",
+      "colorTextTitle": "#333333",
+      "colorLableTitle": "#333333",
+      "normalBorder": "#707070"
+    },
+    "create_category": {
+      "backgroundColorContainer": "#FFFFFF",
+      "backgroundContainerSubmitBtn": "#FFFFFF",
+      "backgroundSubmitBtn": "#1B72BF",
+      "tintColorIconSectionHeader": "#1B72BF"
+    },
+    "visitor_list": {
+      "name_text": "#333333",
+      "id_room_text": "#1B72BF",
+      "draft_status": "#E6E6E6",
+      "draft_text": "#333333",
+      "left_status": "#FFF5DE",
+      "left_text": "#964500",
+      "arrived_status": "#efffd0",
+      "arrived_text": "#1fa207",
+      "check_in_button": "#1FA207",
+      "check_out_button": "#1B72BF",
+      "text_button": "#FFFFFF"
+    },
+    "general_notification": {
+      "name": "#333333",
+      "description": "#333333",
+      "time": "#707070",
+      "textColorTitle": "#1B72BF",
+      "type": "#065faf"
+    },
+    "notification_detail": {},
+    "deliveries": {
+      "id_text": "#1B72BF",
+      "name_text": "#333333",
+      "date_text": "#707070",
+      "description_text": "#1B72BF",
+      "done_image": "#707070",
+      "receive_status_button": "#EFFFD0",
+      "receive_text": "#1FA207",
+      "waiting_status_button": "#FFF5DE",
+      "waiting_text": "#964500",
+      "contentBackground": "#FFFFFF"
+    },
+    "request_detail": {
+      "text": "#707070",
+      "backgroundColor": "#FFFFFF",
+      "textComment": "#333333",
+      "totalNumber": "#1B72BF",
+      "line": "#F1F1F1",
+      "contentReplyTo": "black",
+      "btnClose": "#707070"
+    },
+    "product_category": {
+      "containerFlatlist": "#ffffff",
+      "imageBtnHeader": "#DBDBDB",
+      "iconImageBtn": "#333333"
+    },
+    "new_delivery": {
+      "background": "#FFFFFF",
+      "header_title": "#FFFFFF",
+      "inputBorder": "#DBDBDB",
+      "text": "#707070",
+      "button": "#1B72BF",
+      "icon": "#1B72BF"
+    },
+    "category": {
+      "backgroundColorSearchBar": "#FFFFFF",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "backgroundColorFlatList": "#FFFFFF",
+      "backgroundColorContentContainer": "#FFFFFF",
+      "backgroundColorContainerAddCategoryBtn": "#FFFFFF",
+      "textColorAddCategory": "#FFFFFF"
+    },
+    "category_item": {
+      "colorTextCategory": "#333333",
+      "colorTextNumber": "#FF7F00",
+      "tintColorImage": "#707070"
+    },
+    "invite_imployee": {
+      "contentBackground": "#FFFFFF",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "button": "#1B72BF",
+      "inputBorder": "#DBDBDB",
+      "text": "#707070",
+      "section_icon_color": "#1B72BF",
+      "buildingTitle": "#333333"
+    },
+    "new_manager": {
+      "section_icon_color": "#1B72BF",
+      "contentBackground": "#FFFFFF",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "button": "#1B72BF",
+      "inputBorder": "#DBDBDB",
+      "text": "#707070"
+    },
+    "instructions": {
+      "backgroundColorSearchBar": "#FFFFFF",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "backgroundColorCustomFlatList": "#FFFFFF",
+      "backgroundColorBottomButton": "#FFFFFF"
+    },
+    "instructions_item": {
+      "colorTextName": "#333333",
+      "colorTextType": "#888888"
+    },
+    "new_instruction": {
+      "contentBackground": "#FFFFFF",
+      "sectionHeader": "#1B72BF",
+      "deleteIcon": "#000000",
+      "startDateTitleText": "#333333",
+      "inputBorder": "#DBDBDB",
+      "text": "#707070",
+      "inputStyle": "#707070",
+      "button": "#1B72BF"
+    },
+    "radio_button": {
+      "title": "#333333",
+      "normalBorder": "#707070",
+      "borderColorCustomRadioBtn": "#1B72BF",
+      "backgroundColorActiveRadioBtn": "#1B72BF"
+    },
+    "instruction_details": {
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "backgroundColorLineSeparator": "#F1F1F1",
+      "backgroundColorCustomFlatList": "#FFFFFF",
+      "textColorDeleteInstruction": "#FFFFFF",
+      "backgroundColorBottomButtonContainer": "#FFFFFF",
+      "backgroundColorBottomButton": "#1B72BF"
+    },
+    "instruction_details_item": {
+      "textColorLabel": "#333333",
+      "textColorValue": "#707070"
+    },
+    "post_detail": {
+      "backgroundColor": "#F3F3F3",
+      "bottomButtonContainerBackgroundColor": "#FFFFFF",
+      "approveButtonBackgroundColor": "#1B72BF",
+      "unApproveButtonBackgroundColor": "#E6E6E6",
+      "unApproveButtonTextColor": "#333333",
+      "denyButtonBackgroundColor": "#E6E6E6",
+      "denyButtonTextColor": "#333333",
+      "titleColor": "#333333",
+      "dateColor": "#707070",
+      "priceColor": "#1B72BF",
+      "month": "#707070",
+      "description": "#333333"
+    },
+    "new_post": {
+      "backgroundColor": "#F3F3F3",
+      "contentContainerBackgroundColor": "#FFFFFF",
+      "bottomButtonContainerBackgroundColor": "#FFFFFF",
+      "submitButtonBackgroundColor": "#1B72BF",
+      "sectionHeaderColor": "#1B72BF",
+      "inputBorder": "#DBDBDB",
+      "text": "#707070"
+    },
+    "about_seller": {
+      "dialButton": "#BF601B",
+      "avatarName": "#333333",
+      "location": "#666666",
+      "titleColor": "#333333",
+      "contentColor": "#707070",
+      "line": "#F1F1F1"
+    },
+    "recurring": {
+      "containerBackground": "#F3F3F3",
+      "contentBackground": "#FFFFFF",
+      "borderLine": "#DBDBDB",
+      "button": "#1B72BF",
+      "save_button": "#1B72BF",
+      "idText": "#888888",
+      "titleText": "#000",
+      "categoryText": "#888888",
+      "statusText": "#888888",
+      "statusActiveBackground": "#FFE4D0",
+      "statusInActiveBackground": "#E6E6E6",
+      "statusActiveText": "#BF731B",
+      "statusInActiveText": "#707070",
+      "divider": "#F1F1F1",
+      "priorityText": "#726ACB",
+      "priorityBackground": "#F1F0F9"
+    },
+    "create_task_calendar": {
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "tintColorIconSectionHeader": "#1B72BF",
+      "backgroundColorScrollView": "#FFFFFF",
+      "backgroundColorContainerSubmitBtn": "#FFFFFF",
+      "backgroundColorSubmitBtn": "#1B72BF"
+    },
+    "personal_info": {
+      "bgContainer": "rgba(0,0,0,0.7)",
+      "headerTitle": "#1B72BF",
+      "headerDescription": "#333333",
+      "bgContent": "#ffffff",
+      "inputStyle": "#707070"
+    },
+    "confirmation": {
+      "backgroundColor": "#FFFFFF",
+      "text": "#000000",
+      "bgrButton": "#1B72BF",
+      "textButton": "#FFFFFF"
+    },
+    "new_apartment": {
+      "contentBackground": "#FFFFFF",
+      "title": "#1B72BF",
+      "button": "#1B72BF"
+    },
+    "apartments": {
+      "bgButton": "#1B72BF",
+      "text": "#333333",
+      "line": "#F1F1F1",
+      "border": "rgba(0, 0, 0, 0.1)",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "backgroundColorModal": "#000000"
+    },
+    "product": {
+      "backgroundColor": "#F3F3F3",
+      "bottomButtonContainerBackgroundColor": "#FFFFFF",
+      "approveButtonBackgroundColor": "#1B72BF",
+      "denyButtonBackgroundColor": "#E6E6E6",
+      "denyButtonTextColor": "#333333",
+      "titleColor": "#1B72BF",
+      "dateColor": "#707070",
+      "priceColor": "#1B72BF",
+      "description": "#333333",
+      "categoryTitle": "#333333",
+      "categoryContent": "#1B72BF",
+      "buyNowButton": "#1B72BF",
+      "textColorAddBuilding": "#FFFFFF"
+    },
+    "priority": {
+      "high": "#fe3c7d",
+      "medium": "#726ACB",
+      "low": "#FEA43C",
+      "default": "#707070"
+    },
+    "event_type": {
+      "contentBackground": "#FFFFFF",
+      "separator": "#f3f3f3",
+      "item_text": "#333333"
+    },
+    "new_event_type": {
+      "containerBackground": "#F3F3F3",
+      "contentBackground": "#FFFFFF",
+      "headerTitle": "#1B72BF"
+    },
+    "new_member": {
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "tintColorIconSectionHeader": "#1B72BF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "backgroundColorScrollView": "#FFFFFF",
+      "backgroundColorContainerSubmitBtn": "#FFFFFF",
+      "backgroundColorSubmitBtn": "#1B72BF",
+      "contentBackground": "#FFFFFF"
+    },
+    "edit_member": {
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "tintColorIconSectionHeader": "#1B72BF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "backgroundColorScrollView": "#FFFFFF",
+      "backgroundColorContainerSaveBtn": "#FFFFFF",
+      "backgroundColorSaveBtn": "#1B72BF",
+      "contentBackground": "#FFFFFF",
+      "textColorChangeAvatar": "#1B72BF",
+      "textColorAvatar": "#333333"
+    },
+    "facility": {
+      "titleItemContent": "#333333"
+    },
+    "edit_recurring_task": {
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "tintColorIconSectionHeader": "#1B72BF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "textColorInterval": "#333333"
+    },
+    "status": {
+      "backgroundApproved": "#efffd0",
+      "backgroundDenied": "#e6e6e6",
+      "backgroundPending": "#fff5de",
+      "textColorApproved": "#1fa207",
+      "textColorDenied": "#000000",
+      "textColorPending": "#964500",
+      "backgroundButtonApprove": "#1b72bf"
+    },
+    "my_purchase_tenant": {
+      "backgroundContent": "#FFFFFF",
+      "sellerNameText": "#333333",
+      "apartmentCodeText": "#666666",
+      "backgroundContactButton": "#bf601b",
+      "contactButtonText": "#FFFFFF",
+      "titleProductColor": "#333333",
+      "priceText": "#1b72bf",
+      "dateText": "#333333",
+      "separatorSeller": "#f5f5f5",
+      "separtorProduct": "#dbdbdb"
+    },
+    "monthly_bill": {
+      "textColorDescription": "#333333",
+      "textColorElectricity": "#ff7f00",
+      "textColorWater": "#1b72bf",
+      "textColorTelecom": "#bfba1b",
+      "textColorService": "#69c42c",
+      "textTotalDescription": "#333333",
+      "totalBackgroundColor": "#f9f9fc",
+      "totalTextColor": "#1b72bf",
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "backgroundColorContainerCreateBtn": "#FFFFFF",
+      "backgroundColorCreateBtn": "#1fa207",
+      "tintColorIconSectionHeader": "#1B72BF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "textColorApproveBtn": "#FFFFFF",
+      "backgroundColorApproveBtn": "#1b72bf",
+      "textColorEditBtn": "#1b72bf",
+      "backgroundColorEditBtn": "#d0e9ff",
+      "textColorCheckoutBtn": "#FFFFFF",
+      "backgroundColorCheckoutBtn": "#1fa207",
+      "textColorPaid": "#1fa207",
+      "textColorPending": "#964500",
+      "textColorDraft": "#000000",
+      "backgroundColorPaid": "#efffd0",
+      "backgroundColorPending": "#fff5de",
+      "backgroundColorDraft": "#dbdbdb"
+    },
+    "new_monthly_bill": {
+      "backgroundSectionHeader": "#FFFFFF",
+      "tintColorIconSectionHeader": "#1B72BF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "contentBackground": "#FFFFFF",
+      "backgroundColorScrollView": "#FFFFFF",
+      "backgroundColorContainerSubmitBtn": "#FFFFFF",
+      "backgroundColorSubmitBtn": "#1B72BF",
+      "textColorMonthlyFee": "#1B72BF",
+      "textColorMonthYearPicker": "#707070",
+      "tintColorMonthYearPicker": "#ff9519"
+    },
+    "monthly_bill_item": {
+      "textColorApartmentCode": "#1B72BF"
+    },
+    "shopping_store_tenant": {
+      "backgroundContent": "#FFFFFF",
+      "indicator": "#707070",
+      "view_detail": "#1b72bf",
+      "viewDetailButtonText": "#FFFFFF",
+      "backgroundColorImageBtnHeafer": "#DBDBDB",
+      "tintColorIconImageBtn": "#333333",
+      "backgroundColorCreateNewBtn": "#1fa207",
+      "sellerNameText": "#333333",
+      "apartmentCodeText": "#666666",
+      "backgroundContactButton": "#bf601b",
+      "contactButtonText": "#FFFFFF",
+      "titleProductColor": "#333333",
+      "priceText": "#1b72bf",
+      "dateText": "#333333",
+      "separatorSeller": "#f5f5f5",
+      "separtorProduct": "#dbdbdb"
+    },
+    "product_detail": {
+      "textColorLeft": "#333333",
+      "textColorRight": "#707070",
+      "backgroundColorBottomLine": "#F1F1F1",
+      "backgroundColorDeleteButton": "#d0e9ff",
+      "backgroundColorUnpublicButton": "#d9d9d9",
+      "backgroundColorPublicButton": "#1fa207",
+      "textColorUnPublicButton": "#1B72BF",
+      "backgroundColorModal": "#000000",
+      "textColorPublic": "#ffffff"
+    },
+    "edit_monthly_bill": {
+      "backgroundSectionHeader": "#FFFFFF",
+      "tintColorIconSectionHeader": "#1B72BF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "contentBackground": "#FFFFFF",
+      "backgroundColorScrollView": "#FFFFFF",
+      "backgroundColorContainerSubmitBtn": "#FFFFFF",
+      "backgroundColorSubmitBtn": "#1B72BF",
+      "textColorMonthlyFee": "#1B72BF",
+      "textColorMonthYearPicker": "#707070",
+      "tintColorMonthYearPicker": "#ff9519"
+    },
+    "edit_store": {
+      "backgroundColorSectionHeader": "#FFFFFF",
+      "containerBackground": "#F3F3F3",
+      "contentBackground": "#FFFFFF",
+      "backgroundColorModal": "#000000",
+      "button": "#1B72BF",
+      "headerTitle": "#1B72BF"
+    },
+    "new_product": {
+      "tintColorIconSectionHeader": "#1B72BF",
+      "textColorTitleSectionHeader": "#1B72BF",
+      "backgroundSectionHeader": "#FFFFFF",
+      "backgroundColorScrollView": "#FFFFFF",
+      "backgroundColorContainerSubmitBtn": "#FFFFFF",
+      "backgroundColorSubmitBtn": "#1B72BF",
+      "backgroundColorModal": "#000000"
+    }
+  }
+}

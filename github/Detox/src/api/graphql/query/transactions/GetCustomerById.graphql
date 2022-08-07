@@ -1,0 +1,18 @@
+query GetCustomerById($customerId: Uuid) {
+  customerById(customerId: $customerId) {
+    customerId
+    customerContactAddress
+    customerEmail
+    customerFirstName
+    customerLastName
+    customerNationalId
+    customerNationalIdIssueDate
+    customerNationalIdIssuePlace
+    customerPhone
+    permanentAddress
+    customerPhone
+    nationalIdType
+    customerDob
+    gender
+  }
+}

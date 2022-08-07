@@ -1,0 +1,33 @@
+query GetAgentDetailForPublic($agentId: Uuid!) {
+  #server lack of error info
+  agentByIdForPublic(agentId: $agentId) {
+    agentId
+    instruction
+    nationalId
+    agentCode
+    firstName
+    lastName
+    permanentAddress
+    agentGroupId
+    email
+    phoneNumber
+    agentGroupName
+    isInitialAccount
+    agentRankName
+    agentRankingDescription
+    agentGroupDescription
+    userStatus
+    rating
+    isAgentLeader
+    preferPropertyTypes
+    preferPropertyPriceFrom
+    preferPropertyPriceTo
+    workingAreas
+    profilePhoto
+    referralUser {
+      fullName
+      userId
+    }
+    topenerServiceTypes
+  }
+}

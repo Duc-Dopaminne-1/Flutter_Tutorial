@@ -1,0 +1,81 @@
+query GetDepositTransactionDetail($transactionId: Uuid!, $propertyPostId: Uuid!) {
+  depositTransactionDetail(depositTransactionId: $transactionId, propertyPostId: $propertyPostId) {
+    bookingTransactionId
+    bookingCode
+    depositeCode
+    depositeTransactionId
+    documentName
+    documentUrl
+    hasCustomerInfoChangeHistory
+    allowUpdateCustomer
+    confirmedBookingDatetime
+    confirmedDepositeDatetime
+    transactionAmount
+    transactionIndex
+    transactionType
+    transactionStatus
+    contractDueDate
+    transactionStatusName
+    isBuyer
+    isCancelled
+    buyCommission
+    paidAmount
+    paymentUnit
+    cancelReason
+    changeToTransaction {
+      bookingCode
+      bookingTransactionId
+      changeAnotherPropertyDatetime
+      depositeCode
+      depositeTransactionId
+      paymentUnit
+      priorPropertyPostId
+    }
+    consultantInfo {
+      staffId
+      staffCode
+      fullName
+      profilePhoto
+      email
+      rating
+      phoneNumber
+    }
+    customerInfo {
+      customerId
+    }
+    propertyPostInfo {
+      blockCode
+      blockName
+      numberOfFloor
+      floor
+      price
+      priceVat
+      priceNoVat
+      propertyCode
+      propertyName
+      propertyPostId
+      propertyTypeName
+      propertyTypeId
+      projectInfo {
+        projectId
+        projectCode
+        projectName
+      }
+      saleSeasonInfo {
+        saleSeasonId
+        seasonName
+        isSkipBooking
+        startBookingDatetime
+        endBookingDatetime
+        openDatetime
+        closeDatetime
+      }
+    }
+    priorBookingTransactionId
+    priorTransaction {
+      priorBookingTransactionId
+      priorPropertyPostId
+    }
+    refundReady
+  }
+}

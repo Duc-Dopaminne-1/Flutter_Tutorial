@@ -1,0 +1,18 @@
+query contactTradingB2CStatuses(
+  $page: Int
+  $pageSize: Int
+  $order_by: ContactTradingB2CStatusDtoSort
+  $filter: ContactTradingB2CStatusDtoFilter
+) {
+  contactTradingB2CStatuses(order_by: $order_by, page: $page, pageSize: $pageSize, where: $filter) {
+    downloadUrl
+    edges {
+      contactTradingB2CStatusDescription
+      contactTradingB2CStatusId
+      contactTradingB2CStatusName
+      contactTradingB2CStatusSortOrder
+    }
+    totalCount
+    __typename
+  }
+}

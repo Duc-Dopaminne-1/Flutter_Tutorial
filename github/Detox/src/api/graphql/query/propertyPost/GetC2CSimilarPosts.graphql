@@ -1,0 +1,70 @@
+query GetC2CSimilarPosts($input: GetC2CSimilarPostsInput!) {
+  getC2CSimilarPosts(request: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    totalCount
+    propertyPostInfoDtos {
+      isFollowed
+      createdByUserId
+      totalFollower
+      totalShare
+      totalSpam
+      propertyPostId
+      postTitle
+      postDescription
+      propertyTypeId
+      propertyCode
+      direction
+      propertyAddress {
+        countryId
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        homeAddress
+        streetName
+        cityName
+        districtName
+        wardName
+      }
+      sellerInfo {
+        sellerId
+        fullName
+        phoneNumber
+        email
+        isAgent
+        agentRating
+        agentRankingName
+        agentGroupDescription
+        avatar
+        avatars
+      }
+      saleCommissionCurrencyUnitId
+      unitOfMeasureId
+      numberOfFloor
+      numberOfBedrooms
+      numberOfBathrooms
+      images
+      price
+      latitude
+      longitude
+      priceNoVat
+      priceVat
+      buildingArea
+      capetAreas
+      totalSiteArea
+      isVip
+      forRent
+      forSale
+      isSold
+      isRented
+      isCreatedByAgent
+      propertyPostApprovalStatusId
+      commission
+      isGuaranteed
+    }
+  }
+}

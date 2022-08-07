@@ -1,0 +1,61 @@
+query GetPropertyPostByIdForTransaction($propertyPostId: Uuid!) {
+  propertyPostByIdForTransaction(propertyPostId: $propertyPostId) {
+    propertyPostId
+    propertyTypeId
+    propertyTypeName
+    propertyTypeDescription
+    propertyCode
+    projectInfo {
+      projectName
+      projectCode
+      projectId
+    }
+    blockName
+    images
+    price
+    length
+    width
+    minimumPayment
+    expectedPrice
+    priceNoVat
+    priceVat
+    commission
+    buyCommission
+    saleCommission
+    numberOfBookingTransactions
+    postDescription
+    propertySubTypeName
+    propertySubTypeDescription
+    floor
+    direction
+    balconyDirection
+    numberOfBedrooms
+    numberOfBathrooms
+    buildingArea
+    capetAreas
+    saleTrackingStatusName
+    saleTrackingStatusDescription
+    saleSeasonId
+    foSaleTrackingStatusDescription
+    bookingFee
+    houseDesign
+    numberOfFloor
+    totalSiteArea
+    buildingLine
+    isBooked
+    isDeposited
+    detailPath
+    staffGroupIds
+    ableConfirmDeposite
+    bookingTransactionInfo {
+      bookingTransactionId
+      beginDepositeDatetime
+      endDepositeDatetime
+    }
+    saleSeasonInfo {
+      openDatetime
+      closeDatetime
+      startBookingDatetime
+    }
+  }
+}

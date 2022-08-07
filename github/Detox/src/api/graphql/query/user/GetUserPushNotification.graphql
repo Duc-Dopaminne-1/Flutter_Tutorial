@@ -1,0 +1,11 @@
+query GetUserPushNotification($userId: Uuid) {
+  userById(userId: $userId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+
+    userDto {
+      pushNotificationId
+    }
+  }
+}

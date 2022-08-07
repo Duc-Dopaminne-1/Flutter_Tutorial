@@ -1,0 +1,633 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|search/HeaderSearch Search Map 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginLeft": 8,
+            "width": "10%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="BackButton"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 20,
+              "left": 20,
+              "right": 0,
+              "top": 20,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "zIndex": 999,
+            }
+          }
+          testID="BackButton"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 16,
+                "height": 32,
+                "justifyContent": "center",
+                "marginRight": 10,
+                "width": 32,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/arrow_left_linear.png",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginRight": 16,
+            "zIndex": 999,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 5,
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+                "paddingHorizontal": 16,
+                "paddingRight": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={Object {}}
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/search.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 20,
+                }
+              }
+            />
+          </View>
+          <TextInput
+            autoCapitalize="none"
+            autoCorrect={false}
+            autoFocus={false}
+            maxLength={128}
+            onChangeText={[Function]}
+            placeholder="Tìm nhanh bất động sản"
+            returnKeyType="search"
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "flex": 1,
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 16,
+                  "includeFontPadding": true,
+                  "marginLeft": 8,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 48,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 48,
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "disabled": true,
+                }
+              }
+              accessible={true}
+              focusable={false}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "margin": 6,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 18,
+                      "height": 36,
+                      "width": 36,
+                    },
+                    undefined,
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 48,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 48,
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "disabled": true,
+                }
+              }
+              accessible={true}
+              focusable={false}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "margin": 6,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 18,
+                      "height": 36,
+                      "width": 36,
+                    },
+                    undefined,
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|search/HeaderSearch default 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F9FAFB",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginLeft": 8,
+            "width": "10%",
+          }
+        }
+      >
+        <View
+          accessibilityLabel="BackButton"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 20,
+              "left": 20,
+              "right": 0,
+              "top": 20,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "zIndex": 999,
+            }
+          }
+          testID="BackButton"
+        >
+          <View
+            style={Object {}}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/arrow_left_linear.png",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginRight": 16,
+            "zIndex": 999,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 5,
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+                "paddingHorizontal": 16,
+                "paddingRight": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={Object {}}
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/search.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 20,
+                  "width": 20,
+                }
+              }
+            />
+          </View>
+          <TextInput
+            autoCapitalize="none"
+            autoCorrect={false}
+            autoFocus={false}
+            maxLength={128}
+            onChangeText={[Function]}
+            placeholder="Tìm nhanh bất động sản"
+            returnKeyType="search"
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "flex": 1,
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 16,
+                  "includeFontPadding": true,
+                  "marginLeft": 8,
+                },
+                undefined,
+              ]
+            }
+          />
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 48,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 48,
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "disabled": true,
+                }
+              }
+              accessible={true}
+              focusable={false}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "margin": 6,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 18,
+                      "height": 36,
+                      "width": 36,
+                    },
+                    undefined,
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 48,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 48,
+              }
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "disabled": true,
+                }
+              }
+              accessible={true}
+              focusable={false}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "margin": 6,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 18,
+                      "height": 36,
+                      "width": 36,
+                    },
+                    undefined,
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

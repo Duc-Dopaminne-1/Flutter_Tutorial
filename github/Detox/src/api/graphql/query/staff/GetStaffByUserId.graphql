@@ -1,0 +1,12 @@
+query GetStaffByUserId($userId: Uuid) {
+  staffByUserId(userId: $userId) {
+    email
+    fullName
+    phoneNumber
+    profilePhoto
+    rating
+    userId
+    staffId
+    staffGroupName
+  }
+}

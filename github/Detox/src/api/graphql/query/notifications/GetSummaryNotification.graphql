@@ -1,0 +1,13 @@
+query GetSummaryNotificationByCurrentUser {
+  getSummaryNotificationByCurrentUser {
+    errorCode
+    errorMessage
+    errorMessageCode
+    summaryNotificationDto {
+      totalNotificationUnread
+      totalTypeSuggestionUnread
+      totalTypeSystemUnread
+      totalTypeTransactionUnread
+    }
+  }
+}

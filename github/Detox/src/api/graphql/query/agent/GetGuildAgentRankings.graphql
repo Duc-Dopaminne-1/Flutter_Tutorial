@@ -1,0 +1,9 @@
+query GetGuildAgentRankings {
+  agentRankings {
+    edges {
+      agentRankingName
+      agentRankingDescription
+      benefit
+    }
+  }
+}

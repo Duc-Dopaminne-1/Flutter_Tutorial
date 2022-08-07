@@ -1,0 +1,24 @@
+{
+  "name": "@hd/auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-redux": "^7.0.8",
+    "@types/redux": "^3.6.0",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  }
+}

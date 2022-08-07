@@ -1,0 +1,43 @@
+query GetCrawlerProcessesForTopener(
+  $page: Int
+  $pageSize: Int
+  $keywords: String
+  $filter: CrawlerProcessDtoFilter
+) {
+  crawlerProcessesForTopener(
+    order_by: {updatedDatetime: DESC}
+    page: $page
+    pageSize: $pageSize
+    keywords: $keywords
+    where: $filter
+  ) {
+    totalCount
+    edges {
+      crawlerProcessId
+      direction
+      c2CPropertyPostId
+      c2CPropertyCode
+      crawlerTrackingStatusId
+      crawlerTrackingStatusDescription
+      updatedDatetime
+      image
+      postTitle
+      price
+      cityId
+      cityName
+      districtId
+      districtName
+      wardId
+      wardName
+      streetName
+      houseAddress
+      areaTotal
+      direction
+      numberOfBedrooms
+      numberOfBathrooms
+      postAuthor
+      phone
+      propertyTypeId
+    }
+  }
+}

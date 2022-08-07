@@ -1,0 +1,10 @@
+mutation SendPhoneVerificationTokenForTransaction(
+  $input: SendPhoneVerificationTokenForTransactionInput!
+) {
+  sendPhoneVerificationTokenForTransaction(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    __typename
+  }
+}

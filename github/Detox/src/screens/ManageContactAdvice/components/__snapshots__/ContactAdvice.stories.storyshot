@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|ContactAdvice/TimeLine default 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_success_fill.png",
+          }
+        }
+        style={
+          Object {
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+            "flex": 1,
+            "width": 2,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Yêu cầu mới
+      </Text>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+              "marginTop": 2,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_tl_inactive.png",
+          }
+        }
+        style={
+          Object {
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+            "flex": 1,
+            "width": 2,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Chờ xử lý
+      </Text>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+              "marginTop": 2,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_tl_inactive.png",
+          }
+        }
+        style={
+          Object {
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+            "flex": 1,
+            "width": 2,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Đang xử lý
+      </Text>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+              "marginTop": 2,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_tl_inactive.png",
+          }
+        }
+        style={
+          Object {
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+            "flex": 1,
+            "width": 2,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Đã xử lý
+      </Text>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+              "marginTop": 2,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginLeft": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_tl_inactive.png",
+          }
+        }
+        style={
+          Object {
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+          "marginLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Đóng
+      </Text>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+              "marginTop": 2,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

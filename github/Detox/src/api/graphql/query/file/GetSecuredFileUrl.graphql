@@ -1,0 +1,7 @@
+query GetSecuredFileUrl($payload: GetSecuredFileUrlInput!) {
+  getSecuredFileUrl(request: $payload) {
+    securedUrl
+    errorCode
+    errorMessage
+  }
+}

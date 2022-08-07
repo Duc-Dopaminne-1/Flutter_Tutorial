@@ -1,0 +1,7 @@
+query CheckPropertyPostHasC2CContactTradingDeposited($propertyPostId: Uuid!) {
+  checkPropertyPostHasC2CContactTradingDeposited(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

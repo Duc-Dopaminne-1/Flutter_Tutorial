@@ -1,0 +1,12 @@
+query GetPlusServices($where: RequestTypeDtoFilter, $orderBy: RequestTypeDtoSort) {
+  plusServices(page: 1, pageSize: 10, where: $where, order_by: $orderBy) {
+    edges {
+      requestTypeId
+      requestTypeName
+      requestTypeDescription
+      isDisplayHomepage
+      sortOrder
+    }
+    totalCount
+  }
+}

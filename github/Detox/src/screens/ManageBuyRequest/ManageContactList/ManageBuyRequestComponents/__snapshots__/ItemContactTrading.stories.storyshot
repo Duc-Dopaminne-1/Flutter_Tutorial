@@ -1,0 +1,1339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Items/ItemContactTrading B2C 1`] = `
+<View
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "lightgray",
+        "marginTop": 16,
+        "padding": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+    >
+      B2C recived item
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#F0F0F0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "elevation": 1,
+        "marginTop": 16,
+        "opacity": 1,
+        "padding": 16,
+        "shadowColor": "#3b4a74",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 3,
+        },
+        "shadowOpacity": 0.12,
+        "shadowRadius": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#0E3556",
+              "borderRadius": 20,
+              "flexDirection": "row",
+              "left": 12,
+              "padding": 8,
+              "position": "absolute",
+              "top": 12,
+              "zIndex": 1,
+            },
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E4E4E4",
+              "height": 24,
+              "left": 0,
+              "padding": 0,
+              "paddingHorizontal": 4,
+              "paddingVertical": 4,
+              "position": "relative",
+              "top": 0,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginHorizontal": 8,
+              },
+              Object {
+                "color": "#333333",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 12,
+                "includeFontPadding": true,
+              },
+            ]
+          }
+        >
+          Mua
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#0E3556",
+                "borderRadius": 20,
+                "flexDirection": "row",
+                "left": 12,
+                "padding": 8,
+                "position": "absolute",
+                "top": 12,
+                "zIndex": 1,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#26894F",
+                "height": 24,
+                "left": 0,
+                "padding": 0,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
+                "position": "relative",
+                "top": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 16,
+                  "includeFontPadding": true,
+                  "marginHorizontal": 8,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                },
+              ]
+            }
+          >
+            Đang xử lý
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Sản phẩm:
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "flex": 1.5,
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+              "textAlign": "right",
+            },
+            Object {
+              "color": "#26894F",
+            },
+          ]
+        }
+      >
+        A023
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Mã yêu cầu:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        YCLHMB2C000000006
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Dự án:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        NPN Căn hộ 2309
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Người liên hệ:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        Nguyễn Hưng Thịnh
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingTop": 12,
+          },
+          Object {
+            "borderColor": "#F2F2F2",
+            "borderTopWidth": 2,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Ngày cập nhật:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        24/09/2021 09:09
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "lightgray",
+        "marginTop": 16,
+        "padding": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+    >
+      B2C sent item
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#F0F0F0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "elevation": 1,
+        "marginTop": 16,
+        "opacity": 1,
+        "padding": 16,
+        "shadowColor": "#3b4a74",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 3,
+        },
+        "shadowOpacity": 0.12,
+        "shadowRadius": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#0E3556",
+              "borderRadius": 20,
+              "flexDirection": "row",
+              "left": 12,
+              "padding": 8,
+              "position": "absolute",
+              "top": 12,
+              "zIndex": 1,
+            },
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#E4E4E4",
+              "height": 24,
+              "left": 0,
+              "padding": 0,
+              "paddingHorizontal": 4,
+              "paddingVertical": 4,
+              "position": "relative",
+              "top": 0,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginHorizontal": 8,
+              },
+              Object {
+                "color": "#333333",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 12,
+                "includeFontPadding": true,
+              },
+            ]
+          }
+        >
+          Mua
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#0E3556",
+                "borderRadius": 20,
+                "flexDirection": "row",
+                "left": 12,
+                "padding": 8,
+                "position": "absolute",
+                "top": 12,
+                "zIndex": 1,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#26894F",
+                "height": 24,
+                "left": 0,
+                "padding": 0,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
+                "position": "relative",
+                "top": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 16,
+                  "includeFontPadding": true,
+                  "marginHorizontal": 8,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                },
+              ]
+            }
+          >
+            Đang xử lý
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Sản phẩm:
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "flex": 1.5,
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+              "textAlign": "right",
+            },
+            Object {
+              "color": "#26894F",
+            },
+          ]
+        }
+      >
+        A023
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Mã yêu cầu:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        YCLHMB2C000000006
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Dự án:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        NPN Căn hộ 2309
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Người gửi:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        Nguyễn Hưng Thịnh
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingTop": 12,
+          },
+          Object {
+            "borderColor": "#F2F2F2",
+            "borderTopWidth": 2,
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Ngày tạo:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        24/09/2021 09:09
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Items/ItemContactTrading C2C 1`] = `
+<View
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "lightgray",
+        "marginTop": 16,
+        "padding": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+    >
+      C2C sent item
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#F0F0F0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "elevation": 3,
+        "marginTop": 8,
+        "opacity": 1,
+        "padding": 16,
+        "shadowColor": "#3b4a74",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 3,
+        },
+        "shadowOpacity": 0.12,
+        "shadowRadius": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#0E3556",
+              "borderRadius": 20,
+              "flexDirection": "row",
+              "left": 12,
+              "padding": 8,
+              "position": "absolute",
+              "top": 12,
+              "zIndex": 1,
+            },
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E4E4E4",
+                "height": 24,
+                "left": 0,
+                "padding": 0,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
+                "position": "relative",
+                "top": 0,
+              },
+              Object {
+                "backgroundColor": "#FFEAD2",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginHorizontal": 8,
+              },
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                },
+                Object {
+                  "color": "#D5600C",
+                },
+              ],
+            ]
+          }
+        >
+          Chờ xác nhận
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 12,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        26/11/2021 21:15
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Mã tin đăng:
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        MTD12
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Mã yêu cầu:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        CT-8
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Người mua
+        :
+         
+      </Text>
+      <Text
+        numberOfLines={2}
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        Phạm Văn Nghệ
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Khu vực quan tâm:
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        Quận 3, Hồ Chí Minh
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Mức giá:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        8 Tỷ
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "lightgray",
+        "marginTop": 16,
+        "padding": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+    >
+      C2C received item
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#F0F0F0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "elevation": 3,
+        "marginTop": 8,
+        "opacity": 1,
+        "padding": 16,
+        "shadowColor": "#3b4a74",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 3,
+        },
+        "shadowOpacity": 0.12,
+        "shadowRadius": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#0E3556",
+              "borderRadius": 20,
+              "flexDirection": "row",
+              "left": 12,
+              "padding": 8,
+              "position": "absolute",
+              "top": 12,
+              "zIndex": 1,
+            },
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E4E4E4",
+                "height": 24,
+                "left": 0,
+                "padding": 0,
+                "paddingHorizontal": 4,
+                "paddingVertical": 4,
+                "position": "relative",
+                "top": 0,
+              },
+              Object {
+                "backgroundColor": "#FFEAD2",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginHorizontal": 8,
+              },
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                },
+                Object {
+                  "color": "#D5600C",
+                },
+              ],
+            ]
+          }
+        >
+          Chờ xác nhận
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 12,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        26/11/2021 21:15
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Mã tin đăng:
+      </Text>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        MTD12
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Mã yêu cầu:
+      </Text>
+      <Text
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        CT-8
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Người liên hệ
+        : 
+      </Text>
+      <Text
+        numberOfLines={2}
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        Lê Hoàng Trọng Khôi
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#8B99A5",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Khách hàng
+        :
+         
+      </Text>
+      <Text
+        numberOfLines={2}
+        style={
+          Object {
+            "flex": 1.5,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        Phạm Văn Nghệ
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  />
+</View>
+`;

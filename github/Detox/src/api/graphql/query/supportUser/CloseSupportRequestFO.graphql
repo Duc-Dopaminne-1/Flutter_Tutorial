@@ -1,0 +1,7 @@
+mutation CloseSupportRequestFO($input: CloseSupportRequestFOInput!) {
+  closeSupportRequestFO(closeSupportRequestFOInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

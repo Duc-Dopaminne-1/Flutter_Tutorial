@@ -1,0 +1,7 @@
+mutation ChangeStateOfServiceTicketForFrontOffice($input: ChangeStateOfServiceTicketInput!) {
+  changeStateOfServiceTicketForFrontOffice(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

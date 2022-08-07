@@ -1,0 +1,27 @@
+query GetAgentPerformanceTrackingsByAgentIdCurent($input: agentPerformanceTrackingInput!) {
+  agentPerformanceTrackingsByAgentIds(request: $input) {
+    edges {
+      newAgentRankingId
+      newAgentRankingName
+      newAgentRankingDescription
+      newAgentRankingDegreeOrder
+      reviewFromDate
+      reviewToDate
+      numberApprovedPosts
+      numberOfReferalAgents
+      numberOfB2CTransaction
+      numberOfC2CTransaction
+      targetAgentRankingId
+      targetAgentRankingName
+      targetAgentRankingDescription
+      targetNumberApprovedPosts
+      targetNumberOfReferalAgents
+      targetNumberOfB2CTransaction
+      targetNumberOfC2CTransaction
+      meetTargetNumberApprovedPosts
+      meetTargetNumberOfReferalAgents
+      meetTargetNumberOfB2CTransaction
+      meetTargetNumberOfC2CTransaction
+    }
+  }
+}

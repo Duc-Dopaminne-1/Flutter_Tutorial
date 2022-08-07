@@ -1,0 +1,19 @@
+query GetSupportedConsultantsC2C($page: Int, $pageSize: Int) {
+  consultantsSupportedC2C(page: $page, pageSize: $pageSize, order_by: {supportedDatetime: DESC}) {
+    totalCount
+    edges {
+      userId
+      userName
+      fullName
+      staffId
+      staffCode
+      isGroupLeader
+      profilePhoto
+      staffRankingId
+      rating
+      staffGroupId
+      staffGroupDescription
+      supportedDatetime
+    }
+  }
+}

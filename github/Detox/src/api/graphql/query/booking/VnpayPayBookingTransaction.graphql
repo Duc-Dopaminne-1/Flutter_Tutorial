@@ -1,0 +1,49 @@
+mutation VnpayPayBookingTransaction($payBookingTransactionInput: PayBookingTransactionInput!) {
+  vnpayPayBookingTransaction(payBookingTransactionInput: $payBookingTransactionInput) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    linkPaymentUrl
+    returnUrl
+    ipnUrl
+    disablePayment
+    transactionId
+  }
+}
+#Input:
+# {
+#   "payBookingTransactionInput": {
+
+#     "locale": "vn",
+
+#     "propertyPostId": "b0288a0a-c40d-4ed7-9022-338ad2cd9a29",
+#     "projectId": "b6a28a82-682a-4072-a3c7-24e345836212",
+#     "saleAgentId": "7266403c-6961-4041-9ce4-6d28d2fb9807",
+#     "paymentMethod": "ONLINE",
+#     "isBuyer": true,
+
+#     "customerFullName": "Vu Thanh Nam",
+#     "customerPhone": "0962943605",
+#     "customerEmail": "vuthanhnam94@gmail.com",
+#     "customerNationalId": "034094002247",
+#     "customerNationalIdIssueDate": 1430979525000,
+#     "customerNationalIdIssuePlace": "Thai Binh",
+#     "permanentAddress": "Dong Hung, Thai Binh",
+#     "customerContactAddress": "Cau Giay, Ha Noi"
+#   }
+# }
+
+#Output:
+# {
+#   "data": {
+#     "vnpayPayBookingTransaction": {
+#       "errorCode": 0,
+#       "errorMessage": null,
+#       "errorMessageCode": null,
+#       "linkPaymentUrl": "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=5000000000&vnp_Command=pay&vnp_CreateDate=20200519030002&vnp_CurrCode=VND&vnp_IpAddr=8.8.8.8&vnp_Locale=vn&vnp_OrderInfo=Deposite&vnp_ReturnUrl=https%3A%2F%2Fdev.topenland.com%2Fpayment%2Fbooking_deposite%2Fvnpay_return&vnp_TmnCode=57PUGOPN&vnp_TxnRef=a092ba50-0178-40d5-93a9-c63519fb98f8&vnp_Version=2.0.0&vnp_SecureHash=e736d01008064c6b2f044e2b57b6a381fdaa86a06d4b120614352dc528520cb3",
+#       "returnUrl": "https://dev.topenland.com/payment/booking_deposite/vnpay_return",
+#       "ipnUrl": "https://dev.topenland.com/payment/booking_deposite/vnpay_ipn",
+#       "disablePayment": false
+#     }
+#   }
+# }

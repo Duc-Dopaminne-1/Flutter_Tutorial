@@ -1,0 +1,8 @@
+mutation SubscribeEmailForNews($input: SubscribeEmailForNewsInput!) {
+  subscribeEmailForNews(subscribeEmailForNewsInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isRequiredToUseCaptcha
+  }
+}

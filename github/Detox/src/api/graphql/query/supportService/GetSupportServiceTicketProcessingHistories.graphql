@@ -1,0 +1,11 @@
+query GetSupportServiceTicketProcessingHistories($supportServiceTicketId: Uuid!) {
+  getSupportServiceTicketProcessingHistories(supportServiceTicketId: $supportServiceTicketId) {
+    edges {
+      updatedDatetime
+      logEvent
+      executorId
+      executorName
+      reasonNote
+    }
+  }
+}

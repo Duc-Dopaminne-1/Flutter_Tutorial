@@ -1,0 +1,21 @@
+query GetTopenersAvailable($page: Int, $pageSize: Int, $request: GetTopenersAvailableInput!) {
+  getTopenersAvailable(page: $page, pageSize: $pageSize, request: $request) {
+    edges {
+      topenerId
+      fullName
+      agentGroupDescription
+      agentGroupId
+      agentGroupName
+      agentRankingDescription
+      agentRankingId
+      agentRankingName
+      agentRating
+      avatar
+      email
+      imageSizes
+      isAgent
+      phoneNumber
+      topenerId
+    }
+  }
+}

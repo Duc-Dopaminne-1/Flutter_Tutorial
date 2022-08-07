@@ -1,0 +1,25 @@
+query GetCustomerInfoChangeHistoriesForFO(
+  $page: Int
+  $pageSize: Int
+  $orderBy: CustomerInfoChangeHistoryDtoSort
+  $depositTransactionId: Uuid!
+) {
+  getCustomerInfoChangeHistoriesForFO(
+    page: $page
+    pageSize: $pageSize
+    order_by: $orderBy
+    depositTransactionId: $depositTransactionId
+  ) {
+    edges {
+      index
+      customerInfoChangeHistoryId
+      depositTransactionId
+      customerId
+      customerFullNameNew
+      customerFullNameOld
+      createdDatetime
+      createdByUserId
+    }
+    totalCount
+  }
+}

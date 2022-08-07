@@ -1,0 +1,19 @@
+query GetAgentSubscriptionTransactionValidatePayment(
+  $input: getAgentSubscriptionTransactionValidatePaymentInput!
+) {
+  getAgentSubscriptionTransactionValidatePayment(
+    getAgentSubscriptionTransactionValidatePaymentInput: $input
+  ) {
+    agentSubscriptionTransactionDto {
+      transactionId
+      transactionStatusId
+      purchaseDate
+      startDate
+      subscriptionPackageName
+      subscriptionPackageValidDays
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

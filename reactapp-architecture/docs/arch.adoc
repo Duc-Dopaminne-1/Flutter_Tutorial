@@ -1,0 +1,184 @@
+= Architecture
+
+== Components
+
+[plantuml]
+--
+skinparam componentStyle uml2
+node app {
+
+package "showsourcing.com" as ss {
+ component "realm-service" as rs
+ component "product-service" as ps
+ ps -> rs: uses
+ package "screen" {
+ }
+}
+
+folder provided {
+    component realm
+    component "react-native" as react
+    component "react-router" as reactr
+    component "postalJS" as pjs
+    component "rxjs" as rxjs
+}
+ss --> provided
+}
+--
+
+== Language
+
+If typescript is used, ALL the application must be in the same language.
+
+NOTE: libraries are considered opaque and can be written in other
+
+=== React native
+
+The main library
+
+=== react-router
+
+Handles the application flow
+
+=== postalJS
+
+Event bus for inter component communication
+
+=== RXJs
+
+EventStream for reactive programming (postalJS wrappe + utilities)
+
+== Passing messages
+
+[plantuml]
+--
+componentA -> postalJS : message(channel,body)
+loop all registered
+    postalJS->componentB: notify(channel,body)
+end
+--
+
+This permits communication between "related" components.
+
+Messages must NOT be realm references.
+
+If two screens have to display the same product, the message will be the product ID. Each component will query the store using the received product ID.
+
+WARNING: Do not use messaging system for brother communication. (Same direct parent)
+
+.Brother components (BAD to use messaging system)
+[plantuml]
+--
+@startdot
+digraph ggg {
+RootComponent->{ComponentA,ComponentB}
+}
+@enddot
+--
+
+.A and C are not brother components (GOOD to use messaging system)
+[plantuml]
+--
+@startdot
+digraph ggg {
+RootComponent->{ComponentA,ComponentB}
+ComponentB -> ComponentC
+}
+@enddot
+--
+
+== Feeding components with data
+
+Use Higher order components
+
+.High order component
+[source,javascript]
+--
+const withProducts = (WrappedComponent) => {
+  class HOC extends React.Component {
+    state = {
+        products : []
+    };
+    
+    componentDidMount() {
+       let realm = openRealm("team");
+       let products = realm.objects("Product");
+    }
+    
+    load = () => {
+        return products;
+    }
+  
+    render(){
+        return (
+            <WrappedComponent load={this.load} {...this.props} />
+        );
+    }
+  }
+  return HOC;
+}
+
+export default withProducts;
+--
+
+.Use of high order component
+[source,javascript]
+--
+class ComponentNeedingProducts extends React.Component{
+    componentDidMount(){
+        const products = this.props.load();
+        products.addListener((col,cng)=>{
+            this.setState({products:col});
+        });
+    }
+    render(){
+        return <List data={products} />
+    }
+}
+
+const WrappedComponent = withProducts(ComponentNeedingProducts);
+export default WrappedComponent:
+
+--
+
+NOTE: ComponentNeedingProducts is decoupled from the source, the "addListener" may be pushed up.
+
+== Using Realms
+
+Opening Realms should be abstracted away AND recycled.
+
+[plantuml]
+--
+ComponentA -> RealmPool: getRealm("foo")
+ComponentA <-- RealmPool: realm (<font color=grey>@0xfab45e</font>)
+ComponentB -> RealmPool: getRealm("foo")
+ComponentB <-- RealmPool: realm (<font color=grey>@0xfab45e</font>)
+--
+
+Because both components are asking for the realm "foo", they receive the same instance.
+
+== File structure
+
+[tree]
+--
+#root
+##index.js
+##App.js
+##app
+###realm
+####utils.js
+###screens
+####ProductScreen.js
+####ProductListScreen.js
+--
+
+app:: 
+    contains specific application files
+realm::
+    each subfolder contains a "business domain" or "module"
+screens::
+    contains screens of the application
+shared::
+    contains "common" or "shared" resources (shared instead of common to stress that very few things should end there)
+
+    

@@ -1,0 +1,11 @@
+query GetPropertyTypeById($input: Uuid) {
+  propertyTypeById(propertyTypeId: $input) {
+    isActive
+    path
+    propertyTypeId
+    propertyTypeName
+    propertyTypeDescription
+    postUsageFields
+    projectUsageFields
+  }
+}

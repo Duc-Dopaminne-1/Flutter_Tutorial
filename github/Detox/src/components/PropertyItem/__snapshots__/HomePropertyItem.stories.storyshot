@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|c2c/HomePropertyItem default 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#F2F2F2",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "flexWrap": "nowrap",
+      "margin": 2,
+      "marginBottom": 20,
+      "marginEnd": 16,
+      "opacity": 1,
+      "width": 276,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingBottom": 12,
+        "paddingHorizontal": 8,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 16,
+          "height": 60,
+          "includeFontPadding": true,
+          "lineHeight": 26,
+          "marginTop": 8,
+        }
+      }
+    >
+      Test căn hộ Bành Văn Trân, Phường 1, Tân Bình, Hồ Chí Minh.
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 8,
+              "height": 88,
+              "width": 115,
+            },
+            Object {
+              "borderRadius": 8,
+              "flex": null,
+              "height": 88,
+              "overflow": "hidden",
+              "width": 115,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                Object {
+                  "borderRadius": 8,
+                  "height": 88,
+                  "width": 115,
+                },
+                Object {
+                  "borderRadius": 8,
+                  "flex": null,
+                  "height": 88,
+                  "overflow": "hidden",
+                  "width": 115,
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Array [
+                  Object {
+                    "position": "absolute",
+                  },
+                  Object {
+                    "borderRadius": 8,
+                    "height": 88,
+                    "width": 115,
+                  },
+                  Object {
+                    "borderRadius": 8,
+                    "flex": null,
+                    "height": 88,
+                    "overflow": "hidden",
+                    "width": 115,
+                  },
+                ],
+              ]
+            }
+          >
+            <FastImageView
+              imageStyle={
+                Object {
+                  "borderRadius": 8,
+                  "height": 88,
+                  "width": 115,
+                }
+              }
+              indicator={[Function]}
+              onFastImageLoadEnd={[Function]}
+              renderError={[Function]}
+              resizeMode="cover"
+              size={115}
+              source={
+                Object {
+                  "uri": "https://perstoresb.blob.core.windows.net/images/web_248x140_1625911807239_house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_hero.jpg",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+        <BVLinearGradient
+          colors={
+            Array [
+              16777215,
+              167772160,
+              2147483648,
+            ]
+          }
+          endPoint={
+            Object {
+              "x": 0.5,
+              "y": 1,
+            }
+          }
+          locations={null}
+          startPoint={
+            Object {
+              "x": 0.5,
+              "y": 0,
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 8,
+              "flex": 1,
+              "justifyContent": "flex-end",
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "padding": 8,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                }
+              }
+            />
+          </View>
+        </BVLinearGradient>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1.2,
+            "justifyContent": "space-between",
+            "marginLeft": 8,
+          }
+        }
+      >
+        <Text
+          numberOfLines={2}
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Bành Văn Trân, Phường 1, Tân Bình, Hồ Chí Minh.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#E53030",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 14,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          1.111 Triệu
+          <Text
+            style={
+              Object {
+                "color": "#313131",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              }
+            }
+          >
+             - 222 m²
+          </Text>
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Đông
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,22 @@
+query GetDepositeDetailValidatePayment(
+  $transactionId: String
+  $paymentReturnUrl: String
+  $propertyPostId: String
+) {
+  depositeTransactionValidatePayment(
+    depositeTransactionValidatePaymentInput: {
+      depositeTransactionId: $transactionId
+      paymentReturnUrl: $paymentReturnUrl
+      propertyPostId: $propertyPostId
+    }
+  ) {
+    errorCode
+    errorMessage
+    isValid
+  }
+}
+
+# {
+#     "transactionId": "65ef53e4-24c0-46b7-b5c6-261ebf680da3",
+#     "paymentReturnUrl": "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=5000000000&vnp_Command=pay&vnp_CreateDate=20200421084131&vnp_CurrCode=VND&vnp_IpAddr=8.8.8.8&vnp_Locale=vn&vnp_OrderInfo=%7B%22transactionId%22%3A%22546ff3a6-92d5-4c66-b268-a922475fe05d%22%2C%22transactionNo%22%3A%22BP202004210841319673%22%2C%22customerId%22%3A%225fbbf1c4-315f-4506-af18-4301b1e35f0f%22%2C%22phoneNumber%22%3A%220912345672%22%2C%22amount%22%3A50000000%7D&vnp_ReturnUrl=http%3A%2F%2Flocalhost%3A5100%2Fpayment%2Fbooking_deposite%2Fvnpay_return&vnp_TmnCode=57PUGOPN&vnp_TxnRef=Booking&vnp_Version=2.0.0&vnp_SecureHash=e8d4840ddf2f80703fe038a6c4479d58644f61091e306d357bb3a15e767313b2"
+# }

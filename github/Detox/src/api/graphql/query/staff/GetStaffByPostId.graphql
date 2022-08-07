@@ -1,0 +1,19 @@
+query GetStaffByPostId($propertyPostId: Uuid!) {
+  getConsultantSupportForC2CPostFO(propertyPostId: $propertyPostId) {
+    errorCode
+    errorMessageCode
+    errorMessage
+    consultantDto {
+      staffId
+      staffCode
+      fullName
+      phoneNumber
+      phoneNumber
+      rating
+      staffGroupDescription
+      profilePhoto
+      profilePhotos
+      __typename
+    }
+  }
+}

@@ -1,0 +1,20 @@
+query GetNotificationsByUserId(
+  $where: NotificationDtoFilter
+  $pageSize: Int
+  $page: Int
+  $order_by: NotificationDtoSort
+) {
+  notificationsByUserId(where: $where, pageSize: $pageSize, page: $page, order_by: $order_by) {
+    edges {
+      id
+      title
+      message
+      notificationType
+      subTypeCode
+      isUnread
+      link
+      createdDatetime
+    }
+    totalCount
+  }
+}

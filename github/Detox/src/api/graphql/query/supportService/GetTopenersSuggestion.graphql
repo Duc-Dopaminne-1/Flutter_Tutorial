@@ -1,0 +1,12 @@
+query GetTopenersSuggestion($page: Int, $pageSize: Int, $request: GetTopenersSuggestionInput!) {
+  getTopenersSuggestion(page: $page, pageSize: $pageSize, request: $request) {
+    edges {
+      avatar
+      fullName
+      topenerId
+      phoneNumber
+      agentRating
+    }
+    totalCount
+  }
+}

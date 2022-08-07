@@ -1,0 +1,14 @@
+query CheckMobileAppVersionStable($input: CheckMobileAppVersionStableInput!) {
+  checkMobileAppVersionStable(checkMobileAppVersionStableInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    mobileAppVersionStable {
+      mobileOs
+      mobileVersion
+      updateOption
+      releaseNotes
+      releaseUrl
+    }
+  }
+}

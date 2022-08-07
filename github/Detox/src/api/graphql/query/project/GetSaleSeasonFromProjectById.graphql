@@ -1,0 +1,11 @@
+query GetSaleSeasonFromProjectById($projectId: Uuid!) {
+  foProjectById(projectId: $projectId) {
+    projectId
+    saleSeasonInfo {
+      saleSeasonId
+      seasonStatusName
+      startBookingDatetime
+      openDatetime
+    }
+  }
+}

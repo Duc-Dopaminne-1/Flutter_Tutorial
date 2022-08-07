@@ -1,0 +1,42 @@
+query GetProjectSuggestion(
+  $pageSize: PaginationAmount
+  $cursor: String
+  $filter: ProjectSuggestionDtoFilter
+) {
+  curProjectSuggestions(
+    first: $pageSize
+    after: $cursor
+    where: $filter
+    order_by: {projectSuggestionCreatedDatetime: DESC}
+  ) {
+    edges {
+      node {
+        projectId
+        projectName
+        minPrice
+        projectStatusName
+        featurePhotos
+        investorOwnerName
+        propertyTypeId
+        projectStatusId
+        projectStatusDescription
+        projectAddress {
+          cityId
+          countryId
+          districtId
+          wardId
+          homeAddress
+          streetName
+          cityName
+          districtName
+          wardName
+        }
+        commissionRates
+        totalFollower
+        isFollowed
+      }
+      cursor
+    }
+    totalCount
+  }
+}

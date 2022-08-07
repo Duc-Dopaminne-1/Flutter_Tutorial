@@ -1,0 +1,35 @@
+query DepositeTransactionsByPropertyPostId($propertyPostId: Uuid!) {
+  depositeTransactionsByPropertyPostId(propertyPostId: $propertyPostId) {
+    edges {
+      transactionStatus
+      transactionStatusName
+      bookingCode
+      transactionType
+      bookingTransactionId
+      customerInfo {
+        customerEmail
+        customerContactAddress
+        customerFirstName
+        customerId
+        customerLastName
+        customerNationalId
+        customerNationalIdIssueDate
+        customerNationalIdIssuePlace
+        customerPhone
+      }
+      saleAgentInfo {
+        agentCode
+        agentId
+        firstName
+        lastName
+        profilePhoto
+        rating
+      }
+      ableConfirmRefund
+    }
+  }
+}
+
+# {
+# 	"propertyPostId": "{{SALE_PROPERTY_POST_ID}}"
+# }

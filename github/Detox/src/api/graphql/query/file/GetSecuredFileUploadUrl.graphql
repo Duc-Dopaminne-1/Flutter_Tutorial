@@ -1,0 +1,8 @@
+query GetSecuredFileUploadUrl($payload: GetSecuredFileUploadUrlInput!) {
+  getSecuredFileUploadUrl(request: $payload) {
+    fileUrl
+    fileName
+    signatureKey
+    uploadContainer
+  }
+}

@@ -1,0 +1,7 @@
+mutation createAgent($input: CreateAgentInput!) {
+  createNewAgent(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

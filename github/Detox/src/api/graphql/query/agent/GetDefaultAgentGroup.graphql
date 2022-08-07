@@ -1,0 +1,10 @@
+query GetDefaultAgentGroup {
+  defaultAgentGroup {
+    agentGroupId
+    agentGroupName
+    agentGroupStatus
+    agentGroupDescription
+    agentGroupLevel
+    parentAgentGroupId
+  }
+}

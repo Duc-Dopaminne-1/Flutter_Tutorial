@@ -1,0 +1,39 @@
+query SearchProjects($input: SearchProjectInput!) {
+  searchProjects(searchProjectInput: $input) {
+    totalCount
+    projectInfoDtos {
+      projectId
+      isFollowed
+      totalFollower
+      totalShare
+      projectName
+      projectCode
+      latitude
+      longitude
+      minPrice
+      startYear
+      totalArea
+      overallDescription
+      commissionRates
+      projectStatusName
+      featurePhotos
+      investorOwnerName
+      investorOwnerLogo
+      propertyTypeId
+      projectStatusId
+      projectTypeName
+      isFeaturesProject
+      projectAddress {
+        cityId
+        countryId
+        districtId
+        wardId
+        homeAddress
+        streetName
+        cityName
+        districtName
+        wardName
+      }
+    }
+  }
+}

@@ -1,0 +1,6878 @@
+directive @authorize(
+  """
+  The name of the authorization policy that determines access to the annotated resource.
+  """
+  policy: String
+
+  """Roles that are allowed to access to the annotated resource."""
+  roles: [String!]
+) on OBJECT | FIELD_DEFINITION
+
+"""The cost directives is used to express the complexity of a field."""
+directive @cost(
+  """Defines the complexity of the field."""
+  complexity: Int! = 1
+
+  """Defines field arguments that act as complexity multipliers."""
+  multipliers: [MultiplierPath!]
+) on FIELD_DEFINITION
+
+directive @delegate(
+  path: String
+
+  """The name of the schema to which this field shall be delegated to."""
+  schema: Name!
+) on FIELD_DEFINITION
+
+directive @computed(
+  """Specifies the fields on which a computed field is dependent on."""
+  dependantOn: [Name!]
+) on FIELD_DEFINITION
+
+"""Annotates the original name of a type."""
+directive @source(
+  """The original name of the annotated type."""
+  name: Name!
+
+  """The name of the schema to which this type belongs to."""
+  schema: Name!
+) on ENUM | OBJECT | INTERFACE | UNION | INPUT_OBJECT | FIELD_DEFINITION | INPUT_FIELD_DEFINITION | ARGUMENT_DEFINITION | ENUM_VALUE
+
+type AddressDto {
+  addressId: String
+}
+
+input AddressDtoFilter {
+  AND: [AddressDtoFilter!]
+  block: String
+  block_contains: String
+  block_ends_with: String
+  block_in: [String]
+  block_not: String
+  block_not_contains: String
+  block_not_ends_with: String
+  block_not_in: [String]
+  block_not_starts_with: String
+  block_starts_with: String
+  building: String
+  building_contains: String
+  building_ends_with: String
+  building_in: [String]
+  building_not: String
+  building_not_contains: String
+  building_not_ends_with: String
+  building_not_in: [String]
+  building_not_starts_with: String
+  building_starts_with: String
+  cityId: Int
+  cityId_gt: Int
+  cityId_gte: Int
+  cityId_in: [Int!]
+  cityId_lt: Int
+  cityId_lte: Int
+  cityId_not: Int
+  cityId_not_gt: Int
+  cityId_not_gte: Int
+  cityId_not_in: [Int!]
+  cityId_not_lt: Int
+  cityId_not_lte: Int
+  fullAddress: String
+  fullAddress_contains: String
+  fullAddress_ends_with: String
+  fullAddress_in: [String]
+  fullAddress_not: String
+  fullAddress_not_contains: String
+  fullAddress_not_ends_with: String
+  fullAddress_not_in: [String]
+  fullAddress_not_starts_with: String
+  fullAddress_starts_with: String
+  landmark: String
+  landmark_contains: String
+  landmark_ends_with: String
+  landmark_in: [String]
+  landmark_not: String
+  landmark_not_contains: String
+  landmark_not_ends_with: String
+  landmark_not_in: [String]
+  landmark_not_starts_with: String
+  landmark_starts_with: String
+  OR: [AddressDtoFilter!]
+  wardId: Int
+  wardId_gt: Int
+  wardId_gte: Int
+  wardId_in: [Int!]
+  wardId_lt: Int
+  wardId_lte: Int
+  wardId_not: Int
+  wardId_not_gt: Int
+  wardId_not_gte: Int
+  wardId_not_in: [Int!]
+  wardId_not_lt: Int
+  wardId_not_lte: Int
+}
+
+input AddressDtoSort {
+  block: SortOperationKind
+  building: SortOperationKind
+  fullAddress: SortOperationKind
+  landmark: SortOperationKind
+}
+
+type AddressInfoDto {
+  additionalLocationInfo: String
+  addressId: Int!
+  addressTypeId: String
+  block: String
+  building: String
+  cityId: Int!
+  countryId: Int!
+  directional: String
+  districtId: Int!
+  floor: String
+  fullAddress: String
+  googleEmbedCode: String
+  googleShareLink: String
+  imageMapUrl: String
+  isActive: Boolean!
+  landmark: String
+  latitude: Float
+  longitude: Float
+  propertyPostId: String
+  room: String
+  streetId: Int!
+  wardId: Int!
+}
+
+type AddressTypeDto {
+  addressTypeDescription: String
+  addressTypeId: String
+  addressTypeName: String
+  isActive: Boolean!
+  sortOrder: Int!
+}
+
+input AddressTypeDtoFilter {
+  addressTypeName: String
+  addressTypeName_contains: String
+  addressTypeName_ends_with: String
+  addressTypeName_in: [String]
+  addressTypeName_not: String
+  addressTypeName_not_contains: String
+  addressTypeName_not_ends_with: String
+  addressTypeName_not_in: [String]
+  addressTypeName_not_starts_with: String
+  addressTypeName_starts_with: String
+  AND: [AddressTypeDtoFilter!]
+  OR: [AddressTypeDtoFilter!]
+}
+
+input AddressTypeDtoSort {
+  addressTypeName: SortOperationKind
+}
+
+type AddressTypeInfoDto {
+  addressTypeDescription: String
+  addressTypeId: String
+  addressTypeName: String
+  isActive: Boolean!
+  sortOrder: Int!
+}
+
+type AgentDto {
+  agentCode: String
+  agentGroupId: String
+  agentGroupName: String
+  agentId: String
+  agentRankingDegreeOrder: Int!
+  agentRankingDescription: String
+  agentRankingId: String
+  agentRankName: String
+  createdDatetime: Long
+  email: String
+  firstName: String
+  instruction: String
+  isAgentLeader: Boolean!
+  isInitialAccount: Boolean!
+  lastName: String
+  nationalId: String
+  permanentAddress: String
+  phoneNumber: String
+  preferPropertyPriceFrom: Float
+  preferPropertyPriceTo: Float
+  preferPropertyTypes: String
+  profilePhoto: String
+  rating: Float
+  refererCode: String
+  updatedDatetime: Long
+  userName: String
+  userStatus: String
+  workingAreas: String
+}
+
+input AgentDtoFilter {
+  agentCode: String
+  agentCode_contains: String
+  agentCode_ends_with: String
+  agentCode_in: [String]
+  agentCode_not: String
+  agentCode_not_contains: String
+  agentCode_not_ends_with: String
+  agentCode_not_in: [String]
+  agentCode_not_starts_with: String
+  agentCode_starts_with: String
+  agentGroupId: String
+  agentGroupId_contains: String
+  agentGroupId_ends_with: String
+  agentGroupId_in: [String]
+  agentGroupId_not: String
+  agentGroupId_not_contains: String
+  agentGroupId_not_ends_with: String
+  agentGroupId_not_in: [String]
+  agentGroupId_not_starts_with: String
+  agentGroupId_starts_with: String
+  agentGroupName: String
+  agentGroupName_contains: String
+  agentGroupName_ends_with: String
+  agentGroupName_in: [String]
+  agentGroupName_not: String
+  agentGroupName_not_contains: String
+  agentGroupName_not_ends_with: String
+  agentGroupName_not_in: [String]
+  agentGroupName_not_starts_with: String
+  agentGroupName_starts_with: String
+  agentRankingDegreeOrder: Int
+  agentRankingDegreeOrder_gt: Int
+  agentRankingDegreeOrder_gte: Int
+  agentRankingDegreeOrder_in: [Int!]
+  agentRankingDegreeOrder_lt: Int
+  agentRankingDegreeOrder_lte: Int
+  agentRankingDegreeOrder_not: Int
+  agentRankingDegreeOrder_not_gt: Int
+  agentRankingDegreeOrder_not_gte: Int
+  agentRankingDegreeOrder_not_in: [Int!]
+  agentRankingDegreeOrder_not_lt: Int
+  agentRankingDegreeOrder_not_lte: Int
+  agentRankingId: String
+  agentRankingId_contains: String
+  agentRankingId_ends_with: String
+  agentRankingId_in: [String]
+  agentRankingId_not: String
+  agentRankingId_not_contains: String
+  agentRankingId_not_ends_with: String
+  agentRankingId_not_in: [String]
+  agentRankingId_not_starts_with: String
+  agentRankingId_starts_with: String
+  agentRankName: String
+  agentRankName_contains: String
+  agentRankName_ends_with: String
+  agentRankName_in: [String]
+  agentRankName_not: String
+  agentRankName_not_contains: String
+  agentRankName_not_ends_with: String
+  agentRankName_not_in: [String]
+  agentRankName_not_starts_with: String
+  agentRankName_starts_with: String
+  AND: [AgentDtoFilter!]
+  email: String
+  email_contains: String
+  email_ends_with: String
+  email_in: [String]
+  email_not: String
+  email_not_contains: String
+  email_not_ends_with: String
+  email_not_in: [String]
+  email_not_starts_with: String
+  email_starts_with: String
+  firstName: String
+  firstName_contains: String
+  firstName_ends_with: String
+  firstName_in: [String]
+  firstName_not: String
+  firstName_not_contains: String
+  firstName_not_ends_with: String
+  firstName_not_in: [String]
+  firstName_not_starts_with: String
+  firstName_starts_with: String
+  instruction: String
+  instruction_contains: String
+  instruction_ends_with: String
+  instruction_in: [String]
+  instruction_not: String
+  instruction_not_contains: String
+  instruction_not_ends_with: String
+  instruction_not_in: [String]
+  instruction_not_starts_with: String
+  instruction_starts_with: String
+  isAgentLeader: Boolean
+  isAgentLeader_not: Boolean
+  lastName: String
+  lastName_contains: String
+  lastName_ends_with: String
+  lastName_in: [String]
+  lastName_not: String
+  lastName_not_contains: String
+  lastName_not_ends_with: String
+  lastName_not_in: [String]
+  lastName_not_starts_with: String
+  lastName_starts_with: String
+  nationalId: String
+  nationalId_contains: String
+  nationalId_ends_with: String
+  nationalId_in: [String]
+  nationalId_not: String
+  nationalId_not_contains: String
+  nationalId_not_ends_with: String
+  nationalId_not_in: [String]
+  nationalId_not_starts_with: String
+  nationalId_starts_with: String
+  OR: [AgentDtoFilter!]
+  permanentAddress: String
+  permanentAddress_contains: String
+  permanentAddress_ends_with: String
+  permanentAddress_in: [String]
+  permanentAddress_not: String
+  permanentAddress_not_contains: String
+  permanentAddress_not_ends_with: String
+  permanentAddress_not_in: [String]
+  permanentAddress_not_starts_with: String
+  permanentAddress_starts_with: String
+  phoneNumber: String
+  phoneNumber_contains: String
+  phoneNumber_ends_with: String
+  phoneNumber_in: [String]
+  phoneNumber_not: String
+  phoneNumber_not_contains: String
+  phoneNumber_not_ends_with: String
+  phoneNumber_not_in: [String]
+  phoneNumber_not_starts_with: String
+  phoneNumber_starts_with: String
+}
+
+input AgentDtoSort {
+  agentCode: SortOperationKind
+  agentGroupId: SortOperationKind
+  agentGroupName: SortOperationKind
+  agentRankingDegreeOrder: SortOperationKind
+  agentRankingId: SortOperationKind
+  agentRankName: SortOperationKind
+  email: SortOperationKind
+  firstName: SortOperationKind
+  instruction: SortOperationKind
+  isAgentLeader: SortOperationKind
+  lastName: SortOperationKind
+  nationalId: SortOperationKind
+  permanentAddress: SortOperationKind
+  phoneNumber: SortOperationKind
+}
+
+type AgentGroupAndMembersInfoDto {
+  agentGroupId: String
+  agentGroupName: String
+  allMembers: [AgentProfileDto]
+  calculateSize: Int!
+  clone: AgentGroupAndMembersInfoDto
+  equals: Boolean!
+  familyGroupNames: [String]
+  needViewMore: Boolean!
+  numberOfMembers: Int!
+  parentAgentGroupId: String
+}
+
+type AgentGroupDto {
+  agentGroupDescription: String
+  agentGroupId: String
+  agentGroupLevel: Int
+  agentGroupName: String
+  agentGroupStatus: String
+  numberOfMember: Int
+  parentAgentGroupId: String
+}
+
+input AgentGroupDtoFilter {
+  agentGroupName: String
+  agentGroupName_contains: String
+  agentGroupName_ends_with: String
+  agentGroupName_in: [String]
+  agentGroupName_not: String
+  agentGroupName_not_contains: String
+  agentGroupName_not_ends_with: String
+  agentGroupName_not_in: [String]
+  agentGroupName_not_starts_with: String
+  agentGroupName_starts_with: String
+  AND: [AgentGroupDtoFilter!]
+  OR: [AgentGroupDtoFilter!]
+}
+
+input AgentGroupDtoSort {
+  agentGroupName: SortOperationKind
+}
+
+type AgentGroupInfo {
+  agentGroupDescription: String
+  agentGroupName: String
+  calculateSize: Int!
+  clone: AgentGroupInfo
+  equals: Boolean!
+  id: String
+}
+
+type AgentGroupInfoDto {
+  childAgentGroups: [AgentGroupAndMembersInfoDto]
+  numberOfMembersInAllGroups: Int!
+  parentAgentGroup: AgentGroupAndMembersInfoDto
+}
+
+input agentGroupInput {
+  agentGroupId: String
+  groupSize: Int!
+  needKpi: Boolean!
+}
+
+type AgentGroupTrackingDto {
+  agentId: String
+  changingGroupReason: String
+  movementDate: Long
+  newAgentGroupId: String
+  newAgentGroupName: String
+  priorAgentGroupId: String
+  priorAgentGroupName: String
+}
+
+input AgentGroupTrackingDtoFilter {
+  AND: [AgentGroupTrackingDtoFilter!]
+  changingGroupReason: String
+  changingGroupReason_contains: String
+  changingGroupReason_ends_with: String
+  changingGroupReason_in: [String]
+  changingGroupReason_not: String
+  changingGroupReason_not_contains: String
+  changingGroupReason_not_ends_with: String
+  changingGroupReason_not_in: [String]
+  changingGroupReason_not_starts_with: String
+  changingGroupReason_starts_with: String
+  movementDate: Long
+  movementDate_gt: Long
+  movementDate_gte: Long
+  movementDate_in: [Long]
+  movementDate_lt: Long
+  movementDate_lte: Long
+  movementDate_not: Long
+  movementDate_not_gt: Long
+  movementDate_not_gte: Long
+  movementDate_not_in: [Long]
+  movementDate_not_lt: Long
+  movementDate_not_lte: Long
+  newAgentGroupName: String
+  newAgentGroupName_contains: String
+  newAgentGroupName_ends_with: String
+  newAgentGroupName_in: [String]
+  newAgentGroupName_not: String
+  newAgentGroupName_not_contains: String
+  newAgentGroupName_not_ends_with: String
+  newAgentGroupName_not_in: [String]
+  newAgentGroupName_not_starts_with: String
+  newAgentGroupName_starts_with: String
+  OR: [AgentGroupTrackingDtoFilter!]
+  priorAgentGroupName: String
+  priorAgentGroupName_contains: String
+  priorAgentGroupName_ends_with: String
+  priorAgentGroupName_in: [String]
+  priorAgentGroupName_not: String
+  priorAgentGroupName_not_contains: String
+  priorAgentGroupName_not_ends_with: String
+  priorAgentGroupName_not_in: [String]
+  priorAgentGroupName_not_starts_with: String
+  priorAgentGroupName_starts_with: String
+}
+
+input AgentGroupTrackingDtoSort {
+  changingGroupReason: SortOperationKind
+  movementDate: SortOperationKind
+  newAgentGroupName: SortOperationKind
+  priorAgentGroupName: SortOperationKind
+}
+
+type AgentPerformanceTrackingDto {
+  agentId: String
+  agentPerformanceTrackingId: String
+  dateOfReviewing: Long
+  meetTargetNumberApprovedPosts: Boolean!
+  meetTargetNumberOfB2CTransaction: Boolean!
+  meetTargetNumberOfC2CTransaction: Boolean!
+  meetTargetNumberOfReferalAgents: Boolean!
+  newAgentRankingId: String
+  newAgentRankingName: String
+  numberApprovedPosts: Int
+  numberOfB2CTransaction: Int
+  numberOfC2CTransaction: Int
+  numberOfReferalAgents: Int
+  oldAgentRankingId: String
+  oldAgentRankingName: String
+  reviewFromDate: Long
+  reviewToDate: Long
+  targetAgentRankingId: String
+  targetAgentRankingName: String
+  targetNumberApprovedPosts: Int
+  targetNumberOfB2CTransaction: Int
+  targetNumberOfC2CTransaction: Int
+  targetNumberOfReferalAgents: Int
+}
+
+input AgentPerformanceTrackingDtoFilter {
+  agentPerformanceTrackingId: String
+  agentPerformanceTrackingId_contains: String
+  agentPerformanceTrackingId_ends_with: String
+  agentPerformanceTrackingId_in: [String]
+  agentPerformanceTrackingId_not: String
+  agentPerformanceTrackingId_not_contains: String
+  agentPerformanceTrackingId_not_ends_with: String
+  agentPerformanceTrackingId_not_in: [String]
+  agentPerformanceTrackingId_not_starts_with: String
+  agentPerformanceTrackingId_starts_with: String
+  AND: [AgentPerformanceTrackingDtoFilter!]
+  dateOfReviewing: Long
+  dateOfReviewing_gt: Long
+  dateOfReviewing_gte: Long
+  dateOfReviewing_in: [Long]
+  dateOfReviewing_lt: Long
+  dateOfReviewing_lte: Long
+  dateOfReviewing_not: Long
+  dateOfReviewing_not_gt: Long
+  dateOfReviewing_not_gte: Long
+  dateOfReviewing_not_in: [Long]
+  dateOfReviewing_not_lt: Long
+  dateOfReviewing_not_lte: Long
+  meetTargetNumberApprovedPosts: Boolean
+  meetTargetNumberApprovedPosts_not: Boolean
+  meetTargetNumberOfB2CTransaction: Boolean
+  meetTargetNumberOfB2CTransaction_not: Boolean
+  meetTargetNumberOfC2CTransaction: Boolean
+  meetTargetNumberOfC2CTransaction_not: Boolean
+  meetTargetNumberOfReferalAgents: Boolean
+  meetTargetNumberOfReferalAgents_not: Boolean
+  newAgentRankingName: String
+  newAgentRankingName_contains: String
+  newAgentRankingName_ends_with: String
+  newAgentRankingName_in: [String]
+  newAgentRankingName_not: String
+  newAgentRankingName_not_contains: String
+  newAgentRankingName_not_ends_with: String
+  newAgentRankingName_not_in: [String]
+  newAgentRankingName_not_starts_with: String
+  newAgentRankingName_starts_with: String
+  numberApprovedPosts: Int
+  numberApprovedPosts_gt: Int
+  numberApprovedPosts_gte: Int
+  numberApprovedPosts_in: [Int]
+  numberApprovedPosts_lt: Int
+  numberApprovedPosts_lte: Int
+  numberApprovedPosts_not: Int
+  numberApprovedPosts_not_gt: Int
+  numberApprovedPosts_not_gte: Int
+  numberApprovedPosts_not_in: [Int]
+  numberApprovedPosts_not_lt: Int
+  numberApprovedPosts_not_lte: Int
+  numberOfB2CTransaction: Int
+  numberOfB2CTransaction_gt: Int
+  numberOfB2CTransaction_gte: Int
+  numberOfB2CTransaction_in: [Int]
+  numberOfB2CTransaction_lt: Int
+  numberOfB2CTransaction_lte: Int
+  numberOfB2CTransaction_not: Int
+  numberOfB2CTransaction_not_gt: Int
+  numberOfB2CTransaction_not_gte: Int
+  numberOfB2CTransaction_not_in: [Int]
+  numberOfB2CTransaction_not_lt: Int
+  numberOfB2CTransaction_not_lte: Int
+  numberOfC2CTransaction: Int
+  numberOfC2CTransaction_gt: Int
+  numberOfC2CTransaction_gte: Int
+  numberOfC2CTransaction_in: [Int]
+  numberOfC2CTransaction_lt: Int
+  numberOfC2CTransaction_lte: Int
+  numberOfC2CTransaction_not: Int
+  numberOfC2CTransaction_not_gt: Int
+  numberOfC2CTransaction_not_gte: Int
+  numberOfC2CTransaction_not_in: [Int]
+  numberOfC2CTransaction_not_lt: Int
+  numberOfC2CTransaction_not_lte: Int
+  numberOfReferalAgents: Int
+  numberOfReferalAgents_gt: Int
+  numberOfReferalAgents_gte: Int
+  numberOfReferalAgents_in: [Int]
+  numberOfReferalAgents_lt: Int
+  numberOfReferalAgents_lte: Int
+  numberOfReferalAgents_not: Int
+  numberOfReferalAgents_not_gt: Int
+  numberOfReferalAgents_not_gte: Int
+  numberOfReferalAgents_not_in: [Int]
+  numberOfReferalAgents_not_lt: Int
+  numberOfReferalAgents_not_lte: Int
+  oldAgentRankingName: String
+  oldAgentRankingName_contains: String
+  oldAgentRankingName_ends_with: String
+  oldAgentRankingName_in: [String]
+  oldAgentRankingName_not: String
+  oldAgentRankingName_not_contains: String
+  oldAgentRankingName_not_ends_with: String
+  oldAgentRankingName_not_in: [String]
+  oldAgentRankingName_not_starts_with: String
+  oldAgentRankingName_starts_with: String
+  OR: [AgentPerformanceTrackingDtoFilter!]
+  reviewFromDate: Long
+  reviewFromDate_gt: Long
+  reviewFromDate_gte: Long
+  reviewFromDate_in: [Long]
+  reviewFromDate_lt: Long
+  reviewFromDate_lte: Long
+  reviewFromDate_not: Long
+  reviewFromDate_not_gt: Long
+  reviewFromDate_not_gte: Long
+  reviewFromDate_not_in: [Long]
+  reviewFromDate_not_lt: Long
+  reviewFromDate_not_lte: Long
+  reviewToDate: Long
+  reviewToDate_gt: Long
+  reviewToDate_gte: Long
+  reviewToDate_in: [Long]
+  reviewToDate_lt: Long
+  reviewToDate_lte: Long
+  reviewToDate_not: Long
+  reviewToDate_not_gt: Long
+  reviewToDate_not_gte: Long
+  reviewToDate_not_in: [Long]
+  reviewToDate_not_lt: Long
+  reviewToDate_not_lte: Long
+  targetAgentRankingName: String
+  targetAgentRankingName_contains: String
+  targetAgentRankingName_ends_with: String
+  targetAgentRankingName_in: [String]
+  targetAgentRankingName_not: String
+  targetAgentRankingName_not_contains: String
+  targetAgentRankingName_not_ends_with: String
+  targetAgentRankingName_not_in: [String]
+  targetAgentRankingName_not_starts_with: String
+  targetAgentRankingName_starts_with: String
+  targetNumberApprovedPosts: Int
+  targetNumberApprovedPosts_gt: Int
+  targetNumberApprovedPosts_gte: Int
+  targetNumberApprovedPosts_in: [Int]
+  targetNumberApprovedPosts_lt: Int
+  targetNumberApprovedPosts_lte: Int
+  targetNumberApprovedPosts_not: Int
+  targetNumberApprovedPosts_not_gt: Int
+  targetNumberApprovedPosts_not_gte: Int
+  targetNumberApprovedPosts_not_in: [Int]
+  targetNumberApprovedPosts_not_lt: Int
+  targetNumberApprovedPosts_not_lte: Int
+  targetNumberOfB2CTransaction: Int
+  targetNumberOfB2CTransaction_gt: Int
+  targetNumberOfB2CTransaction_gte: Int
+  targetNumberOfB2CTransaction_in: [Int]
+  targetNumberOfB2CTransaction_lt: Int
+  targetNumberOfB2CTransaction_lte: Int
+  targetNumberOfB2CTransaction_not: Int
+  targetNumberOfB2CTransaction_not_gt: Int
+  targetNumberOfB2CTransaction_not_gte: Int
+  targetNumberOfB2CTransaction_not_in: [Int]
+  targetNumberOfB2CTransaction_not_lt: Int
+  targetNumberOfB2CTransaction_not_lte: Int
+  targetNumberOfC2CTransaction: Int
+  targetNumberOfC2CTransaction_gt: Int
+  targetNumberOfC2CTransaction_gte: Int
+  targetNumberOfC2CTransaction_in: [Int]
+  targetNumberOfC2CTransaction_lt: Int
+  targetNumberOfC2CTransaction_lte: Int
+  targetNumberOfC2CTransaction_not: Int
+  targetNumberOfC2CTransaction_not_gt: Int
+  targetNumberOfC2CTransaction_not_gte: Int
+  targetNumberOfC2CTransaction_not_in: [Int]
+  targetNumberOfC2CTransaction_not_lt: Int
+  targetNumberOfC2CTransaction_not_lte: Int
+  targetNumberOfReferalAgents: Int
+  targetNumberOfReferalAgents_gt: Int
+  targetNumberOfReferalAgents_gte: Int
+  targetNumberOfReferalAgents_in: [Int]
+  targetNumberOfReferalAgents_lt: Int
+  targetNumberOfReferalAgents_lte: Int
+  targetNumberOfReferalAgents_not: Int
+  targetNumberOfReferalAgents_not_gt: Int
+  targetNumberOfReferalAgents_not_gte: Int
+  targetNumberOfReferalAgents_not_in: [Int]
+  targetNumberOfReferalAgents_not_lt: Int
+  targetNumberOfReferalAgents_not_lte: Int
+}
+
+input AgentPerformanceTrackingDtoSort {
+  meetTargetNumberApprovedPosts: SortOperationKind
+  meetTargetNumberOfB2CTransaction: SortOperationKind
+  meetTargetNumberOfC2CTransaction: SortOperationKind
+  meetTargetNumberOfReferalAgents: SortOperationKind
+  newAgentRankingName: SortOperationKind
+  numberApprovedPosts: SortOperationKind
+  numberOfB2CTransaction: SortOperationKind
+  numberOfC2CTransaction: SortOperationKind
+  numberOfReferalAgents: SortOperationKind
+  oldAgentRankingName: SortOperationKind
+  reviewFromDate: SortOperationKind
+  reviewToDate: SortOperationKind
+  targetAgentRankingName: SortOperationKind
+  targetNumberApprovedPosts: SortOperationKind
+  targetNumberOfB2CTransaction: SortOperationKind
+  targetNumberOfC2CTransaction: SortOperationKind
+  targetNumberOfReferalAgents: SortOperationKind
+}
+
+input agentPerformanceTrackingInput {
+  agentIds: String
+  forCurrentPeriod: Boolean!
+}
+
+type AgentProfileDto {
+  agentCode: String
+  agentId: String
+  agentRankingDescription: String
+  agentRankingId: String
+  agentRankName: String
+  calculateSize: Int!
+  clone: AgentProfileDto
+  createdDatetime: Long
+  equals: Boolean!
+  firstName: String
+  isAgentLeader: Boolean!
+  lastName: String
+  numberOfSuccessTransaction: Int!
+  profilePhoto: String
+  rating: Float
+}
+
+type AgentRankDto {
+  agentRankingId: String
+}
+
+type AgentRankInfo {
+  agentRankingDescription: String
+  agentRankingName: String
+  calculateSize: Int!
+  clone: AgentRankInfo
+  equals: Boolean!
+  id: String
+}
+
+type AgentRankingDto {
+  agentRankingDegreeOrder: Int!
+  agentRankingDescription: String
+  agentRankingId: String
+  agentRankingName: String
+  benefit: String
+  isActive: Boolean!
+  isDefault: Boolean!
+  numberOfApprovedPosts: Int!
+  numberOfB2CTransaction: Int!
+  numberOfC2CTransaction: Int!
+  numberOfReferalAgents: Int!
+  reviewCycle: String
+  rewardPoints: Int!
+  validFromDatetime: Long
+  validToDatetime: Long
+}
+
+input AgentRankingDtoFilter {
+  agentRankingId: String
+  agentRankingId_contains: String
+  agentRankingId_ends_with: String
+  agentRankingId_in: [String]
+  agentRankingId_not: String
+  agentRankingId_not_contains: String
+  agentRankingId_not_ends_with: String
+  agentRankingId_not_in: [String]
+  agentRankingId_not_starts_with: String
+  agentRankingId_starts_with: String
+  AND: [AgentRankingDtoFilter!]
+  OR: [AgentRankingDtoFilter!]
+}
+
+type AgentRankingInfoDto {
+  agentRankingDegreeOrder: Int!
+  agentRankingDescription: String
+  agentRankingId: String
+  agentRankingName: String
+  benefit: String
+  isActive: Boolean!
+  isDefault: Boolean!
+  numberOfApprovedPosts: Int!
+  numberOfB2CTransaction: Int!
+  numberOfC2CTransaction: Int!
+  numberOfReferalAgents: Int!
+  reviewCycle: String
+  rewardPoints: Int!
+  validFromDatetime: Long
+  validToDatetime: Long
+}
+
+type AgentRatingDto {
+  agentRatingId: String
+}
+
+input AgentRatingDtoFilter {
+  AND: [AgentRatingDtoFilter!]
+  comment: String
+  comment_contains: String
+  comment_ends_with: String
+  comment_in: [String]
+  comment_not: String
+  comment_not_contains: String
+  comment_not_ends_with: String
+  comment_not_in: [String]
+  comment_not_starts_with: String
+  comment_starts_with: String
+  OR: [AgentRatingDtoFilter!]
+}
+
+input AgentRatingDtoSort {
+  comment: SortOperationKind
+}
+
+type AgentRatingInfoDto {
+  agentId: String
+  agentRatingId: String
+  comment: String
+  isActive: Boolean!
+  isDeleted: Boolean!
+  rateByUserId: String
+  stars: Int!
+  strengthsWeaknesses: String
+}
+
+type AgentTypeDto {
+  agentTypeDescription: String
+  agentTypeId: String
+  agentTypeName: String
+  isActive: Boolean!
+  isConsultant: Boolean!
+}
+
+input AgentTypeDtoFilter {
+  agentTypeName: String
+  agentTypeName_contains: String
+  agentTypeName_ends_with: String
+  agentTypeName_in: [String]
+  agentTypeName_not: String
+  agentTypeName_not_contains: String
+  agentTypeName_not_ends_with: String
+  agentTypeName_not_in: [String]
+  agentTypeName_not_starts_with: String
+  agentTypeName_starts_with: String
+  AND: [AgentTypeDtoFilter!]
+  isConsultant: Boolean
+  isConsultant_not: Boolean
+  OR: [AgentTypeDtoFilter!]
+}
+
+input AgentTypeDtoSort {
+  agentTypeName: SortOperationKind
+  isConsultant: SortOperationKind
+}
+
+type AgentTypeInfoDto {
+  agentTypeDescription: String
+  agentTypeId: String
+  agentTypeName: String
+  isActive: Boolean!
+  isConsultant: Boolean!
+}
+
+type AgentWithKpiDto {
+  agentCode: String
+  agentGroupId: String
+  agentGroupName: String
+  agentId: String
+  agentRankingDegreeOrder: Int!
+  agentRankingDescription: String
+  agentRankingId: String
+  agentRankName: String
+  dateOfReviewing: Long
+  firstName: String
+  isAgentLeader: Boolean!
+  lastName: String
+  numberApprovedPosts: Int
+  numberOfB2CTransaction: Int
+  numberOfC2CTransaction: Int
+  numberOfReferalAgents: Int
+  reviewFromDate: Long
+  reviewToDate: Long
+  userName: String
+}
+
+input AgentWithKpiDtoFilter {
+  agentCode: String
+  agentCode_contains: String
+  agentCode_ends_with: String
+  agentCode_in: [String]
+  agentCode_not: String
+  agentCode_not_contains: String
+  agentCode_not_ends_with: String
+  agentCode_not_in: [String]
+  agentCode_not_starts_with: String
+  agentCode_starts_with: String
+  agentGroupId: String
+  agentGroupId_contains: String
+  agentGroupId_ends_with: String
+  agentGroupId_in: [String]
+  agentGroupId_not: String
+  agentGroupId_not_contains: String
+  agentGroupId_not_ends_with: String
+  agentGroupId_not_in: [String]
+  agentGroupId_not_starts_with: String
+  agentGroupId_starts_with: String
+  agentGroupName: String
+  agentGroupName_contains: String
+  agentGroupName_ends_with: String
+  agentGroupName_in: [String]
+  agentGroupName_not: String
+  agentGroupName_not_contains: String
+  agentGroupName_not_ends_with: String
+  agentGroupName_not_in: [String]
+  agentGroupName_not_starts_with: String
+  agentGroupName_starts_with: String
+  agentRankingDegreeOrder: Int
+  agentRankingDegreeOrder_gt: Int
+  agentRankingDegreeOrder_gte: Int
+  agentRankingDegreeOrder_in: [Int!]
+  agentRankingDegreeOrder_lt: Int
+  agentRankingDegreeOrder_lte: Int
+  agentRankingDegreeOrder_not: Int
+  agentRankingDegreeOrder_not_gt: Int
+  agentRankingDegreeOrder_not_gte: Int
+  agentRankingDegreeOrder_not_in: [Int!]
+  agentRankingDegreeOrder_not_lt: Int
+  agentRankingDegreeOrder_not_lte: Int
+  agentRankingId: String
+  agentRankingId_contains: String
+  agentRankingId_ends_with: String
+  agentRankingId_in: [String]
+  agentRankingId_not: String
+  agentRankingId_not_contains: String
+  agentRankingId_not_ends_with: String
+  agentRankingId_not_in: [String]
+  agentRankingId_not_starts_with: String
+  agentRankingId_starts_with: String
+  agentRankName: String
+  agentRankName_contains: String
+  agentRankName_ends_with: String
+  agentRankName_in: [String]
+  agentRankName_not: String
+  agentRankName_not_contains: String
+  agentRankName_not_ends_with: String
+  agentRankName_not_in: [String]
+  agentRankName_not_starts_with: String
+  agentRankName_starts_with: String
+  AND: [AgentWithKpiDtoFilter!]
+  dateOfReviewing: Long
+  dateOfReviewing_gt: Long
+  dateOfReviewing_gte: Long
+  dateOfReviewing_in: [Long]
+  dateOfReviewing_lt: Long
+  dateOfReviewing_lte: Long
+  dateOfReviewing_not: Long
+  dateOfReviewing_not_gt: Long
+  dateOfReviewing_not_gte: Long
+  dateOfReviewing_not_in: [Long]
+  dateOfReviewing_not_lt: Long
+  dateOfReviewing_not_lte: Long
+  firstName: String
+  firstName_contains: String
+  firstName_ends_with: String
+  firstName_in: [String]
+  firstName_not: String
+  firstName_not_contains: String
+  firstName_not_ends_with: String
+  firstName_not_in: [String]
+  firstName_not_starts_with: String
+  firstName_starts_with: String
+  isAgentLeader: Boolean
+  isAgentLeader_not: Boolean
+  lastName: String
+  lastName_contains: String
+  lastName_ends_with: String
+  lastName_in: [String]
+  lastName_not: String
+  lastName_not_contains: String
+  lastName_not_ends_with: String
+  lastName_not_in: [String]
+  lastName_not_starts_with: String
+  lastName_starts_with: String
+  numberApprovedPosts: Int
+  numberApprovedPosts_gt: Int
+  numberApprovedPosts_gte: Int
+  numberApprovedPosts_in: [Int]
+  numberApprovedPosts_lt: Int
+  numberApprovedPosts_lte: Int
+  numberApprovedPosts_not: Int
+  numberApprovedPosts_not_gt: Int
+  numberApprovedPosts_not_gte: Int
+  numberApprovedPosts_not_in: [Int]
+  numberApprovedPosts_not_lt: Int
+  numberApprovedPosts_not_lte: Int
+  numberOfB2CTransaction: Int
+  numberOfB2CTransaction_gt: Int
+  numberOfB2CTransaction_gte: Int
+  numberOfB2CTransaction_in: [Int]
+  numberOfB2CTransaction_lt: Int
+  numberOfB2CTransaction_lte: Int
+  numberOfB2CTransaction_not: Int
+  numberOfB2CTransaction_not_gt: Int
+  numberOfB2CTransaction_not_gte: Int
+  numberOfB2CTransaction_not_in: [Int]
+  numberOfB2CTransaction_not_lt: Int
+  numberOfB2CTransaction_not_lte: Int
+  numberOfC2CTransaction: Int
+  numberOfC2CTransaction_gt: Int
+  numberOfC2CTransaction_gte: Int
+  numberOfC2CTransaction_in: [Int]
+  numberOfC2CTransaction_lt: Int
+  numberOfC2CTransaction_lte: Int
+  numberOfC2CTransaction_not: Int
+  numberOfC2CTransaction_not_gt: Int
+  numberOfC2CTransaction_not_gte: Int
+  numberOfC2CTransaction_not_in: [Int]
+  numberOfC2CTransaction_not_lt: Int
+  numberOfC2CTransaction_not_lte: Int
+  numberOfReferalAgents: Int
+  numberOfReferalAgents_gt: Int
+  numberOfReferalAgents_gte: Int
+  numberOfReferalAgents_in: [Int]
+  numberOfReferalAgents_lt: Int
+  numberOfReferalAgents_lte: Int
+  numberOfReferalAgents_not: Int
+  numberOfReferalAgents_not_gt: Int
+  numberOfReferalAgents_not_gte: Int
+  numberOfReferalAgents_not_in: [Int]
+  numberOfReferalAgents_not_lt: Int
+  numberOfReferalAgents_not_lte: Int
+  OR: [AgentWithKpiDtoFilter!]
+  reviewFromDate: Long
+  reviewFromDate_gt: Long
+  reviewFromDate_gte: Long
+  reviewFromDate_in: [Long]
+  reviewFromDate_lt: Long
+  reviewFromDate_lte: Long
+  reviewFromDate_not: Long
+  reviewFromDate_not_gt: Long
+  reviewFromDate_not_gte: Long
+  reviewFromDate_not_in: [Long]
+  reviewFromDate_not_lt: Long
+  reviewFromDate_not_lte: Long
+  reviewToDate: Long
+  reviewToDate_gt: Long
+  reviewToDate_gte: Long
+  reviewToDate_in: [Long]
+  reviewToDate_lt: Long
+  reviewToDate_lte: Long
+  reviewToDate_not: Long
+  reviewToDate_not_gt: Long
+  reviewToDate_not_gte: Long
+  reviewToDate_not_in: [Long]
+  reviewToDate_not_lt: Long
+  reviewToDate_not_lte: Long
+}
+
+input AgentWithKpiDtoSort {
+  agentCode: SortOperationKind
+  agentGroupId: SortOperationKind
+  agentGroupName: SortOperationKind
+  agentRankingDegreeOrder: SortOperationKind
+  agentRankingId: SortOperationKind
+  agentRankName: SortOperationKind
+  dateOfReviewing: SortOperationKind
+  firstName: SortOperationKind
+  isAgentLeader: SortOperationKind
+  lastName: SortOperationKind
+  numberApprovedPosts: SortOperationKind
+  numberOfB2CTransaction: SortOperationKind
+  numberOfC2CTransaction: SortOperationKind
+  numberOfReferalAgents: SortOperationKind
+  reviewFromDate: SortOperationKind
+  reviewToDate: SortOperationKind
+}
+
+type BankDto {
+  bankAddress: String
+  bankCode: String
+  bankDescription: String
+  bankEmail: String
+  bankId: String
+  bankName: String
+  bankTelephone: String
+  bankWebsite: String
+  isActive: Boolean!
+  isDeleted: Boolean!
+}
+
+input BankDtoFilter {
+  AND: [BankDtoFilter!]
+  bankName: String
+  bankName_contains: String
+  bankName_ends_with: String
+  bankName_in: [String]
+  bankName_not: String
+  bankName_not_contains: String
+  bankName_not_ends_with: String
+  bankName_not_in: [String]
+  bankName_not_starts_with: String
+  bankName_starts_with: String
+  OR: [BankDtoFilter!]
+}
+
+input BankDtoSort {
+  bankName: SortOperationKind
+}
+
+type BankInfoDto {
+  bankAddress: String
+  bankCode: String
+  bankDescription: String
+  bankEmail: String
+  bankId: String
+  bankName: String
+  bankTelephone: String
+  bankWebsite: String
+  isActive: Boolean!
+  isDeleted: Boolean!
+}
+
+type BookingStatusDto {
+  bookingStatusDescription: String
+  bookingStatusId: String
+  bookingStatusName: String
+  bookingStatusSortOrder: Int!
+}
+
+input BookingStatusDtoFilter {
+  AND: [BookingStatusDtoFilter!]
+  bookingStatusName: String
+  bookingStatusName_contains: String
+  bookingStatusName_ends_with: String
+  bookingStatusName_in: [String]
+  bookingStatusName_not: String
+  bookingStatusName_not_contains: String
+  bookingStatusName_not_ends_with: String
+  bookingStatusName_not_in: [String]
+  bookingStatusName_not_starts_with: String
+  bookingStatusName_starts_with: String
+  OR: [BookingStatusDtoFilter!]
+}
+
+input BookingStatusDtoSort {
+  bookingStatusName: SortOperationKind
+}
+
+type BookingStatusInfoDto {
+  bookingStatusDescription: String
+  bookingStatusId: String
+  bookingStatusName: String
+  bookingStatusSortOrder: Int!
+}
+
+"""
+The `Byte` scalar type represents non-fractional whole numeric values. Byte can represent values between 0 and 255.
+"""
+scalar Byte
+
+input ChangeGroupForAgentInput {
+  agentGroupId: String
+  agentId: String
+  reason: String
+}
+
+type ChangeGroupForAgentResponse {
+  agentDto: AgentDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type CityDto {
+  area: String
+  areaCode: String
+  cityId: Int!
+  cityName: String
+  cityType: String
+  countryId: Int!
+  density: String
+  gdp: String
+  isActive: Boolean!
+  isCapital: Boolean!
+  latitude: Float
+  longitude: Float
+  population: String
+  sortOrder: Int!
+  timeZone: String
+}
+
+input CityDtoFilter {
+  AND: [CityDtoFilter!]
+  area: String
+  areaCode: String
+  areaCode_contains: String
+  areaCode_ends_with: String
+  areaCode_in: [String]
+  areaCode_not: String
+  areaCode_not_contains: String
+  areaCode_not_ends_with: String
+  areaCode_not_in: [String]
+  areaCode_not_starts_with: String
+  areaCode_starts_with: String
+  area_contains: String
+  area_ends_with: String
+  area_in: [String]
+  area_not: String
+  area_not_contains: String
+  area_not_ends_with: String
+  area_not_in: [String]
+  area_not_starts_with: String
+  area_starts_with: String
+  cityId: Int
+  cityId_gt: Int
+  cityId_gte: Int
+  cityId_in: [Int!]
+  cityId_lt: Int
+  cityId_lte: Int
+  cityId_not: Int
+  cityId_not_gt: Int
+  cityId_not_gte: Int
+  cityId_not_in: [Int!]
+  cityId_not_lt: Int
+  cityId_not_lte: Int
+  cityName: String
+  cityName_contains: String
+  cityName_ends_with: String
+  cityName_in: [String]
+  cityName_not: String
+  cityName_not_contains: String
+  cityName_not_ends_with: String
+  cityName_not_in: [String]
+  cityName_not_starts_with: String
+  cityName_starts_with: String
+  countryId: Int
+  countryId_gt: Int
+  countryId_gte: Int
+  countryId_in: [Int!]
+  countryId_lt: Int
+  countryId_lte: Int
+  countryId_not: Int
+  countryId_not_gt: Int
+  countryId_not_gte: Int
+  countryId_not_in: [Int!]
+  countryId_not_lt: Int
+  countryId_not_lte: Int
+  OR: [CityDtoFilter!]
+}
+
+input CityDtoSort {
+  area: SortOperationKind
+  areaCode: SortOperationKind
+  cityName: SortOperationKind
+}
+
+type CityInfoDto {
+  area: String
+  areaCode: String
+  cityId: Int!
+  cityName: String
+  cityType: String
+  countryId: Int!
+  density: String
+  gdp: String
+  isActive: Boolean!
+  isCapital: Boolean!
+  latitude: Float
+  longitude: Float
+  population: String
+  sortOrder: Int!
+  timeZone: String
+}
+
+input ClosePropertyPostInput {
+  customerType: CustomerType!
+  phoneNumber: String
+  propertyPostId: String
+}
+
+input CloseSupportRequestInput {
+  notes: String
+  supportRequestId: String
+}
+
+type CloseSupportRequestResponse {
+  commonSupportRequestResponse: CommonSupportRequestResponse
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type CommonSupportRequestResponse {
+  calculateSize: Int!
+  clone: CommonSupportRequestResponse
+  equals: Boolean!
+  supportRequestId: String
+  supportRequestStatusId: String
+  supportRequestStatusName: String
+  supportResults: String
+}
+
+type CompetencyDto {
+  competencyDescription: String
+  competencyId: String
+  competencyName: String
+  isActive: Boolean!
+}
+
+input CompetencyDtoFilter {
+  AND: [CompetencyDtoFilter!]
+  competencyName: String
+  competencyName_contains: String
+  competencyName_ends_with: String
+  competencyName_in: [String]
+  competencyName_not: String
+  competencyName_not_contains: String
+  competencyName_not_ends_with: String
+  competencyName_not_in: [String]
+  competencyName_not_starts_with: String
+  competencyName_starts_with: String
+  OR: [CompetencyDtoFilter!]
+}
+
+input CompetencyDtoSort {
+  competencyName: SortOperationKind
+}
+
+type CompetencyInfoDto {
+  competencyDescription: String
+  competencyId: String
+  competencyName: String
+  isActive: Boolean!
+}
+
+input completePaymentInput {
+  amount: String
+  bankCode: String
+  bankTranNo: String
+  cardType: String
+  orderInfo: String
+  payDate: String
+  responseCode: String
+  secureHash: String
+  secureHashType: String
+  tmnCode: String
+  transactionNo: String
+  transactionReference: String
+}
+
+type CompletePaymentResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  responseCode: String
+}
+
+input CompleteSupportRequestInput {
+  assigneeId: String
+  notes: String
+  supportRequestId: String
+}
+
+type CompleteSupportRequestResponse {
+  commonSupportRequestResponse: CommonSupportRequestResponse
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type CountryDto {
+  areas: String
+  callingCode: String
+  capital: String
+  continent: String
+  countryCode: String
+  countryId: Int!
+  countryName: String
+  currency: String
+  gdp: String
+  internetTld: String
+  isActive: Boolean!
+  iso3166Code: String
+  largestCity: String
+  latitude: Float
+  longitude: Float
+  nationalLanguage: String
+  population: String
+  region: String
+  sortOrder: Int!
+}
+
+input CountryDtoFilter {
+  AND: [CountryDtoFilter!]
+  countryCode: String
+  countryCode_contains: String
+  countryCode_ends_with: String
+  countryCode_in: [String]
+  countryCode_not: String
+  countryCode_not_contains: String
+  countryCode_not_ends_with: String
+  countryCode_not_in: [String]
+  countryCode_not_starts_with: String
+  countryCode_starts_with: String
+  countryId: Int
+  countryId_gt: Int
+  countryId_gte: Int
+  countryId_in: [Int!]
+  countryId_lt: Int
+  countryId_lte: Int
+  countryId_not: Int
+  countryId_not_gt: Int
+  countryId_not_gte: Int
+  countryId_not_in: [Int!]
+  countryId_not_lt: Int
+  countryId_not_lte: Int
+  countryName: String
+  countryName_contains: String
+  countryName_ends_with: String
+  countryName_in: [String]
+  countryName_not: String
+  countryName_not_contains: String
+  countryName_not_ends_with: String
+  countryName_not_in: [String]
+  countryName_not_starts_with: String
+  countryName_starts_with: String
+  OR: [CountryDtoFilter!]
+}
+
+input CountryDtoSort {
+  countryCode: SortOperationKind
+  countryName: SortOperationKind
+}
+
+type CountryInfoDto {
+  areas: String
+  callingCode: String
+  capital: String
+  continent: String
+  countryCode: String
+  countryId: Int!
+  countryName: String
+  currency: String
+  gdp: String
+  internetTld: String
+  isActive: Boolean!
+  iso3166Code: String
+  largestCity: String
+  latitude: Float
+  longitude: Float
+  nationalLanguage: String
+  population: String
+  region: String
+  sortOrder: Int!
+}
+
+input CreateAgentInput {
+  agentGroupId: String
+  isAgentLeader: Boolean!
+  nationalId: String
+  permanentAddress: String
+  preferPropertyPriceFrom: Float
+  preferPropertyPriceTo: Float
+  preferPropertyTypes: String
+  referralCode: String
+  userId: String
+  workingAreas: String
+}
+
+type CreateAgentRatingResponse {
+  agentRatingDto: master_data_AgentRatingDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type CreateAgentResponse {
+  agentDto: AgentDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+input CreateCustomerInput {
+  customerAddress: String
+  customerContactAddress: String
+  customerEmail: String
+  customerFirstName: String
+  customerLastName: String
+  customerNationalId: String
+  customerNationalIdIssueDate: TimestampInput
+  customerPhone: String
+}
+
+type CreateCustomerResponse {
+  customerDto: CustomerDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+input CreateGuestInput {
+  browser: String
+  email: String
+  firstName: String
+  gender: String
+  ipAddress: String
+  lastName: String
+  location: String
+  resolution: String
+  socialAccounts: String
+  userId: String
+}
+
+type CreateGuestResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  guestDto: GuestDto
+}
+
+type CreateLegalInfoResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  legalInfoDto: LegalInfoDto
+}
+
+type CreatePaymentResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  paymentUrl: String
+}
+
+input CreatePolicyInput {
+  attachment: String
+  endDate: Long!
+  policyDescription: String
+  policyName: String
+  policyTypeId: String
+  saleSeasonId: String
+  startDate: Long!
+}
+
+type CreatePolicyResponse {
+  calculateSize: Int!
+  clone: CreatePolicyResponse
+  equals: Boolean!
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  policyDto: PolicyDto
+}
+
+type CreatePropertyPostApprovalStatusResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  propertyPostApprovalStatusDto: PropertyPostApprovalStatusDto
+}
+
+input CreatePropertyPostInput {
+  addressId: String
+  agentGroupRanks: String
+  approvedBy: String
+  approvedDatetime: Long
+  blockCode: String
+  blockName: String
+  bookingFee: Float
+  buildingArea: Int
+  buildingLine: Int
+  buyCommission: Float
+  capetAreas: Int
+  collateralizedAtBankId: String
+  commission: Int
+  contactEmail: String
+  direction: Direction!
+  expiredDate: Long
+  floor: String
+  freeTextProject: String
+  houseDesign: String
+  images: String
+  internalFacility: String
+  isBookedOutSide: Boolean
+  isCollateralized: Boolean!
+  isFeatureProperty: Boolean!
+  isPrivate: Boolean!
+  isSold: Boolean
+  keywords: String
+  languageIso3: String
+  latitude: Float
+  legalInfoId: String
+  longitude: Float
+  nearFacility: String
+  numberOfBathrooms: Int
+  numberOfBedrooms: Int
+  numberOfFloor: Int
+  owner: OwnerInfoDtoInput
+  ownerId: String
+  ownerIsAuthor: Boolean!
+  postDescription: String
+  postTitle: String
+  postTypeId: String
+  price: Float
+  priceNoVat: Float
+  priceVat: Float
+  projectId: String
+  propertyAddress: PropertyAddressInfoInput
+  propertyCode: String
+  propertyName: String
+  propertyPostApprovalStatusId: String
+  propertyPostStatusId: String
+  propertySubTypeId: String
+  propertyTypeId: String
+  rejectedDatetime: Long
+  rejectedReason: String
+  saleCommission: Float
+  sendingApprovalFrom: String
+  seoString: String
+  sortOrder: Int
+  tags: String
+  totalSiteArea: Int
+  unitOfMeasureId: String
+}
+
+type CreatePropertyPostStatusResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  propertyPostStatusDto: PropertyPostStatusDto
+}
+
+input CreateStaffInput {
+  departmentId: String
+  isGroupLeader: Boolean!
+  nationalId: String
+  permanentAddress: String
+  preferPropertyPriceFrom: Float!
+  preferPropertyPriceTo: Float!
+  preferPropertyTypes: String
+  rating: Int!
+  specialityIds: String
+  staffContractTypeId: String
+  staffGroupId: String
+  staffPositionId: String
+  staffRankingId: String
+  staffStatusId: String
+  staffTypeId: String
+  userId: String
+  workingAreas: String
+}
+
+type CreateStaffResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  staffDto: StaffDto
+}
+
+input CreateSupportRequestInput {
+  assignedDatetime: Long
+  assigneeId: String
+  attachment: String
+  closeDatetime: Long
+  dueDate: Long
+  isActive: Boolean!
+  notes: String
+  priority: Int
+  propertyPostId: String
+  requestDescription: String
+  requesterGuestId: String
+  requesterIsUser: Boolean
+  requesterUserId: String
+  requestTypeId: String
+  responseDatetime: Long
+  supportClosingReasonId: String
+  supportRating: Int
+  supportRequestStatusId: String
+  supportRequestTitle: String
+  supportResults: String
+  xPath: String
+}
+
+type CreateSupportRequestResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  supportRequestDto: SupportRequestDto
+}
+
+input CreateUserInput {
+  dob: String
+  email: String
+  emailConfirmed: Boolean
+  firstName: String
+  gender: Gender!
+  isCreatedByAdmin: Boolean
+  isLocked: Boolean
+  isMember: Boolean
+  lastName: String
+  phoneNumber: String
+  phoneNumberConfirmed: Boolean
+  profilePhoto: String
+  roleId: String
+  roleName: String
+  userName: String
+}
+
+type CreateUserResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  userDto: UserDto
+}
+
+type CustomerDto {
+  customerAddress: String
+  customerContactAddress: String
+  customerEmail: String
+  customerFirstName: String
+  customerId: String
+  customerLastName: String
+  customerNationalId: String
+  customerNationalIdIssueDate: Timestamp
+  customerPhone: String
+  isActive: Boolean!
+}
+
+input CustomerDtoFilter {
+  AND: [CustomerDtoFilter!]
+  customerAddress: String
+  customerAddress_contains: String
+  customerAddress_ends_with: String
+  customerAddress_in: [String]
+  customerAddress_not: String
+  customerAddress_not_contains: String
+  customerAddress_not_ends_with: String
+  customerAddress_not_in: [String]
+  customerAddress_not_starts_with: String
+  customerAddress_starts_with: String
+  customerContactAddress: String
+  customerContactAddress_contains: String
+  customerContactAddress_ends_with: String
+  customerContactAddress_in: [String]
+  customerContactAddress_not: String
+  customerContactAddress_not_contains: String
+  customerContactAddress_not_ends_with: String
+  customerContactAddress_not_in: [String]
+  customerContactAddress_not_starts_with: String
+  customerContactAddress_starts_with: String
+  customerEmail: String
+  customerEmail_contains: String
+  customerEmail_ends_with: String
+  customerEmail_in: [String]
+  customerEmail_not: String
+  customerEmail_not_contains: String
+  customerEmail_not_ends_with: String
+  customerEmail_not_in: [String]
+  customerEmail_not_starts_with: String
+  customerEmail_starts_with: String
+  customerFirstName: String
+  customerFirstName_contains: String
+  customerFirstName_ends_with: String
+  customerFirstName_in: [String]
+  customerFirstName_not: String
+  customerFirstName_not_contains: String
+  customerFirstName_not_ends_with: String
+  customerFirstName_not_in: [String]
+  customerFirstName_not_starts_with: String
+  customerFirstName_starts_with: String
+  customerLastName: String
+  customerLastName_contains: String
+  customerLastName_ends_with: String
+  customerLastName_in: [String]
+  customerLastName_not: String
+  customerLastName_not_contains: String
+  customerLastName_not_ends_with: String
+  customerLastName_not_in: [String]
+  customerLastName_not_starts_with: String
+  customerLastName_starts_with: String
+  customerPhone: String
+  customerPhone_contains: String
+  customerPhone_ends_with: String
+  customerPhone_in: [String]
+  customerPhone_not: String
+  customerPhone_not_contains: String
+  customerPhone_not_ends_with: String
+  customerPhone_not_in: [String]
+  customerPhone_not_starts_with: String
+  customerPhone_starts_with: String
+  OR: [CustomerDtoFilter!]
+}
+
+type CustomerInfoDto {
+  customerAddress: String
+  customerContactAddress: String
+  customerEmail: String
+  customerFirstName: String
+  customerId: String
+  customerLastName: String
+  customerNationalId: String
+  customerNationalIdIssueDate: Timestamp
+  customerPhone: String
+  isActive: Boolean!
+}
+
+enum CustomerType {
+  INSIDE
+  OUTSIDE
+  UNSALE
+}
+
+"""The `Date` scalar represents an ISO-8601 compliant date type."""
+scalar Date
+
+"""The `DateTime` scalar represents an ISO-8601 compliant date time type."""
+scalar DateTime
+
+"""The built-in `Decimal` scalar type."""
+scalar Decimal
+
+input DeleteAgentInput {
+  agentId: String
+}
+
+type DeleteAgentRatingResponse {
+  agentRatingDto: master_data_AgentRatingDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type DeleteAgentResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+input DeleteCustomerInput {
+  customerId: String
+}
+
+type DeleteCustomerResponse {
+  customerDto: CustomerDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+input DeleteGuestInput {
+  guestId: String
+}
+
+type DeleteGuestResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  guestDto: GuestDto
+}
+
+type DeleteLegalInfoResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  legalInfoDto: LegalInfoDto
+}
+
+input DeletePolicyInput {
+  policyId: String
+}
+
+type DeletePropertyPostApprovalStatusResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  propertyPostApprovalStatusDto: PropertyPostApprovalStatusDto
+}
+
+input DeletePropertyPostInput {
+  propertyPostId: String
+}
+
+type DeletePropertyPostStatusResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  propertyPostStatusDto: PropertyPostStatusDto
+}
+
+input DeleteStaffInput {
+  staffId: String
+}
+
+type DeleteStaffResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  staffDto: StaffDto
+}
+
+input DeleteSupportRequestInput {
+  supportRequestId: String
+}
+
+type DeleteSupportRequestResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  supportRequestDto: SupportRequestDto
+}
+
+input DeleteUserInput {
+  userId: String
+}
+
+type DeleteUserResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  userDto: UserDto
+}
+
+type DepartmentDto {
+  departmentDescription: String
+  departmentId: String
+  departmentName: String
+  isActive: Boolean!
+  managedByUserId: String
+  managedByUserName: String
+  organizationId: String
+  sortOrder: Int!
+}
+
+input DepartmentDtoFilter {
+  AND: [DepartmentDtoFilter!]
+  departmentId: String
+  departmentId_contains: String
+  departmentId_ends_with: String
+  departmentId_in: [String]
+  departmentId_not: String
+  departmentId_not_contains: String
+  departmentId_not_ends_with: String
+  departmentId_not_in: [String]
+  departmentId_not_starts_with: String
+  departmentId_starts_with: String
+  departmentName: String
+  departmentName_contains: String
+  departmentName_ends_with: String
+  departmentName_in: [String]
+  departmentName_not: String
+  departmentName_not_contains: String
+  departmentName_not_ends_with: String
+  departmentName_not_in: [String]
+  departmentName_not_starts_with: String
+  departmentName_starts_with: String
+  OR: [DepartmentDtoFilter!]
+}
+
+input DepartmentDtoSort {
+  departmentName: SortOperationKind
+}
+
+type DepartmentInfoDto {
+  departmentDescription: String
+  departmentId: String
+  departmentName: String
+  isActive: Boolean!
+  managedByUserId: String
+  managedByUserName: String
+  organizationId: String
+  sortOrder: Int!
+}
+
+type DepositeStatusDto {
+  depositeStatusDescription: String
+  depositeStatusId: String
+  depositeStatusName: String
+  depositeStatusSortOrder: Int!
+}
+
+input DepositeStatusDtoFilter {
+  AND: [DepositeStatusDtoFilter!]
+  depositeStatusName: String
+  depositeStatusName_contains: String
+  depositeStatusName_ends_with: String
+  depositeStatusName_in: [String]
+  depositeStatusName_not: String
+  depositeStatusName_not_contains: String
+  depositeStatusName_not_ends_with: String
+  depositeStatusName_not_in: [String]
+  depositeStatusName_not_starts_with: String
+  depositeStatusName_starts_with: String
+  OR: [DepositeStatusDtoFilter!]
+}
+
+input DepositeStatusDtoSort {
+  depositeStatusName: SortOperationKind
+}
+
+type DepositeStatusInfoDto {
+  depositeStatusDescription: String
+  depositeStatusId: String
+  depositeStatusName: String
+  depositeStatusSortOrder: Int!
+}
+
+enum Direction {
+  NULL
+  EAST
+  WEST
+  SOUTH
+  NORTH
+  SOUTHEAST
+  NORTHEAST
+  SOUTHWEST
+  NORTHWEST
+}
+
+type DistrictDto {
+  area: String
+  cityId: Int!
+  countryId: Int!
+  density: String
+  districtId: Int!
+  districtName: String
+  isActive: Boolean!
+  latitude: Float
+  longitude: Float
+  population: String
+  sortOrder: Int!
+}
+
+input DistrictDtoFilter {
+  AND: [DistrictDtoFilter!]
+  area: String
+  area_contains: String
+  area_ends_with: String
+  area_in: [String]
+  area_not: String
+  area_not_contains: String
+  area_not_ends_with: String
+  area_not_in: [String]
+  area_not_starts_with: String
+  area_starts_with: String
+  cityId: Int
+  cityId_gt: Int
+  cityId_gte: Int
+  cityId_in: [Int!]
+  cityId_lt: Int
+  cityId_lte: Int
+  cityId_not: Int
+  cityId_not_gt: Int
+  cityId_not_gte: Int
+  cityId_not_in: [Int!]
+  cityId_not_lt: Int
+  cityId_not_lte: Int
+  countryId: Int
+  countryId_gt: Int
+  countryId_gte: Int
+  countryId_in: [Int!]
+  countryId_lt: Int
+  countryId_lte: Int
+  countryId_not: Int
+  countryId_not_gt: Int
+  countryId_not_gte: Int
+  countryId_not_in: [Int!]
+  countryId_not_lt: Int
+  countryId_not_lte: Int
+  districtId: Int
+  districtId_gt: Int
+  districtId_gte: Int
+  districtId_in: [Int!]
+  districtId_lt: Int
+  districtId_lte: Int
+  districtId_not: Int
+  districtId_not_gt: Int
+  districtId_not_gte: Int
+  districtId_not_in: [Int!]
+  districtId_not_lt: Int
+  districtId_not_lte: Int
+  districtName: String
+  districtName_contains: String
+  districtName_ends_with: String
+  districtName_in: [String]
+  districtName_not: String
+  districtName_not_contains: String
+  districtName_not_ends_with: String
+  districtName_not_in: [String]
+  districtName_not_starts_with: String
+  districtName_starts_with: String
+  OR: [DistrictDtoFilter!]
+}
+
+input DistrictDtoSort {
+  area: SortOperationKind
+  districtName: SortOperationKind
+}
+
+type DistrictInfoDto {
+  area: String
+  cityId: Int!
+  countryId: Int!
+  density: String
+  districtId: Int!
+  districtName: String
+  isActive: Boolean!
+  latitude: Float
+  longitude: Float
+  population: String
+  sortOrder: Int!
+}
+
+type EstateTypeOfInterestDto {
+  estateTypeOfInterestDescription: String
+  estateTypeOfInterestId: String
+  estateTypeOfInterestName: String
+  isActive: Boolean!
+}
+
+input EstateTypeOfInterestDtoFilter {
+  AND: [EstateTypeOfInterestDtoFilter!]
+  estateTypeOfInterestName: String
+  estateTypeOfInterestName_contains: String
+  estateTypeOfInterestName_ends_with: String
+  estateTypeOfInterestName_in: [String]
+  estateTypeOfInterestName_not: String
+  estateTypeOfInterestName_not_contains: String
+  estateTypeOfInterestName_not_ends_with: String
+  estateTypeOfInterestName_not_in: [String]
+  estateTypeOfInterestName_not_starts_with: String
+  estateTypeOfInterestName_starts_with: String
+  OR: [EstateTypeOfInterestDtoFilter!]
+}
+
+input EstateTypeOfInterestDtoSort {
+  estateTypeOfInterestName: SortOperationKind
+}
+
+type EstateTypeOfInterestInfoDto {
+  estateTypeOfInterestDescription: String
+  estateTypeOfInterestId: String
+  estateTypeOfInterestName: String
+  isActive: Boolean!
+}
+
+input FollowProject {
+  comments: String
+  projectId: String
+}
+
+input FollowPropertyPostInput {
+  propertyPostId: String
+  userId: String
+}
+
+enum Gender {
+  NA
+  MALE
+  FEMALE
+}
+
+type GetBookingTransactionsByAgentIdDto {
+  agentId: String
+  calculateSize: Int!
+  clone: GetBookingTransactionsByAgentIdDto
+  equals: Boolean!
+}
+
+type GetSummaryPropertyPostResponse {
+  propertyPostInfoByApproveStatus: String
+  propertyPostInfoByPostStatus: String
+}
+
+type GetUserResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  userDto: UserDto
+}
+
+type GuestDto {
+  browser: String
+  email: String
+  firstName: String
+  gender: String
+  guestId: String
+  ipAddress: String
+  isActive: Boolean!
+  lastName: String
+  location: String
+  resolution: String
+  socialAccounts: String
+  userId: String
+}
+
+input GuestDtoFilter {
+  AND: [GuestDtoFilter!]
+  email: String
+  email_contains: String
+  email_ends_with: String
+  email_in: [String]
+  email_not: String
+  email_not_contains: String
+  email_not_ends_with: String
+  email_not_in: [String]
+  email_not_starts_with: String
+  email_starts_with: String
+  firstName: String
+  firstName_contains: String
+  firstName_ends_with: String
+  firstName_in: [String]
+  firstName_not: String
+  firstName_not_contains: String
+  firstName_not_ends_with: String
+  firstName_not_in: [String]
+  firstName_not_starts_with: String
+  firstName_starts_with: String
+  lastName: String
+  lastName_contains: String
+  lastName_ends_with: String
+  lastName_in: [String]
+  lastName_not: String
+  lastName_not_contains: String
+  lastName_not_ends_with: String
+  lastName_not_in: [String]
+  lastName_not_starts_with: String
+  lastName_starts_with: String
+  OR: [GuestDtoFilter!]
+  userId: String
+  userId_contains: String
+  userId_ends_with: String
+  userId_in: [String]
+  userId_not: String
+  userId_not_contains: String
+  userId_not_ends_with: String
+  userId_not_in: [String]
+  userId_not_starts_with: String
+  userId_starts_with: String
+}
+
+type GuestInfoDto {
+  browser: String
+  email: String
+  firstName: String
+  gender: String
+  guestId: String
+  ipAddress: String
+  isActive: Boolean!
+  lastName: String
+  location: String
+  resolution: String
+  socialAccounts: String
+  userId: String
+}
+
+type ImportPropertyPostsResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+input input {
+  addressId: String
+  agentGroupId: String
+  agentRankingId: String
+  nationalId: String
+  preferPropertyTypes: String
+  workingAreas: String
+}
+
+type LanguageDto {
+  englishName: String
+  isActive: Boolean!
+  languageId: String
+  languageIso6391Code: String
+  languageIso6392Code: String
+  naturalName: String
+}
+
+input LanguageDtoFilter {
+  AND: [LanguageDtoFilter!]
+  englishName: String
+  englishName_contains: String
+  englishName_ends_with: String
+  englishName_in: [String]
+  englishName_not: String
+  englishName_not_contains: String
+  englishName_not_ends_with: String
+  englishName_not_in: [String]
+  englishName_not_starts_with: String
+  englishName_starts_with: String
+  languageIso6391Code: String
+  languageIso6391Code_contains: String
+  languageIso6391Code_ends_with: String
+  languageIso6391Code_in: [String]
+  languageIso6391Code_not: String
+  languageIso6391Code_not_contains: String
+  languageIso6391Code_not_ends_with: String
+  languageIso6391Code_not_in: [String]
+  languageIso6391Code_not_starts_with: String
+  languageIso6391Code_starts_with: String
+  languageIso6392Code: String
+  languageIso6392Code_contains: String
+  languageIso6392Code_ends_with: String
+  languageIso6392Code_in: [String]
+  languageIso6392Code_not: String
+  languageIso6392Code_not_contains: String
+  languageIso6392Code_not_ends_with: String
+  languageIso6392Code_not_in: [String]
+  languageIso6392Code_not_starts_with: String
+  languageIso6392Code_starts_with: String
+  naturalName: String
+  naturalName_contains: String
+  naturalName_ends_with: String
+  naturalName_in: [String]
+  naturalName_not: String
+  naturalName_not_contains: String
+  naturalName_not_ends_with: String
+  naturalName_not_in: [String]
+  naturalName_not_starts_with: String
+  naturalName_starts_with: String
+  OR: [LanguageDtoFilter!]
+}
+
+input LanguageDtoSort {
+  englishName: SortOperationKind
+  languageIso6391Code: SortOperationKind
+  languageIso6392Code: SortOperationKind
+  naturalName: SortOperationKind
+}
+
+type LanguageInfoDto {
+  englishName: String
+  isActive: Boolean!
+  languageId: String
+  languageIso6391Code: String
+  languageIso6392Code: String
+  naturalName: String
+}
+
+type LegalInfoDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  legalInfoDescription: String
+  legalInfoId: String
+  legalInfoName: String
+}
+
+input LegalInfoDtoFilter {
+  AND: [LegalInfoDtoFilter!]
+  legalInfoName: String
+  legalInfoName_contains: String
+  legalInfoName_ends_with: String
+  legalInfoName_in: [String]
+  legalInfoName_not: String
+  legalInfoName_not_contains: String
+  legalInfoName_not_ends_with: String
+  legalInfoName_not_in: [String]
+  legalInfoName_not_starts_with: String
+  legalInfoName_starts_with: String
+  OR: [LegalInfoDtoFilter!]
+}
+
+input LegalInfoDtoSort {
+  legalInfoName: SortOperationKind
+}
+
+type LegalInfoInfoDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  legalInfoDescription: String
+  legalInfoId: String
+  legalInfoName: String
+}
+
+input LockUserInput {
+  isLocked: Boolean!
+  userId: String
+}
+
+type LockUserResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  userDto: UserDto
+}
+
+"""
+The `Long` scalar type represents non-fractional signed whole 64-bit numeric
+values. Long can represent values between -(2^63) and 2^63 - 1.
+"""
+scalar Long
+
+type master_data_AddressDto {
+  additionalLocationInfo: String
+  addressId: Int!
+  addressTypeId: String
+  block: String
+  building: String
+  cityId: Int!
+  countryId: Int!
+  directional: String
+  districtId: Int!
+  floor: String
+  fullAddress: String
+  googleEmbedCode: String
+  googleShareLink: String
+  imageMapUrl: String
+  isActive: Boolean!
+  landmark: String
+  latitude: Float
+  longitude: Float
+  propertyPostId: String
+  room: String
+  streetId: Int!
+  wardId: Int!
+}
+
+type master_data_AgentGroupInfoDto {
+  agentGroupDescription: String
+  agentGroupId: String
+  agentGroupName: String
+  agentGroupStatus: String
+  numberOfMember: Int
+}
+
+type master_data_AgentRatingDto {
+  agentId: String
+  agentRatingId: String
+  comment: String
+  isActive: Boolean!
+  isDeleted: Boolean!
+  rateByUserId: String
+  stars: Int!
+  strengthsWeaknesses: String
+}
+
+"""
+The multiplier path scalar represents a valid GraphQL multiplier path string.
+"""
+scalar MultiplierPath
+
+type Mutation {
+  changeGroupForAgent(input: ChangeGroupForAgentInput!): ChangeGroupForAgentResponse!
+  closePropertyPost(closePropertyPostInput: ClosePropertyPostInput!): PropertyPostMutationResponse!
+  closeSupportRequest(closeSupportRequestInput: CloseSupportRequestInput!): CloseSupportRequestResponse!
+  completePaymentRequest(input: completePaymentInput!): CompletePaymentResponse!
+  completeSupportRequest(completeSupportRequestInput: CompleteSupportRequestInput!): CompleteSupportRequestResponse!
+  createCustomer(createCustomerInput: CreateCustomerInput!): CreateCustomerResponse!
+  createGuest(createGuestInput: CreateGuestInput!): CreateGuestResponse!
+  createNewAgent(input: CreateAgentInput!): CreateAgentResponse!
+  createNewProject(input: ProjectInput!): ProjectMutationResponse!
+  createNewSaleSeason(input: SaleSeasonInput!): SaleSeasonMutationResponse!
+  createPaymentRequest(input: paymentInput!): CreatePaymentResponse!
+  createPolicy(createPolicyInput: CreatePolicyInput!): CreatePolicyResponse
+  createPropertyPost(createPropertyPostInput: CreatePropertyPostInput!): PropertyPostMutationResponse!
+  createStaff(createStaffInput: CreateStaffInput!): CreateStaffResponse!
+  createSupportRequest(createSupportRequestInput: CreateSupportRequestInput!): CreateSupportRequestResponse!
+  createUser(createUserInput: CreateUserInput!): CreateUserResponse!
+  deleteAgent(input: DeleteAgentInput!): DeleteAgentResponse!
+  deleteB2CPropertyPost(deletePropertyPostRequest: DeletePropertyPostInput!): PropertyPostMutationResponse!
+  deleteCustomer(deleteCustomerInput: DeleteCustomerInput!): DeleteCustomerResponse!
+  deleteGuest(deleteGuestInput: DeleteGuestInput!): DeleteGuestResponse!
+  deletePolicy(deletePolicyInput: DeletePolicyInput!): PolicyDto!
+  deleteProject(input: ProjectDelete!): ProjectMutationResponse!
+  deletePropertyPost(deletePropertyPostInput: DeletePropertyPostInput!): PropertyPostMutationResponse!
+  deleteSaleSeason(input: SaleSeasonDelete!): SaleSeasonMutationResponse!
+  deleteStaff(deleteStaffInput: DeleteStaffInput!): DeleteStaffResponse!
+  deleteSupportRequest(deleteSupportRequestInput: DeleteSupportRequestInput!): DeleteSupportRequestResponse!
+  deleteUser(deleteUserInput: DeleteUserInput!): DeleteUserResponse!
+  followProject(input: FollowProject!): ProjectMutationResponse!
+  followPropertyPost(followPropertyPostInput: FollowPropertyPostInput!): PropertyPostMutationResponse!
+  lockUser(lockUserInput: LockUserInput!): LockUserResponse!
+  reassignToTeamLeader(reassignToTeamLeaderRequestInput: ReassignToTeamLeaderInput!): ReassignToTeamLeaderResponse!
+  saveSupportRequest(saveSupportRequestInput: SaveNotesAndAssigneeIdOfSupportRequestInput!): SaveSupportRequestResponse!
+  sendInfoUser(sendInfoUserInput: SendInfoUserInput!): SendInfoUserResponse!
+  startProcessingSupportRequest(startProcessingSupportRequestInput: StartProcessingSupportRequestInput!): StartProcessingSupportRequestResponse!
+  transaction_createNewAgent(input: input!): AgentDto!
+  unfollowProject(input: FollowProject!): ProjectMutationResponse!
+  unfollowPropertyPost(unfollowPropertyPostInput: UnfollowPropertyPostInput!): PropertyPostMutationResponse!
+  updateAgent(input: UpdateAgentInput!): UpdateAgentResponse!
+  updateCustomer(updateCustomerInput: UpdateCustomerInput!): UpdateCustomerResponse!
+  updateGuest(updateGuestInput: UpdateGuestInput!): UpdateGuestResponse!
+  updatePolicy(updatePolicyInput: UpdatePolicyInput!): UpdatePolicyResponse
+  updateProject(input: ProjectUpdate!): ProjectMutationResponse!
+  updatePropertyPost(updatePropertyPostInput: UpdatePropertyPostInput!): PropertyPostMutationResponse!
+  updateSaleSeason(input: SaleSeasonUpdate!): SaleSeasonMutationResponse!
+  updateStaff(updateStaffInput: UpdateStaffInput!): UpdateStaffResponse!
+  updateSupportRequest(updateSupportRequestInput: UpdateSupportRequestInput!): UpdateSupportRequestResponse!
+  updateUser(updateUserInput: UpdateUserInput!): UpdateUserResponse!
+  validateNumberPostByUserId(validateNumberOfPostByUserIdInput: ValidateNumberOfPostByUserIdInput!): ValidateNumberOfPostByUserIdResponse!
+}
+
+"""
+The name scalar represents a valid GraphQL name as specified in the spec and can be used to refer to fields or types.
+"""
+scalar Name
+
+type NotificationSettingDto {
+  accountInbox: Boolean!
+  callPhone: Boolean!
+  email: Boolean!
+  facebook: Boolean!
+  isActive: Boolean!
+  isDeleted: Boolean!
+  notificationSettingId: String
+  notificationSettingName: String
+  sms: Boolean!
+  urgent: Boolean!
+  zalo: Boolean!
+}
+
+input NotificationSettingDtoFilter {
+  AND: [NotificationSettingDtoFilter!]
+  notificationSettingName: String
+  notificationSettingName_contains: String
+  notificationSettingName_ends_with: String
+  notificationSettingName_in: [String]
+  notificationSettingName_not: String
+  notificationSettingName_not_contains: String
+  notificationSettingName_not_ends_with: String
+  notificationSettingName_not_in: [String]
+  notificationSettingName_not_starts_with: String
+  notificationSettingName_starts_with: String
+  OR: [NotificationSettingDtoFilter!]
+}
+
+input NotificationSettingDtoSort {
+  notificationSettingName: SortOperationKind
+}
+
+type NotificationSettingInfoDto {
+  accountInbox: Boolean!
+  callPhone: Boolean!
+  email: Boolean!
+  facebook: Boolean!
+  isActive: Boolean!
+  isDeleted: Boolean!
+  notificationSettingId: String
+  notificationSettingName: String
+  sms: Boolean!
+  urgent: Boolean!
+  zalo: Boolean!
+}
+
+type NotificationTemplateDto {
+  isDeleted: Boolean!
+  notificationSettingId: String
+  notificationTemplateContent: String
+  notificationTemplateId: String
+  notificationTemplateName: String
+}
+
+input NotificationTemplateDtoFilter {
+  AND: [NotificationTemplateDtoFilter!]
+  notificationTemplateName: String
+  notificationTemplateName_contains: String
+  notificationTemplateName_ends_with: String
+  notificationTemplateName_in: [String]
+  notificationTemplateName_not: String
+  notificationTemplateName_not_contains: String
+  notificationTemplateName_not_ends_with: String
+  notificationTemplateName_not_in: [String]
+  notificationTemplateName_not_starts_with: String
+  notificationTemplateName_starts_with: String
+  OR: [NotificationTemplateDtoFilter!]
+}
+
+input NotificationTemplateDtoSort {
+  notificationTemplateName: SortOperationKind
+}
+
+type NotificationTemplateInfoDto {
+  isDeleted: Boolean!
+  notificationSettingId: String
+  notificationTemplateContent: String
+  notificationTemplateId: String
+  notificationTemplateName: String
+}
+
+type NumberOfPostValidationDto {
+  calculateSize: Int!
+  clone: NumberOfPostValidationDto
+  equals: Boolean!
+  isValid: Boolean!
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type OffsetPagingOfAddressDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [master_data_AddressDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAddressTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AddressTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AgentDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentGroupDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AgentGroupDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentGroupTrackingDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AgentGroupTrackingDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentPerformanceTrackingDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AgentPerformanceTrackingDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentRankingDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AgentRankingDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentRatingDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [master_data_AgentRatingDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AgentTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfAgentWithKpiDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [AgentWithKpiDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfBankDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [BankDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfBookingStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [BookingStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfCityDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [CityDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfCompetencyDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [CompetencyDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfCountryDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [CountryDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfCustomerDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [CustomerDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfDepartmentDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [DepartmentDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfDepositeStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [DepositeStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfDistrictDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [DistrictDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfEstateTypeOfInterestDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [EstateTypeOfInterestDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfGuestDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [GuestDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfLanguageDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [LanguageDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfLegalInfoDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [LegalInfoDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfNotificationSettingDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [NotificationSettingDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfNotificationTemplateDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [NotificationTemplateDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfOrganizationDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [OrganizationDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPolicyDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PolicyDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPolicyTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [sale_PolicyTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPostTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PostTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPotentialAgentUserDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PotentialAgentUserDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfProjectDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [ProjectDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfProjectPostStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [ProjectPostStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfProjectStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [ProjectStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfProjectWithPropertyPostDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [ProjectWithPropertyPostDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPropertyPostApprovalStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PropertyPostApprovalStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPropertyPostDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PropertyPostDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPropertyPostStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PropertyPostStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPropertySubTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PropertySubTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfPropertyTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [PropertyTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfReactionTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [ReactionTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfRequestTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [RequestTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfRoleDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [RoleDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSaleSeasonDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SaleSeasonDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSaleTrackingStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SaleTrackingStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSimpleUserInfoDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SimpleUserInfoDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSpamTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SpamTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSpecializeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SpecializeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffContractTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StaffContractTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StaffDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffGroupDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StaffGroupDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffInfoDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [support_requests_StaffInfoDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffPositionDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StaffPositionDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffRankingDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StaffRankingDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StaffStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStaffTypeDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StaffTypeDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfStreetDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [StreetDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSupportClosingReasonDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SupportClosingReasonDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSupportRequestDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SupportRequestDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSupportRequestInfoDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SupportRequestInfoDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSupportRequestStatusDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SupportRequestStatusDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfSupportServiceDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SupportServiceDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfUnitOfMeasureDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [UnitOfMeasureDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfUserDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [UserDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfUserInfoDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [SimpleUserInfoDto]
+  totalCount: Int!
+}
+
+type OffsetPagingOfWardDto {
+  downloadUrl: String
+
+  """A list of edges."""
+  edges: [WardDto]
+  totalCount: Int!
+}
+
+type OrganizationDto {
+  address: String
+  email: String
+  faxes: String
+  internationalOrganizationName: String
+  isActive: Boolean!
+  operationDate: String
+  organizationId: String
+  organizationName: String
+  organizationStatus: String
+  organizationType: String
+  profile: String
+  representivePerson: String
+  shortOrganizationName: String
+  taxNo: String
+  telephones: String
+  website: String
+}
+
+input OrganizationDtoFilter {
+  AND: [OrganizationDtoFilter!]
+  OR: [OrganizationDtoFilter!]
+  organizationName: String
+  organizationName_contains: String
+  organizationName_ends_with: String
+  organizationName_in: [String]
+  organizationName_not: String
+  organizationName_not_contains: String
+  organizationName_not_ends_with: String
+  organizationName_not_in: [String]
+  organizationName_not_starts_with: String
+  organizationName_starts_with: String
+  organizationType: String
+  organizationType_contains: String
+  organizationType_ends_with: String
+  organizationType_in: [String]
+  organizationType_not: String
+  organizationType_not_contains: String
+  organizationType_not_ends_with: String
+  organizationType_not_in: [String]
+  organizationType_not_starts_with: String
+  organizationType_starts_with: String
+  representivePerson: String
+  representivePerson_contains: String
+  representivePerson_ends_with: String
+  representivePerson_in: [String]
+  representivePerson_not: String
+  representivePerson_not_contains: String
+  representivePerson_not_ends_with: String
+  representivePerson_not_in: [String]
+  representivePerson_not_starts_with: String
+  representivePerson_starts_with: String
+  shortOrganizationName: String
+  shortOrganizationName_contains: String
+  shortOrganizationName_ends_with: String
+  shortOrganizationName_in: [String]
+  shortOrganizationName_not: String
+  shortOrganizationName_not_contains: String
+  shortOrganizationName_not_ends_with: String
+  shortOrganizationName_not_in: [String]
+  shortOrganizationName_not_starts_with: String
+  shortOrganizationName_starts_with: String
+}
+
+input OrganizationDtoSort {
+  organizationName: SortOperationKind
+  organizationType: SortOperationKind
+  representivePerson: SortOperationKind
+  shortOrganizationName: SortOperationKind
+}
+
+type OrganizationInfoDto {
+  address: String
+  email: String
+  faxes: String
+  internationalOrganizationName: String
+  isActive: Boolean!
+  operationDate: String
+  organizationId: String
+  organizationName: String
+  organizationStatus: String
+  organizationType: String
+  profile: String
+  representivePerson: String
+  shortOrganizationName: String
+  taxNo: String
+  telephones: String
+  website: String
+}
+
+type OwnerInfoDto {
+  calculateSize: Int!
+  clone: OwnerInfoDto
+  customerEmail: String
+  customerFullName: String
+  customerPhone: String
+  equals: Boolean!
+  userId: String
+}
+
+input OwnerInfoDtoInput {
+  customerEmail: String
+  customerFullName: String
+  customerPhone: String
+  userId: String
+}
+
+"""Information about pagination in a connection."""
+type PageInfo {
+  """When paginating forwards, the cursor to continue."""
+  endCursor: String
+
+  """
+  Indicates whether more edges exist following the set defined by the clients arguments.
+  """
+  hasNextPage: Boolean!
+
+  """
+  Indicates whether more edges exist prior the set defined by the clients arguments.
+  """
+  hasPreviousPage: Boolean!
+
+  """When paginating backwards, the cursor to continue."""
+  startCursor: String
+}
+
+scalar PaginationAmount
+
+input paymentInput {
+  amount: Float
+  bankCode: String
+  ipAddress: String
+  locale: String
+  orderInfo: String
+  orderType: String
+  transactionReference: String
+}
+
+type PolicyDto {
+  attachment: String
+  endDate: Long!
+  isDeleted: Boolean!
+  policyDescription: String
+  policyId: String
+  policyName: String
+  policyTypeId: String
+  saleSeasonId: String
+  startDate: Long!
+}
+
+input PolicyDtoFilter {
+  AND: [PolicyDtoFilter!]
+  attachment: String
+  attachment_contains: String
+  attachment_ends_with: String
+  attachment_in: [String]
+  attachment_not: String
+  attachment_not_contains: String
+  attachment_not_ends_with: String
+  attachment_not_in: [String]
+  attachment_not_starts_with: String
+  attachment_starts_with: String
+  endDate: Long
+  endDate_gt: Long
+  endDate_gte: Long
+  endDate_in: [Long!]
+  endDate_lt: Long
+  endDate_lte: Long
+  endDate_not: Long
+  endDate_not_gt: Long
+  endDate_not_gte: Long
+  endDate_not_in: [Long!]
+  endDate_not_lt: Long
+  endDate_not_lte: Long
+  OR: [PolicyDtoFilter!]
+  policyName: String
+  policyName_contains: String
+  policyName_ends_with: String
+  policyName_in: [String]
+  policyName_not: String
+  policyName_not_contains: String
+  policyName_not_ends_with: String
+  policyName_not_in: [String]
+  policyName_not_starts_with: String
+  policyName_starts_with: String
+  startDate: Long
+  startDate_gt: Long
+  startDate_gte: Long
+  startDate_in: [Long!]
+  startDate_lt: Long
+  startDate_lte: Long
+  startDate_not: Long
+  startDate_not_gt: Long
+  startDate_not_gte: Long
+  startDate_not_in: [Long!]
+  startDate_not_lt: Long
+  startDate_not_lte: Long
+}
+
+input PolicyDtoSort {
+  attachment: SortOperationKind
+  endDate: SortOperationKind
+  policyName: SortOperationKind
+  startDate: SortOperationKind
+}
+
+type PolicyTypeDto {
+  policyTypeDescription: String
+  policyTypeId: String
+  policyTypeName: String
+}
+
+input PolicyTypeDtoFilter {
+  AND: [PolicyTypeDtoFilter!]
+  OR: [PolicyTypeDtoFilter!]
+  policyTypeName: String
+  policyTypeName_contains: String
+  policyTypeName_ends_with: String
+  policyTypeName_in: [String]
+  policyTypeName_not: String
+  policyTypeName_not_contains: String
+  policyTypeName_not_ends_with: String
+  policyTypeName_not_in: [String]
+  policyTypeName_not_starts_with: String
+  policyTypeName_starts_with: String
+}
+
+input PolicyTypeDtoSort {
+  policyTypeName: SortOperationKind
+}
+
+type PolicyTypeInfoDto {
+  policyTypeDescription: String
+  policyTypeId: String
+  policyTypeName: String
+}
+
+type PostTypeDto {
+  isActive: Boolean!
+  postTypeId: String
+  postTypeName: String
+  sortOrder: Int!
+}
+
+input PostTypeDtoFilter {
+  AND: [PostTypeDtoFilter!]
+  OR: [PostTypeDtoFilter!]
+  postTypeName: String
+  postTypeName_contains: String
+  postTypeName_ends_with: String
+  postTypeName_in: [String]
+  postTypeName_not: String
+  postTypeName_not_contains: String
+  postTypeName_not_ends_with: String
+  postTypeName_not_in: [String]
+  postTypeName_not_starts_with: String
+  postTypeName_starts_with: String
+}
+
+input PostTypeDtoSort {
+  postTypeName: SortOperationKind
+}
+
+type PostTypeInfoDto {
+  isActive: Boolean!
+  postTypeId: String
+  postTypeName: String
+  sortOrder: Int!
+}
+
+type PotentialAgentUserDto {
+  email: String
+  emailConfirmed: Boolean
+  firstName: String
+  lastName: String
+  phoneNumber: String
+  userId: String
+  userName: String
+}
+
+input PotentialAgentUserDtoFilter {
+  AND: [PotentialAgentUserDtoFilter!]
+  email: String
+  email_contains: String
+  email_ends_with: String
+  email_in: [String]
+  email_not: String
+  email_not_contains: String
+  email_not_ends_with: String
+  email_not_in: [String]
+  email_not_starts_with: String
+  email_starts_with: String
+  firstName: String
+  firstName_contains: String
+  firstName_ends_with: String
+  firstName_in: [String]
+  firstName_not: String
+  firstName_not_contains: String
+  firstName_not_ends_with: String
+  firstName_not_in: [String]
+  firstName_not_starts_with: String
+  firstName_starts_with: String
+  lastName: String
+  lastName_contains: String
+  lastName_ends_with: String
+  lastName_in: [String]
+  lastName_not: String
+  lastName_not_contains: String
+  lastName_not_ends_with: String
+  lastName_not_in: [String]
+  lastName_not_starts_with: String
+  lastName_starts_with: String
+  OR: [PotentialAgentUserDtoFilter!]
+  phoneNumber: String
+  phoneNumber_contains: String
+  phoneNumber_ends_with: String
+  phoneNumber_in: [String]
+  phoneNumber_not: String
+  phoneNumber_not_contains: String
+  phoneNumber_not_ends_with: String
+  phoneNumber_not_in: [String]
+  phoneNumber_not_starts_with: String
+  phoneNumber_starts_with: String
+  userName: String
+  userName_contains: String
+  userName_ends_with: String
+  userName_in: [String]
+  userName_not: String
+  userName_not_contains: String
+  userName_not_ends_with: String
+  userName_not_in: [String]
+  userName_not_starts_with: String
+  userName_starts_with: String
+}
+
+type ProjectAddressInfo {
+  additionalLocationInfo: String
+  block: String
+  building: String
+  calculateSize: Int!
+  cityId: Int
+  clone: ProjectAddressInfo
+  countryId: Int
+  directional: String
+  districtId: Int
+  equals: Boolean!
+  floor: String
+  googleEmbedCode: String
+  googleShareLink: String
+  homeAddress: String
+  imageMapUrl: String
+  landmark: String
+  latitude: Float
+  longitude: Float
+  projectAddressId: String
+  room: String
+  streetName: String
+  wardId: Int
+}
+
+input ProjectAddressInfoInput {
+  additionalLocationInfo: String
+  block: String
+  building: String
+  cityId: Int
+  countryId: Int
+  directional: String
+  districtId: Int
+  floor: String
+  googleEmbedCode: String
+  googleShareLink: String
+  homeAddress: String
+  imageMapUrl: String
+  landmark: String
+  latitude: Float
+  longitude: Float
+  projectAddressId: String
+  room: String
+  streetName: String
+  wardId: Int
+}
+
+type ProjectAddressWithPropertyPostInfo {
+  additionalLocationInfo: String
+  block: String
+  building: String
+  calculateSize: Int!
+  cityId: Int
+  clone: ProjectAddressWithPropertyPostInfo
+  countryId: Int
+  direction: Direction!
+  districtId: Int
+  equals: Boolean!
+  floor: String
+  googleEmbedCode: String
+  googleShareLink: String
+  homeAddress: String
+  imageMapUrl: String
+  landmark: String
+  latitude: Float
+  longitude: Float
+  projectAddressId: String
+  room: String
+  streetName: String
+  wardId: Int
+}
+
+input ProjectDelete {
+  projectId: String
+}
+
+type ProjectDto {
+  bankInfo: String
+  commissionRates: String
+  createdBy: String
+  createdDatetime: Long
+  deletedBy: String
+  deletedDatetime: Long
+  facilitiesDescription: String
+  facilitiesMediaInfo: String
+  featurePhotos: String
+  groundPlanDescription: String
+  groundPlanMediaInfo: String
+  investorOwnerEmail: String
+  investorOwnerLogo: String
+  investorOwnerName: String
+  investorOwnerPhoneNumber: String
+  isDeleted: Boolean!
+  isFeaturesProject: Boolean!
+  lastModified: Long
+  locationDescription: String
+  locationMediaInfo: String
+  minPrice: Float
+  modifiedBy: String
+  overviewDescription: String
+  overviewMediaInfo: String
+  partnersInfo: String
+  projectAddress: ProjectAddressInfo
+  projectAddressId: String
+  projectCode: String
+  projectDescription: String
+  projectId: String
+  projectName: String
+  projectPostStatusDescription: String
+  projectPostStatusId: String
+  projectPostStatusName: String
+  projectProgress: String
+  projectStatusDescription: String
+  projectStatusId: String
+  projectStatusName: String
+  projectTypeDescription: String
+  projectTypeName: String
+  propertyTypeId: String
+  saleProgramDescription: String
+  saleProgramMediaInfo: String
+  sizingDescription: String
+  sizingMediaInfo: String
+  sortOrder: Int!
+  totalOfSaleSeasons: Int
+}
+
+input ProjectDtoFilter {
+  AND: [ProjectDtoFilter!]
+  OR: [ProjectDtoFilter!]
+  projectName: String
+  projectName_contains: String
+  projectName_ends_with: String
+  projectName_in: [String]
+  projectName_not: String
+  projectName_not_contains: String
+  projectName_not_ends_with: String
+  projectName_not_in: [String]
+  projectName_not_starts_with: String
+  projectName_starts_with: String
+  projectPostStatusDescription: String
+  projectPostStatusDescription_contains: String
+  projectPostStatusDescription_ends_with: String
+  projectPostStatusDescription_in: [String]
+  projectPostStatusDescription_not: String
+  projectPostStatusDescription_not_contains: String
+  projectPostStatusDescription_not_ends_with: String
+  projectPostStatusDescription_not_in: [String]
+  projectPostStatusDescription_not_starts_with: String
+  projectPostStatusDescription_starts_with: String
+  projectPostStatusName: String
+  projectPostStatusName_contains: String
+  projectPostStatusName_ends_with: String
+  projectPostStatusName_in: [String]
+  projectPostStatusName_not: String
+  projectPostStatusName_not_contains: String
+  projectPostStatusName_not_ends_with: String
+  projectPostStatusName_not_in: [String]
+  projectPostStatusName_not_starts_with: String
+  projectPostStatusName_starts_with: String
+  projectStatusDescription: String
+  projectStatusDescription_contains: String
+  projectStatusDescription_ends_with: String
+  projectStatusDescription_in: [String]
+  projectStatusDescription_not: String
+  projectStatusDescription_not_contains: String
+  projectStatusDescription_not_ends_with: String
+  projectStatusDescription_not_in: [String]
+  projectStatusDescription_not_starts_with: String
+  projectStatusDescription_starts_with: String
+  projectStatusName: String
+  projectStatusName_contains: String
+  projectStatusName_ends_with: String
+  projectStatusName_in: [String]
+  projectStatusName_not: String
+  projectStatusName_not_contains: String
+  projectStatusName_not_ends_with: String
+  projectStatusName_not_in: [String]
+  projectStatusName_not_starts_with: String
+  projectStatusName_starts_with: String
+  projectTypeDescription: String
+  projectTypeDescription_contains: String
+  projectTypeDescription_ends_with: String
+  projectTypeDescription_in: [String]
+  projectTypeDescription_not: String
+  projectTypeDescription_not_contains: String
+  projectTypeDescription_not_ends_with: String
+  projectTypeDescription_not_in: [String]
+  projectTypeDescription_not_starts_with: String
+  projectTypeDescription_starts_with: String
+  projectTypeName: String
+  projectTypeName_contains: String
+  projectTypeName_ends_with: String
+  projectTypeName_in: [String]
+  projectTypeName_not: String
+  projectTypeName_not_contains: String
+  projectTypeName_not_ends_with: String
+  projectTypeName_not_in: [String]
+  projectTypeName_not_starts_with: String
+  projectTypeName_starts_with: String
+  sortOrder: Int
+  sortOrder_gt: Int
+  sortOrder_gte: Int
+  sortOrder_in: [Int!]
+  sortOrder_lt: Int
+  sortOrder_lte: Int
+  sortOrder_not: Int
+  sortOrder_not_gt: Int
+  sortOrder_not_gte: Int
+  sortOrder_not_in: [Int!]
+  sortOrder_not_lt: Int
+  sortOrder_not_lte: Int
+  totalOfSaleSeasons: Int
+  totalOfSaleSeasons_gt: Int
+  totalOfSaleSeasons_gte: Int
+  totalOfSaleSeasons_in: [Int]
+  totalOfSaleSeasons_lt: Int
+  totalOfSaleSeasons_lte: Int
+  totalOfSaleSeasons_not: Int
+  totalOfSaleSeasons_not_gt: Int
+  totalOfSaleSeasons_not_gte: Int
+  totalOfSaleSeasons_not_in: [Int]
+  totalOfSaleSeasons_not_lt: Int
+  totalOfSaleSeasons_not_lte: Int
+}
+
+input ProjectDtoSort {
+  projectName: SortOperationKind
+  projectPostStatusDescription: SortOperationKind
+  projectPostStatusName: SortOperationKind
+  projectStatusDescription: SortOperationKind
+  projectStatusName: SortOperationKind
+  projectTypeDescription: SortOperationKind
+  projectTypeName: SortOperationKind
+  sortOrder: SortOperationKind
+  totalOfSaleSeasons: SortOperationKind
+}
+
+type ProjectInfo {
+  calculateSize: Int!
+  clone: ProjectInfo
+  equals: Boolean!
+  projectCode: String
+  projectId: String
+  projectName: String
+  projectStatusDescription: String
+  projectStatusId: String
+  projectStatusName: String
+  propertyTypeDescription: String
+  propertyTypeId: String
+  propertyTypeName: String
+}
+
+input ProjectInput {
+  bankInfo: String
+  commissionRates: String
+  createdBy: String
+  createdDatetime: String
+  facilitiesDescription: String
+  facilitiesMediaInfo: String
+  featurePhotos: String
+  groundPlanDescription: String
+  groundPlanMediaInfo: String
+  investorOwnerEmail: String
+  investorOwnerLogo: String
+  investorOwnerName: String
+  investorOwnerPhoneNumber: String
+  isFeaturesProject: Boolean!
+  locationDescription: String
+  locationMediaInfo: String
+  minPrice: Float
+  overviewDescription: String
+  overviewMediaInfo: String
+  partnersInfo: String
+  projectAddress: ProjectAddressInfoInput
+  projectAddressId: String
+  projectDescription: String
+  projectName: String
+  projectPostStatusId: String
+  projectProgress: String
+  projectStatusId: String
+  propertyTypeId: String
+  saleProgramDescription: String
+  saleProgramMediaInfo: String
+  sizingDescription: String
+  sizingMediaInfo: String
+  sortOrder: Int!
+}
+
+type ProjectMutationResponse {
+  projectDto: ProjectDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type ProjectPostStatusDto {
+  isActive: Boolean!
+  projectPostStatusDescription: String
+  projectPostStatusId: String
+  projectPostStatusName: String
+}
+
+input ProjectPostStatusDtoFilter {
+  AND: [ProjectPostStatusDtoFilter!]
+  OR: [ProjectPostStatusDtoFilter!]
+  projectPostStatusName: String
+  projectPostStatusName_contains: String
+  projectPostStatusName_ends_with: String
+  projectPostStatusName_in: [String]
+  projectPostStatusName_not: String
+  projectPostStatusName_not_contains: String
+  projectPostStatusName_not_ends_with: String
+  projectPostStatusName_not_in: [String]
+  projectPostStatusName_not_starts_with: String
+  projectPostStatusName_starts_with: String
+}
+
+input ProjectPostStatusDtoSort {
+  projectPostStatusName: SortOperationKind
+}
+
+type ProjectPostStatusInfoDto {
+  isActive: Boolean!
+  projectPostStatusDescription: String
+  projectPostStatusId: String
+  projectPostStatusName: String
+}
+
+type ProjectStatusDto {
+  isActive: Boolean!
+  projectStatusDescription: String
+  projectStatusId: String
+  projectStatusName: String
+}
+
+input ProjectStatusDtoFilter {
+  AND: [ProjectStatusDtoFilter!]
+  OR: [ProjectStatusDtoFilter!]
+  projectStatusName: String
+  projectStatusName_contains: String
+  projectStatusName_ends_with: String
+  projectStatusName_in: [String]
+  projectStatusName_not: String
+  projectStatusName_not_contains: String
+  projectStatusName_not_ends_with: String
+  projectStatusName_not_in: [String]
+  projectStatusName_not_starts_with: String
+  projectStatusName_starts_with: String
+}
+
+input ProjectStatusDtoSort {
+  projectStatusName: SortOperationKind
+}
+
+type ProjectStatusInfoDto {
+  isActive: Boolean!
+  projectStatusDescription: String
+  projectStatusId: String
+  projectStatusName: String
+}
+
+input ProjectUpdate {
+  bankInfo: String
+  commissionRates: String
+  facilitiesDescription: String
+  facilitiesMediaInfo: String
+  featurePhotos: String
+  groundPlanDescription: String
+  groundPlanMediaInfo: String
+  investorOwnerEmail: String
+  investorOwnerLogo: String
+  investorOwnerName: String
+  investorOwnerPhoneNumber: String
+  isFeaturesProject: Boolean!
+  lastModified: String
+  locationDescription: String
+  locationMediaInfo: String
+  minPrice: Float
+  modifiedBy: String
+  overviewDescription: String
+  overviewMediaInfo: String
+  partnersInfo: String
+  projectAddress: ProjectAddressInfoInput
+  projectAddressId: String
+  projectDescription: String
+  projectId: String
+  projectName: String
+  projectPostStatusId: String
+  projectProgress: String
+  projectStatusId: String
+  propertyTypeId: String
+  saleProgramDescription: String
+  saleProgramMediaInfo: String
+  sizingDescription: String
+  sizingMediaInfo: String
+  sortOrder: Int!
+}
+
+type ProjectWithPropertyPostDto {
+  bankInfo: String
+  commissionRates: String
+  createdBy: String
+  createdDatetime: Long
+  deletedBy: String
+  deletedDatetime: Long
+  facilitiesDescription: String
+  facilitiesMediaInfo: String
+  featurePhotos: String
+  groundPlanDescription: String
+  groundPlanMediaInfo: String
+  investorOwnerEmail: String
+  investorOwnerLogo: String
+  investorOwnerName: String
+  investorOwnerPhoneNumber: String
+  isDeleted: Boolean!
+  isFeaturesProject: Boolean!
+  lastModified: Long
+  locationDescription: String
+  locationMediaInfo: String
+  minPrice: Float
+  modifiedBy: String
+  overviewDescription: String
+  overviewMediaInfo: String
+  partnersInfo: String
+  projectAddress: ProjectAddressWithPropertyPostInfo
+  projectAddressId: String
+  projectCode: String
+  projectDescription: String
+  projectId: String
+  projectName: String
+  projectPostStatusId: String
+  projectPostStatusName: String
+  projectProgress: String
+  projectStatusId: String
+  projectStatusName: String
+  projectTypeName: String
+  propertyPosts: [PropertyPostDto]
+  propertyTypeId: String
+  saleProgramDescription: String
+  saleProgramMediaInfo: String
+  sizingDescription: String
+  sizingMediaInfo: String
+  unitOfMeasureProject: UnitOfMeasureProject
+}
+
+"""A connection to a list of items."""
+type ProjectWithPropertyPostDtoConnection {
+  """A list of edges."""
+  edges: [ProjectWithPropertyPostDtoEdge!]
+
+  """A flattened list of the nodes."""
+  nodes: [ProjectWithPropertyPostDto]
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+"""An edge in a connection."""
+type ProjectWithPropertyPostDtoEdge {
+  """A cursor for use in pagination."""
+  cursor: String!
+
+  """The item at the end of the edge."""
+  node: ProjectWithPropertyPostDto
+}
+
+input ProjectWithPropertyPostDtoFilter {
+  AND: [ProjectWithPropertyPostDtoFilter!]
+  createdDatetime: Long
+  createdDatetime_gt: Long
+  createdDatetime_gte: Long
+  createdDatetime_in: [Long]
+  createdDatetime_lt: Long
+  createdDatetime_lte: Long
+  createdDatetime_not: Long
+  createdDatetime_not_gt: Long
+  createdDatetime_not_gte: Long
+  createdDatetime_not_in: [Long]
+  createdDatetime_not_lt: Long
+  createdDatetime_not_lte: Long
+  OR: [ProjectWithPropertyPostDtoFilter!]
+  projectAddressId: String
+  projectAddressId_contains: String
+  projectAddressId_ends_with: String
+  projectAddressId_in: [String]
+  projectAddressId_not: String
+  projectAddressId_not_contains: String
+  projectAddressId_not_ends_with: String
+  projectAddressId_not_in: [String]
+  projectAddressId_not_starts_with: String
+  projectAddressId_starts_with: String
+  projectCode: String
+  projectCode_contains: String
+  projectCode_ends_with: String
+  projectCode_in: [String]
+  projectCode_not: String
+  projectCode_not_contains: String
+  projectCode_not_ends_with: String
+  projectCode_not_in: [String]
+  projectCode_not_starts_with: String
+  projectCode_starts_with: String
+  projectName: String
+  projectName_contains: String
+  projectName_ends_with: String
+  projectName_in: [String]
+  projectName_not: String
+  projectName_not_contains: String
+  projectName_not_ends_with: String
+  projectName_not_in: [String]
+  projectName_not_starts_with: String
+  projectName_starts_with: String
+  projectPostStatusName: String
+  projectPostStatusName_contains: String
+  projectPostStatusName_ends_with: String
+  projectPostStatusName_in: [String]
+  projectPostStatusName_not: String
+  projectPostStatusName_not_contains: String
+  projectPostStatusName_not_ends_with: String
+  projectPostStatusName_not_in: [String]
+  projectPostStatusName_not_starts_with: String
+  projectPostStatusName_starts_with: String
+  projectProgress: String
+  projectProgress_contains: String
+  projectProgress_ends_with: String
+  projectProgress_in: [String]
+  projectProgress_not: String
+  projectProgress_not_contains: String
+  projectProgress_not_ends_with: String
+  projectProgress_not_in: [String]
+  projectProgress_not_starts_with: String
+  projectProgress_starts_with: String
+  projectStatusName: String
+  projectStatusName_contains: String
+  projectStatusName_ends_with: String
+  projectStatusName_in: [String]
+  projectStatusName_not: String
+  projectStatusName_not_contains: String
+  projectStatusName_not_ends_with: String
+  projectStatusName_not_in: [String]
+  projectStatusName_not_starts_with: String
+  projectStatusName_starts_with: String
+  projectTypeName: String
+  projectTypeName_contains: String
+  projectTypeName_ends_with: String
+  projectTypeName_in: [String]
+  projectTypeName_not: String
+  projectTypeName_not_contains: String
+  projectTypeName_not_ends_with: String
+  projectTypeName_not_in: [String]
+  projectTypeName_not_starts_with: String
+  projectTypeName_starts_with: String
+}
+
+input ProjectWithPropertyPostDtoSort {
+  projectAddressId: SortOperationKind
+  projectName: SortOperationKind
+  projectPostStatusName: SortOperationKind
+  projectProgress: SortOperationKind
+  projectStatusName: SortOperationKind
+  projectTypeName: SortOperationKind
+}
+
+type PropertyAddressDto {
+  additionalLocationInfo: String
+  block: String
+  building: String
+  calculateSize: Int!
+  cityId: Int!
+  clone: PropertyAddressDto
+  countryId: Int!
+  direction: Direction!
+  districtId: Int!
+  equals: Boolean!
+  floor: String
+  googleEmbedCode: String
+  googleShareLink: String
+  homeName: String
+  imageMapUrl: String
+  landmark: String
+  latitude: Float
+  longitude: Float
+  propertyAddressId: String
+  room: String
+  streetName: String
+  wardId: Int!
+}
+
+type PropertyAddressInfo {
+  additionalLocationInfo: String
+  block: String
+  building: String
+  calculateSize: Int!
+  cityId: Int!
+  clone: PropertyAddressInfo
+  countryId: Int!
+  direction: Direction!
+  districtId: Int!
+  equals: Boolean!
+  floor: String
+  googleEmbedCode: String
+  googleShareLink: String
+  homeAddress: String
+  imageMapUrl: String
+  landmark: String
+  latitude: Float
+  longitude: Float
+  propertyAddressId: String
+  room: String
+  streetName: String
+  wardId: Int!
+}
+
+type PropertyAddressInfoDto {
+  additionalLocationInfo: String
+  block: String
+  building: String
+  calculateSize: Int!
+  cityId: Int
+  cityName: String
+  clone: PropertyAddressInfoDto
+  countryId: Int
+  countryName: String
+  direction: Direction!
+  districtId: Int
+  districtName: String
+  equals: Boolean!
+  floor: String
+  googleEmbedCode: String
+  googleShareLink: String
+  homeAddress: String
+  imageMapUrl: String
+  landmark: String
+  latitude: Float
+  longitude: Float
+  propertyAddressId: String
+  room: String
+  streetName: String
+  wardId: Int
+  wardName: String
+}
+
+input PropertyAddressInfoInput {
+  additionalLocationInfo: String
+  block: String
+  building: String
+  cityId: Int!
+  countryId: Int!
+  direction: Direction!
+  districtId: Int!
+  floor: String
+  googleEmbedCode: String
+  googleShareLink: String
+  homeAddress: String
+  imageMapUrl: String
+  landmark: String
+  latitude: Float
+  longitude: Float
+  propertyAddressId: String
+  room: String
+  streetName: String
+  wardId: Int!
+}
+
+type PropertyPostApprovalStatusDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  propertyPostApprovalStatusDescription: String
+  propertyPostApprovalStatusId: String
+  propertyPostApprovalStatusName: String
+}
+
+input PropertyPostApprovalStatusDtoFilter {
+  AND: [PropertyPostApprovalStatusDtoFilter!]
+  OR: [PropertyPostApprovalStatusDtoFilter!]
+  propertyPostApprovalStatusName: String
+  propertyPostApprovalStatusName_contains: String
+  propertyPostApprovalStatusName_ends_with: String
+  propertyPostApprovalStatusName_in: [String]
+  propertyPostApprovalStatusName_not: String
+  propertyPostApprovalStatusName_not_contains: String
+  propertyPostApprovalStatusName_not_ends_with: String
+  propertyPostApprovalStatusName_not_in: [String]
+  propertyPostApprovalStatusName_not_starts_with: String
+  propertyPostApprovalStatusName_starts_with: String
+}
+
+input PropertyPostApprovalStatusDtoSort {
+  propertyPostApprovalStatusName: SortOperationKind
+}
+
+type PropertyPostApprovalStatusInfoDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  propertyPostApprovalStatusDescription: String
+  propertyPostApprovalStatusId: String
+  propertyPostApprovalStatusName: String
+}
+
+type PropertyPostDto {
+  addressId: String
+  agentGroup: String
+  agentGroupIds: [String]
+  agentGroupInfos: [AgentGroupInfo]
+  agentGroupJsonString: String
+  agentGroupRanks: String
+  agentRank: String
+  agentRankIds: [String]
+  agentRankInfos: [AgentRankInfo]
+  agentRankJsonString: String
+  approvedBy: String
+  approvedDatetime: Long
+  blockCode: String
+  blockName: String
+  bookingFee: Float
+  buildingArea: Int
+  buildingLine: Int
+  buyCommission: Float
+  capetAreas: Int
+  collateralizedAtBankId: String
+  commission: Int
+  createdByUserId: String
+  createdDatetime: Long
+  direction: Direction!
+  expiredDate: Long
+  floor: String
+  freeTextProject: String
+  houseDesign: String
+  images: String
+  internalFacility: String
+  isBookedOutSide: Boolean
+  isCollateralized: Boolean
+  isFeatureProperty: Boolean
+  isPrivate: Boolean
+  isSold: Boolean
+  keywords: String
+  languageIso3: String
+  lastModified: Long
+  lastModifiedByUserId: String
+  latitude: Float
+  legalInfoId: String
+  longitude: Float
+  nearFacility: String
+  numberOfBathrooms: Int
+  numberOfBedrooms: Int
+  numberOfFloor: Int
+  owner: OwnerInfoDto
+  ownerId: String
+  ownerIsAuthor: Boolean
+  postDescription: String
+  postTitle: String
+  postTypeId: String
+  price: Float
+  priceNoVat: Float
+  priceVat: Float
+  projectId: String
+  propertyAddress: PropertyAddressInfoDto
+  propertyCode: String
+  propertyName: String
+  propertyPostApprovalStatusId: String
+  propertyPostId: String
+  propertyPostStatusId: String
+  propertySubTypeId: String
+  propertySubTypeName: String
+  propertyTypeId: String
+  rejectedDatetime: Long
+  rejectedReason: String
+  rowIndex: Int
+  saleCommission: Float
+  saleSeasonId: String
+  saleTrackingStatusId: String
+  sendingApprovalFrom: String
+  seoString: String
+  sortOrder: Int
+  tags: String
+  totalSiteArea: Int
+  unitOfMeasure: sale_UnitOfMeasureInfoDto
+  unitOfMeasureId: String
+}
+
+"""A connection to a list of items."""
+type PropertyPostDtoConnection {
+  """A list of edges."""
+  edges: [PropertyPostDtoEdge!]
+
+  """A flattened list of the nodes."""
+  nodes: [PropertyPostDto]
+
+  """Information to aid in pagination."""
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+"""An edge in a connection."""
+type PropertyPostDtoEdge {
+  """A cursor for use in pagination."""
+  cursor: String!
+
+  """The item at the end of the edge."""
+  node: PropertyPostDto
+}
+
+input PropertyPostDtoFilter {
+  AND: [PropertyPostDtoFilter!]
+  createdByUserId: String
+  createdByUserId_contains: String
+  createdByUserId_ends_with: String
+  createdByUserId_in: [String]
+  createdByUserId_not: String
+  createdByUserId_not_contains: String
+  createdByUserId_not_ends_with: String
+  createdByUserId_not_in: [String]
+  createdByUserId_not_starts_with: String
+  createdByUserId_starts_with: String
+  createdDatetime: Long
+  createdDatetime_gt: Long
+  createdDatetime_gte: Long
+  createdDatetime_in: [Long]
+  createdDatetime_lt: Long
+  createdDatetime_lte: Long
+  createdDatetime_not: Long
+  createdDatetime_not_gt: Long
+  createdDatetime_not_gte: Long
+  createdDatetime_not_in: [Long]
+  createdDatetime_not_lt: Long
+  createdDatetime_not_lte: Long
+  isPrivate: Boolean
+  isPrivate_gt: Boolean
+  isPrivate_gte: Boolean
+  isPrivate_in: [Boolean]
+  isPrivate_lt: Boolean
+  isPrivate_lte: Boolean
+  isPrivate_not: Boolean
+  isPrivate_not_gt: Boolean
+  isPrivate_not_gte: Boolean
+  isPrivate_not_in: [Boolean]
+  isPrivate_not_lt: Boolean
+  isPrivate_not_lte: Boolean
+  OR: [PropertyPostDtoFilter!]
+  postTitle: String
+  postTitle_contains: String
+  postTitle_ends_with: String
+  postTitle_in: [String]
+  postTitle_not: String
+  postTitle_not_contains: String
+  postTitle_not_ends_with: String
+  postTitle_not_in: [String]
+  postTitle_not_starts_with: String
+  postTitle_starts_with: String
+  postTypeId: String
+  postTypeId_contains: String
+  postTypeId_ends_with: String
+  postTypeId_in: [String]
+  postTypeId_not: String
+  postTypeId_not_contains: String
+  postTypeId_not_ends_with: String
+  postTypeId_not_in: [String]
+  postTypeId_not_starts_with: String
+  postTypeId_starts_with: String
+  price: Float
+  price_gt: Float
+  price_gte: Float
+  price_in: [Float]
+  price_lt: Float
+  price_lte: Float
+  price_not: Float
+  price_not_gt: Float
+  price_not_gte: Float
+  price_not_in: [Float]
+  price_not_lt: Float
+  price_not_lte: Float
+  propertyName: String
+  propertyName_contains: String
+  propertyName_ends_with: String
+  propertyName_in: [String]
+  propertyName_not: String
+  propertyName_not_contains: String
+  propertyName_not_ends_with: String
+  propertyName_not_in: [String]
+  propertyName_not_starts_with: String
+  propertyName_starts_with: String
+  propertyPostApprovalStatusId: String
+  propertyPostApprovalStatusId_contains: String
+  propertyPostApprovalStatusId_ends_with: String
+  propertyPostApprovalStatusId_in: [String]
+  propertyPostApprovalStatusId_not: String
+  propertyPostApprovalStatusId_not_contains: String
+  propertyPostApprovalStatusId_not_ends_with: String
+  propertyPostApprovalStatusId_not_in: [String]
+  propertyPostApprovalStatusId_not_starts_with: String
+  propertyPostApprovalStatusId_starts_with: String
+  propertyPostId: String
+  propertyPostId_contains: String
+  propertyPostId_ends_with: String
+  propertyPostId_in: [String]
+  propertyPostId_not: String
+  propertyPostId_not_contains: String
+  propertyPostId_not_ends_with: String
+  propertyPostId_not_in: [String]
+  propertyPostId_not_starts_with: String
+  propertyPostId_starts_with: String
+  propertyPostStatusId: String
+  propertyPostStatusId_contains: String
+  propertyPostStatusId_ends_with: String
+  propertyPostStatusId_in: [String]
+  propertyPostStatusId_not: String
+  propertyPostStatusId_not_contains: String
+  propertyPostStatusId_not_ends_with: String
+  propertyPostStatusId_not_in: [String]
+  propertyPostStatusId_not_starts_with: String
+  propertyPostStatusId_starts_with: String
+}
+
+input PropertyPostDtoSort {
+  createdDatetime: SortOperationKind
+  lastModified: SortOperationKind
+  postTitle: SortOperationKind
+  propertyName: SortOperationKind
+  propertyPostApprovalStatusId: SortOperationKind
+  propertyPostStatusId: SortOperationKind
+}
+
+type PropertyPostInfoDto {
+  addressId: String
+  agentGroupRanks: String
+  approvedBy: String
+  approvedDatetime: Long
+  blockCode: String
+  blockName: String
+  bookingFee: Float
+  buildingArea: Int
+  buildingLine: Int
+  buyCommission: Float
+  capetAreas: Int
+  collateralizedAtBankId: String
+  commission: Int
+  contactEmail: String
+  direction: Direction!
+  expiredDate: Long
+  floor: String
+  freeTextProject: String
+  houseDesign: String
+  images: String
+  internalFacility: String
+  isBookedOutSide: Boolean
+  isCollateralized: Boolean
+  isFeatureProperty: Boolean
+  isPrivate: Boolean
+  isSold: Boolean
+  keywords: String
+  languageIso3: String
+  latitude: Float
+  legalInfoId: String
+  longitude: Float
+  nearFacility: String
+  numberOfBathrooms: Int
+  numberOfBedrooms: Int
+  numberOfFloor: Int
+  ownerId: String
+  ownerIsAuthor: Boolean
+  postDescription: String
+  postTitle: String
+  postTypeId: String
+  price: Float
+  priceNoVat: Float
+  priceVat: Float
+  projectId: String
+  propertyCode: String
+  propertyName: String
+  propertyPostApprovalStatusId: String
+  propertyPostId: String
+  propertyPostStatusId: String
+  propertySubTypeId: String
+  propertyTypeId: String
+  rejectedDatetime: Long
+  rejectedReason: String
+  saleCommission: Float
+  sendingApprovalFrom: String
+  seoString: String
+  sortOrder: Int
+  tags: String
+  totalSiteArea: Int
+  unitOfMeasureId: String
+}
+
+type PropertyPostMutationResponse {
+  propertyPostDto: PropertyPostDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type PropertyPostStatusDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  propertyPostStatusDescription: String
+  propertyPostStatusId: String
+  propertyPostStatusName: String
+}
+
+input PropertyPostStatusDtoFilter {
+  AND: [PropertyPostStatusDtoFilter!]
+  OR: [PropertyPostStatusDtoFilter!]
+  propertyPostStatusName: String
+  propertyPostStatusName_contains: String
+  propertyPostStatusName_ends_with: String
+  propertyPostStatusName_in: [String]
+  propertyPostStatusName_not: String
+  propertyPostStatusName_not_contains: String
+  propertyPostStatusName_not_ends_with: String
+  propertyPostStatusName_not_in: [String]
+  propertyPostStatusName_not_starts_with: String
+  propertyPostStatusName_starts_with: String
+}
+
+input PropertyPostStatusDtoSort {
+  propertyPostStatusName: SortOperationKind
+}
+
+type PropertyPostStatusInfoDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  propertyPostStatusDescription: String
+  propertyPostStatusId: String
+  propertyPostStatusName: String
+}
+
+type PropertySubTypeDto {
+  isActive: Boolean!
+  propertySubTypeDescription: String
+  propertySubTypeId: String
+  propertySubTypeName: String
+  propertyTypeId: String
+  sortOrder: Int!
+}
+
+input PropertySubTypeDtoFilter {
+  AND: [PropertySubTypeDtoFilter!]
+  OR: [PropertySubTypeDtoFilter!]
+  propertySubTypeName: String
+  propertySubTypeName_contains: String
+  propertySubTypeName_ends_with: String
+  propertySubTypeName_in: [String]
+  propertySubTypeName_not: String
+  propertySubTypeName_not_contains: String
+  propertySubTypeName_not_ends_with: String
+  propertySubTypeName_not_in: [String]
+  propertySubTypeName_not_starts_with: String
+  propertySubTypeName_starts_with: String
+  propertyTypeId: String
+  propertyTypeId_contains: String
+  propertyTypeId_ends_with: String
+  propertyTypeId_in: [String]
+  propertyTypeId_not: String
+  propertyTypeId_not_contains: String
+  propertyTypeId_not_ends_with: String
+  propertyTypeId_not_in: [String]
+  propertyTypeId_not_starts_with: String
+  propertyTypeId_starts_with: String
+}
+
+input PropertySubTypeDtoSort {
+  propertySubTypeName: SortOperationKind
+}
+
+type PropertySubTypeInfoDto {
+  isActive: Boolean!
+  propertySubTypeDescription: String
+  propertySubTypeId: String
+  propertySubTypeName: String
+  propertyTypeId: String
+  sortOrder: Int!
+}
+
+type PropertyTypeDto {
+  isActive: Boolean!
+  postUsageFields: String
+  projectUsageFields: String
+  propertyTypeDescription: String
+  propertyTypeId: String
+  propertyTypeName: String
+  sortOrder: Int!
+}
+
+input PropertyTypeDtoFilter {
+  AND: [PropertyTypeDtoFilter!]
+  OR: [PropertyTypeDtoFilter!]
+  postUsageFields: String
+  postUsageFields_contains: String
+  postUsageFields_ends_with: String
+  postUsageFields_in: [String]
+  postUsageFields_not: String
+  postUsageFields_not_contains: String
+  postUsageFields_not_ends_with: String
+  postUsageFields_not_in: [String]
+  postUsageFields_not_starts_with: String
+  postUsageFields_starts_with: String
+  projectUsageFields: String
+  projectUsageFields_contains: String
+  projectUsageFields_ends_with: String
+  projectUsageFields_in: [String]
+  projectUsageFields_not: String
+  projectUsageFields_not_contains: String
+  projectUsageFields_not_ends_with: String
+  projectUsageFields_not_in: [String]
+  projectUsageFields_not_starts_with: String
+  projectUsageFields_starts_with: String
+  propertyTypeName: String
+  propertyTypeName_contains: String
+  propertyTypeName_ends_with: String
+  propertyTypeName_in: [String]
+  propertyTypeName_not: String
+  propertyTypeName_not_contains: String
+  propertyTypeName_not_ends_with: String
+  propertyTypeName_not_in: [String]
+  propertyTypeName_not_starts_with: String
+  propertyTypeName_starts_with: String
+}
+
+input PropertyTypeDtoSort {
+  postUsageFields: SortOperationKind
+  projectUsageFields: SortOperationKind
+  propertyTypeName: SortOperationKind
+}
+
+type PropertyTypeInfoDto {
+  isActive: Boolean!
+  postUsageFields: String
+  projectUsageFields: String
+  propertyTypeDescription: String
+  propertyTypeId: String
+  propertyTypeName: String
+  sortOrder: Int!
+}
+
+type Query {
+  addressById(addressId: Uuid): AddressDto
+  addresses(export: Boolean, order_by: AddressDtoSort, page: Int, pageSize: Int, where: AddressDtoFilter): OffsetPagingOfAddressDto
+  addressTypeById(addressTypeId: Uuid): AddressTypeDto
+  addressTypes(export: Boolean, order_by: AddressTypeDtoSort, page: Int, pageSize: Int, where: AddressTypeDtoFilter): OffsetPagingOfAddressTypeDto
+  agentById(agentId: Uuid): AgentDto
+  agentGroupById(agentGroupId: Uuid): AgentGroupDto
+  agentGroupInfoById(getAgentGroupInfoByIdInput: agentGroupInput): AgentGroupInfoDto
+  agentGroupMembersByAgentGroupId(agentGroupId: Uuid, export: Boolean, order_by: AgentWithKpiDtoSort, page: Int, pageSize: Int, where: AgentWithKpiDtoFilter): OffsetPagingOfAgentWithKpiDto
+  agentGroups(export: Boolean, order_by: AgentGroupDtoSort, page: Int, pageSize: Int, where: AgentGroupDtoFilter): OffsetPagingOfAgentGroupDto
+  agentGroupTrackingById(agentId: Uuid, export: Boolean, order_by: AgentGroupTrackingDtoSort, page: Int, pageSize: Int, where: AgentGroupTrackingDtoFilter): OffsetPagingOfAgentGroupTrackingDto
+  agentGroupTrackingsById(agentId: Uuid!): [AgentGroupTrackingDto]
+  agentPerformanceTrackingsByAgentIds(export: Boolean, getAgentPerformanceTrackingsByAgentIdsInput: agentPerformanceTrackingInput, order_by: AgentPerformanceTrackingDtoSort, page: Int, pageSize: Int, request: agentPerformanceTrackingInput, where: AgentPerformanceTrackingDtoFilter): OffsetPagingOfAgentPerformanceTrackingDto
+  agentRankingById(agentRankingId: Uuid): AgentRankingDto
+  agentRankings(export: Boolean, page: Int, pageSize: Int, where: AgentRankingDtoFilter): OffsetPagingOfAgentRankingDto
+  agentRatingById(agentRatingId: Uuid): AgentRatingDto
+  agentRatings(export: Boolean, order_by: AgentRatingDtoSort, page: Int, pageSize: Int, where: AgentRatingDtoFilter): OffsetPagingOfAgentRatingDto
+  agents(export: Boolean, order_by: AgentDtoSort, page: Int, pageSize: Int, where: AgentDtoFilter): OffsetPagingOfAgentDto
+  agentTypeById(agentTypeId: Uuid): AgentTypeDto
+  agentTypes(export: Boolean, order_by: AgentTypeDtoSort, page: Int, pageSize: Int, where: AgentTypeDtoFilter): OffsetPagingOfAgentTypeDto
+  b2CPropertyPosts(export: Boolean, order_by: PropertyPostDtoSort, page: Int, pageSize: Int, where: PropertyPostDtoFilter): OffsetPagingOfPropertyPostDto
+  bankById(bankId: Uuid): BankDto
+  banks(export: Boolean, order_by: BankDtoSort, page: Int, pageSize: Int, where: BankDtoFilter): OffsetPagingOfBankDto
+  bookingStatus(export: Boolean, order_by: BookingStatusDtoSort, page: Int, pageSize: Int, where: BookingStatusDtoFilter): OffsetPagingOfBookingStatusDto
+  bookingStatusById(bookingStatusId: Uuid): BookingStatusDto
+  bookingTransactionByAgentId(agentId: Uuid): [GetBookingTransactionsByAgentIdDto]
+  cities(export: Boolean, order_by: CityDtoSort, page: Int, pageSize: Int, where: CityDtoFilter): OffsetPagingOfCityDto
+  cityById(cityId: Int): CityDto
+  competencies(export: Boolean, order_by: CompetencyDtoSort, page: Int, pageSize: Int, where: CompetencyDtoFilter): OffsetPagingOfCompetencyDto
+  competencyById(competencyId: Uuid): CompetencyDto
+  countries(export: Boolean, order_by: CountryDtoSort, page: Int, pageSize: Int, where: CountryDtoFilter): OffsetPagingOfCountryDto
+  countryById(countryId: Uuid): CountryDto
+  curAgentRatings: [AgentRatingDto]
+  curBanks: [BankDto]
+  curLegalInfoes: [LegalInfoDto]
+  curNotificationSettings: [NotificationSettingDto]
+  curNotificationTemplates: [NotificationTemplateDto]
+  curProjectWithPropertyPosts(after: String, before: String, first: PaginationAmount, last: PaginationAmount, order_by: ProjectWithPropertyPostDtoSort, where: ProjectWithPropertyPostDtoFilter): ProjectWithPropertyPostDtoConnection
+  curPropertyPostApprovalStatus: [PropertyPostApprovalStatusDto]
+  curPropertyPosts(after: String, before: String, first: PaginationAmount, last: PaginationAmount, order_by: PropertyPostDtoSort, where: PropertyPostDtoFilter): PropertyPostDtoConnection
+  curPropertyPostsByCityId(after: String, before: String, cityId: Int!, first: PaginationAmount, last: PaginationAmount, order_by: PropertyPostDtoSort, where: PropertyPostDtoFilter): PropertyPostDtoConnection
+  curPropertyPostsByCurrentUser(after: String, before: String, first: PaginationAmount, last: PaginationAmount, order_by: PropertyPostDtoSort, where: PropertyPostDtoFilter): PropertyPostDtoConnection
+  curPropertyPostsByDistrictId(after: String, before: String, districtId: Int!, first: PaginationAmount, last: PaginationAmount, order_by: PropertyPostDtoSort, where: PropertyPostDtoFilter): PropertyPostDtoConnection
+  curPropertyPostsByFollowerId(after: String, before: String, first: PaginationAmount, followerId: Uuid, last: PaginationAmount, order_by: PropertyPostDtoSort, where: PropertyPostDtoFilter): PropertyPostDtoConnection
+  curPropertyPostStatus: [PropertyPostStatusDto]
+  curSaleTrackingStatus: [SaleTrackingStatusDto]
+  curSupportRequestStatuses: [SupportRequestStatusDto]
+  curUnitOfMeasures: [UnitOfMeasureDto]
+  customerById(customerId: Uuid): CustomerDto
+  customers(export: Boolean, page: Int, pageSize: Int, where: CustomerDtoFilter): OffsetPagingOfCustomerDto
+  departmentById(departmentId: Uuid): DepartmentDto
+  departments(export: Boolean, order_by: DepartmentDtoSort, page: Int, pageSize: Int, where: DepartmentDtoFilter): OffsetPagingOfDepartmentDto
+  depositeStatus(export: Boolean, order_by: DepositeStatusDtoSort, page: Int, pageSize: Int, where: DepositeStatusDtoFilter): OffsetPagingOfDepositeStatusDto
+  depositeStatusById(depositeStatusId: Uuid): DepositeStatusDto
+  districtById(districtId: Int): DistrictDto
+  districts(export: Boolean, order_by: DistrictDtoSort, page: Int, pageSize: Int, where: DistrictDtoFilter): OffsetPagingOfDistrictDto
+  estateTypeOfInterestById(estateTypeOfInterestId: Uuid): EstateTypeOfInterestDto
+  estateTypeOfInterests(export: Boolean, order_by: EstateTypeOfInterestDtoSort, page: Int, pageSize: Int, where: EstateTypeOfInterestDtoFilter): OffsetPagingOfEstateTypeOfInterestDto
+  guestById(guestId: Uuid): GuestDto
+  guests(export: Boolean, page: Int, pageSize: Int, where: GuestDtoFilter): OffsetPagingOfGuestDto
+  languageById(languageId: Uuid): LanguageDto
+  languages(export: Boolean, order_by: LanguageDtoSort, page: Int, pageSize: Int, where: LanguageDtoFilter): OffsetPagingOfLanguageDto
+  legalInfoById(legalInfoId: Uuid): LegalInfoDto
+  legalInfoes(export: Boolean, order_by: LegalInfoDtoSort, page: Int, pageSize: Int, where: LegalInfoDtoFilter): OffsetPagingOfLegalInfoDto
+  notificationSettingById(notificationSettingId: Uuid): NotificationSettingDto
+  notificationSettings(export: Boolean, order_by: NotificationSettingDtoSort, page: Int, pageSize: Int, where: NotificationSettingDtoFilter): OffsetPagingOfNotificationSettingDto
+  notificationTemplateById(notificationTemplateId: Uuid): NotificationTemplateDto
+  notificationTemplates(export: Boolean, order_by: NotificationTemplateDtoSort, page: Int, pageSize: Int, where: NotificationTemplateDtoFilter): OffsetPagingOfNotificationTemplateDto
+  organizationById(organizationId: Uuid): OrganizationDto
+  organizations(export: Boolean, order_by: OrganizationDtoSort, page: Int, pageSize: Int, where: OrganizationDtoFilter): OffsetPagingOfOrganizationDto
+  policies(export: Boolean, order_by: PolicyDtoSort, page: Int, pageSize: Int, where: PolicyDtoFilter): OffsetPagingOfPolicyDto
+  policyById(policyId: Uuid): PolicyDto
+  policyByPolicyTypeId(export: Boolean, page: Int, pageSize: Int, policyTypeId: Uuid, where: PolicyDtoFilter): OffsetPagingOfPolicyDto
+  policyBySaleSeasonId(export: Boolean, order_by: PolicyDtoSort, page: Int, pageSize: Int, saleSeasonId: Uuid, where: PolicyDtoFilter): OffsetPagingOfPolicyDto
+  policyTypeById(policyTypeId: Uuid): PolicyTypeDto
+  policyTypes(export: Boolean, order_by: PolicyTypeDtoSort, page: Int, pageSize: Int, where: PolicyTypeDtoFilter): OffsetPagingOfPolicyTypeDto
+  postTypeById(postTypeId: Uuid): PostTypeDto
+  postTypes(export: Boolean, order_by: PostTypeDtoSort, page: Int, pageSize: Int, where: PostTypeDtoFilter): OffsetPagingOfPostTypeDto
+  potentialAgentUsers(export: Boolean, page: Int, pageSize: Int, where: PotentialAgentUserDtoFilter): OffsetPagingOfPotentialAgentUserDto
+  projectById(projectId: Uuid): ProjectDto
+  projectPostStatus(export: Boolean, order_by: ProjectPostStatusDtoSort, page: Int, pageSize: Int, where: ProjectPostStatusDtoFilter): OffsetPagingOfProjectPostStatusDto
+  projectPostStatusById(projectPostStatusId: Uuid): ProjectPostStatusDto
+  projects(export: Boolean, order_by: ProjectDtoSort, page: Int, pageSize: Int, where: ProjectDtoFilter): OffsetPagingOfProjectDto
+  projectStatus(export: Boolean, order_by: ProjectStatusDtoSort, page: Int, pageSize: Int, where: ProjectStatusDtoFilter): OffsetPagingOfProjectStatusDto
+  projectStatusById(projectStatusId: Uuid): ProjectStatusDto
+  projectWithPropertyPosts(export: Boolean, order_by: ProjectWithPropertyPostDtoSort, page: Int, pageSize: Int, where: ProjectWithPropertyPostDtoFilter): OffsetPagingOfProjectWithPropertyPostDto
+  propertyAddresses: [PropertyAddressDto]
+  propertyPostApprovalStatus(export: Boolean, order_by: PropertyPostApprovalStatusDtoSort, page: Int, pageSize: Int, where: PropertyPostApprovalStatusDtoFilter): OffsetPagingOfPropertyPostApprovalStatusDto
+  propertyPostApprovalStatusById(propertyPostApprovalStatusId: Uuid): PropertyPostApprovalStatusDto
+  propertyPostById(propertyPostId: Uuid!): PropertyPostDto
+  propertyPosts(export: Boolean, order_by: PropertyPostDtoSort, page: Int, pageSize: Int, where: PropertyPostDtoFilter): OffsetPagingOfPropertyPostDto
+  propertyPostsByCityId(cityId: Int!, export: Boolean, order_by: PropertyPostDtoSort, page: Int, pageSize: Int, where: PropertyPostDtoFilter): OffsetPagingOfPropertyPostDto
+  propertyPostsByCurrentUser(export: Boolean, order_by: PropertyPostDtoSort, page: Int, pageSize: Int, where: PropertyPostDtoFilter): OffsetPagingOfPropertyPostDto
+  propertyPostsByDistrictId(districtId: Int!, export: Boolean, order_by: PropertyPostDtoSort, page: Int, pageSize: Int, where: PropertyPostDtoFilter): OffsetPagingOfPropertyPostDto
+  propertyPostsByFollowerId(export: Boolean, followerId: Uuid, order_by: PropertyPostDtoSort, page: Int, pageSize: Int, where: PropertyPostDtoFilter): OffsetPagingOfPropertyPostDto
+  propertyPostStatus(export: Boolean, order_by: PropertyPostStatusDtoSort, page: Int, pageSize: Int, where: PropertyPostStatusDtoFilter): OffsetPagingOfPropertyPostStatusDto
+  propertyPostStatusById(propertyPostStatusId: Uuid): PropertyPostStatusDto
+  propertySubTypeById(propertySubTypeId: Uuid): PropertySubTypeDto
+  propertySubTypes(export: Boolean, order_by: PropertySubTypeDtoSort, page: Int, pageSize: Int, where: PropertySubTypeDtoFilter): OffsetPagingOfPropertySubTypeDto
+  propertyTypeById(propertyTypeId: Uuid): PropertyTypeDto
+  propertyTypes(export: Boolean, order_by: PropertyTypeDtoSort, page: Int, pageSize: Int, where: PropertyTypeDtoFilter): OffsetPagingOfPropertyTypeDto
+  reactionTypeById(reactionTypeId: Uuid): ReactionTypeDto
+  reactionTypes(export: Boolean, order_by: ReactionTypeDtoSort, page: Int, pageSize: Int, where: ReactionTypeDtoFilter): OffsetPagingOfReactionTypeDto
+  referredAgentsByAgentId(agentId: Uuid!, export: Boolean, order_by: AgentDtoSort, page: Int, pageSize: Int, where: AgentDtoFilter): OffsetPagingOfAgentDto
+  requestTypeById(requestTypeId: Uuid): RequestTypeDto
+  requestTypes(export: Boolean, order_by: RequestTypeDtoSort, page: Int, pageSize: Int, where: RequestTypeDtoFilter): OffsetPagingOfRequestTypeDto
+  roles(export: Boolean, page: Int, pageSize: Int): OffsetPagingOfRoleDto
+  saleSeasonById(saleSeasonId: Uuid): SaleSeasonDto
+  saleSeasonByProjectId(export: Boolean, order_by: SaleSeasonDtoSort, page: Int, pageSize: Int, projectId: Uuid, where: SaleSeasonDtoFilter): OffsetPagingOfSaleSeasonDto
+  saleTrackingStatus(export: Boolean, order_by: SaleTrackingStatusDtoSort, page: Int, pageSize: Int, where: SaleTrackingStatusDtoFilter): OffsetPagingOfSaleTrackingStatusDto
+  saleTrackingStatusById(saleTrackingStatusId: Uuid): SaleTrackingStatusDto
+  sale_policyTypes(export: Boolean, order_by: PolicyDtoSort, page: Int, pageSize: Int, where: PolicyTypeDtoFilter): OffsetPagingOfPolicyTypeDto
+  searchAgents(searchAgentInput: SearchAgentInput!): SearchAgentResponse!
+  searchProjects(searchProjectInput: SearchProjectInput!): SearchProjectResponse!
+  searchPropertyPosts(searchPropertyPostInput: SearchPropertyPostInput!): SearchPropertyPostResponse
+  spamTypeById(spamTypeId: Uuid): SpamTypeDto
+  spamTypes(export: Boolean, order_by: SpamTypeDtoSort, page: Int, pageSize: Int, where: SpamTypeDtoFilter): OffsetPagingOfSpamTypeDto
+  specializeById(specializeId: Uuid): SpecializeDto
+  specializes(export: Boolean, order_by: SpecializeDtoSort, page: Int, pageSize: Int, where: SpecializeDtoFilter): OffsetPagingOfSpecializeDto
+  staffById(staffId: Uuid): StaffDto
+  staffByUserId(userId: Uuid): StaffDto
+  staffContractTypeById(staffContractTypeId: Uuid): StaffContractTypeDto
+  staffContractTypes(export: Boolean, order_by: StaffContractTypeDtoSort, page: Int, pageSize: Int, where: StaffContractTypeDtoFilter): OffsetPagingOfStaffContractTypeDto
+  staffGroupById(staffGroupId: Uuid): StaffGroupDto
+  staffGroups(export: Boolean, order_by: StaffGroupDtoSort, page: Int, pageSize: Int, where: StaffGroupDtoFilter): OffsetPagingOfStaffGroupDto
+  staffGroupsByStaffTypeId(export: Boolean, order_by: StaffGroupDtoSort, page: Int, pageSize: Int, staffTypeId: Uuid, where: StaffGroupDtoFilter): OffsetPagingOfStaffGroupDto
+  staffPositionById(staffPositionId: Uuid): StaffPositionDto
+  staffPositions(export: Boolean, order_by: StaffPositionDtoSort, page: Int, pageSize: Int, where: StaffPositionDtoFilter): OffsetPagingOfStaffPositionDto
+  staffRankingById(staffRankingId: Uuid): StaffRankingDto
+  staffRankings(export: Boolean, order_by: StaffRankingDtoSort, page: Int, pageSize: Int, where: StaffRankingDtoFilter): OffsetPagingOfStaffRankingDto
+  staffs(createdDatetimeFrom: Long, createdDatetimeTo: Long, export: Boolean, fullName: String, page: Int, pageSize: Int, staffCode: String, where: StaffDtoFilter): OffsetPagingOfStaffDto
+  staffsInfosByRequestTypeId(export: Boolean, page: Int, pageSize: Int, requestTypeId: Uuid!): OffsetPagingOfStaffInfoDto
+  staffStatus(export: Boolean, order_by: StaffStatusDtoSort, page: Int, pageSize: Int, where: StaffStatusDtoFilter): OffsetPagingOfStaffStatusDto
+  staffStatusById(staffStatusId: Uuid): StaffStatusDto
+  staffTypeById(staffTypeId: Uuid): StaffTypeDto
+  staffTypes(export: Boolean, order_by: StaffTypeDtoSort, page: Int, pageSize: Int, where: StaffTypeDtoFilter): OffsetPagingOfStaffTypeDto
+  streetById(streetId: Int): StreetDto
+  streets(export: Boolean, order_by: StreetDtoSort, page: Int, pageSize: Int, where: StreetDtoFilter): OffsetPagingOfStreetDto
+  summaryPropertyPosts: GetSummaryPropertyPostResponse
+  supportClosingReasonById(supportClosingReasonId: Uuid): SupportClosingReasonDto
+  supportClosingReasons(export: Boolean, order_by: SupportClosingReasonDtoSort, page: Int, pageSize: Int, where: SupportClosingReasonDtoFilter): OffsetPagingOfSupportClosingReasonDto
+  supportRequestByAssigneeId(assigneeId: Uuid, export: Boolean, page: Int, pageSize: Int, where: SupportRequestInfoDtoFilter): OffsetPagingOfSupportRequestInfoDto
+  supportRequestById(supportRequestId: Uuid): SupportRequestInfoDto
+  supportRequests(export: Boolean, page: Int, pageSize: Int, where: SupportRequestInfoDtoFilter): OffsetPagingOfSupportRequestDto
+  supportRequestsInfo(export: Boolean, page: Int, pageSize: Int, where: SupportRequestInfoDtoFilter): OffsetPagingOfSupportRequestInfoDto
+  supportRequestsInfoByCurrentUser(export: Boolean, page: Int, pageSize: Int, where: SupportRequestInfoDtoFilter): OffsetPagingOfSupportRequestInfoDto
+  supportRequestStatusById(supportRequestStatusId: Uuid): SupportRequestStatusDto
+  supportRequestStatuses(export: Boolean, page: Int, pageSize: Int, where: SupportRequestStatusDtoFilter): OffsetPagingOfSupportRequestStatusDto
+  supportServiceById(supportServiceId: Uuid): SupportServiceDto
+  supportServices(export: Boolean, order_by: SupportServiceDtoSort, page: Int, pageSize: Int, where: SupportServiceDtoFilter): OffsetPagingOfSupportServiceDto
+  unitOfMeasureById(unitOfMeasureId: Uuid): UnitOfMeasureDto
+  unitOfMeasures(export: Boolean, order_by: UnitOfMeasureDtoSort, page: Int, pageSize: Int, where: UnitOfMeasureDtoFilter): OffsetPagingOfUnitOfMeasureDto
+  userById(userId: Uuid): GetUserResponse
+  users(export: Boolean, order_by: UserDtoSort, page: Int, pageSize: Int, where: UserDtoFilter): OffsetPagingOfUserDto
+  usersByRoleId(export: Boolean, page: Int, pageSize: Int, roleId: Uuid, where: SimpleUserInfoDtoFilter): OffsetPagingOfUserInfoDto
+  usersByStaffTypeId(export: Boolean, page: Int, pageSize: Int, staffTypeId: Uuid, where: SimpleUserInfoDtoFilter): OffsetPagingOfSimpleUserInfoDto
+  wardById(wardId: Int): WardDto
+  wards(export: Boolean, order_by: WardDtoSort, page: Int, pageSize: Int, where: WardDtoFilter): OffsetPagingOfWardDto
+}
+
+type ReactionTypeDto {
+  isActive: Boolean!
+  reactionTypeDescription: String
+  reactionTypeId: String
+  reactionTypeName: String
+  sortOrder: Int!
+}
+
+input ReactionTypeDtoFilter {
+  AND: [ReactionTypeDtoFilter!]
+  OR: [ReactionTypeDtoFilter!]
+  reactionTypeName: String
+  reactionTypeName_contains: String
+  reactionTypeName_ends_with: String
+  reactionTypeName_in: [String]
+  reactionTypeName_not: String
+  reactionTypeName_not_contains: String
+  reactionTypeName_not_ends_with: String
+  reactionTypeName_not_in: [String]
+  reactionTypeName_not_starts_with: String
+  reactionTypeName_starts_with: String
+}
+
+input ReactionTypeDtoSort {
+  reactionTypeName: SortOperationKind
+}
+
+type ReactionTypeInfoDto {
+  isActive: Boolean!
+  reactionTypeDescription: String
+  reactionTypeId: String
+  reactionTypeName: String
+  sortOrder: Int!
+}
+
+input ReassignToTeamLeaderInput {
+  supportClosingReasonId: String
+  supportRequestId: String
+  supportRequestStatusId: String
+}
+
+type ReassignToTeamLeaderResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  supportRequestDto: SupportRequestDto
+}
+
+type RequestTypeDto {
+  isActive: Boolean!
+  requestTypeId: String
+  requestTypeName: String
+  sortOrder: Int!
+  staffTypeId: String
+}
+
+input RequestTypeDtoFilter {
+  AND: [RequestTypeDtoFilter!]
+  OR: [RequestTypeDtoFilter!]
+  requestTypeName: String
+  requestTypeName_contains: String
+  requestTypeName_ends_with: String
+  requestTypeName_in: [String]
+  requestTypeName_not: String
+  requestTypeName_not_contains: String
+  requestTypeName_not_ends_with: String
+  requestTypeName_not_in: [String]
+  requestTypeName_not_starts_with: String
+  requestTypeName_starts_with: String
+}
+
+input RequestTypeDtoSort {
+  requestTypeName: SortOperationKind
+}
+
+type RequestTypeInfoDto {
+  isActive: Boolean!
+  requestTypeId: String
+  requestTypeName: String
+  sortOrder: Int!
+  staffTypeId: String
+}
+
+type RoleDto {
+  normalizedName: String
+  roleDescription: String
+  roleId: String
+  roleName: String
+}
+
+type sale_PolicyTypeDto {
+  calculateSize: Int!
+  clone: sale_PolicyTypeDto
+  equals: Boolean!
+  policyTypeId: String
+  policyTypeName: String
+}
+
+type sale_UnitOfMeasureInfoDto {
+  calculateSize: Int!
+  clone: sale_UnitOfMeasureInfoDto
+  equals: Boolean!
+  isRound: Boolean!
+  multiplyWithBaseUnit: Int
+  numberOfDecimal: Int
+  unitOfMeasureCode: String
+  unitOfMeasureId: String
+  unitOfMeasureName: String
+}
+
+input SaleSeasonDelete {
+  saleSeasonId: String
+}
+
+type SaleSeasonDto {
+  closeDatetime: Long
+  createdBy: String
+  createdDatetime: Long
+  deletedBy: String
+  deletedDatetime: Long
+  endBookingDatetime: Long
+  genericBasketDatetime: Long
+  isDeleted: Boolean!
+  isSkipBooking: Boolean!
+  lastModified: Long
+  modifiedBy: String
+  openDatetime: Long
+  projectId: String
+  projectInfo: ProjectInfo
+  saleSeasonId: String
+  saleSeasonStatusId: String
+  seasonName: String
+  seasonStatusDescription: String
+  seasonStatusName: String
+  startBookingDatetime: Long
+  totalOfProperties: Int
+}
+
+input SaleSeasonDtoFilter {
+  AND: [SaleSeasonDtoFilter!]
+  closeDatetime: Long
+  closeDatetime_gt: Long
+  closeDatetime_gte: Long
+  closeDatetime_in: [Long]
+  closeDatetime_lt: Long
+  closeDatetime_lte: Long
+  closeDatetime_not: Long
+  closeDatetime_not_gt: Long
+  closeDatetime_not_gte: Long
+  closeDatetime_not_in: [Long]
+  closeDatetime_not_lt: Long
+  closeDatetime_not_lte: Long
+  endBookingDatetime: Long
+  endBookingDatetime_gt: Long
+  endBookingDatetime_gte: Long
+  endBookingDatetime_in: [Long]
+  endBookingDatetime_lt: Long
+  endBookingDatetime_lte: Long
+  endBookingDatetime_not: Long
+  endBookingDatetime_not_gt: Long
+  endBookingDatetime_not_gte: Long
+  endBookingDatetime_not_in: [Long]
+  endBookingDatetime_not_lt: Long
+  endBookingDatetime_not_lte: Long
+  genericBasketDatetime: Long
+  genericBasketDatetime_gt: Long
+  genericBasketDatetime_gte: Long
+  genericBasketDatetime_in: [Long]
+  genericBasketDatetime_lt: Long
+  genericBasketDatetime_lte: Long
+  genericBasketDatetime_not: Long
+  genericBasketDatetime_not_gt: Long
+  genericBasketDatetime_not_gte: Long
+  genericBasketDatetime_not_in: [Long]
+  genericBasketDatetime_not_lt: Long
+  genericBasketDatetime_not_lte: Long
+  openDatetime: Long
+  openDatetime_gt: Long
+  openDatetime_gte: Long
+  openDatetime_in: [Long]
+  openDatetime_lt: Long
+  openDatetime_lte: Long
+  openDatetime_not: Long
+  openDatetime_not_gt: Long
+  openDatetime_not_gte: Long
+  openDatetime_not_in: [Long]
+  openDatetime_not_lt: Long
+  openDatetime_not_lte: Long
+  OR: [SaleSeasonDtoFilter!]
+  seasonName: String
+  seasonName_contains: String
+  seasonName_ends_with: String
+  seasonName_in: [String]
+  seasonName_not: String
+  seasonName_not_contains: String
+  seasonName_not_ends_with: String
+  seasonName_not_in: [String]
+  seasonName_not_starts_with: String
+  seasonName_starts_with: String
+  seasonStatusDescription: String
+  seasonStatusDescription_contains: String
+  seasonStatusDescription_ends_with: String
+  seasonStatusDescription_in: [String]
+  seasonStatusDescription_not: String
+  seasonStatusDescription_not_contains: String
+  seasonStatusDescription_not_ends_with: String
+  seasonStatusDescription_not_in: [String]
+  seasonStatusDescription_not_starts_with: String
+  seasonStatusDescription_starts_with: String
+  seasonStatusName: String
+  seasonStatusName_contains: String
+  seasonStatusName_ends_with: String
+  seasonStatusName_in: [String]
+  seasonStatusName_not: String
+  seasonStatusName_not_contains: String
+  seasonStatusName_not_ends_with: String
+  seasonStatusName_not_in: [String]
+  seasonStatusName_not_starts_with: String
+  seasonStatusName_starts_with: String
+  startBookingDatetime: Long
+  startBookingDatetime_gt: Long
+  startBookingDatetime_gte: Long
+  startBookingDatetime_in: [Long]
+  startBookingDatetime_lt: Long
+  startBookingDatetime_lte: Long
+  startBookingDatetime_not: Long
+  startBookingDatetime_not_gt: Long
+  startBookingDatetime_not_gte: Long
+  startBookingDatetime_not_in: [Long]
+  startBookingDatetime_not_lt: Long
+  startBookingDatetime_not_lte: Long
+  totalOfProperties: Int
+  totalOfProperties_gt: Int
+  totalOfProperties_gte: Int
+  totalOfProperties_in: [Int]
+  totalOfProperties_lt: Int
+  totalOfProperties_lte: Int
+  totalOfProperties_not: Int
+  totalOfProperties_not_gt: Int
+  totalOfProperties_not_gte: Int
+  totalOfProperties_not_in: [Int]
+  totalOfProperties_not_lt: Int
+  totalOfProperties_not_lte: Int
+}
+
+input SaleSeasonDtoSort {
+  closeDatetime: SortOperationKind
+  endBookingDatetime: SortOperationKind
+  genericBasketDatetime: SortOperationKind
+  openDatetime: SortOperationKind
+  seasonName: SortOperationKind
+  seasonStatusDescription: SortOperationKind
+  seasonStatusName: SortOperationKind
+  startBookingDatetime: SortOperationKind
+  totalOfProperties: SortOperationKind
+}
+
+input SaleSeasonInput {
+  closeDatetime: Long
+  endBookingDatetime: Long
+  genericBasketDatetime: Long
+  isSkipBooking: Boolean!
+  openDatetime: Long
+  projectId: String
+  saleSeasonStatusId: String
+  seasonName: String
+  startBookingDatetime: Long
+  totalOfProperties: Int
+}
+
+type SaleSeasonMutationResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  saleSeasonDto: SaleSeasonDto
+}
+
+input SaleSeasonUpdate {
+  closeDatetime: Long
+  endBookingDatetime: Long
+  genericBasketDatetime: Long
+  isSkipBooking: Boolean!
+  openDatetime: Long
+  saleSeasonId: String
+  saleSeasonStatusId: String
+  seasonName: String
+  startBookingDatetime: Long
+  totalOfProperties: Int
+}
+
+type SaleTrackingStatusDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  saleTrackingStatusDescription: String
+  saleTrackingStatusId: String
+  saleTrackingStatusName: String
+}
+
+input SaleTrackingStatusDtoFilter {
+  AND: [SaleTrackingStatusDtoFilter!]
+  OR: [SaleTrackingStatusDtoFilter!]
+  saleTrackingStatusName: String
+  saleTrackingStatusName_contains: String
+  saleTrackingStatusName_ends_with: String
+  saleTrackingStatusName_in: [String]
+  saleTrackingStatusName_not: String
+  saleTrackingStatusName_not_contains: String
+  saleTrackingStatusName_not_ends_with: String
+  saleTrackingStatusName_not_in: [String]
+  saleTrackingStatusName_not_starts_with: String
+  saleTrackingStatusName_starts_with: String
+}
+
+input SaleTrackingStatusDtoSort {
+  saleTrackingStatusName: SortOperationKind
+}
+
+type SaleTrackingStatusInfoDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  saleTrackingStatusDescription: String
+  saleTrackingStatusId: String
+  saleTrackingStatusName: String
+}
+
+input SaveNotesAndAssigneeIdOfSupportRequestInput {
+  assigneeId: String
+  notes: String
+  supportRequestId: String
+}
+
+type SaveSupportRequestResponse {
+  commonSupportRequestResponse: CommonSupportRequestResponse
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type SearchAgentInfoDto {
+  agentCode: String
+  agentGroupId: String
+  agentGroupName: String
+  agentId: String
+  agentRankingId: String
+  agentRankingLevel: Int
+  agentRankingName: String
+  calculateSize: Int!
+  clone: SearchAgentInfoDto
+  createdDatetime: Long
+  email: String
+  equals: Boolean!
+  firstName: String
+  instruction: String
+  isAgentLeader: Boolean
+  isInitialAccount: Boolean
+  lastName: String
+  nationalId: String
+  permanentAddress: String
+  phoneNumber: String
+  preferPropertyPriceFrom: Float
+  preferPropertyPriceTo: Float
+  preferPropertyTypes: String
+  profilePhoto: String
+  rating: Float
+  refererCode: String
+  updatedDatetime: Long
+  userName: String
+  userStatus: String
+  workingAreas: String
+}
+
+input SearchAgentInput {
+  agentGroupJson: String
+  agentRankingJson: String
+  fuzziness: Boolean
+  keyword: String
+  orderBy: SearchAgentOrderBy!
+  page: Int
+  pageSize: Int
+  placeJson: String
+  propertyTypeJson: String
+}
+
+enum SearchAgentOrderBy {
+  NAMEASC
+  NAMEDESC
+  RANKINGASC
+  RANKINGDESC
+  RATINGASC
+  RATINGDESC
+}
+
+type SearchAgentResponse {
+  agentInfoDtos: [SearchAgentInfoDto]
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  totalCount: Long
+}
+
+type SearchProjectInfoDto {
+  bankInfo: String
+  commissionRates: String
+  createdByUserId: String
+  createdDatetime: Long
+  facilitiesDescription: String
+  facilitiesMediaInfo: String
+  featurePhotos: String
+  groundPlanDescription: String
+  groundPlanMediaInfo: String
+  investorOwnerEmail: String
+  investorOwnerLogo: String
+  investorOwnerName: String
+  investorOwnerPhoneNumber: String
+  isFeaturesProject: Boolean
+  latitude: Float
+  locationDescription: String
+  locationMediaInfo: String
+  longitude: Float
+  minPrice: Float
+  overviewDescription: String
+  overviewMediaInfo: String
+  partnersInfo: String
+  projectAddress: ProjectAddressInfo
+  projectAddressId: String
+  projectCode: String
+  projectDescription: String
+  projectDescriptionHighlight: String
+  projectId: String
+  projectName: String
+  projectNameHighlight: String
+  projectPostStatusId: String
+  projectPostStatusName: String
+  projectProgress: String
+  projectStatusId: String
+  projectStatusName: String
+  projectTypeName: String
+  propertyTypeId: String
+  saleProgramDescription: String
+  saleProgramMediaInfo: String
+  sizingDescription: String
+  sizingMediaInfo: String
+}
+
+input SearchProjectInput {
+  fuzziness: Boolean
+  geoLocationJson: String
+  keyword: String
+  minPrice: Float
+  orderBy: SearchProjectOrderBy!
+  page: Int
+  pageSize: Int
+  placeJson: String
+  propertyTypeJson: String
+}
+
+enum SearchProjectOrderBy {
+  LATEST
+  OLDEST
+  OPENING
+  COMINGSOON
+}
+
+type SearchProjectResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  projectInfoDtos: [SearchProjectInfoDto]
+  totalCount: Long
+}
+
+type SearchPropertyPostInfoDto {
+  addressId: String
+  agentGroupIds: String
+  approvedByUserId: String
+  approvedTime: Long
+  blockName: String
+  bookingFee: Float
+  buildingArea: Int
+  buildingLine: Int
+  buyCommission: Float
+  calculateSize: Int!
+  capetAreas: Int
+  clone: SearchPropertyPostInfoDto
+  commission: Int
+  contactEmail: String
+  contactName: String
+  contactPhone: String
+  direction: String
+  equals: Boolean!
+  expiredDate: Long
+  floor: String
+  freeTextProject: String
+  houseDesign: String
+  images: String
+  internalFacility: String
+  isBookedOutSide: Boolean
+  isSold: Boolean
+  isVip: Boolean
+  keywords: String
+  languageIso3: String
+  latitude: Float
+  legalInfoId: String
+  longitude: Float
+  nearFacility: String
+  numberOfBathrooms: Int
+  numberOfBedrooms: Int
+  numberOfFloor: Int
+  otherPropertyDescription: String
+  postDescription: String
+  postDescriptionHighlight: String
+  postTitle: String
+  postTitleHighlight: String
+  postTypeId: String
+  price: Float
+  priceNoVat: Float
+  priceVat: Float
+  projectId: String
+  propertyAddress: PropertyAddressInfo
+  propertyCode: String
+  propertyName: String
+  propertyNotes: String
+  propertyPostApprovalStatusId: String
+  propertyPostId: String
+  propertySubTypeId: String
+  propertyTypeId: String
+  purpose: String
+  rejectedReason: String
+  rejectedTime: Long
+  saleCommission: Float
+  sendingApprovalFromUserId: String
+  seoString: String
+  tags: String
+  totalSiteArea: Int
+}
+
+input SearchPropertyPostInput {
+  createdByAgent: Boolean
+  directionJson: String
+  fuzziness: Boolean
+  geoLocationJson: String
+  keyword: String
+  numberOfBathRoom: Int
+  numberOfBedRoom: Int
+  orderBy: SearchPropertyPostOrderBy!
+  page: Int
+  pageSize: Int
+  placeJson: String
+  propertyTypeJson: String
+  rangePriceJson: String
+  rangeSquareJson: String
+  saleTrackingStatusJson: String
+}
+
+enum SearchPropertyPostOrderBy {
+  PRICELOWEST
+  PRICEHIGHEST
+  SQUARESMALL
+  SQUARELARGE
+  LATEST
+}
+
+type SearchPropertyPostResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  propertyPostInfoDtos: [SearchPropertyPostInfoDto]
+  totalCount: Long
+}
+
+input SendInfoUserInput {
+  userId: String
+}
+
+type SendInfoUserResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  userDto: UserDto
+}
+
+"""
+The `Short` scalar type represents non-fractional signed whole 16-bit numeric
+values. Short can represent values between -(2^15) and 2^15 - 1.
+"""
+scalar Short
+
+type SimpleUserInfoDto {
+  dob: Long
+  email: String
+  emailConfirmed: Boolean
+  firstName: String
+  gender: Gender!
+  isCreatedByAdmin: Boolean
+  isLocked: Boolean
+  isMember: Boolean
+  lastName: String
+  phoneNumber: String
+  phoneNumberConfirmed: Boolean
+  profilePhoto: String
+  staffTypeId: String
+  userId: String
+  userName: String
+  userStatus: UserStatus!
+}
+
+input SimpleUserInfoDtoFilter {
+  AND: [SimpleUserInfoDtoFilter!]
+  email: String
+  email_contains: String
+  email_ends_with: String
+  email_in: [String]
+  email_not: String
+  email_not_contains: String
+  email_not_ends_with: String
+  email_not_in: [String]
+  email_not_starts_with: String
+  email_starts_with: String
+  firstName: String
+  firstName_contains: String
+  firstName_ends_with: String
+  firstName_in: [String]
+  firstName_not: String
+  firstName_not_contains: String
+  firstName_not_ends_with: String
+  firstName_not_in: [String]
+  firstName_not_starts_with: String
+  firstName_starts_with: String
+  lastName: String
+  lastName_contains: String
+  lastName_ends_with: String
+  lastName_in: [String]
+  lastName_not: String
+  lastName_not_contains: String
+  lastName_not_ends_with: String
+  lastName_not_in: [String]
+  lastName_not_starts_with: String
+  lastName_starts_with: String
+  OR: [SimpleUserInfoDtoFilter!]
+  phoneNumber: String
+  phoneNumber_contains: String
+  phoneNumber_ends_with: String
+  phoneNumber_in: [String]
+  phoneNumber_not: String
+  phoneNumber_not_contains: String
+  phoneNumber_not_ends_with: String
+  phoneNumber_not_in: [String]
+  phoneNumber_not_starts_with: String
+  phoneNumber_starts_with: String
+  userName: String
+  userName_contains: String
+  userName_ends_with: String
+  userName_in: [String]
+  userName_not: String
+  userName_not_contains: String
+  userName_not_ends_with: String
+  userName_not_in: [String]
+  userName_not_starts_with: String
+  userName_starts_with: String
+}
+
+enum SortOperationKind {
+  ASC
+  DESC
+}
+
+type SpamTypeDto {
+  isActive: Boolean!
+  sortOrder: Int!
+  spamTypeDescription: String
+  spamTypeId: String
+  spamTypeName: String
+}
+
+input SpamTypeDtoFilter {
+  AND: [SpamTypeDtoFilter!]
+  OR: [SpamTypeDtoFilter!]
+  spamTypeName: String
+  spamTypeName_contains: String
+  spamTypeName_ends_with: String
+  spamTypeName_in: [String]
+  spamTypeName_not: String
+  spamTypeName_not_contains: String
+  spamTypeName_not_ends_with: String
+  spamTypeName_not_in: [String]
+  spamTypeName_not_starts_with: String
+  spamTypeName_starts_with: String
+}
+
+input SpamTypeDtoSort {
+  spamTypeName: SortOperationKind
+}
+
+type SpamTypeInfoDto {
+  isActive: Boolean!
+  sortOrder: Int!
+  spamTypeDescription: String
+  spamTypeId: String
+  spamTypeName: String
+}
+
+type SpecializeDto {
+  isActive: Boolean!
+  specializeDescription: String
+  specializeId: String
+  specializeName: String
+}
+
+input SpecializeDtoFilter {
+  AND: [SpecializeDtoFilter!]
+  OR: [SpecializeDtoFilter!]
+  specializeName: String
+  specializeName_contains: String
+  specializeName_ends_with: String
+  specializeName_in: [String]
+  specializeName_not: String
+  specializeName_not_contains: String
+  specializeName_not_ends_with: String
+  specializeName_not_in: [String]
+  specializeName_not_starts_with: String
+  specializeName_starts_with: String
+}
+
+input SpecializeDtoSort {
+  specializeName: SortOperationKind
+}
+
+type SpecializeInfoDto {
+  isActive: Boolean!
+  specializeDescription: String
+  specializeId: String
+  specializeName: String
+}
+
+type StaffContractTypeDto {
+  isActive: Boolean!
+  staffContractTypeDescription: String
+  staffContractTypeId: String
+  staffContractTypeName: String
+}
+
+input StaffContractTypeDtoFilter {
+  AND: [StaffContractTypeDtoFilter!]
+  OR: [StaffContractTypeDtoFilter!]
+  staffContractTypeName: String
+  staffContractTypeName_contains: String
+  staffContractTypeName_ends_with: String
+  staffContractTypeName_in: [String]
+  staffContractTypeName_not: String
+  staffContractTypeName_not_contains: String
+  staffContractTypeName_not_ends_with: String
+  staffContractTypeName_not_in: [String]
+  staffContractTypeName_not_starts_with: String
+  staffContractTypeName_starts_with: String
+}
+
+input StaffContractTypeDtoSort {
+  staffContractTypeName: SortOperationKind
+}
+
+type StaffContractTypeInfoDto {
+  isActive: Boolean!
+  staffContractTypeDescription: String
+  staffContractTypeId: String
+  staffContractTypeName: String
+}
+
+type StaffDto {
+  createdDatetime: Long
+  departmentId: String
+  departmentName: String
+  dob: Long
+  email: String
+  firstName: String
+  gender: Gender!
+  isActive: Boolean!
+  isConsultant: Boolean
+  isCreatedByAdmin: Boolean!
+  isGroupLeader: Boolean!
+  isLocked: Boolean!
+  isMember: Boolean!
+  lastName: String
+  nationalId: String
+  permanentAddress: String
+  phoneNumber: String
+  preferPropertyPriceFrom: Float!
+  preferPropertyPriceTo: Float!
+  preferPropertyTypes: String
+  profilePhoto: String
+  rating: Int!
+  specialityIds: String
+  staffCode: String
+  staffContractTypeId: String
+  staffGroupId: String
+  staffGroupName: String
+  staffId: String
+  staffPositionId: String
+  staffPositionName: String
+  staffRankingId: String
+  staffStatusId: String
+  staffStatusName: String
+  staffTypeId: String
+  staffTypeName: String
+  userId: String
+  userName: String
+  userStatus: UserStatus!
+  workingAreas: String
+}
+
+input StaffDtoFilter {
+  AND: [StaffDtoFilter!]
+  departmentId: String
+  departmentId_contains: String
+  departmentId_ends_with: String
+  departmentId_in: [String]
+  departmentId_not: String
+  departmentId_not_contains: String
+  departmentId_not_ends_with: String
+  departmentId_not_in: [String]
+  departmentId_not_starts_with: String
+  departmentId_starts_with: String
+  firstName: String
+  firstName_contains: String
+  firstName_ends_with: String
+  firstName_in: [String]
+  firstName_not: String
+  firstName_not_contains: String
+  firstName_not_ends_with: String
+  firstName_not_in: [String]
+  firstName_not_starts_with: String
+  firstName_starts_with: String
+  isGroupLeader: Boolean
+  isGroupLeader_not: Boolean
+  lastName: String
+  lastName_contains: String
+  lastName_ends_with: String
+  lastName_in: [String]
+  lastName_not: String
+  lastName_not_contains: String
+  lastName_not_ends_with: String
+  lastName_not_in: [String]
+  lastName_not_starts_with: String
+  lastName_starts_with: String
+  OR: [StaffDtoFilter!]
+  permanentAddress: String
+  permanentAddress_contains: String
+  permanentAddress_ends_with: String
+  permanentAddress_in: [String]
+  permanentAddress_not: String
+  permanentAddress_not_contains: String
+  permanentAddress_not_ends_with: String
+  permanentAddress_not_in: [String]
+  permanentAddress_not_starts_with: String
+  permanentAddress_starts_with: String
+  preferPropertyPriceFrom: Float
+  preferPropertyPriceFrom_gt: Float
+  preferPropertyPriceFrom_gte: Float
+  preferPropertyPriceFrom_in: [Float!]
+  preferPropertyPriceFrom_lt: Float
+  preferPropertyPriceFrom_lte: Float
+  preferPropertyPriceFrom_not: Float
+  preferPropertyPriceFrom_not_gt: Float
+  preferPropertyPriceFrom_not_gte: Float
+  preferPropertyPriceFrom_not_in: [Float!]
+  preferPropertyPriceFrom_not_lt: Float
+  preferPropertyPriceFrom_not_lte: Float
+  preferPropertyPriceTo: Float
+  preferPropertyPriceTo_gt: Float
+  preferPropertyPriceTo_gte: Float
+  preferPropertyPriceTo_in: [Float!]
+  preferPropertyPriceTo_lt: Float
+  preferPropertyPriceTo_lte: Float
+  preferPropertyPriceTo_not: Float
+  preferPropertyPriceTo_not_gt: Float
+  preferPropertyPriceTo_not_gte: Float
+  preferPropertyPriceTo_not_in: [Float!]
+  preferPropertyPriceTo_not_lt: Float
+  preferPropertyPriceTo_not_lte: Float
+  rating: Int
+  rating_gt: Int
+  rating_gte: Int
+  rating_in: [Int!]
+  rating_lt: Int
+  rating_lte: Int
+  rating_not: Int
+  rating_not_gt: Int
+  rating_not_gte: Int
+  rating_not_in: [Int!]
+  rating_not_lt: Int
+  rating_not_lte: Int
+  staffCode: String
+  staffCode_contains: String
+  staffCode_ends_with: String
+  staffCode_in: [String]
+  staffCode_not: String
+  staffCode_not_contains: String
+  staffCode_not_ends_with: String
+  staffCode_not_in: [String]
+  staffCode_not_starts_with: String
+  staffCode_starts_with: String
+  staffContractTypeId: String
+  staffContractTypeId_contains: String
+  staffContractTypeId_ends_with: String
+  staffContractTypeId_in: [String]
+  staffContractTypeId_not: String
+  staffContractTypeId_not_contains: String
+  staffContractTypeId_not_ends_with: String
+  staffContractTypeId_not_in: [String]
+  staffContractTypeId_not_starts_with: String
+  staffContractTypeId_starts_with: String
+  staffGroupId: String
+  staffGroupId_contains: String
+  staffGroupId_ends_with: String
+  staffGroupId_in: [String]
+  staffGroupId_not: String
+  staffGroupId_not_contains: String
+  staffGroupId_not_ends_with: String
+  staffGroupId_not_in: [String]
+  staffGroupId_not_starts_with: String
+  staffGroupId_starts_with: String
+  staffPositionId: String
+  staffPositionId_contains: String
+  staffPositionId_ends_with: String
+  staffPositionId_in: [String]
+  staffPositionId_not: String
+  staffPositionId_not_contains: String
+  staffPositionId_not_ends_with: String
+  staffPositionId_not_in: [String]
+  staffPositionId_not_starts_with: String
+  staffPositionId_starts_with: String
+  staffRankingId: String
+  staffRankingId_contains: String
+  staffRankingId_ends_with: String
+  staffRankingId_in: [String]
+  staffRankingId_not: String
+  staffRankingId_not_contains: String
+  staffRankingId_not_ends_with: String
+  staffRankingId_not_in: [String]
+  staffRankingId_not_starts_with: String
+  staffRankingId_starts_with: String
+  staffStatusId: String
+  staffStatusId_contains: String
+  staffStatusId_ends_with: String
+  staffStatusId_in: [String]
+  staffStatusId_not: String
+  staffStatusId_not_contains: String
+  staffStatusId_not_ends_with: String
+  staffStatusId_not_in: [String]
+  staffStatusId_not_starts_with: String
+  staffStatusId_starts_with: String
+  userId: String
+  userId_contains: String
+  userId_ends_with: String
+  userId_in: [String]
+  userId_not: String
+  userId_not_contains: String
+  userId_not_ends_with: String
+  userId_not_in: [String]
+  userId_not_starts_with: String
+  userId_starts_with: String
+}
+
+type StaffGroupDto {
+  isActive: Boolean!
+  staffGroupDescription: String
+  staffGroupId: String
+  staffGroupName: String
+  staffTypeId: String
+}
+
+input StaffGroupDtoFilter {
+  AND: [StaffGroupDtoFilter!]
+  OR: [StaffGroupDtoFilter!]
+  staffGroupName: String
+  staffGroupName_contains: String
+  staffGroupName_ends_with: String
+  staffGroupName_in: [String]
+  staffGroupName_not: String
+  staffGroupName_not_contains: String
+  staffGroupName_not_ends_with: String
+  staffGroupName_not_in: [String]
+  staffGroupName_not_starts_with: String
+  staffGroupName_starts_with: String
+  staffTypeId: String
+  staffTypeId_contains: String
+  staffTypeId_ends_with: String
+  staffTypeId_in: [String]
+  staffTypeId_not: String
+  staffTypeId_not_contains: String
+  staffTypeId_not_ends_with: String
+  staffTypeId_not_in: [String]
+  staffTypeId_not_starts_with: String
+  staffTypeId_starts_with: String
+}
+
+input StaffGroupDtoSort {
+  staffGroupName: SortOperationKind
+}
+
+type StaffGroupInfoDto {
+  isActive: Boolean!
+  staffGroupDescription: String
+  staffGroupId: String
+  staffGroupName: String
+  staffTypeId: String
+}
+
+type StaffInfoDto {
+  createdDatetime: Long
+  departmentId: String
+  isActive: Boolean!
+  isConsultant: Boolean
+  isGroupLeader: Boolean!
+  nationalId: String
+  permanentAddress: String
+  preferPropertyPriceFrom: Float!
+  preferPropertyPriceTo: Float!
+  preferPropertyTypes: String
+  rating: Int!
+  specialityIds: String
+  staffCode: String
+  staffContractTypeId: String
+  staffGroupId: String
+  staffId: String
+  staffPositionId: String
+  staffRankingId: String
+  staffStatusId: String
+  staffStatusName: String
+  staffTypeId: String
+  userId: String
+  workingAreas: String
+}
+
+type StaffPositionDto {
+  isActive: Boolean!
+  staffPositionDescription: String
+  staffPositionId: String
+  staffPositionName: String
+}
+
+input StaffPositionDtoFilter {
+  AND: [StaffPositionDtoFilter!]
+  OR: [StaffPositionDtoFilter!]
+  staffPositionName: String
+  staffPositionName_contains: String
+  staffPositionName_ends_with: String
+  staffPositionName_in: [String]
+  staffPositionName_not: String
+  staffPositionName_not_contains: String
+  staffPositionName_not_ends_with: String
+  staffPositionName_not_in: [String]
+  staffPositionName_not_starts_with: String
+  staffPositionName_starts_with: String
+}
+
+input StaffPositionDtoSort {
+  staffPositionName: SortOperationKind
+}
+
+type StaffPositionInfoDto {
+  isActive: Boolean!
+  staffPositionDescription: String
+  staffPositionId: String
+  staffPositionName: String
+}
+
+type StaffRankingDto {
+  createdByUserId: String
+  createdDatetime: Long!
+  deletedByUserId: String
+  deletedDatetime: Long
+  isActive: Boolean!
+  isDefault: Boolean!
+  isDeleted: Boolean!
+  sortOrder: Int!
+  staffRankingDescription: String
+  staffRankingId: String
+  staffRankingName: String
+  updatedByUserId: String
+  updatedDatetime: Long
+}
+
+input StaffRankingDtoFilter {
+  AND: [StaffRankingDtoFilter!]
+  OR: [StaffRankingDtoFilter!]
+  staffRankingName: String
+  staffRankingName_contains: String
+  staffRankingName_ends_with: String
+  staffRankingName_in: [String]
+  staffRankingName_not: String
+  staffRankingName_not_contains: String
+  staffRankingName_not_ends_with: String
+  staffRankingName_not_in: [String]
+  staffRankingName_not_starts_with: String
+  staffRankingName_starts_with: String
+}
+
+input StaffRankingDtoSort {
+  staffRankingName: SortOperationKind
+}
+
+type StaffRankingInfoDto {
+  createdByUserId: String
+  createdDatetime: Long!
+  deletedByUserId: String
+  deletedDatetime: Long
+  isActive: Boolean!
+  isDefault: Boolean!
+  isDeleted: Boolean!
+  sortOrder: Int!
+  staffRankingDescription: String
+  staffRankingId: String
+  staffRankingName: String
+  updatedByUserId: String
+  updatedDatetime: Long
+}
+
+type StaffStatusDto {
+  isActive: Boolean!
+  staffStatusDescription: String
+  staffStatusId: String
+  staffStatusName: String
+}
+
+input StaffStatusDtoFilter {
+  AND: [StaffStatusDtoFilter!]
+  OR: [StaffStatusDtoFilter!]
+  staffStatusName: String
+  staffStatusName_contains: String
+  staffStatusName_ends_with: String
+  staffStatusName_in: [String]
+  staffStatusName_not: String
+  staffStatusName_not_contains: String
+  staffStatusName_not_ends_with: String
+  staffStatusName_not_in: [String]
+  staffStatusName_not_starts_with: String
+  staffStatusName_starts_with: String
+}
+
+input StaffStatusDtoSort {
+  staffStatusName: SortOperationKind
+}
+
+type StaffStatusInfoDto {
+  isActive: Boolean!
+  staffStatusDescription: String
+  staffStatusId: String
+  staffStatusName: String
+}
+
+type StaffTypeDto {
+  aspNetRoleId: String
+  isConsultant: Boolean!
+  staffTypeDescription: String
+  staffTypeId: String
+  staffTypeName: String
+}
+
+input StaffTypeDtoFilter {
+  AND: [StaffTypeDtoFilter!]
+  OR: [StaffTypeDtoFilter!]
+  staffTypeName: String
+  staffTypeName_contains: String
+  staffTypeName_ends_with: String
+  staffTypeName_in: [String]
+  staffTypeName_not: String
+  staffTypeName_not_contains: String
+  staffTypeName_not_ends_with: String
+  staffTypeName_not_in: [String]
+  staffTypeName_not_starts_with: String
+  staffTypeName_starts_with: String
+}
+
+input StaffTypeDtoSort {
+  staffTypeName: SortOperationKind
+}
+
+type StaffTypeInfoDto {
+  aspNetRoleId: String
+  isConsultant: Boolean!
+  staffTypeDescription: String
+  staffTypeId: String
+  staffTypeName: String
+}
+
+input StartProcessingSupportRequestInput {
+  assigneeId: String
+  notes: String
+  supportRequestId: String
+}
+
+type StartProcessingSupportRequestResponse {
+  commonSupportRequestResponse: CommonSupportRequestResponse
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type StreetAddressDto {
+  city: String
+  country: String
+  state: String
+  street: String
+  zipcode: String
+}
+
+type StreetDto {
+  additionalStreetInfo: String
+  beginLatitude: String
+  beginLongitude: String
+  cityId: Int!
+  districtId: Int!
+  endLatitude: String
+  endLongitude: String
+  isActive: Boolean!
+  streetId: Int!
+  streetName: String
+}
+
+input StreetDtoFilter {
+  AND: [StreetDtoFilter!]
+  cityId: Int
+  cityId_gt: Int
+  cityId_gte: Int
+  cityId_in: [Int!]
+  cityId_lt: Int
+  cityId_lte: Int
+  cityId_not: Int
+  cityId_not_gt: Int
+  cityId_not_gte: Int
+  cityId_not_in: [Int!]
+  cityId_not_lt: Int
+  cityId_not_lte: Int
+  districtId: Int
+  districtId_gt: Int
+  districtId_gte: Int
+  districtId_in: [Int!]
+  districtId_lt: Int
+  districtId_lte: Int
+  districtId_not: Int
+  districtId_not_gt: Int
+  districtId_not_gte: Int
+  districtId_not_in: [Int!]
+  districtId_not_lt: Int
+  districtId_not_lte: Int
+  OR: [StreetDtoFilter!]
+  streetName: String
+  streetName_contains: String
+  streetName_ends_with: String
+  streetName_in: [String]
+  streetName_not: String
+  streetName_not_contains: String
+  streetName_not_ends_with: String
+  streetName_not_in: [String]
+  streetName_not_starts_with: String
+  streetName_starts_with: String
+}
+
+input StreetDtoSort {
+  streetName: SortOperationKind
+}
+
+type StreetInfoDto {
+  additionalStreetInfo: String
+  beginLatitude: String
+  beginLongitude: String
+  cityId: Int!
+  districtId: Int!
+  endLatitude: String
+  endLongitude: String
+  isActive: Boolean!
+  streetId: Int!
+  streetName: String
+}
+
+type support_requests_StaffInfoDto {
+  competencyId: String
+  departmentId: String
+  email: String
+  firstName: String
+  isActive: Boolean!
+  isGroupLeader: Boolean!
+  lastName: String
+  nationalId: String
+  numberOfRequestInProgress: Int
+  numberOfRequestPending: Int
+  permanentAddressId: String
+  positionId: String
+  preferPropertyPriceFrom: Float
+  preferPropertyPriceTo: Float
+  preferPropertyTypes: String
+  rating: Int
+  staffCode: String
+  staffContractTypeId: String
+  staffGroupId: String
+  staffId: String
+  staffRankId: String
+  staffStatusId: String
+  staffTypeId: String
+  staffTypeName: String
+  userId: String
+  workingAreas: String
+}
+
+type SupportClosingReasonDto {
+  isActive: Boolean!
+  supportClosingReasonDescription: String
+  supportClosingReasonId: String
+  supportClosingReasonName: String
+}
+
+input SupportClosingReasonDtoFilter {
+  AND: [SupportClosingReasonDtoFilter!]
+  OR: [SupportClosingReasonDtoFilter!]
+  supportClosingReasonName: String
+  supportClosingReasonName_contains: String
+  supportClosingReasonName_ends_with: String
+  supportClosingReasonName_in: [String]
+  supportClosingReasonName_not: String
+  supportClosingReasonName_not_contains: String
+  supportClosingReasonName_not_ends_with: String
+  supportClosingReasonName_not_in: [String]
+  supportClosingReasonName_not_starts_with: String
+  supportClosingReasonName_starts_with: String
+}
+
+input SupportClosingReasonDtoSort {
+  supportClosingReasonName: SortOperationKind
+}
+
+type SupportClosingReasonInfoDto {
+  isActive: Boolean!
+  supportClosingReasonDescription: String
+  supportClosingReasonId: String
+  supportClosingReasonName: String
+}
+
+type SupportRequestDto {
+  assignedDatetime: Long
+  assigneeId: String
+  attachment: String
+  closeDatetime: Long
+  dueDate: Long
+  isActive: Boolean!
+  notes: String
+  priority: Int
+  propertyPostId: String
+  requestDescription: String
+  requesterGuestId: String
+  requesterIsUser: Boolean
+  requesterUserId: String
+  requestTypeId: String
+  responseDatetime: Long
+  supportClosingReasonId: String
+  supportRating: Int
+  supportRequestCode: String
+  supportRequestId: String
+  supportRequestStatusId: String
+  supportRequestTitle: String
+  supportResults: String
+  xPath: String
+}
+
+type SupportRequestInfoDto {
+  assignedDatetime: Long
+  assigneeFirstName: String
+  assigneeId: String
+  assigneeLastName: String
+  attachment: String
+  closeDatetime: Long
+  createdDatetime: Long
+  dueDate: Long
+  isActive: Boolean!
+  notes: String
+  priority: Int
+  propertyPostId: String
+  requestDescription: String
+  requesterGuestEmail: String
+  requesterGuestFirstName: String
+  requesterGuestId: String
+  requesterGuestLastName: String
+  requesterGuestPhoneNumber: String
+  requesterIsUser: Boolean
+  requesterUserEmail: String
+  requesterUserFirstName: String
+  requesterUserId: String
+  requesterUserLastName: String
+  requesterUserPhoneNumber: String
+  requestTypeId: String
+  requestTypeName: String
+  responseDatetime: Long
+  supportClosingReasonId: String
+  supportRating: Int
+  supportRequestCode: String
+  supportRequestId: String
+  supportRequestStatusId: String
+  supportRequestTitle: String
+  supportResults: String
+  xPath: String
+}
+
+input SupportRequestInfoDtoFilter {
+  AND: [SupportRequestInfoDtoFilter!]
+  assigneeId: String
+  assigneeId_contains: String
+  assigneeId_ends_with: String
+  assigneeId_in: [String]
+  assigneeId_not: String
+  assigneeId_not_contains: String
+  assigneeId_not_ends_with: String
+  assigneeId_not_in: [String]
+  assigneeId_not_starts_with: String
+  assigneeId_starts_with: String
+  OR: [SupportRequestInfoDtoFilter!]
+  requesterUserId: String
+  requesterUserId_contains: String
+  requesterUserId_ends_with: String
+  requesterUserId_in: [String]
+  requesterUserId_not: String
+  requesterUserId_not_contains: String
+  requesterUserId_not_ends_with: String
+  requesterUserId_not_in: [String]
+  requesterUserId_not_starts_with: String
+  requesterUserId_starts_with: String
+  requestTypeId: String
+  requestTypeId_contains: String
+  requestTypeId_ends_with: String
+  requestTypeId_in: [String]
+  requestTypeId_not: String
+  requestTypeId_not_contains: String
+  requestTypeId_not_ends_with: String
+  requestTypeId_not_in: [String]
+  requestTypeId_not_starts_with: String
+  requestTypeId_starts_with: String
+  supportClosingReasonId: String
+  supportClosingReasonId_contains: String
+  supportClosingReasonId_ends_with: String
+  supportClosingReasonId_in: [String]
+  supportClosingReasonId_not: String
+  supportClosingReasonId_not_contains: String
+  supportClosingReasonId_not_ends_with: String
+  supportClosingReasonId_not_in: [String]
+  supportClosingReasonId_not_starts_with: String
+  supportClosingReasonId_starts_with: String
+  supportRequestStatusId: String
+  supportRequestStatusId_contains: String
+  supportRequestStatusId_ends_with: String
+  supportRequestStatusId_in: [String]
+  supportRequestStatusId_not: String
+  supportRequestStatusId_not_contains: String
+  supportRequestStatusId_not_ends_with: String
+  supportRequestStatusId_not_in: [String]
+  supportRequestStatusId_not_starts_with: String
+  supportRequestStatusId_starts_with: String
+}
+
+type SupportRequestStatusDto {
+  isActive: Boolean!
+  supportRequestStatusDescription: String
+  supportRequestStatusId: String
+  supportRequestStatusName: String
+}
+
+input SupportRequestStatusDtoFilter {
+  AND: [SupportRequestStatusDtoFilter!]
+  OR: [SupportRequestStatusDtoFilter!]
+  supportRequestStatusName: String
+  supportRequestStatusName_contains: String
+  supportRequestStatusName_ends_with: String
+  supportRequestStatusName_in: [String]
+  supportRequestStatusName_not: String
+  supportRequestStatusName_not_contains: String
+  supportRequestStatusName_not_ends_with: String
+  supportRequestStatusName_not_in: [String]
+  supportRequestStatusName_not_starts_with: String
+  supportRequestStatusName_starts_with: String
+}
+
+type SupportRequestStatusInfoDto {
+  isActive: Boolean!
+  supportRequestStatusDescription: String
+  supportRequestStatusId: String
+  supportRequestStatusName: String
+}
+
+type SupportServiceDto {
+  effectiveDatetime: Long!
+  ineffectiveDatetime: Long!
+  isActive: Boolean!
+  supportServiceDescription: String
+  supportServiceId: String
+  supportServiceName: String
+  supportServicePrice: Float!
+}
+
+input SupportServiceDtoFilter {
+  AND: [SupportServiceDtoFilter!]
+  OR: [SupportServiceDtoFilter!]
+  supportServiceName: String
+  supportServiceName_contains: String
+  supportServiceName_ends_with: String
+  supportServiceName_in: [String]
+  supportServiceName_not: String
+  supportServiceName_not_contains: String
+  supportServiceName_not_ends_with: String
+  supportServiceName_not_in: [String]
+  supportServiceName_not_starts_with: String
+  supportServiceName_starts_with: String
+}
+
+input SupportServiceDtoSort {
+  supportServiceName: SortOperationKind
+}
+
+type SupportServiceInfoDto {
+  effectiveDatetime: Long!
+  ineffectiveDatetime: Long!
+  isActive: Boolean!
+  supportServiceDescription: String
+  supportServiceId: String
+  supportServiceName: String
+  supportServicePrice: Float!
+}
+
+type Timestamp {
+  calculateSize: Int!
+  clone: Timestamp
+  compareTo: Int!
+  equals: Boolean!
+  nanos: Int!
+  seconds: Long!
+  toDateTime: DateTime!
+  toDateTimeOffset: DateTime!
+  toDiagnosticString: String
+}
+
+input TimestampInput {
+  nanos: Int!
+  seconds: Long!
+}
+
+type transaction_AgentDto {
+  addressId: String
+  agentCode: String
+  agentGroupId: String
+  agentGroupName: String
+  agentId: String
+  agentRank: String
+  email: String
+  firstName: String
+  homeAddress: String
+  instruction: String
+  isAgentLeader: Boolean!
+  isInitialAccount: Boolean!
+  lastName: String
+  nationalId: String
+  phoneNumber: String
+  preferPropertyPriceFrom: Float
+  preferPropertyPriceTo: Float
+  preferPropertyTypes: String
+  rating: Float
+  workingAreas: String
+}
+
+input UnfollowPropertyPostInput {
+  propertyPostId: String
+  userId: String
+}
+
+type UnitOfMeasureDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  isRound: Boolean!
+  multiplyWithBaseUnit: Int
+  numberOfDecimal: Int
+  unitOfMeasureCode: String
+  unitOfMeasureId: String
+  unitOfMeasureName: String
+}
+
+input UnitOfMeasureDtoFilter {
+  AND: [UnitOfMeasureDtoFilter!]
+  OR: [UnitOfMeasureDtoFilter!]
+  unitOfMeasureName: String
+  unitOfMeasureName_contains: String
+  unitOfMeasureName_ends_with: String
+  unitOfMeasureName_in: [String]
+  unitOfMeasureName_not: String
+  unitOfMeasureName_not_contains: String
+  unitOfMeasureName_not_ends_with: String
+  unitOfMeasureName_not_in: [String]
+  unitOfMeasureName_not_starts_with: String
+  unitOfMeasureName_starts_with: String
+}
+
+input UnitOfMeasureDtoSort {
+  unitOfMeasureName: SortOperationKind
+}
+
+type UnitOfMeasureInfoDto {
+  isActive: Boolean!
+  isDeleted: Boolean!
+  isRound: Boolean!
+  multiplyWithBaseUnit: Int
+  numberOfDecimal: Int
+  unitOfMeasureCode: String
+  unitOfMeasureId: String
+  unitOfMeasureName: String
+}
+
+type UnitOfMeasureProject {
+  calculateSize: Int!
+  clone: UnitOfMeasureProject
+  equals: Boolean!
+  isRound: Boolean!
+  multiplyWithBaseUnit: Int
+  numberOfDecimal: Int
+  unitOfMeasureCode: String
+  unitOfMeasureId: String
+  unitOfMeasureName: String
+}
+
+input UpdateAgentInput {
+  agentId: String
+  isAgentLeader: Boolean!
+  nationalId: String
+  permanentAddress: String
+  preferPropertyPriceFrom: Float
+  preferPropertyPriceTo: Float
+  preferPropertyTypes: String
+  workingAreas: String
+}
+
+type UpdateAgentRatingResponse {
+  agentRatingDto: master_data_AgentRatingDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type UpdateAgentResponse {
+  agentDto: AgentDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+input UpdateCustomerInput {
+  customerAddress: String
+  customerContactAddress: String
+  customerEmail: String
+  customerFirstName: String
+  customerId: String
+  customerLastName: String
+  customerNationalId: String
+  customerNationalIdIssueDate: TimestampInput
+  customerPhone: String
+}
+
+type UpdateCustomerResponse {
+  customerDto: CustomerDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+input UpdateGuestInput {
+  browser: String
+  email: String
+  firstName: String
+  gender: String
+  guestId: String
+  ipAddress: String
+  lastName: String
+  location: String
+  resolution: String
+  socialAccounts: String
+  userId: String
+}
+
+type UpdateGuestResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  guestDto: GuestDto
+}
+
+type UpdateLegalInfoResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  legalInfoDto: LegalInfoDto
+}
+
+input UpdatePolicyInput {
+  attachment: String
+  endDate: Long!
+  policyDescription: String
+  policyId: String
+  policyName: String
+  policyTypeId: String
+  saleSeasonId: String
+  startDate: Long!
+}
+
+type UpdatePolicyResponse {
+  calculateSize: Int!
+  clone: UpdatePolicyResponse
+  equals: Boolean!
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  policyDto: PolicyDto
+}
+
+type UpdatePropertyPostApprovalStatusResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  propertyPostApprovalStatusDto: PropertyPostApprovalStatusDto
+}
+
+input UpdatePropertyPostInput {
+  addressId: String
+  agentGroupIds: String
+  agentGroupRanks: String
+  agentRankIds: String
+  approvedBy: String
+  approvedDatetime: Long
+  blockCode: String
+  blockName: String
+  bookingFee: Float
+  buildingArea: Int
+  buildingLine: Int
+  buyCommission: Float
+  capetAreas: Int
+  collateralizedAtBankId: String
+  commission: Int
+  contactEmail: String
+  direction: Direction!
+  expiredDate: Long
+  floor: String
+  freeTextProject: String
+  houseDesign: String
+  images: String
+  internalFacility: String
+  isBookedOutSide: Boolean
+  isCollateralized: Boolean!
+  isFeatureProperty: Boolean!
+  isPrivate: Boolean!
+  isSold: Boolean
+  keywords: String
+  languageIso3: String
+  latitude: Float
+  legalInfoId: String
+  longitude: Float
+  nearFacility: String
+  numberOfBathrooms: Int
+  numberOfBedrooms: Int
+  numberOfFloor: Int
+  owner: OwnerInfoDtoInput
+  ownerId: String
+  ownerIsAuthor: Boolean!
+  postDescription: String
+  postTitle: String
+  postTypeId: String
+  price: Float
+  priceNoVat: Float
+  priceVat: Float
+  projectId: String
+  propertyAddress: PropertyAddressInfoInput
+  propertyCode: String
+  propertyName: String
+  propertyPostApprovalStatusId: String
+  propertyPostId: String
+  propertyPostStatusId: String
+  propertySubTypeId: String
+  propertyTypeId: String
+  rejectedDatetime: Long
+  rejectedReason: String
+  saleCommission: Float
+  saleSeasonId: String
+  saleTrackingStatusId: String
+  sendingApprovalFrom: String
+  seoString: String
+  sortOrder: Int
+  tags: String
+  totalSiteArea: Int
+  unitOfMeasureId: String
+}
+
+type UpdatePropertyPostStatusResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  propertyPostStatusDto: PropertyPostStatusDto
+}
+
+input UpdateStaffInput {
+  departmentId: String
+  isGroupLeader: Boolean!
+  nationalId: String
+  permanentAddress: String
+  preferPropertyPriceFrom: Float!
+  preferPropertyPriceTo: Float!
+  preferPropertyTypes: String
+  rating: Int!
+  specialityIds: String
+  staffContractTypeId: String
+  staffGroupId: String
+  staffId: String
+  staffPositionId: String
+  staffRankingId: String
+  staffStatusId: String
+  workingAreas: String
+}
+
+type UpdateStaffResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  staffDto: StaffDto
+}
+
+input UpdateSupportRequestInput {
+  assignedDatetime: Long
+  assigneeId: String
+  attachment: String
+  closeDatetime: Long
+  dueDate: Long
+  isActive: Boolean!
+  notes: String
+  priority: Int
+  propertyPostId: String
+  requestDescription: String
+  requesterGuestId: String
+  requesterIsUser: Boolean
+  requesterUserId: String
+  requestTypeId: String
+  responseDatetime: Long
+  supportClosingReasonId: String
+  supportRating: Int
+  supportRequestId: String
+  supportRequestStatusId: String
+  supportRequestTitle: String
+  supportResults: String
+  xPath: String
+}
+
+type UpdateSupportRequestResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  supportRequestDto: SupportRequestDto
+}
+
+input UpdateUserInput {
+  dob: String
+  email: String
+  emailConfirmed: Boolean
+  firstName: String
+  gender: Gender!
+  isCreatedByAdmin: Boolean
+  isLocked: Boolean
+  isMember: Boolean
+  lastName: String
+  phoneNumber: String
+  phoneNumberConfirmed: Boolean
+  profilePhoto: String
+  roleId: String
+  roleName: String
+  userId: String
+  userName: String
+}
+
+type UpdateUserResponse {
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+  userDto: UserDto
+}
+
+scalar Url
+
+type UserDto {
+  createdByName: String
+  dob: Timestamp
+  email: String
+  emailConfirmed: Boolean
+  firstName: String
+  gender: Gender!
+  isCreatedByAdmin: Boolean
+  isLocked: Boolean
+  isMember: Boolean
+  lastName: String
+  phoneNumber: String
+  phoneNumberConfirmed: Boolean
+  profilePhoto: String
+  roleDescription: String
+  roleId: String
+  roleName: String
+  userId: String
+  userName: String
+  userStatus: UserStatus!
+}
+
+input UserDtoFilter {
+  AND: [UserDtoFilter!]
+  createdByName: String
+  createdByName_contains: String
+  createdByName_ends_with: String
+  createdByName_in: [String]
+  createdByName_not: String
+  createdByName_not_contains: String
+  createdByName_not_ends_with: String
+  createdByName_not_in: [String]
+  createdByName_not_starts_with: String
+  createdByName_starts_with: String
+  email: String
+  email_contains: String
+  email_ends_with: String
+  email_in: [String]
+  email_not: String
+  email_not_contains: String
+  email_not_ends_with: String
+  email_not_in: [String]
+  email_not_starts_with: String
+  email_starts_with: String
+  firstName: String
+  firstName_contains: String
+  firstName_ends_with: String
+  firstName_in: [String]
+  firstName_not: String
+  firstName_not_contains: String
+  firstName_not_ends_with: String
+  firstName_not_in: [String]
+  firstName_not_starts_with: String
+  firstName_starts_with: String
+  lastName: String
+  lastName_contains: String
+  lastName_ends_with: String
+  lastName_in: [String]
+  lastName_not: String
+  lastName_not_contains: String
+  lastName_not_ends_with: String
+  lastName_not_in: [String]
+  lastName_not_starts_with: String
+  lastName_starts_with: String
+  OR: [UserDtoFilter!]
+  phoneNumber: String
+  phoneNumber_contains: String
+  phoneNumber_ends_with: String
+  phoneNumber_in: [String]
+  phoneNumber_not: String
+  phoneNumber_not_contains: String
+  phoneNumber_not_ends_with: String
+  phoneNumber_not_in: [String]
+  phoneNumber_not_starts_with: String
+  phoneNumber_starts_with: String
+  roleDescription: String
+  roleDescription_contains: String
+  roleDescription_ends_with: String
+  roleDescription_in: [String]
+  roleDescription_not: String
+  roleDescription_not_contains: String
+  roleDescription_not_ends_with: String
+  roleDescription_not_in: [String]
+  roleDescription_not_starts_with: String
+  roleDescription_starts_with: String
+  roleName: String
+  roleName_contains: String
+  roleName_ends_with: String
+  roleName_in: [String]
+  roleName_not: String
+  roleName_not_contains: String
+  roleName_not_ends_with: String
+  roleName_not_in: [String]
+  roleName_not_starts_with: String
+  roleName_starts_with: String
+  userName: String
+  userName_contains: String
+  userName_ends_with: String
+  userName_in: [String]
+  userName_not: String
+  userName_not_contains: String
+  userName_not_ends_with: String
+  userName_not_in: [String]
+  userName_not_starts_with: String
+  userName_starts_with: String
+  userStatus: UserStatus
+  userStatus_gt: UserStatus
+  userStatus_gte: UserStatus
+  userStatus_in: [UserStatus!]
+  userStatus_lt: UserStatus
+  userStatus_lte: UserStatus
+  userStatus_not: UserStatus
+  userStatus_not_gt: UserStatus
+  userStatus_not_gte: UserStatus
+  userStatus_not_in: [UserStatus!]
+  userStatus_not_lt: UserStatus
+  userStatus_not_lte: UserStatus
+}
+
+input UserDtoSort {
+  createdByName: SortOperationKind
+  email: SortOperationKind
+  firstName: SortOperationKind
+  lastName: SortOperationKind
+  phoneNumber: SortOperationKind
+  roleDescription: SortOperationKind
+  roleName: SortOperationKind
+  userName: SortOperationKind
+  userStatus: SortOperationKind
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+}
+
+scalar Uuid
+
+input ValidateNumberOfPostByUserIdInput {
+  userId: String
+}
+
+type ValidateNumberOfPostByUserIdResponse {
+  numberPostValidation: NumberOfPostValidationDto
+  errorCode: Int!
+  errorMessage: String
+  errorMessageCode: String
+}
+
+type WardDto {
+  area: String
+  cityId: Int!
+  density: String
+  districtId: Int!
+  isActive: Boolean!
+  latitude: Float
+  longitude: Float
+  population: String
+  wardId: Int!
+  wardName: String
+}
+
+input WardDtoFilter {
+  AND: [WardDtoFilter!]
+  area: String
+  area_contains: String
+  area_ends_with: String
+  area_in: [String]
+  area_not: String
+  area_not_contains: String
+  area_not_ends_with: String
+  area_not_in: [String]
+  area_not_starts_with: String
+  area_starts_with: String
+  cityId: Int
+  cityId_gt: Int
+  cityId_gte: Int
+  cityId_in: [Int!]
+  cityId_lt: Int
+  cityId_lte: Int
+  cityId_not: Int
+  cityId_not_gt: Int
+  cityId_not_gte: Int
+  cityId_not_in: [Int!]
+  cityId_not_lt: Int
+  cityId_not_lte: Int
+  districtId: Int
+  districtId_gt: Int
+  districtId_gte: Int
+  districtId_in: [Int!]
+  districtId_lt: Int
+  districtId_lte: Int
+  districtId_not: Int
+  districtId_not_gt: Int
+  districtId_not_gte: Int
+  districtId_not_in: [Int!]
+  districtId_not_lt: Int
+  districtId_not_lte: Int
+  OR: [WardDtoFilter!]
+  wardName: String
+  wardName_contains: String
+  wardName_ends_with: String
+  wardName_in: [String]
+  wardName_not: String
+  wardName_not_contains: String
+  wardName_not_ends_with: String
+  wardName_not_in: [String]
+  wardName_not_starts_with: String
+  wardName_starts_with: String
+}
+
+input WardDtoSort {
+  area: SortOperationKind
+  cityId: SortOperationKind
+  districtId: SortOperationKind
+  wardId: SortOperationKind
+  wardName: SortOperationKind
+}
+
+type WardInfoDto {
+  area: String
+  cityId: Int!
+  density: String
+  districtId: Int!
+  isActive: Boolean!
+  latitude: Float
+  longitude: Float
+  population: String
+  wardId: Int!
+  wardName: String
+}
+

@@ -1,0 +1,1158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|c2c/LoanServicesView default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginTop": 4,
+        "paddingHorizontal": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#828282",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 15,
+            "includeFontPadding": true,
+          },
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "includeFontPadding": true,
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      Số tiền vay
+       
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 16,
+        },
+      ]
+    }
+  >
+    <View>
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        includeRawValueInChangeText={true}
+        keyboardType="numeric"
+        maxLength={15}
+        onChangeText={[Function]}
+        options={
+          Object {
+            "delimiter": ",",
+            "precision": 0,
+            "unit": "",
+          }
+        }
+        placeholder=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+              "paddingLeft": 10,
+              "paddingVertical": 10,
+            },
+            Object {
+              "color": "#313131",
+            },
+            Object {
+              "borderColor": "#BDBDBD",
+              "borderRadius": 5,
+              "borderWidth": 1,
+            },
+          ]
+        }
+        type="money"
+        value="0"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "height": 45,
+            "justifyContent": "center",
+            "marginHorizontal": 8,
+            "position": "absolute",
+            "right": 0,
+          },
+          Object {
+            "height": 40,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        VND
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#828282",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 15,
+            "includeFontPadding": true,
+          },
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "includeFontPadding": true,
+            "marginBottom": 8,
+          },
+        ]
+      }
+    >
+      Thời hạn vay
+       
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 16,
+        },
+      ]
+    }
+  >
+    <View>
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        keyboardType="numeric"
+        maxLength={128}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        pointerEvents="auto"
+        style={
+          Array [
+            Array [
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+                "paddingLeft": 10,
+                "paddingVertical": 10,
+              },
+              Object {
+                "color": "#313131",
+              },
+              Object {
+                "borderColor": "#BDBDBD",
+                "borderRadius": 5,
+                "borderWidth": 1,
+              },
+            ],
+            undefined,
+            false,
+            undefined,
+          ]
+        }
+        value="1"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "height": 45,
+            "justifyContent": "center",
+            "marginHorizontal": 8,
+            "position": "absolute",
+            "right": 0,
+          },
+          Object {
+            "height": 40,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Năm
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#828282",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 15,
+            "includeFontPadding": true,
+          },
+          Array [
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Bold",
+              "includeFontPadding": true,
+              "marginBottom": 8,
+            },
+            Object {
+              "marginBottom": 0,
+            },
+          ],
+        ]
+      }
+    >
+      Lãi suất
+       
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        pointerEvents="auto"
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#BDBDBD",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "marginTop": 8,
+              "minHeight": 45,
+              "opacity": 1,
+              "paddingHorizontal": 10,
+              "paddingRight": 16,
+              "paddingVertical": 0,
+              "width": "100%",
+            }
+          }
+        >
+          <Modal
+            animationType="none"
+            deviceHeight={null}
+            deviceWidth={null}
+            hardwareAccelerated={false}
+            hideModalContentWhileAnimating={true}
+            onBackdropPress={[Function]}
+            onModalHide={[Function]}
+            onModalWillHide={[Function]}
+            onModalWillShow={[Function]}
+            onRequestClose={[Function]}
+            panResponderThreshold={4}
+            scrollHorizontal={false}
+            scrollOffset={0}
+            scrollOffsetMax={0}
+            scrollTo={null}
+            statusBarTranslucent={false}
+            supportedOrientations={
+              Array [
+                "portrait",
+                "landscape",
+              ]
+            }
+            swipeThreshold={100}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              forwardedRef={[Function]}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "bottom": 0,
+                  "height": 1334,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 750,
+                }
+              }
+            />
+            <View
+              onLayout={[Function]}
+              pointerEvents="box-none"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "margin": 37.5,
+                      "transform": Array [
+                        Object {
+                          "translateY": 0,
+                        },
+                      ],
+                    },
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-end",
+                      "margin": 0,
+                    },
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                  Object {
+                    "paddingBottom": 0,
+                  },
+                ]
+              }
+            >
+              <View
+                deviceHeight={null}
+                deviceWidth={null}
+                forwardedRef={[Function]}
+                hideModalContentWhileAnimating={true}
+                onBackdropPress={[Function]}
+                onModalHide={[Function]}
+                onModalWillHide={[Function]}
+                onModalWillShow={[Function]}
+                panResponderThreshold={4}
+                pointerEvents="box-none"
+                scrollHorizontal={false}
+                scrollOffset={0}
+                scrollOffsetMax={0}
+                scrollTo={null}
+                statusBarTranslucent={false}
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-end",
+                    "margin": 0,
+                    "transform": Array [
+                      Object {
+                        "translateY": 0,
+                      },
+                    ],
+                  }
+                }
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                swipeThreshold={100}
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "height": 800.4,
+                      "paddingTop": 16,
+                    }
+                  }
+                >
+                  <View>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginBottom": 16,
+                            "textAlign": "center",
+                            "width": "100%",
+                          },
+                          Object {
+                            "fontFamily": "Nunito-Regular",
+                          },
+                          Object {
+                            "color": "#26894F",
+                          },
+                        ]
+                      }
+                    >
+                      Lãi suất
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#cacaca",
+                        "height": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <RCTScrollView
+                    ListEmptyComponent={[Function]}
+                    data={
+                      Array [
+                        Object {
+                          "checked": true,
+                          "id": 0,
+                          "name": "Vietcombank",
+                          "value": 7,
+                        },
+                        Object {
+                          "checked": false,
+                          "id": 1,
+                          "name": "ACB",
+                          "value": 7.5,
+                        },
+                        Object {
+                          "checked": false,
+                          "id": 2,
+                          "name": "HSBC",
+                          "value": 7,
+                        },
+                      ]
+                    }
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    keyExtractor={[Function]}
+                    keyboardShouldPersistTaps="handled"
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "marginTop": 16,
+                        "paddingHorizontal": 24,
+                        "paddingTop": 1,
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <View
+                        onLayout={[Function]}
+                        style={null}
+                      >
+                        <View
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          nativeID="animatedComponent"
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "borderBottomColor": "#eaeaea",
+                              "borderBottomWidth": 1,
+                              "flexDirection": "row",
+                              "opacity": 1,
+                              "paddingVertical": 12,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#333",
+                                  "flex": 1,
+                                  "fontSize": 16,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                          >
+                            Vietcombank
+                          </Text>
+                          <Text
+                            allowFontScaling={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#26894F",
+                                  "fontSize": 20,
+                                },
+                                Object {
+                                  "textAlign": "right",
+                                  "width": 30,
+                                },
+                                Object {
+                                  "fontFamily": "Material Design Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            󰗡
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={null}
+                      >
+                        <View
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          nativeID="animatedComponent"
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "borderBottomColor": "#eaeaea",
+                              "borderBottomWidth": 1,
+                              "flexDirection": "row",
+                              "opacity": 1,
+                              "paddingVertical": 12,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#333",
+                                  "flex": 1,
+                                  "fontSize": 16,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                          >
+                            ACB
+                          </Text>
+                          <Text
+                            allowFontScaling={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#777777",
+                                  "fontSize": 20,
+                                },
+                                Object {
+                                  "textAlign": "right",
+                                  "width": 30,
+                                },
+                                Object {
+                                  "fontFamily": "Material Design Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            󰐽
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        onLayout={[Function]}
+                        style={null}
+                      >
+                        <View
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          nativeID="animatedComponent"
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "borderBottomColor": "#eaeaea",
+                              "borderBottomWidth": 1,
+                              "flexDirection": "row",
+                              "opacity": 1,
+                              "paddingVertical": 12,
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#333",
+                                  "flex": 1,
+                                  "fontSize": 16,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                          >
+                            HSBC
+                          </Text>
+                          <Text
+                            allowFontScaling={false}
+                            style={
+                              Array [
+                                Object {
+                                  "color": "#777777",
+                                  "fontSize": 20,
+                                },
+                                Object {
+                                  "textAlign": "right",
+                                  "width": 30,
+                                },
+                                Object {
+                                  "fontFamily": "Material Design Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
+                                },
+                                Object {},
+                              ]
+                            }
+                          >
+                            󰐽
+                          </Text>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "height": 0,
+                          }
+                        }
+                      />
+                    </View>
+                  </RCTScrollView>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "marginHorizontal": 16,
+                        "marginVertical": 16,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "backgroundColor": "#fff",
+                          "borderColor": "#26894F",
+                          "borderRadius": 25,
+                          "borderWidth": 1,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "fontFamily": "Nunito-Regular",
+                          "height": 36,
+                          "justifyContent": "center",
+                          "marginLeft": 5,
+                          "marginRight": 5,
+                          "opacity": 1,
+                          "paddingHorizontal": 16,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "fontSize": 16,
+                              "fontWeight": "bold",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                            Object {
+                              "color": "#26894F",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        Hủy
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </Modal>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "flex": 1,
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontFamily": "Nunito-Regular",
+                },
+                Object {
+                  "color": "#333",
+                },
+                Object {},
+              ]
+            }
+          >
+            Vietcombank
+          </Text>
+        </View>
+        <Text
+          allowFontScaling={false}
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "color": "#313131",
+                "fontSize": 24,
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": 22,
+                  "justifyContent": "center",
+                  "position": "absolute",
+                  "right": 5,
+                  "top": 20,
+                  "zIndex": 1,
+                },
+                Object {},
+              ],
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          󰍝
+        </Text>
+      </View>
+    </View>
+    <View>
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        keyboardType="numeric"
+        maxLength={128}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        pointerEvents="auto"
+        style={
+          Array [
+            Array [
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+                "paddingLeft": 10,
+                "paddingVertical": 10,
+              },
+              Object {
+                "color": "#313131",
+              },
+              Array [
+                Object {
+                  "borderColor": "#BDBDBD",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                },
+                Object {
+                  "height": 45,
+                  "marginLeft": 16,
+                  "width": 100,
+                },
+              ],
+            ],
+            undefined,
+            false,
+            undefined,
+          ]
+        }
+        value="7"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "bottom": 0,
+          "height": 45,
+          "justifyContent": "center",
+          "marginHorizontal": 8,
+          "position": "absolute",
+          "right": 0,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+          }
+        }
+      >
+        %
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 16,
+            "includeFontPadding": true,
+            "lineHeight": 23,
+          }
+        }
+      >
+        Kết quả tham khảo
+      </Text>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#26894F",
+                "fontFamily": "Nunito-Bold",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "#26894F",
+                "fontFamily": "Nunito-Bold",
+                "fontSize": 14,
+                "includeFontPadding": true,
+                "marginBottom": 0,
+                "marginRight": 8,
+                "textDecorationLine": "none",
+              },
+            ]
+          }
+        >
+          Chi tiết
+        </Text>
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/arrow_right_linear.png",
+            }
+          }
+          style={
+            Object {
+              "height": 16,
+              "marginHorizontal": 8,
+              "width": 16,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#A3A3A3",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "left",
+          }
+        }
+      >
+        Số tiền hàng tháng phải trả:
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        0  VND
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#A3A3A3",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "left",
+          }
+        }
+      >
+        Tổng số tiền lãi phải trả:
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        0  VND
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#A3A3A3",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "left",
+          }
+        }
+      >
+        Tổng số tiền phải trả:
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "textAlign": "right",
+          }
+        }
+      >
+        0  VND
+      </Text>
+    </View>
+  </View>
+</View>
+`;

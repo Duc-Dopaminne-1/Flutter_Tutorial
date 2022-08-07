@@ -1,0 +1,7 @@
+mutation DeclineContactTradingB2C($input: DeclineContactTradingB2CInput!) {
+  declineContactTradingB2C(declineContactTradingB2CInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

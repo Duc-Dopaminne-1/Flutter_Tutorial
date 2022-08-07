@@ -1,0 +1,11 @@
+query C2CPropertyPostCommissionTPLConfigByDate($date: Long!) {
+  c2CPropertyPostCommissionTPLConfigByDate(date: $date) {
+    commissionConfigDto {
+      platformFeeBasedOnCommission
+      platformFeeMinimumBasedOnSellingPrice
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

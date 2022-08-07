@@ -1,0 +1,579 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|auth/LoginScreen default 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "flex": 1,
+      },
+      Object {
+        "backgroundColor": "#F9FAFB",
+        "flex": 1,
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 20,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 24,
+            "includeFontPadding": true,
+            "marginLeft": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    alwaysBounceVertical={false}
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={
+      Array [
+        Object {
+          "flexGrow": 1,
+        },
+        undefined,
+      ]
+    }
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={true}
+    enableResetScrollToCoords={false}
+    extraHeight={75}
+    extraScrollHeight={0}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    horizontal={false}
+    innerRef={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="handled"
+    keyboardSpace={0}
+    onScroll={[Function]}
+    pointerEvents="auto"
+    resetKeyboardSpace={[Function]}
+    scrollEnabled={true}
+    scrollEventThrottle={1}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "paddingHorizontal": 20,
+          }
+        }
+        testID="LoginScreen"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 30,
+              "includeFontPadding": true,
+              "marginTop": 20,
+            }
+          }
+        >
+          Đăng nhập
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+              "marginBottom": 24,
+              "marginTop": 8,
+            }
+          }
+        >
+          Chào mừng bạn trở lại TopenLand!
+        </Text>
+        <View
+          style={
+            Object {
+              "marginRight": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "paddingVertical": 8,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#313131",
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 14,
+                      "includeFontPadding": true,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Số điện thoại
+                 
+                <Text
+                  style={
+                    Object {
+                      "color": "#FD1D1D",
+                    }
+                  }
+                >
+                  *
+                </Text>
+              </Text>
+            </View>
+            <TextInput
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              keyboardType="default"
+              maxLength={128}
+              onChangeText={[Function]}
+              placeholder="Nhập số điện thoại"
+              returnKeyType="done"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 8,
+                    "fontFamily": "Nunito-Regular",
+                    "includeFontPadding": true,
+                    "marginTop": 8,
+                    "minHeight": 45,
+                    "paddingHorizontal": 8,
+                    "paddingVertical": 8,
+                  },
+                  Object {},
+                  Object {
+                    "color": "#313131",
+                  },
+                  Object {
+                    "borderColor": "#CCD1D9",
+                    "borderWidth": 1,
+                    "paddingLeft": 10,
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "paddingVertical": 8,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#313131",
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 14,
+                      "includeFontPadding": true,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Mật khẩu
+                 
+                <Text
+                  style={
+                    Object {
+                      "color": "#FD1D1D",
+                    }
+                  }
+                >
+                  *
+                </Text>
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 8,
+                    "fontFamily": "Nunito-Regular",
+                    "includeFontPadding": true,
+                    "marginTop": 8,
+                    "minHeight": 45,
+                    "paddingHorizontal": 8,
+                    "paddingVertical": 8,
+                  },
+                  Object {},
+                  Object {
+                    "borderColor": "#CCD1D9",
+                    "borderWidth": 1,
+                    "paddingLeft": 10,
+                  },
+                  Object {
+                    "color": "#313131",
+                  },
+                  Object {},
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                  },
+                ]
+              }
+            >
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder="Nhập mật khẩu"
+                returnKeyType="done"
+                secureTextEntry={true}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    null,
+                  ]
+                }
+                value=""
+              />
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 20,
+                    "left": 20,
+                    "right": 20,
+                    "top": 20,
+                  }
+                }
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "marginLeft": 8,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/assets/images/ic_eye.png",
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "width": 708,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={false}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "marginTop": 12,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "flex-start",
+                      "color": "#26894F",
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 14,
+                      "includeFontPadding": true,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Quên mật khẩu?
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "height": 50,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+          },
+          Object {
+            "backgroundColor": "#F9FAFB",
+            "bottom": -30,
+            "height": 110,
+            "opacity": 1,
+          },
+          Object {
+            "marginBottom": 20,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="LoginButton"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#26894F",
+            "borderRadius": 4,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginHorizontal": 16,
+            "opacity": 1,
+            "paddingBottom": 14,
+            "paddingTop": 13,
+          }
+        }
+        testID="LoginButton"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontFamily": "Nunito-Bold",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginHorizontal": 8,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+              Object {
+                "fontFamily": "Nunito-Bold",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              },
+            ]
+          }
+        >
+          Đăng nhập
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Bạn chưa có tài khoản?
+           
+        </Text>
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "flex-start",
+                  "color": "#26894F",
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 14,
+                  "includeFontPadding": true,
+                },
+                undefined,
+              ]
+            }
+          >
+            Đăng ký
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

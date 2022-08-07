@@ -1,0 +1,5 @@
+query CountPropertiesByCity($input: SearchPropertyPostInput!) {
+  searchPropertyPosts(searchPropertyPostInput: $input) {
+    totalCount
+  }
+}

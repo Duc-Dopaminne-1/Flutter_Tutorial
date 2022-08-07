@@ -1,0 +1,8 @@
+query GetStreetByCityAndDistrict($where: StreetDtoFilter) {
+  streets(pageSize: 999, where: $where) {
+    edges {
+      streetId
+      streetName
+    }
+  }
+}

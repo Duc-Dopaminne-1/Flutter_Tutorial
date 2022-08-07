@@ -1,0 +1,88 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+
+
+target 'BidBid' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+pod 'GoogleSignIn', '~> 5.0.2'
+   pod 'RNInputMask', :path => '../node_modules/react-native-text-input-mask/ios/InputMask'
+
+pod 'react-native-config', :path => '../node_modules/react-native-config'
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+  pod 'Permission-Microphone', :path => "#{permissions_path}/Microphone"
+
+   
+  pod 'Firebase/Analytics', '~> 8.15.0'   
+ pod  'Firebase/CoreOnly', '~> 8.15.0'  
+ pod 'Firebase/Messaging'
+pod 'Firebase/Performance', '~> 8.15.0'
+pod 'GoogleIDFASupport', '~> 3.14.0'
+
+pod 'react-native-branch', path: '../node_modules/react-native-branch'
+  pod 'react-native-flipper', :path => '../node_modules/react-native-flipper', :configuration => 'Debug'
+
+ # React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+
+  # For extensions without React dependencies
+  pod 'react-native-config/Extension', :path => '../node_modules/react-native-config'
+
+pod 'Stripe', '~>  21.4.0'
+
+  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+use_flipper!({ 'Flipper' => '0.96.0', 'Flipper-Folly' => '~> 2.6', 'Flipper-RSocket' => '~> 1.4' },  configurations: ['Debug', 'Staging Debug', 'Dev Debug'])
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  pod 'tipsi-stripe', :path => '../node_modules/tipsi-stripe'
+
+  # pod 'RNZoomUs', :path => '../node_modules/react-native-zoom-us'
+
+  pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
+
+  target 'BidBidTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+end
+
+
+project 'BidBid',
+    'Debug' => :debug,
+    'Staging Debug' => :debug,
+    'Dev Debug' => :debug,
+    'Dev Release' => :release,
+    'Release' => :release,
+    'Staging Release' => :release
+
+
+
+
+target 'BidBid-tvOS' do
+  # Pods for BidBid-tvOS
+
+  target 'BidBid-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+

@@ -1,0 +1,8 @@
+mutation GenerateStringeeAuthToken($payload: GenerateStringeeAuthTokenInput!) {
+  generateStringeeAuthToken(request: $payload) {
+    authToken
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

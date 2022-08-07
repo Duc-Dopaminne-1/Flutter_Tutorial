@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|home/BottomMenu member 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.5)",
+      "bottom": 0,
+      "height": 1334,
+      "justifyContent": "flex-end",
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "height": 178,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F9FAFB",
+            "borderRadius": 5,
+            "flex": 1,
+            "height": 127.125,
+            "justifyContent": "center",
+            "marginLeft": 7,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_menu_modal_1.png",
+            }
+          }
+          style={
+            Object {
+              "tintColor": "#26894F",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 10,
+              "includeFontPadding": true,
+              "marginTop": 4,
+            }
+          }
+        >
+          Đăng tin
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F9FAFB",
+            "borderRadius": 5,
+            "flex": 1,
+            "height": 127.125,
+            "justifyContent": "center",
+            "marginLeft": 7,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_menu_modal_2.png",
+            }
+          }
+          style={
+            Object {
+              "tintColor": "#26894F",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 10,
+              "includeFontPadding": true,
+              "marginTop": 4,
+            }
+          }
+        >
+          Mua
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F9FAFB",
+            "borderRadius": 5,
+            "flex": 1,
+            "height": 127.125,
+            "justifyContent": "center",
+            "marginLeft": 7,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_menu_modal_3.png",
+            }
+          }
+          style={
+            Object {
+              "tintColor": "#26894F",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 10,
+              "includeFontPadding": true,
+              "marginTop": 4,
+            }
+          }
+        >
+          Dịch vụ
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={Object {}}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginLeft": 350,
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 20,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_close_modal_home.png",
+          }
+        }
+        style={Object {}}
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|home/BottomMenu topener 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.5)",
+      "bottom": 0,
+      "height": 1334,
+      "justifyContent": "flex-end",
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "opacity": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "height": 178,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F9FAFB",
+            "borderRadius": 5,
+            "flex": 1,
+            "height": 127.125,
+            "justifyContent": "center",
+            "marginLeft": 7,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_menu_modal_1.png",
+            }
+          }
+          style={
+            Object {
+              "tintColor": "#26894F",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 10,
+              "includeFontPadding": true,
+              "marginTop": 4,
+            }
+          }
+        >
+          Đăng tin
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F9FAFB",
+            "borderRadius": 5,
+            "flex": 1,
+            "height": 127.125,
+            "justifyContent": "center",
+            "marginLeft": 7,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_menu_modal_2.png",
+            }
+          }
+          style={
+            Object {
+              "tintColor": "#26894F",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 10,
+              "includeFontPadding": true,
+              "marginTop": 4,
+            }
+          }
+        >
+          Mua
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F9FAFB",
+            "borderRadius": 5,
+            "flex": 1,
+            "height": 127.125,
+            "justifyContent": "center",
+            "marginLeft": 7,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_menu_modal_3.png",
+            }
+          }
+          style={
+            Object {
+              "tintColor": "#26894F",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 10,
+              "includeFontPadding": true,
+              "marginTop": 4,
+            }
+          }
+        >
+          Dịch vụ
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={Object {}}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginLeft": 350,
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 20,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_close_modal_home.png",
+          }
+        }
+        style={Object {}}
+      />
+    </View>
+  </View>
+</View>
+`;

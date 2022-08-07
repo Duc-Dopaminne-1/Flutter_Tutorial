@@ -1,0 +1,14 @@
+query GetUsersForMessenger($request: GetUsersForMessengerInput!) {
+  getUsersForMessenger(request: $request) {
+    users {
+      userId
+      firstName
+      lastName
+      fullName
+      profilePhoto
+      email
+      phoneNumber
+      roleNames
+    }
+  }
+}

@@ -1,0 +1,7 @@
+mutation SkipPropertyPostC2CDemand($request: SkipPropertyPostC2CDemandInput!) {
+  skipPropertyPostC2CDemand(request: $request) {
+    errorCode
+    errorMessage
+    c2CDemandId
+  }
+}

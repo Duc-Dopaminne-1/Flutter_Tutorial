@@ -1,0 +1,990 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|Home/Intro PageOne 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 10,
+      "padding": 24,
+      "width": 750,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "includeFontPadding": true,
+        }
+      }
+    >
+      Người bán
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 32,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E9F3ED",
+            "borderRadius": 24,
+            "height": 48,
+            "justifyContent": "center",
+            "width": 48,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_seller_linear.png",
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "flex": 1,
+            "fontFamily": "Nunito-Regular",
+            "includeFontPadding": true,
+            "marginLeft": 16,
+          }
+        }
+      >
+        Đăng tin dễ dàng, bán hàng nhanh chóng trên TopenLand thông qua kết nối cung cầu chuẩn xác, sử dụng các dịch vụ tích hợp hỗ trợ toàn diện xuyên suốt quá trình giao dịch.
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#CCD1D9",
+        "height": 1,
+        "marginVertical": 16,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 8,
+          "width": 32,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_chat_robot.png",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 16,
+            "height": 32,
+            "width": 32,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#767676",
+            "fontSize": 12,
+            "marginBottom": 4,
+          }
+        }
+      >
+        TopenLand
+      </Text>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6E9ED",
+            "borderRadius": 24,
+            "borderTopLeftRadius": 0,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "lineHeight": 20,
+                "maxWidth": 250,
+              },
+              Object {
+                "color": "#313131",
+              },
+            ]
+          }
+        >
+          Bạn cần hỗ trợ gì ?
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        },
+        Object {
+          "justifyContent": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 8,
+          "width": 32,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#26894F",
+            "borderRadius": 24,
+            "borderTopRightRadius": 0,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "lineHeight": 20,
+                "maxWidth": 250,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+        >
+          Tôi cần ...
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 50,
+          "flexWrap": "wrap",
+          "marginBottom": 8,
+          "marginEnd": 8,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Định giá tài sản
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 50,
+          "flexWrap": "wrap",
+          "marginBottom": 8,
+          "marginEnd": 8,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Hướng dẫn bán với TopenLand
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 50,
+          "flexWrap": "wrap",
+          "marginBottom": 8,
+          "marginEnd": 8,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Thủ tục giao dịch BĐS
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 50,
+          "flexWrap": "wrap",
+          "marginBottom": 8,
+          "marginEnd": 8,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Tư vấn pháp lý
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 50,
+          "flexWrap": "wrap",
+          "marginBottom": 8,
+          "marginEnd": 8,
+          "opacity": 1,
+          "paddingHorizontal": 6,
+          "paddingVertical": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "includeFontPadding": true,
+          }
+        }
+      >
+        Đội ngũ bán hàng
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|Home/Intro PageTwo 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 10,
+      "padding": 16,
+      "width": 750,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 32,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 40,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/arrow_left_linear.png",
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "flex": 1,
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "includeFontPadding": true,
+          "marginEnd": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hotline 
+      <Text
+        style={
+          Object {
+            "color": "#E53030",
+          }
+        }
+      >
+        1900 8000
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 8,
+          "width": 32,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_chat_robot.png",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 16,
+            "height": 32,
+            "width": 32,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#767676",
+            "fontSize": 12,
+            "marginBottom": 4,
+          }
+        }
+      >
+        TopenLand
+      </Text>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6E9ED",
+            "borderRadius": 24,
+            "borderTopLeftRadius": 0,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "lineHeight": 20,
+                "maxWidth": 250,
+              },
+              Object {
+                "color": "#313131",
+              },
+            ]
+          }
+        >
+          Bạn cần hỗ trợ gì ?
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        },
+        Object {
+          "justifyContent": "flex-end",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 8,
+          "width": 32,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#26894F",
+            "borderRadius": 24,
+            "borderTopRightRadius": 0,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "lineHeight": 20,
+                "maxWidth": 250,
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+        >
+          Tôi cần định giá tài sản
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 8,
+          "width": 32,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/ic_chat_robot.png",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 16,
+            "height": 32,
+            "width": 32,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#767676",
+            "fontSize": 12,
+            "marginBottom": 4,
+          }
+        }
+      >
+        TopenLand
+      </Text>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6E9ED",
+            "borderRadius": 24,
+            "borderTopLeftRadius": 0,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "lineHeight": 20,
+                "maxWidth": 250,
+              },
+              Object {
+                "color": "#313131",
+              },
+            ]
+          }
+        >
+          Cảm ơn bạn đã liên hệ với TopenLand!
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 8,
+          "width": 32,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6E9ED",
+            "borderRadius": 24,
+            "borderTopLeftRadius": 0,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "lineHeight": 20,
+                "maxWidth": 250,
+              },
+              Object {
+                "color": "#313131",
+              },
+            ]
+          }
+        >
+          Bạn có thể tạo yêu cầu định giá BĐS tại đây
+          <Text
+            style={
+              Object {
+                "color": "#3360FF",
+              }
+            }
+          >
+             
+            Dịch vụ thẩm định giá tài sản
+          </Text>
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 8,
+          "width": 32,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginBottom": 8,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6E9ED",
+            "borderRadius": 24,
+            "borderTopLeftRadius": 0,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "lineHeight": 20,
+                "maxWidth": 250,
+              },
+              Object {
+                "color": "#313131",
+              },
+            ]
+          }
+        >
+          Hoặc gọi Hotline
+          <Text
+            style={
+              Object {
+                "color": "#3360FF",
+              }
+            }
+          >
+             
+            1900 8000
+          </Text>
+           để được hỗ trợ ngay.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

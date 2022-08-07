@@ -1,0 +1,7 @@
+mutation CreateProfilePhoto($input: createProfilePhotoInput!) {
+  createProfilePhoto(request: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

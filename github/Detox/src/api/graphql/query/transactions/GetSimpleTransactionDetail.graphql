@@ -1,0 +1,25 @@
+query GetSimpleTransactionDetail($input: simpleTransactionDetailInput!) {
+  simpleTransactionDetail(simpleTransactionDetailInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    transactionDetailDto {
+      transactionId
+      transactionCode
+      transactionAmount
+      projectId
+      transactionIndex
+      transactionType
+      propertyPostInfo {
+        blockName
+        floor
+        propertyCode
+        propertyTypeName
+        propertyPostId
+        projectInfo {
+          projectName
+        }
+      }
+    }
+  }
+}

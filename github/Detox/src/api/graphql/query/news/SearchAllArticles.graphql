@@ -1,0 +1,18 @@
+query SearchAllArticles($input: SearchArticleRequest!) {
+  searchArticles(request: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    totalCount
+    articleDtos {
+      id
+      slug
+      title
+      preview
+      body
+      articleType
+      createdDatetime
+      previewImageUrl
+    }
+  }
+}

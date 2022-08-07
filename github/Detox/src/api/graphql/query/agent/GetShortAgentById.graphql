@@ -1,0 +1,22 @@
+query GetShortAgentById($agentId: Uuid!) {
+  agentByIdForPublic(agentId: $agentId) {
+    agentId
+    agentCode
+    firstName
+    lastName
+    email
+    phoneNumber
+    rating
+    sellingTotal
+    isAgentLeader
+    preferPropertyTypes
+    preferPropertyPriceFrom
+    preferPropertyPriceTo
+    workingAreas
+    profilePhoto
+    agentRankName
+    agentRankingDescription
+    agentGroupName
+    agentGroupDescription
+  }
+}

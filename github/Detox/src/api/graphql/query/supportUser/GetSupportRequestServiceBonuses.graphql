@@ -1,0 +1,13 @@
+query GetSupportRequestServiceBonuses {
+  supportRequestServiceBonuses {
+    edges {
+      supportRequestServiceBonusId
+      supportRequestServiceBonusName
+      supportRequestServiceBonusDescription
+      price
+      unitOfMeasureId
+      unitOfMeasureCode
+      unitOfMeasureName
+    }
+  }
+}

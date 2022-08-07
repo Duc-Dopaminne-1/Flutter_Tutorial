@@ -1,0 +1,14 @@
+query GetArticlePage($input: GetArticleRequest!) {
+  articlePage(request: $input) {
+    edges {
+      createdBy
+      createdDatetime
+      body
+      id
+      preview
+      previewImageUrl
+      title
+      articleType
+    }
+  }
+}

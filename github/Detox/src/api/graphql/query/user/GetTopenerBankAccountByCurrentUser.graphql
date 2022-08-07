@@ -1,0 +1,14 @@
+query GetTopenerBankAccountsByCurrentUserFO($page: Int, $pageSize: Int) {
+  getTopenerBankAccountsByCurrentUserFO(page: $page, pageSize: $pageSize) {
+    edges {
+      topenerBankAccountId
+      topenerId
+      bankId
+      bankAccountNumber
+      bankAccountBranch
+      bankAccountHolderName
+      isDefault
+      recordVersion
+    }
+  }
+}

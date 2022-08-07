@@ -1,0 +1,14 @@
+query CitiesAndDistrictByFilter($cityFilter: CityDtoFilter, $districtFilter: DistrictDtoFilter) {
+  cities(where: $cityFilter) {
+    edges {
+      cityId
+      cityName
+    }
+  }
+  districts(where: $districtFilter) {
+    edges {
+      districtId
+      districtName
+    }
+  }
+}

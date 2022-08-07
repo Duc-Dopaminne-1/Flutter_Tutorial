@@ -1,0 +1,11 @@
+mutation ValidateCaptchaForPropertyPostBasket(
+  $request: ValidateReCaptchaForPropertyPostBasketInput!
+) {
+  validateReCaptchaForPropertyPostBasket(request: $request) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    requestId
+    recaptchaToken
+  }
+}

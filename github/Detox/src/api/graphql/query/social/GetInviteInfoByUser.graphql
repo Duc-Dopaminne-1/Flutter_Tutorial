@@ -1,0 +1,8 @@
+query inviteUserInfo($userId: Uuid!) {
+  inviteInfo(userId: $userId) {
+    inviteCode
+    inviteLink
+    totalInviteActive
+    __typename
+  }
+}

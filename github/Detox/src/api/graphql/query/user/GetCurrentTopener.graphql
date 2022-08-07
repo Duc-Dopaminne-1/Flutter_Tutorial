@@ -1,0 +1,24 @@
+query GetCurrentTopener {
+  getCurrentTopener {
+    errorCode
+    errorMessage
+    errorMessageCode
+    topenerInfo {
+      contactAddress
+      dob
+      email
+      firstName
+      fullName
+      gender
+      isCompletedProfile
+      lastName
+      nationalId
+      nationalIdIssueDate
+      nationalIdIssuePlace
+      nationalIdType
+      permanentAddress
+      phoneNumber
+      userId
+    }
+  }
+}

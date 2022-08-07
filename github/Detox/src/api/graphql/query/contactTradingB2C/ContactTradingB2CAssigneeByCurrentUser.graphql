@@ -1,0 +1,34 @@
+query contactTradingB2CAssigneeByCurrentUser(
+  $page: Int
+  $pageSize: Int
+  $projectId: String
+  $order_by: ContactTradingB2CAssigneeCurrentUserDtoSort
+  $where: ContactTradingB2CAssigneeCurrentUserDtoFilter
+) {
+  contactTradingB2CAssigneeByCurrentUser(
+    order_by: $order_by
+    projectId: $projectId
+    page: $page
+    pageSize: $pageSize
+    where: $where
+  ) {
+    downloadUrl
+    edges {
+      contactTradingB2CId
+      contactTradingB2CCode
+      contactTradingB2CStatusId
+      contactTradingB2CStatusName
+      contactTradingB2CStatusDescription
+      customerFullName
+      projectInfoDto {
+        projectId
+        projectName
+        propertyPostCode
+        propertyPostId
+      }
+      requestDate
+    }
+    totalCount
+    __typename
+  }
+}

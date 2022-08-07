@@ -1,0 +1,7 @@
+mutation updateAgent($input: UpdateAgentInput!) {
+  updateAgent(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

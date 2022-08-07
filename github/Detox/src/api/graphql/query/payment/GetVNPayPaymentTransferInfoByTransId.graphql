@@ -1,0 +1,19 @@
+query GetVNPayPaymentTransferInfoByTransId($input: Uuid!) {
+  vnpayPaymentTransferInfoByTransId(transactionId: $input) {
+    vnpayPaymentTransferInfoDto {
+      expectedAmount
+      paidAmount
+      paidDatetime
+      paymentUnit
+      productName
+      projectId
+      transactionDatetime
+      transactionPaymentStatus
+      userTransactionId
+      vnpayAccountNumber
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,32 @@
+diff --git a/android/app/src/main/AndroidManifest.xml b/android/app/src/main/AndroidManifest.xml
+index 4f60125e96..23a85a2c56 100644
+--- a/android/app/src/main/AndroidManifest.xml
++++ b/android/app/src/main/AndroidManifest.xml
+@@ -35,7 +35,7 @@
+       android:hardwareAccelerated="true"
+       android:resizeableActivity="false"
+       android:allowBackup="false"
+-      android:usesCleartextTraffic="@string/QU5EUk9JRF9DTEVBUlRFWFRfVFJBRkZJQw"
++      android:networkSecurityConfig="@xml/network_security_config"
+       android:requestLegacyExternalStorage="true"
+       android:theme="@style/AppTheme">
+
+diff --git a/android/app/src/main/java/com/topenlandcorp/dev/topenland/MainActivity.java b/android/app/src/main/java/com/topenlandcorp/dev/topenland/MainActivity.java
+index 31977cd0e5..60f877c19e 100644
+--- a/android/app/src/main/java/com/topenlandcorp/dev/topenland/MainActivity.java
++++ b/android/app/src/main/java/com/topenlandcorp/dev/topenland/MainActivity.java
+@@ -39,10 +39,10 @@ public class MainActivity extends ReactActivity {
+     }
+
+     //security
+-    getWindow().setFlags(
+-      WindowManager.LayoutParams.FLAG_SECURE,
+-      WindowManager.LayoutParams.FLAG_SECURE
+-    );
++    // getWindow().setFlags(
++    //   WindowManager.LayoutParams.FLAG_SECURE,
++    //   WindowManager.LayoutParams.FLAG_SECURE
++    // );
+   }
+
+   public static void setLocale(Context context, String languageCode) {

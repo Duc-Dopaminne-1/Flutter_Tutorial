@@ -1,0 +1,126 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "59U73DMV6Y.com.topenlandcorp.dev.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post",
+					"/invitation/*"
+				]
+			},
+			{
+				"appID": "59U73DMV6Y.com.topenlandcorp.qa.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post",
+					"/invitation/*"
+				]
+			},
+			{
+				"appID": "59U73DMV6Y.com.topenlandcorp.sandbox.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post",
+					"/invitation/*"
+				]
+			},
+			{
+				"appID": "59U73DMV6Y.com.topenlandcorp.sandboxnew.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post",
+					"/invitation/*"
+				]
+			},
+			{
+				"appID": "59U73DMV6Y.com.topenlandcorp.sandboxcitus.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post",
+					"/invitation/*"
+				]
+			},
+			{
+				"appID": "59U73DMV6Y.com.topenlandcorp.uat.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post",
+					"/invitation/*"
+				]
+			},
+			{
+				"appID": "59U73DMV6Y.com.topenlandcorp.sec.topenland",
+				"paths": [
+					"/profile/my-post/",
+					"/profile/assigned-project-post",
+					"/post/*",
+					"/project/*",
+					"/account/transaction/*/booking",
+					"/account/transaction/*/deposit",
+					"/project/property/*",
+					"/account/transaction",
+					"/account/transaction/*/evaluate/*",
+					"/rate/*",
+					"/profile/suggest-post",
+					"/invitation/*"
+				]
+			}
+		]
+	}
+}

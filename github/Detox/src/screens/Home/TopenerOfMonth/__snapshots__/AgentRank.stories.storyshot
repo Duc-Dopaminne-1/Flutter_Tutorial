@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|RankItems default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "marginTop": 12,
+          "paddingRight": 8,
+        },
+        Object {
+          "backgroundColor": "#ACACAC",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/rank/silver.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": -5,
+            "width": 32,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessibilityLabel="RankLabel"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+      testID="RankLabel"
+    >
+      Silver
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "marginTop": 12,
+          "paddingRight": 8,
+        },
+        Object {
+          "backgroundColor": "#EDC761",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/rank/gold.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": -5,
+            "width": 32,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessibilityLabel="RankLabel"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+      testID="RankLabel"
+    >
+      Gold
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "marginTop": 12,
+          "paddingRight": 8,
+        },
+        Object {
+          "backgroundColor": "#7ABADD",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/rank/platinum.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": -5,
+            "width": 32,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessibilityLabel="RankLabel"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+      testID="RankLabel"
+    >
+      Platinum
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "marginTop": 12,
+          "paddingRight": 8,
+        },
+        Object {
+          "backgroundColor": "#00ACB8",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/rank/diamond.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": -5,
+            "width": 32,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessibilityLabel="RankLabel"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+      testID="RankLabel"
+    >
+      Diamond
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "marginTop": 12,
+          "paddingRight": 8,
+        },
+        Object {
+          "backgroundColor": "#F34902",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/rank/diamond-plus.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "height": 32,
+            "left": -5,
+            "width": 32,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessibilityLabel="RankLabel"
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Nunito-Bold",
+            "fontSize": 14,
+            "includeFontPadding": true,
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+      testID="RankLabel"
+    >
+      Diamond Plus
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,7 @@
+mutation UpdateCrawlerProcessRefuseStatus($input: UpdateCrawlerProcessRefuseStatusInput!) {
+  updateCrawlerProcessRefuseStatus(updateCrawlerProcessRefuseStatusInput: $input) {
+    errorCode
+    errorMessageCode
+    errorMessage
+  }
+}

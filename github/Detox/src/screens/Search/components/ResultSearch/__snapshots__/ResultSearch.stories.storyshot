@@ -1,0 +1,1328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|search/ResultSearch default 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 16,
+            "marginHorizontal": 16,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 4,
+            }
+          }
+        >
+          abc
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Hiện có:
+          <Text
+            style={
+              Object {
+                "color": "#26894F",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              }
+            }
+          >
+             10 
+          </Text>
+          kết quả
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FFFFFF",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 35,
+              "minHeight": 48,
+              "opacity": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 4,
+              "width": 48,
+            }
+          }
+        >
+          <Modal
+            animationType="none"
+            deviceHeight={null}
+            deviceWidth={null}
+            hardwareAccelerated={false}
+            hideModalContentWhileAnimating={true}
+            onBackdropPress={[Function]}
+            onModalHide={[Function]}
+            onModalWillHide={[Function]}
+            onModalWillShow={[Function]}
+            onRequestClose={[Function]}
+            panResponderThreshold={4}
+            scrollHorizontal={false}
+            scrollOffset={0}
+            scrollOffsetMax={0}
+            scrollTo={null}
+            statusBarTranslucent={false}
+            supportedOrientations={
+              Array [
+                "portrait",
+                "landscape",
+              ]
+            }
+            swipeThreshold={100}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              forwardedRef={[Function]}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "bottom": 0,
+                  "height": 1334,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 750,
+                }
+              }
+            />
+            <View
+              onLayout={[Function]}
+              pointerEvents="box-none"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "margin": 37.5,
+                      "transform": Array [
+                        Object {
+                          "translateY": 0,
+                        },
+                      ],
+                    },
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-end",
+                      "margin": 0,
+                    },
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                  Object {
+                    "paddingBottom": 0,
+                  },
+                ]
+              }
+            >
+              <View
+                deviceHeight={null}
+                deviceWidth={null}
+                forwardedRef={[Function]}
+                hideModalContentWhileAnimating={true}
+                onBackdropPress={[Function]}
+                onModalHide={[Function]}
+                onModalWillHide={[Function]}
+                onModalWillShow={[Function]}
+                panResponderThreshold={4}
+                pointerEvents="box-none"
+                scrollHorizontal={false}
+                scrollOffset={0}
+                scrollOffsetMax={0}
+                scrollTo={null}
+                statusBarTranslucent={false}
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-end",
+                    "margin": 0,
+                    "transform": Array [
+                      Object {
+                        "translateY": 0,
+                      },
+                    ],
+                  }
+                }
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                swipeThreshold={100}
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "height": 800.4,
+                      "paddingTop": 16,
+                    }
+                  }
+                >
+                  <View>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginBottom": 16,
+                            "textAlign": "center",
+                            "width": "100%",
+                          },
+                          Object {
+                            "fontFamily": "Nunito-Regular",
+                          },
+                          Object {
+                            "color": "#26894F",
+                          },
+                        ]
+                      }
+                    >
+                      Sắp xếp
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#cacaca",
+                        "height": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <RCTScrollView
+                    ListEmptyComponent={[Function]}
+                    data={Array []}
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    keyExtractor={[Function]}
+                    keyboardShouldPersistTaps="handled"
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "marginTop": 16,
+                        "paddingHorizontal": 24,
+                        "paddingTop": 1,
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "color": "gray",
+                              "fontSize": 16,
+                              "paddingTop": 16,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                          ]
+                        }
+                      >
+                        Không tìm thấy lựa chọn phù hợp
+                      </Text>
+                    </View>
+                  </RCTScrollView>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "marginHorizontal": 16,
+                        "marginVertical": 16,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "backgroundColor": "#fff",
+                          "borderColor": "#26894F",
+                          "borderRadius": 25,
+                          "borderWidth": 1,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "fontFamily": "Nunito-Regular",
+                          "height": 36,
+                          "justifyContent": "center",
+                          "marginLeft": 5,
+                          "marginRight": 5,
+                          "opacity": 1,
+                          "paddingHorizontal": 16,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "fontSize": 16,
+                              "fontWeight": "bold",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                            Object {
+                              "color": "#26894F",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        Hủy
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </Modal>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "flex": 1,
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontFamily": "Nunito-Regular",
+                },
+                undefined,
+              ]
+            }
+          >
+            Sắp xếp
+          </Text>
+        </View>
+        <View
+          accessibilityLabel="SortButton"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 1,
+              "position": "absolute",
+            }
+          }
+          testID="SortButton"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/ic_sort.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 16,
+            "marginHorizontal": 16,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 4,
+            }
+          }
+        >
+          abc
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Hiện có:
+          <Text
+            style={
+              Object {
+                "color": "#26894F",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              }
+            }
+          >
+             10 
+          </Text>
+          kết quả
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 16,
+            "marginHorizontal": 16,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 4,
+            }
+          }
+        >
+          Eu commodo deserunt elit eu id duis eiusmod eu dolor in.
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Hiện có:
+          <Text
+            style={
+              Object {
+                "color": "#26894F",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              }
+            }
+          >
+             10 
+          </Text>
+          kết quả
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FFFFFF",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 35,
+              "minHeight": 48,
+              "opacity": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 4,
+              "width": 48,
+            }
+          }
+        >
+          <Modal
+            animationType="none"
+            deviceHeight={null}
+            deviceWidth={null}
+            hardwareAccelerated={false}
+            hideModalContentWhileAnimating={true}
+            onBackdropPress={[Function]}
+            onModalHide={[Function]}
+            onModalWillHide={[Function]}
+            onModalWillShow={[Function]}
+            onRequestClose={[Function]}
+            panResponderThreshold={4}
+            scrollHorizontal={false}
+            scrollOffset={0}
+            scrollOffsetMax={0}
+            scrollTo={null}
+            statusBarTranslucent={false}
+            supportedOrientations={
+              Array [
+                "portrait",
+                "landscape",
+              ]
+            }
+            swipeThreshold={100}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              forwardedRef={[Function]}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "bottom": 0,
+                  "height": 1334,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 750,
+                }
+              }
+            />
+            <View
+              onLayout={[Function]}
+              pointerEvents="box-none"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "margin": 37.5,
+                      "transform": Array [
+                        Object {
+                          "translateY": 0,
+                        },
+                      ],
+                    },
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-end",
+                      "margin": 0,
+                    },
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                  Object {
+                    "paddingBottom": 0,
+                  },
+                ]
+              }
+            >
+              <View
+                deviceHeight={null}
+                deviceWidth={null}
+                forwardedRef={[Function]}
+                hideModalContentWhileAnimating={true}
+                onBackdropPress={[Function]}
+                onModalHide={[Function]}
+                onModalWillHide={[Function]}
+                onModalWillShow={[Function]}
+                panResponderThreshold={4}
+                pointerEvents="box-none"
+                scrollHorizontal={false}
+                scrollOffset={0}
+                scrollOffsetMax={0}
+                scrollTo={null}
+                statusBarTranslucent={false}
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-end",
+                    "margin": 0,
+                    "transform": Array [
+                      Object {
+                        "translateY": 0,
+                      },
+                    ],
+                  }
+                }
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                swipeThreshold={100}
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "height": 800.4,
+                      "paddingTop": 16,
+                    }
+                  }
+                >
+                  <View>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginBottom": 16,
+                            "textAlign": "center",
+                            "width": "100%",
+                          },
+                          Object {
+                            "fontFamily": "Nunito-Regular",
+                          },
+                          Object {
+                            "color": "#26894F",
+                          },
+                        ]
+                      }
+                    >
+                      Sắp xếp
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#cacaca",
+                        "height": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <RCTScrollView
+                    ListEmptyComponent={[Function]}
+                    data={Array []}
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    keyExtractor={[Function]}
+                    keyboardShouldPersistTaps="handled"
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "marginTop": 16,
+                        "paddingHorizontal": 24,
+                        "paddingTop": 1,
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "color": "gray",
+                              "fontSize": 16,
+                              "paddingTop": 16,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                          ]
+                        }
+                      >
+                        Không tìm thấy lựa chọn phù hợp
+                      </Text>
+                    </View>
+                  </RCTScrollView>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "marginHorizontal": 16,
+                        "marginVertical": 16,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "backgroundColor": "#fff",
+                          "borderColor": "#26894F",
+                          "borderRadius": 25,
+                          "borderWidth": 1,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "fontFamily": "Nunito-Regular",
+                          "height": 36,
+                          "justifyContent": "center",
+                          "marginLeft": 5,
+                          "marginRight": 5,
+                          "opacity": 1,
+                          "paddingHorizontal": 16,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "fontSize": 16,
+                              "fontWeight": "bold",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                            Object {
+                              "color": "#26894F",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        Hủy
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </Modal>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "flex": 1,
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontFamily": "Nunito-Regular",
+                },
+                undefined,
+              ]
+            }
+          >
+            Sắp xếp
+          </Text>
+        </View>
+        <View
+          accessibilityLabel="SortButton"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 1,
+              "position": "absolute",
+            }
+          }
+          testID="SortButton"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/ic_sort.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginBottom": 16,
+            "marginHorizontal": 16,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 4,
+            }
+          }
+        >
+          Sit sunt ipsum eiusmod dolor. Elit veniam sit reprehenderit cupidatat ut reprehenderit reprehenderit magna fugiat in nostrud minim.
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Hiện có:
+          <Text
+            style={
+              Object {
+                "color": "#26894F",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              }
+            }
+          >
+             10 
+          </Text>
+          kết quả
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#FFFFFF",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 35,
+              "minHeight": 48,
+              "opacity": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 4,
+              "width": 48,
+            }
+          }
+        >
+          <Modal
+            animationType="none"
+            deviceHeight={null}
+            deviceWidth={null}
+            hardwareAccelerated={false}
+            hideModalContentWhileAnimating={true}
+            onBackdropPress={[Function]}
+            onModalHide={[Function]}
+            onModalWillHide={[Function]}
+            onModalWillShow={[Function]}
+            onRequestClose={[Function]}
+            panResponderThreshold={4}
+            scrollHorizontal={false}
+            scrollOffset={0}
+            scrollOffsetMax={0}
+            scrollTo={null}
+            statusBarTranslucent={false}
+            supportedOrientations={
+              Array [
+                "portrait",
+                "landscape",
+              ]
+            }
+            swipeThreshold={100}
+            transparent={true}
+            visible={false}
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              forwardedRef={[Function]}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "bottom": 0,
+                  "height": 1334,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 750,
+                }
+              }
+            />
+            <View
+              onLayout={[Function]}
+              pointerEvents="box-none"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "margin": 37.5,
+                      "transform": Array [
+                        Object {
+                          "translateY": 0,
+                        },
+                      ],
+                    },
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "justifyContent": "flex-end",
+                      "margin": 0,
+                    },
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                  Object {
+                    "paddingBottom": 0,
+                  },
+                ]
+              }
+            >
+              <View
+                deviceHeight={null}
+                deviceWidth={null}
+                forwardedRef={[Function]}
+                hideModalContentWhileAnimating={true}
+                onBackdropPress={[Function]}
+                onModalHide={[Function]}
+                onModalWillHide={[Function]}
+                onModalWillShow={[Function]}
+                panResponderThreshold={4}
+                pointerEvents="box-none"
+                scrollHorizontal={false}
+                scrollOffset={0}
+                scrollOffsetMax={0}
+                scrollTo={null}
+                statusBarTranslucent={false}
+                style={
+                  Object {
+                    "flex": 1,
+                    "justifyContent": "flex-end",
+                    "margin": 0,
+                    "transform": Array [
+                      Object {
+                        "translateY": 0,
+                      },
+                    ],
+                  }
+                }
+                supportedOrientations={
+                  Array [
+                    "portrait",
+                    "landscape",
+                  ]
+                }
+                swipeThreshold={100}
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#fff",
+                      "borderTopLeftRadius": 8,
+                      "borderTopRightRadius": 8,
+                      "height": 800.4,
+                      "paddingTop": 16,
+                    }
+                  }
+                >
+                  <View>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "fontSize": 16,
+                            "marginBottom": 16,
+                            "textAlign": "center",
+                            "width": "100%",
+                          },
+                          Object {
+                            "fontFamily": "Nunito-Regular",
+                          },
+                          Object {
+                            "color": "#26894F",
+                          },
+                        ]
+                      }
+                    >
+                      Sắp xếp
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#cacaca",
+                        "height": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                  <RCTScrollView
+                    ListEmptyComponent={[Function]}
+                    data={Array []}
+                    getItem={[Function]}
+                    getItemCount={[Function]}
+                    keyExtractor={[Function]}
+                    keyboardShouldPersistTaps="handled"
+                    onContentSizeChange={[Function]}
+                    onLayout={[Function]}
+                    onMomentumScrollBegin={[Function]}
+                    onMomentumScrollEnd={[Function]}
+                    onScroll={[Function]}
+                    onScrollBeginDrag={[Function]}
+                    onScrollEndDrag={[Function]}
+                    removeClippedSubviews={false}
+                    renderItem={[Function]}
+                    scrollEventThrottle={50}
+                    stickyHeaderIndices={Array []}
+                    style={
+                      Object {
+                        "marginTop": 16,
+                        "paddingHorizontal": 24,
+                        "paddingTop": 1,
+                      }
+                    }
+                    viewabilityConfigCallbackPairs={Array []}
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "color": "gray",
+                              "fontSize": 16,
+                              "paddingTop": 16,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                          ]
+                        }
+                      >
+                        Không tìm thấy lựa chọn phù hợp
+                      </Text>
+                    </View>
+                  </RCTScrollView>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "marginHorizontal": 16,
+                        "marginVertical": 16,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "backgroundColor": "#fff",
+                          "borderColor": "#26894F",
+                          "borderRadius": 25,
+                          "borderWidth": 1,
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "fontFamily": "Nunito-Regular",
+                          "height": 36,
+                          "justifyContent": "center",
+                          "marginLeft": 5,
+                          "marginRight": 5,
+                          "opacity": 1,
+                          "paddingHorizontal": 16,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "fontSize": 16,
+                              "fontWeight": "bold",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                            Object {
+                              "color": "#26894F",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        Hủy
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </Modal>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "flex": 1,
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontFamily": "Nunito-Regular",
+                },
+                undefined,
+              ]
+            }
+          >
+            Sắp xếp
+          </Text>
+        </View>
+        <View
+          accessibilityLabel="SortButton"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 1,
+              "position": "absolute",
+            }
+          }
+          testID="SortButton"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/ic_sort.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

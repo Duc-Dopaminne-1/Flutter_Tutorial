@@ -1,0 +1,53 @@
+query GetCurProjectsAssignedToAgentForPublic(
+  $agentId: Uuid!
+  $first: PaginationAmount
+  $after: String!
+  $where: ProjectForPublicDtoFilter
+) {
+  curProjectsAssignedToAgentForPublic(
+    agentId: $agentId
+    first: $first
+    after: $after
+    where: $where
+  ) {
+    edges {
+      node {
+        isFollowed
+        totalFollower
+        projectId
+        projectName
+        projectCode
+        minPrice
+        commissionRates
+        projectStatusName
+        featurePhotos
+        investorOwnerName
+        propertyTypeId
+        projectStatusId
+        projectTypeName
+        projectStatusDescription
+        projectAddress {
+          cityId
+          countryId
+          districtId
+          wardId
+          homeAddress
+          streetName
+          cityName
+          districtName
+          wardName
+        }
+        unitOfMeasureProject {
+          calculateSize
+          multiplyWithBaseUnit
+          numberOfDecimal
+          unitOfMeasureCode
+          unitOfMeasureId
+          unitOfMeasureName
+        }
+      }
+      cursor
+    }
+    totalCount
+  }
+}

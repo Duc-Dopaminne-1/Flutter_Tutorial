@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Chart PieChartWithLegends/Default 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      animate={
+        Object {
+          "duration": 1500,
+        }
+      }
+      colorScale={
+        Array [
+          "#CCD1D9",
+          "#FFC13D",
+          "#8D33FF",
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "x": 1,
+            "y": 20,
+          },
+          Object {
+            "x": 2,
+            "y": 60,
+          },
+          Object {
+            "x": 3,
+            "y": 20,
+          },
+        ]
+      }
+      height={156}
+      innerRadius={46}
+      labelRadius={256}
+      padAngle={1}
+      radius={78}
+      width={156}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "height": 12,
+      }
+    }
+  />
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "justifyContent": "center",
+          },
+        ],
+        undefined,
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CCD1D9",
+              "borderRadius": 6,
+              "height": 12,
+              "width": 12,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": 8,
+            }
+          }
+        />
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          TopenLand
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 4,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginLeft": 18,
+            }
+          }
+        >
+          200.000.000 VND
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          20 %
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 12,
+        }
+      }
+    />
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFC13D",
+              "borderRadius": 6,
+              "height": 12,
+              "width": 12,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": 8,
+            }
+          }
+        />
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Người mua
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 4,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginLeft": 18,
+            }
+          }
+        >
+          600.000.000 VND
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          60 %
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 12,
+        }
+      }
+    />
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#8D33FF",
+              "borderRadius": 6,
+              "height": 12,
+              "width": 12,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": 8,
+            }
+          }
+        />
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Người bán
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 4,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginLeft": 18,
+            }
+          }
+        >
+          200.000.000 VND
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          20 %
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Chart PieChartWithLegends/Row 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <View
+      animate={
+        Object {
+          "duration": 1500,
+        }
+      }
+      colorScale={
+        Array [
+          "#CCD1D9",
+          "#FFC13D",
+          "#8D33FF",
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "x": 1,
+            "y": 20,
+          },
+          Object {
+            "x": 2,
+            "y": 60,
+          },
+          Object {
+            "x": 3,
+            "y": 20,
+          },
+        ]
+      }
+      height={156}
+      innerRadius={46}
+      labelRadius={256}
+      padAngle={1}
+      radius={78}
+      width={156}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "width": 32,
+      }
+    }
+  />
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ],
+        undefined,
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CCD1D9",
+              "borderRadius": 6,
+              "height": 12,
+              "width": 12,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": 8,
+            }
+          }
+        />
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          TopenLand
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 4,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={Object {}}
+        >
+          200.000.000 VND
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          20 %
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 12,
+        }
+      }
+    />
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFC13D",
+              "borderRadius": 6,
+              "height": 12,
+              "width": 12,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": 8,
+            }
+          }
+        />
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Người mua
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 4,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={Object {}}
+        >
+          600.000.000 VND
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          60 %
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 12,
+        }
+      }
+    />
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#8D33FF",
+              "borderRadius": 6,
+              "height": 12,
+              "width": 12,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": 8,
+            }
+          }
+        />
+        <Text
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          Người bán
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 4,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={Object {}}
+        >
+          200.000.000 VND
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#333333",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          20 %
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

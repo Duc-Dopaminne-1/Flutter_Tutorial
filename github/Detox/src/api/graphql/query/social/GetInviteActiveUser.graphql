@@ -1,0 +1,17 @@
+query inviteUserActive(
+  $page: Int
+  $pageSize: Int
+  $userId: Uuid!
+  $where: SimpleUserInfoDtoFilter
+) {
+  inviteUserActive(page: $page, pageSize: $pageSize, userId: $userId, where: $where) {
+    edges {
+      userName
+      fullName
+      profilePhoto
+      profilePhotos
+    }
+    totalCount
+    __typename
+  }
+}

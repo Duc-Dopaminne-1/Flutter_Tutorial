@@ -1,0 +1,125 @@
+query GetPropertyPosts(
+  $where: PropertyPostDtoFilter
+  $page: Int
+  $pageSize: Int
+  $order_by: PropertyPostDtoSort
+) {
+  propertyPosts(where: $where, page: $page, pageSize: $pageSize, order_by: $order_by) {
+    edges {
+      isPrivate
+      propertyPostId
+      propertyPostApprovalStatusId
+      isFollowed
+      totalFollower
+      totalShare
+      totalSpam
+      images
+      createdByUserId
+      expiredDate
+      approvedBy
+      approvedDatetime
+      sendingApprovalFrom
+      rejectedDatetime
+      rejectedReason
+      requestedUpdatingReason
+      updatedDatetime
+      createdDatetime
+      lastModified
+      propertyCode
+      propertyName
+      postTitle
+      postDescription
+      blockCode
+      blockName
+      postTypeId
+      propertyPostStatusId
+      propertyTypeId
+      propertySubTypeId
+      propertySubTypeName
+      bookingFee
+      price
+      priceNoVat
+      priceVat
+      commission
+      saleCommissionCurrencyUnitId
+      buyCommission
+      saleCommission
+      unitOfMeasureId
+      unitOfMeasure {
+        unitOfMeasureId
+        unitOfMeasureCode
+        unitOfMeasureName
+        numberOfDecimal
+        multiplyWithBaseUnit
+        isRound
+      }
+      projectId
+      projectInfo {
+        calculateSize
+        projectDescription
+        projectId
+        projectName
+        projectImage
+      }
+      buildingArea
+      capetAreas
+      totalSiteArea
+      buildingLine
+      direction
+      latitude
+      longitude
+      floor
+      numberOfFloor
+      numberOfBedrooms
+      numberOfBathrooms
+
+      houseDesign
+
+      internalFacility
+      nearFacility
+
+      legalInfoId
+      collateralizedAtBankId
+      isCollateralized
+
+      addressId
+      propertyAddress {
+        countryId
+        countryName
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        homeAddress
+        streetName
+      }
+      longitude
+      latitude
+      sellerInfo {
+        sellerId
+        fullName
+        avatar
+        email
+        phoneNumber
+        isAgent
+        agentRating
+        agentRankingName
+        agentGroupDescription
+      }
+      propertyPostForRentDto {
+        propertyPostForRentId
+        rentCommission
+        rentCommissionCurrencyUnitId
+        rentPeriod
+        rentPrice
+        isRented
+      }
+      forRent
+      forSale
+      freeTextProject
+      ownerId
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mockGraphql",
+  "version": "1.0.0",
+  "description": "mock graphql server",
+  "main": "index.js",
+  "scripts": {
+    "update:schema:dev": "NODE_TLS_REJECT_UNAUTHORIZED=0  get-graphql-schema https://dev.topenland.com/gateway/graphql > ./src/typeDefs/schema.txt",
+    "start": "node index"
+  },
+  "keywords": [
+    "mock",
+    "server",
+    "graphql"
+  ],
+  "author": "hoanguyent2",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.10.1",
+    "faker": "^4.1.0",
+    "get-graphql-schema": "^2.1.2",
+    "graphql": "^14.6.0",
+    "graphql-tools": "^4.0.7",
+    "lodash": "^4.17.15",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {}
+}

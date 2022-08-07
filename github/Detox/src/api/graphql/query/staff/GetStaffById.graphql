@@ -1,0 +1,44 @@
+query GetStaffById($input: Uuid) {
+  staffById(staffId: $input) {
+    createdDatetime
+    departmentId
+    departmentName
+    dob
+    email
+    firstName
+    fullName
+    gender
+    isActive
+    isConsultant
+    isCreatedByAdmin
+    isGroupLeader
+    isLocked
+    isMember
+    lastName
+    nationalId
+    permanentAddress
+    phoneNumber
+    preferPropertyPriceFrom
+    preferPropertyPriceTo
+    preferPropertyTypes
+    profilePhoto
+    rating
+    recordVersion
+    specialityIds
+    staffCode
+    staffContractTypeId
+    staffGroupId
+    staffGroupName
+    staffId
+    staffPositionId
+    staffPositionName
+    staffRankingId
+    staffStatusId
+    staffTypeId
+    staffTypeName
+    userId
+    userName
+    userStatus
+    workingAreas
+  }
+}

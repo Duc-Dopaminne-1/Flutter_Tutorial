@@ -1,0 +1,44 @@
+query GetSupportRequestExactById($input: Uuid!) {
+  supportRequestExactById(supportRequestId: $input) {
+    supportRequestId
+    supportRequestTitle
+    supportRequestCode
+    supportRequestStatusName
+    supportRequestStatusDescription
+
+    sourceTypeName
+    requestTypeId
+    requestTypeName
+    requestTypeDescription
+    requestDescription
+    requestData
+
+    createdDatetime
+    assignedDatetime
+    processingDatetime
+    closeDatetime
+    completeDatetime
+    cancelledDatetime
+
+    assigneeFirstName
+    assigneeLastName
+    assigneePhoneNumber
+    assigneeEmail
+    assigneeProfilePhoto
+    assigneeProfilePhotos
+    assigneeStaffGroupDescription
+    assigneeStaffRating
+
+    paymentMethod
+    paymentDatetime
+
+    productId
+    productType
+    productName
+
+    propertyPostId
+    propertyPostCreatedUserEmail
+    propertyPostCreatedUserFullName
+    propertyPostCreatedUserPhoneNumber
+  }
+}

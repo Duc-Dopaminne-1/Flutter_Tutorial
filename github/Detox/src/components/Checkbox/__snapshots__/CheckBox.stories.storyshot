@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Checkbox/List default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingTop": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#828282",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 15,
+            "includeFontPadding": true,
+          },
+          undefined,
+        ]
+      }
+    >
+      Title
+       
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingTop": 8,
+        },
+        Object {
+          "flexDirection": "column",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#26894F",
+              "fontSize": 24,
+            },
+            Object {
+              "paddingTop": 2,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰱒
+      </Text>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#333333",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "includeFontPadding": true,
+                "paddingLeft": 8,
+              },
+              undefined,
+            ]
+          }
+        >
+          Commodo officia ullamco labore nostrud.
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#E4E4E4",
+              "fontSize": 24,
+            },
+            Object {
+              "paddingTop": 2,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        󰄱
+      </Text>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#333333",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 15,
+                "includeFontPadding": true,
+                "paddingLeft": 8,
+              },
+              undefined,
+            ]
+          }
+        >
+          Ex aliquip amet reprehenderit adipisicing.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

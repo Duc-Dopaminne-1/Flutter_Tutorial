@@ -1,0 +1,9 @@
+query GetTotalFollowerByFeedObjectIdForFrontOffice($feedObjectId: String!) {
+  getTotalFollowerByFeedObjectIdForFrontOffice(feedObjectId: $feedObjectId) {
+    errorMessage
+    errorCode
+    currentUserFollowFeedItem
+    totalFollower
+    totalFollowing
+  }
+}

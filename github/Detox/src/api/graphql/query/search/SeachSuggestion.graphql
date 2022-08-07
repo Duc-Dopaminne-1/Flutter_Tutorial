@@ -1,0 +1,52 @@
+query SearchSuggest(
+  $project: SearchProjectInput!
+  $agent: SearchAgentInput!
+  $property: SearchPropertyPostInput!
+) {
+  searchProjects(searchProjectInput: $project) {
+    projectInfoDtos {
+      projectId
+      projectName
+      projectAddress {
+        cityId
+        countryId
+        districtId
+        wardId
+        homeAddress
+        streetName
+        cityName
+        districtName
+        wardName
+      }
+    }
+  }
+  searchAgents(searchAgentInput: $agent) {
+    agentInfoDtos {
+      agentId
+      profilePhoto
+      firstName
+      lastName
+      agentGroupDescription
+    }
+  }
+  searchPropertyPosts(searchPropertyPostInput: $property) {
+    propertyPostInfoDtos {
+      propertyPostId
+      postTitle
+      propertyAddress {
+        countryId
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        homeAddress
+        streetName
+        cityName
+        districtName
+        wardName
+      }
+    }
+  }
+}

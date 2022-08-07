@@ -1,0 +1,18 @@
+query GetPropertyAdditionalData($input: propertyPostsAdditionalForSearchInput!) {
+  getPropertyPostsAdditionalForSearch(propertyPostsAdditionalForSearchInput: $input) {
+    edges {
+      propertyPostId
+      isFollowed
+      totalFollower
+      totalShare
+      totalSpam
+    }
+  }
+}
+
+# {
+#   "input": {
+#     "userId": "83756763-d927-46f7-9ede-7acfc821c3d8",
+#     "propertyPostIds": "[\"63899bf7-90f9-445f-88a9-3c0d0dae59fb\"]"
+#   }
+# }

@@ -1,0 +1,27 @@
+mutation UpdateUser($updateUserInput: UpdateUserInput!) {
+  updateUser(updateUserInput: $updateUserInput) {
+    errorCode
+    errorMessage
+    errorMessageCode
+
+    userDto {
+      firstName
+      lastName
+      userName
+      phoneNumber
+      email
+      emailConfirmed
+      dob {
+        toDateTime
+      }
+      gender
+      userId
+      roleId
+      roleName
+      profilePhoto
+      updatedDatetime
+      createdDatetime
+      pushNotificationId
+    }
+  }
+}

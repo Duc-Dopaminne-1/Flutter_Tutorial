@@ -1,0 +1,73 @@
+query SearchPropertyPostsForRent($input: SearchPropertyPostForRentInput!) {
+  searchPropertyPostsForRent(searchPropertyPostForRentInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    propertyPostForRentInfoDtos {
+      propertyPostForRentId
+      rentCommission
+      rentCommissionCurrencyUnitId
+      rentPeriod
+      rentPrice
+      searchPropertyPostInfoDto {
+        isFollowed
+        createdByUserId
+        totalFollower
+        totalShare
+        totalSpam
+        propertyPostId
+        postTitle
+        postDescription
+        propertyTypeId
+        propertyCode
+        direction
+        forRent
+        forSale
+        propertyAddress {
+          countryId
+          cityId
+          districtId
+          districtName
+          wardId
+          homeAddress
+          streetName
+          cityName
+          wardName
+        }
+        sellerInfo {
+          sellerId
+          fullName
+          phoneNumber
+          email
+          isAgent
+          agentRating
+          agentRankingName
+          agentGroupDescription
+          avatar
+          avatars
+        }
+        saleCommissionCurrencyUnitId
+        unitOfMeasureId
+        numberOfFloor
+        numberOfBedrooms
+        numberOfBathrooms
+        images
+        price
+        priceNoVat
+        priceVat
+        buildingArea
+        capetAreas
+        totalSiteArea
+        isSold
+        isRented
+        isVip
+        isCreatedByAgent
+        longitude
+        latitude
+        propertyPostApprovalStatusId
+        commission
+      }
+    }
+    totalCount
+  }
+}

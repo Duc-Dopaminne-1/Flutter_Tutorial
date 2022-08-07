@@ -1,0 +1,35 @@
+query SearchPropertyPostsOnC2CDemandForSale($input: SearchPropertyPostsC2CDemandForSaleInput!) {
+  searchPropertyPostsOnC2CDemandForSale(input: $input) {
+    errorCode
+    errorMessage
+    totalCount
+    propertyPostForC2CDemandDtos {
+      propertyPostId
+      price
+      postTitle
+      propertyAddressDto {
+        homeAddress
+        streetName
+        wardName
+        districtName
+        cityName
+      }
+      commission
+      propertyPostApprovalStatusId
+      propertyTypeId
+      propertyCode
+      propertyTypeName
+      direction
+      forRent
+      forSale
+      isSold
+      isRented
+      saleCommissionCurrencyUnitId
+      images
+      detailPath
+      numberOfBedrooms
+      numberOfBathrooms
+      buildingArea
+    }
+  }
+}

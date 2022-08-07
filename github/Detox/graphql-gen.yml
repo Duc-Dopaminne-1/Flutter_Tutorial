@@ -1,0 +1,20 @@
+overwrite: true
+schema: https://${GRAPHQL_DOMAIN}/gateway/graphql
+documents: 'src/api/graphql/query/**/*.graphql'
+config:
+  scalars:
+    Datetime: 'string'
+    JSON: '{ [key: string]: any }'
+  noGraphQLTag: false
+  withHOC: false
+  withComponent: false
+  withHooks: true
+  hooksImportFrom: '@apollo/client'
+  reactApolloVersion: 3
+  gqlImport: graphql-tag
+generates:
+  src/api/graphql/generated/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'

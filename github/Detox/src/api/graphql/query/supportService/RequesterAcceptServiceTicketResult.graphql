@@ -1,0 +1,7 @@
+mutation RequesterAcceptServiceTicketResult($input: RequesterAcceptServiceTicketResultInput!) {
+  requesterAcceptServiceTicketResult(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

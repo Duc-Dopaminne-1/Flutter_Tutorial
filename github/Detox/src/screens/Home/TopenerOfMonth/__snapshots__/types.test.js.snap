@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`map property 1`] = `
+Object {
+  "address": "Vũ Huy Tấn, Phường 13, Bình Thạnh, Hồ Chí Minh.",
+  "brokenAvatar": "https://sandbox-new.topenland.com/gateway/downloader/personal/image-5d2c59c7-c46b-4102-81e4-d8425ee6f6ff.png",
+  "brokenEmail": "baongn02@nomail.com",
+  "brokenName": "Võ Khắc Phúc",
+  "brokenPhone": "0349679120",
+  "brokenRank": "rank5",
+  "brokenRating": 4.7,
+  "buildingArea": 53,
+  "commission": "1%",
+  "direction": "Đông",
+  "forRent": true,
+  "forSale": true,
+  "images": "https://sandbox-new.topenland.com/gateway/downloader/sale/260031-pic0_new-5b11826f-bc72-4d6f-a07b-87e57d2e3cba.jpg",
+  "isAgent": true,
+  "isFollowed": false,
+  "isRented": false,
+  "isSold": false,
+  "latitude": undefined,
+  "longitude": undefined,
+  "numberOfBathrooms": 2,
+  "numberOfBedrooms": 2,
+  "price": 2650000000,
+  "propertyCode": undefined,
+  "propertyPostId": "ea7267e3-21f9-482c-8a9f-0644072d7b75",
+  "propertyTypeId": "2e2b0611-e1fc-4406-b13f-8afafff1c675",
+  "title": "Bán căn chung cư Miếu nỗi, diện tích sàn 53 m2. 1 phòng ngủ, tầng cao",
+}
+`;

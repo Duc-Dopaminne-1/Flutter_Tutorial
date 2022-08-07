@@ -1,0 +1,70 @@
+query GetTopenerOfMonth($page: Int, $pageSize: Int, $where: TopenerOfMonthDtoFilter) {
+  topenerOfMonth(page: $page, pageSize: $pageSize, where: $where) {
+    edges {
+      agentId
+      fullName
+      groupName
+      rankingName
+      sellingTotal
+      phoneNumber
+      email
+      rating
+      profilePhoto
+      profilePhotos
+      groupNameDescription
+      propertyPostInfoDtos {
+        addressId
+        buildingArea
+        commission
+        saleCommissionCurrencyUnitId
+        createdByUserId
+        images
+        isFollowed
+        numberOfBathrooms
+        numberOfBedrooms
+        direction
+        postDescription
+        postTitle
+        postTypeId
+        price
+        projectId
+        propertyCode
+        propertyName
+        propertyPostApprovalStatusId
+        propertyPostId
+        propertySubTypeId
+        propertyTypeId
+        totalFollower
+        totalShare
+        unitOfMeasureId
+        propertyAddress {
+          additionalLocationInfo
+          block
+          building
+          calculateSize
+          cityId
+          cityName
+          countryId
+          countryName
+          districtId
+          districtName
+          floor
+          googleEmbedCode
+          googleShareLink
+          homeAddress
+          imageMapUrl
+          landmark
+          latitude
+          longitude
+          propertyAddressId
+          room
+          streetName
+          wardId
+          wardName
+        }
+      }
+    }
+    totalCount
+    __typename
+  }
+}

@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Text/HTMLText default 1`] = `
+Array [
+  <Text
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    testID="storyConfigId"
+  >
+    {"notHaveTestId":"isHtmlLoading"}
+  </Text>,
+  <View
+    accessibilityLabel="isHtmlLoading"
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+    testID="isHtmlLoading"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "overflow": "hidden",
+          },
+          undefined,
+        ]
+      }
+    >
+      <RNCWebView
+        cacheEnabled={true}
+        customStyle="
+  @font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular'), url('Nunito-Regular.ttf');
+  }
+  body {
+    font-family: Nunito-Regular;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .content {
+    font-family: Nunito-Regular;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  "
+        injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
+        injectedJavaScriptForMainFrameOnly={true}
+        javaScriptEnabled={true}
+        messagingEnabled={true}
+        onContentProcessDidTerminate={[Function]}
+        onHttpError={[Function]}
+        onLoadingError={[Function]}
+        onLoadingFinish={[Function]}
+        onLoadingProgress={[Function]}
+        onLoadingStart={[Function]}
+        onMessage={[Function]}
+        onShouldStartLoadWithRequest={[Function]}
+        onSizeUpdated={[Function]}
+        scrollEnabled={false}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        source={
+          Object {
+            "baseUrl": "",
+            "html": "
+  Veniam irure pariatur nisi sit voluptate minim eiusmod irure aute Lorem incididunt sunt veniam quis. Dolore ea incididunt sunt ea anim ea ipsum ipsum quis esse sint. Ullamco nostrud veniam officia est. Deserunt consectetur consequat dolor non dolor ullamco nisi qui velit dolor ullamco. Anim ut elit reprehenderit dolore.
+  <script>
+  // prevents code colissions with global scope
+  (function() {
+    
+    var styleElement = document.createElement('style');
+    styleElement.innerHTML = '\\\\n  body {\\\\n    margin: 0;\\\\n    padding: 0;\\\\n  }\\\\n\\\\n  @font-face {\\\\n    font-family: \\\\'Nunito-Regular\\\\';\\\\n    src: local(\\\\'Nunito-Regular\\\\'), url(\\\\'Nunito-Regular.ttf\\\\');\\\\n  }\\\\n  body {\\\\n    font-family: Nunito-Regular;\\\\n    font-size: 16px;\\\\n    line-height: 24px;\\\\n  }\\\\n  .content {\\\\n    font-family: Nunito-Regular;\\\\n    font-size: 16px;\\\\n    line-height: 24px;\\\\n  }\\\\n  ';
+    document.head.appendChild(styleElement);
+    
+  ;
+  if (!document.getElementById(\\"rnahw-wrapper\\")) {
+    var wrapper = document.createElement('div');
+    wrapper.id = 'rnahw-wrapper';
+    while (document.body.firstChild instanceof Node) {
+      wrapper.appendChild(document.body.firstChild);
+    }
+    document.body.appendChild(wrapper);
+  }
+  
+  var usingScale = undefined ? screen.width / window.innerWidth : 1;
+  var scaling = false;
+  var zoomedin = false;
+  var lastHeight = 0;
+  var heightTheSameTimes = 0;
+  var maxHeightTheSameTimes = 5;
+  var forceRefreshDelay = 1000;
+  var forceRefreshTimeout;
+  var checkPostMessageTimeout;
+
+  function updateSize() {
+    if (zoomedin || scaling || document.fullscreenElement) {
+      return;
+    }
+    if (
+      !window.hasOwnProperty('ReactNativeWebView') || 
+      !window.ReactNativeWebView.hasOwnProperty('postMessage')
+    ) {
+      checkPostMessageTimeout = setTimeout(updateSize, 200);
+      return;
+    }
+
+    clearTimeout(checkPostMessageTimeout);
+    var result = wrapper.getBoundingClientRect()
+    height = result.height + result.top;
+    if(!height) {
+      height = wrapper.offsetHeight || document.documentElement.offsetHeight
+    }
+    width = result.width;
+    if(!width) {
+      width = wrapper.offsetWidth || document.documentElement.offsetWidth
+    }
+
+
+    window.ReactNativeWebView.postMessage(JSON.stringify({ width: Math.min(width, screen.width), height: height * usingScale }));
+
+    // Make additional height checks (required to fix issues wit twitter embeds)
+    clearTimeout(forceRefreshTimeout);
+
+    if (lastHeight !== height) {
+      heightTheSameTimes = 1;
+    } else {
+      heightTheSameTimes++;
+    }
+
+    lastHeight = height;
+
+    if (heightTheSameTimes <= maxHeightTheSameTimes) {
+      forceRefreshTimeout = setTimeout(
+        updateSize,
+        heightTheSameTimes * forceRefreshDelay
+      );
+    }
+  }
+  
+  window.addEventListener('load', updateSize);
+  window.addEventListener('resize', updateSize);
+  
+  var MutationObserver =
+    window.MutationObserver || window.WebKitMutationObserver;
+  var observer = new MutationObserver(updateSize);
+  observer.observe(document, {
+    subtree: true,
+    attributes: true
+  });
+
+  
+    var meta = document.createElement(\\"meta\\");
+    meta.setAttribute(\\"name\\", \\"viewport\\");
+    meta.setAttribute(\\"content\\", \\"width=device-width, user-scalable=no\\");
+    document.getElementsByTagName(\\"head\\")[0].appendChild(meta);
+  
+  
+  updateSize();
+  
+  
+  })();
+  </script>
+",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "height": 0,
+                "width": 750,
+              },
+              Array [
+                Object {
+                  "width": "100%",
+                },
+                Object {
+                  "flex": 1,
+                  "minHeight": 200,
+                  "opacity": 0.99,
+                },
+              ],
+            ],
+          ]
+        }
+        textInteractionEnabled={true}
+        useSharedProcessPool={true}
+        viewportContent="width=device-width, user-scalable=no"
+      />
+    </View>
+  </View>,
+]
+`;

@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  BidBid
+
+  Created by Quocs on 08/11/2021.
+  
+*/
+"NSBluetoothAlwaysUsageDescription" = "Permitir a BidBid el acceso a Bluetooth.";
+"NSBluetoothPeripheralUsageDescription" = "Usaremos tu Bluetooth para acceder a tus cascos Bluetooth.";
+"NSCameraUsageDescription" = "Permite a BidBid el acceso a tu cámara de fotos para agregar medios a tu respuesta, y para añadir imagen a tu perfil.";
+"NSContactsUsageDescription" = "Conecta tus contactos para hacer crecer tu red.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Usaremos tu ubicación para encontrar y conectar amigos cerca de ti";
+"NSLocationAlwaysUsageDescription" = "Usaremos tu ubicación para encontrar y conectar amigos cerca de ti";
+"NSLocationWhenInUseUsageDescription" = "Usaremos tu ubicación para encontrar y conectar amigos cerca de ti";
+"NSMicrophoneUsageDescription" = "A BidBid le gustaría usar tu micrófono (para videos).";
+"NSPhotoLibraryUsageDescription" = "Permite a BidBid el acceso a tu galería de fotos para agregar medios a tu respuesta, y para añadir imagen a tu perfil.";

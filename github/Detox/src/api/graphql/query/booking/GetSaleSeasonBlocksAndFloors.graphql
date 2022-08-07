@@ -1,0 +1,23 @@
+query GetSaleSeasonBlocksAndFloors($saleSeasonId: Uuid) {
+  getSaleSeasonBlocksAndFloors(saleSeasonId: $saleSeasonId) {
+    blocksInfo {
+      blockCode
+      blockName
+      floorsInfo {
+        floor
+        photo
+      }
+    }
+    projectInfo {
+      projectId
+      projectName
+      projectStatusId
+      projectStatusName
+      projectStatusDescription
+      propertyTypeId
+      propertyTypeName
+      propertyTypeDescription
+      investorOwnerName
+    }
+  }
+}

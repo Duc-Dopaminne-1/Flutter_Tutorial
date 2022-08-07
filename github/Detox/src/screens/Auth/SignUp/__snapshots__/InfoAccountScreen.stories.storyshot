@@ -1,0 +1,1599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|auth/InfoAccountScreen default 1`] = `
+Array [
+  <Text
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    testID="storyConfigId"
+  >
+    {"isCaptureScrollViewContent":true}
+  </Text>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="captureButton"
+  >
+    <Text>
+      Capture
+    </Text>
+    <Text
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      testID="captureURL"
+    />
+  </View>,
+  <RCTScrollView
+    testID="captureScrollView"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <RCTScrollView
+          alwaysBounceVertical={false}
+          automaticallyAdjustContentInsets={false}
+          contentContainerStyle={
+            Array [
+              Object {
+                "flexGrow": 1,
+              },
+              undefined,
+            ]
+          }
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={true}
+          enableResetScrollToCoords={false}
+          extraHeight={75}
+          extraScrollHeight={50}
+          getScrollResponder={[Function]}
+          handleOnScroll={[Function]}
+          horizontal={false}
+          innerRef={[Function]}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardShouldPersistTaps="handled"
+          keyboardSpace={0}
+          onScroll={[Function]}
+          pointerEvents="auto"
+          resetKeyboardSpace={[Function]}
+          scrollEnabled={true}
+          scrollEventThrottle={1}
+          scrollForExtraHeightOnAndroid={[Function]}
+          scrollIntoView={[Function]}
+          scrollToEnd={[Function]}
+          scrollToFocusedInput={[Function]}
+          scrollToPosition={[Function]}
+          showsVerticalScrollIndicator={true}
+          update={[Function]}
+          viewIsInsideTabBar={false}
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": undefined,
+                      "height": 24,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={Object {}}
+              >
+                <View
+                  style={
+                    Object {
+                      "marginRight": 0,
+                      "paddingTop": 0,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Tên
+                         
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FD1D1D",
+                            }
+                          }
+                        >
+                          *
+                        </Text>
+                      </Text>
+                    </View>
+                    <TextInput
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      editable={true}
+                      keyboardType="default"
+                      maxLength={128}
+                      onChangeText={[Function]}
+                      placeholder="Nhập tên"
+                      returnKeyType="done"
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {},
+                          Object {
+                            "color": "#313131",
+                          },
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                        ]
+                      }
+                      value=""
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Họ và tên đệm
+                         
+                      </Text>
+                    </View>
+                    <TextInput
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      editable={true}
+                      keyboardType="default"
+                      maxLength={128}
+                      onChangeText={[Function]}
+                      placeholder="Nhập họ và tên đệm"
+                      returnKeyType="done"
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {},
+                          Object {
+                            "color": "#313131",
+                          },
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                        ]
+                      }
+                      value=""
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Số điện thoại
+                         
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FD1D1D",
+                            }
+                          }
+                        >
+                          *
+                        </Text>
+                      </Text>
+                    </View>
+                    <TextInput
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      editable={false}
+                      keyboardType="default"
+                      maxLength={128}
+                      onChangeText={[Function]}
+                      placeholder="Nhập số điện thoại"
+                      returnKeyType="done"
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {
+                            "backgroundColor": "#E6E9ED",
+                          },
+                          Object {
+                            "color": "#767676",
+                          },
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                        ]
+                      }
+                      value=""
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Mật khẩu
+                         
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FD1D1D",
+                            }
+                          }
+                        >
+                          *
+                        </Text>
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {},
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                          Object {
+                            "color": "#313131",
+                          },
+                          Object {},
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "center",
+                          },
+                        ]
+                      }
+                    >
+                      <TextInput
+                        autoCapitalize="none"
+                        autoCorrect={false}
+                        editable={true}
+                        keyboardType="default"
+                        maxLength={128}
+                        onChangeText={[Function]}
+                        placeholder="Nhập mật khẩu"
+                        returnKeyType="done"
+                        secureTextEntry={true}
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "flex": 1,
+                              "fontFamily": "Nunito-Regular",
+                              "includeFontPadding": true,
+                            },
+                            Object {},
+                            Object {
+                              "color": "#313131",
+                            },
+                            null,
+                          ]
+                        }
+                        value=""
+                      />
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 20,
+                            "left": 20,
+                            "right": 20,
+                            "top": 20,
+                          }
+                        }
+                        nativeID="animatedComponent"
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "marginLeft": 8,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Image
+                          source={
+                            Object {
+                              "testUri": "../../../src/assets/images/ic_eye.png",
+                            }
+                          }
+                        />
+                      </View>
+                    </View>
+                  </View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#767676",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 12,
+                        "includeFontPadding": true,
+                        "marginBottom": 8,
+                      }
+                    }
+                  >
+                    Bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt
+                  </Text>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Xác nhận mật khẩu
+                         
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FD1D1D",
+                            }
+                          }
+                        >
+                          *
+                        </Text>
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {},
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                          Object {
+                            "color": "#313131",
+                          },
+                          Object {},
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "center",
+                          },
+                        ]
+                      }
+                    >
+                      <TextInput
+                        autoCapitalize="none"
+                        autoCorrect={false}
+                        editable={true}
+                        keyboardType="default"
+                        maxLength={128}
+                        onChangeText={[Function]}
+                        placeholder="Xác nhận mật khẩu"
+                        returnKeyType="done"
+                        secureTextEntry={true}
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "flex": 1,
+                              "fontFamily": "Nunito-Regular",
+                              "includeFontPadding": true,
+                            },
+                            Object {},
+                            Object {
+                              "color": "#313131",
+                            },
+                            null,
+                          ]
+                        }
+                        value=""
+                      />
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 20,
+                            "left": 20,
+                            "right": 20,
+                            "top": 20,
+                          }
+                        }
+                        nativeID="animatedComponent"
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "marginLeft": 8,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Image
+                          source={
+                            Object {
+                              "testUri": "../../../src/assets/images/ic_eye.png",
+                            }
+                          }
+                        />
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Email
+                         
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FD1D1D",
+                            }
+                          }
+                        >
+                          *
+                        </Text>
+                      </Text>
+                    </View>
+                    <TextInput
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      editable={true}
+                      keyboardType="email-address"
+                      maxLength={128}
+                      onChangeText={[Function]}
+                      placeholder="Nhập email"
+                      returnKeyType="done"
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {},
+                          Object {
+                            "color": "#313131",
+                          },
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                        ]
+                      }
+                      value=""
+                    />
+                  </View>
+                  <View
+                    style={Object {}}
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#828282",
+                              "fontFamily": "Nunito-Regular",
+                              "fontSize": 15,
+                              "includeFontPadding": true,
+                            },
+                            Array [
+                              Object {
+                                "color": "#313131",
+                                "fontFamily": "Nunito-Bold",
+                                "includeFontPadding": true,
+                              },
+                              Object {
+                                "color": "#313131",
+                                "fontFamily": "Nunito-Bold",
+                                "includeFontPadding": true,
+                                "marginTop": 8,
+                              },
+                            ],
+                          ]
+                        }
+                      >
+                        Ngày sinh
+                         
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FD1D1D",
+                            }
+                          }
+                        >
+                          *
+                        </Text>
+                      </Text>
+                    </View>
+                    <View
+                      accessibilityState={
+                        Object {
+                          "disabled": false,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      nativeID="animatedComponent"
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "opacity": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "#FFFFFF",
+                              "borderColor": "#CCD1D9",
+                              "borderRadius": 8,
+                              "borderWidth": 1,
+                              "justifyContent": "center",
+                              "marginTop": 8,
+                              "minHeight": 45,
+                              "paddingHorizontal": 8,
+                              "paddingVertical": 8,
+                            },
+                            Object {},
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#767676",
+                                "fontFamily": "Nunito-Regular",
+                                "includeFontPadding": true,
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          dd/mm/yyyy
+                        </Text>
+                        <Image
+                          source={
+                            Object {
+                              "testUri": "../../../src/assets/images/ic_calendar.png",
+                            }
+                          }
+                          style={
+                            Object {
+                              "end": 16,
+                              "height": 19,
+                              "position": "absolute",
+                              "width": 18,
+                            }
+                          }
+                        />
+                      </View>
+                    </View>
+                    <Modal
+                      animationType="none"
+                      hardwareAccelerated={false}
+                      isVisible={false}
+                      onHide={[Function]}
+                      transparent={true}
+                      visible={false}
+                    >
+                      <View
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        nativeID="animatedComponent"
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "black",
+                            "bottom": 0,
+                            "height": 1334,
+                            "left": 0,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                            "width": 750,
+                          }
+                        }
+                      />
+                    </Modal>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": undefined,
+                          "height": 10,
+                          "width": undefined,
+                        },
+                        undefined,
+                      ]
+                    }
+                  />
+                  <View
+                    pointerEvents="auto"
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#828282",
+                              "fontFamily": "Nunito-Regular",
+                              "fontSize": 15,
+                              "includeFontPadding": true,
+                            },
+                            Array [
+                              Object {
+                                "marginBottom": 8,
+                              },
+                              Object {
+                                "color": "#313131",
+                                "fontFamily": "Nunito-Bold",
+                                "includeFontPadding": true,
+                                "marginTop": 8,
+                              },
+                            ],
+                          ]
+                        }
+                      >
+                        Giới tính
+                         
+                        <Text
+                          style={
+                            Object {
+                              "color": "#FD1D1D",
+                            }
+                          }
+                        >
+                          *
+                        </Text>
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                            "width": "100%",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "borderColor": "#E4E4E4",
+                                "borderRadius": 12,
+                                "borderWidth": 2,
+                                "height": 24,
+                                "justifyContent": "center",
+                                "padding": 1,
+                                "width": 24,
+                              },
+                              undefined,
+                              undefined,
+                              Object {
+                                "borderColor": "#26894F",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "backgroundColor": "#26894F",
+                                "borderRadius": 5,
+                                "height": 10,
+                                "width": 10,
+                              }
+                            }
+                          />
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "width": 12,
+                            }
+                          }
+                        />
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#313131",
+                                "flex": 1,
+                                "fontFamily": "Nunito-Regular",
+                                "fontSize": 14,
+                                "includeFontPadding": true,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          Nam
+                        </Text>
+                      </View>
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "borderColor": "#E4E4E4",
+                                "borderRadius": 12,
+                                "borderWidth": 2,
+                                "height": 24,
+                                "justifyContent": "center",
+                                "padding": 1,
+                                "width": 24,
+                              },
+                              undefined,
+                              undefined,
+                              Object {},
+                            ]
+                          }
+                        />
+                        <View
+                          style={
+                            Object {
+                              "width": 12,
+                            }
+                          }
+                        />
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#313131",
+                                "flex": 1,
+                                "fontFamily": "Nunito-Regular",
+                                "fontSize": 14,
+                                "includeFontPadding": true,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          Nữ
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": undefined,
+                          "height": 10,
+                          "width": undefined,
+                        },
+                        undefined,
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Mã giới thiệu
+                         
+                      </Text>
+                    </View>
+                    <TextInput
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      editable={true}
+                      keyboardType="phone-pad"
+                      maxLength={128}
+                      onChangeText={[Function]}
+                      placeholder="Nhập số điện thoại người giới thiệu"
+                      returnKeyType="done"
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {},
+                          Object {
+                            "color": "#313131",
+                          },
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                        ]
+                      }
+                      value=""
+                    />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingVertical": 8,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#313131",
+                              "fontFamily": "Nunito-Bold",
+                              "fontSize": 14,
+                              "includeFontPadding": true,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Mã chương trình
+                         
+                      </Text>
+                    </View>
+                    <TextInput
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      editable={true}
+                      keyboardType="default"
+                      maxLength={20}
+                      onChangeText={[Function]}
+                      placeholder="Nhập mã chương trình"
+                      returnKeyType="done"
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#FFFFFF",
+                            "borderRadius": 8,
+                            "fontFamily": "Nunito-Regular",
+                            "includeFontPadding": true,
+                            "marginTop": 8,
+                            "minHeight": 45,
+                            "paddingHorizontal": 8,
+                            "paddingVertical": 8,
+                          },
+                          Object {},
+                          Object {
+                            "color": "#313131",
+                          },
+                          Object {
+                            "borderColor": "#CCD1D9",
+                            "borderWidth": 1,
+                            "paddingLeft": 10,
+                          },
+                        ]
+                      }
+                      value=""
+                    />
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": undefined,
+                      "height": 8,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessibilityState={
+                    Object {
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  hitSlop={
+                    Object {
+                      "bottom": 0,
+                      "left": 20,
+                      "right": 20,
+                      "top": 0,
+                    }
+                  }
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "flex-start",
+                      "flexDirection": "row",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#E4E4E4",
+                          "fontSize": 24,
+                        },
+                        Object {
+                          "paddingTop": 2,
+                        },
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    󰄱
+                  </Text>
+                  <View />
+                </View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                      },
+                      Object {
+                        "marginHorizontal": 8,
+                      },
+                      Object {
+                        "flex": 1,
+                        "marginTop": 4,
+                        "textAlign": "justify",
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 16,
+                        "includeFontPadding": true,
+                      }
+                    }
+                  >
+                    Tôi đã đọc, hiểu và đồng ý với 
+                  </Text>
+                  <Text
+                    onPress={[Function]}
+                    style={
+                      Object {
+                        "color": "#26894F",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 16,
+                        "includeFontPadding": true,
+                      }
+                    }
+                  >
+                    Điều khoản sử dụng, Thỏa thuận đối tác và Chính sách bảo mật của Topenland. 
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 16,
+                        "includeFontPadding": true,
+                      }
+                    }
+                  >
+                    
+                     
+                  </Text>
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": undefined,
+                      "height": 16,
+                      "width": undefined,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </RCTScrollView>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderTopColor": "#F0F0F0",
+              "borderTopWidth": 1,
+              "height": 80,
+              "padding": 16,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                },
+                Object {},
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#26894F",
+                  "borderRadius": 8,
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": 48,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "paddingVertical": 13,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 16,
+                      "includeFontPadding": true,
+                      "marginHorizontal": 8,
+                    },
+                    Object {
+                      "color": "#FFFFFF",
+                    },
+                    Array [
+                      Object {
+                        "color": "#26894F",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 16,
+                        "includeFontPadding": true,
+                      },
+                      Array [
+                        Object {},
+                        Object {},
+                      ],
+                    ],
+                  ]
+                }
+              >
+                Hủy
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 16,
+                }
+              }
+            />
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": true,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#26894F",
+                  "borderRadius": 8,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": 48,
+                  "opacity": 0.5,
+                  "paddingVertical": 13,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "flex": 1,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 16,
+                        "includeFontPadding": true,
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  Xác nhận
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

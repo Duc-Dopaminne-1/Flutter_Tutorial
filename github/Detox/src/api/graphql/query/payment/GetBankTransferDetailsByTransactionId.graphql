@@ -1,0 +1,9 @@
+query GetBankTransferDetailsByTransactionId($transactionId: Uuid!) {
+  bankTransferDetailsByTransactionId(transactionId: $transactionId) {
+    edges {
+      amount
+      paidDatetime
+      paymentUnit
+    }
+  }
+}

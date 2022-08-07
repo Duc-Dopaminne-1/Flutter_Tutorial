@@ -1,0 +1,25 @@
+{
+  "name": "authserver",
+  "version": "1.0.0",
+  "description": "mock auth server",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index"
+  },
+  "keywords": [
+    "mock",
+    "server"
+  ],
+  "author": "hoanguyent2",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-delay": "^0.2.0",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "querystring": "^0.2.0"
+  }
+}

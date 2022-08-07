@@ -1,0 +1,8 @@
+mutation FollowFeedItem($input: FollowFeedItemInput!) {
+  followFeedItemForFrontOffice(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    isFollowFeedItem
+  }
+}

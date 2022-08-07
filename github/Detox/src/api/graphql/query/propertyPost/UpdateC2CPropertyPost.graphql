@@ -1,0 +1,103 @@
+mutation UpdateC2CPropertyPost($updateC2CPropertyPostInput: UpdateC2CPropertyPostInput!) {
+  updateC2CPropertyPost(updateC2CPropertyPostInput: $updateC2CPropertyPostInput) {
+    errorCode
+    errorMessage
+    errorMessageCode
+
+    propertyPostDto {
+      isFollowed
+
+      propertyPostId
+      createdByUserId
+      propertyCode
+      propertyName
+      postTitle
+      postDescription
+      blockCode
+      blockName
+
+      postTypeId
+      propertyPostStatusId
+      propertyTypeId
+      propertySubTypeId
+      propertySubTypeName
+
+      bookingFee
+      price
+      priceNoVat
+      priceVat
+      commission
+      buyCommission
+      saleCommission
+      unitOfMeasureId
+      unitOfMeasure {
+        unitOfMeasureId
+        unitOfMeasureCode
+        unitOfMeasureName
+        numberOfDecimal
+        multiplyWithBaseUnit
+        isRound
+      }
+
+      buildingArea
+      capetAreas
+      totalSiteArea
+      buildingLine
+      direction
+      balconyDirection
+      latitude
+      longitude
+      floor
+      numberOfFloor
+      numberOfBedrooms
+      numberOfBathrooms
+
+      houseDesign
+      images
+      internalFacility
+      nearFacility
+
+      propertyPostApprovalStatusId
+      approvedBy
+      approvedDatetime
+      sendingApprovalFrom
+      rejectedDatetime
+      rejectedReason
+
+      legalInfoId
+      collateralizedAtBankId
+      expiredDate
+
+      projectId
+      freeTextProject
+
+      addressId
+      propertyAddress {
+        countryId
+        countryName
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        homeAddress
+        streetName
+      }
+      supportRequestTypeIds
+      ownerId
+      ownerIsAuthor
+      owner {
+        userId
+        customerFullName
+        customerPhone
+        customerEmail
+      }
+    }
+    badWordListDto {
+      originalContent
+      highlightedContent
+      badWords
+    }
+  }
+}

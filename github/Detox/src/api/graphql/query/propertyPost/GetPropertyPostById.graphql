@@ -1,0 +1,164 @@
+query GetPropertyPostById($propertyPostId: Uuid!) {
+  propertyPostById(propertyPostId: $propertyPostId) {
+    isPrivate
+    isSold
+    isRented
+    propertyPostId
+    panoramaImageCode
+    propertyPostApprovalStatusId
+    negotiable
+    isFollowed
+    totalFollower
+    totalShare
+    totalSpam
+    width
+    length
+    images
+    recordVersion
+    createdByUserId
+    expiredDate
+    approvedBy
+    approvedDatetime
+    sendingApprovalFrom
+    rejectReasonId
+    rejectedDatetime
+    rejectedReason
+    requestedUpdatingReason
+    updatedDatetime
+    createdDatetime
+    lastModified
+
+    propertyCode
+    propertyName
+    postTitle
+    postDescription
+    blockCode
+    blockName
+
+    postTypeId
+    propertyPostStatusId
+    propertyTypeId
+    propertySubTypeId
+    propertySubTypeName
+
+    bookingFee
+    price
+    priceNoVat
+    priceVat
+    commission
+    saleCommissionCurrencyUnitId
+    buyCommission
+    saleCommission
+    unitOfMeasureId
+    unitOfMeasure {
+      unitOfMeasureId
+      unitOfMeasureCode
+      unitOfMeasureName
+      numberOfDecimal
+      multiplyWithBaseUnit
+      isRound
+    }
+
+    buildingArea
+    capetAreas
+    totalSiteArea
+    buildingLine
+    direction
+    balconyDirection
+    latitude
+    longitude
+    floor
+    numberOfFloor
+    numberOfBedrooms
+    numberOfBathrooms
+
+    houseDesign
+
+    internalFacility
+    nearFacility
+    propertyPostForRentDto {
+      propertyPostForRentId
+      rentCommission
+      rentCommissionCurrencyUnitId
+      rentPeriod
+      rentPrice
+      isRented
+    }
+    legalInfoId
+    collateralizedAtBankId
+    isCollateralized
+
+    addressId
+    propertyAddress {
+      countryId
+      countryName
+      cityId
+      cityName
+      districtId
+      districtName
+      wardId
+      wardName
+      homeAddress
+      streetName
+    }
+
+    forRent
+    forSale
+    ownerId
+    ownerIsAuthor
+    owner {
+      userId
+      customerFullName
+      customerPhone
+      customerEmail
+    }
+    sellerInfo {
+      sellerId
+      fullName
+      avatar
+      avatars
+      email
+      phoneNumber
+      isAgent
+      agentRating
+      agentRankingName
+      agentGroupDescription
+    }
+    isShowGoogleStreetView
+    guaranteedPackage {
+      guaranteedPackageId
+      contractDocument
+      contractPrepaymentAmount
+      contractRefuseNote
+      contractStatus
+      guaranteedPackageStartTime
+      guaranteedPackageEndTime
+      guaranteedPackageValidMonths
+      paymentStatusId
+    }
+    contractStatus
+    guaranteedPackageEndTime
+    projectId
+    b2C2CProjectId
+    freeTextProject
+    projectInfo {
+      projectId
+      projectName
+      projectImage
+      projectDescription
+    }
+    supportRequestTypeIds
+    staffUserId
+    postServiceType
+    legalDocuments
+    guaranteedPackageId
+    propertyLocation
+    alleyWidth
+    commissionTpl
+    commissionBuyer
+    commissionSeller
+    matterportUrl
+    detailPath
+    rating
+  }
+}

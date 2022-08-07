@@ -1,0 +1,8 @@
+query GetImageUploadUrl($payload: GetImageUploadUrlInput!) {
+  getImageUploadUrl(request: $payload) {
+    fileUrl
+    fileName
+    signatureKey
+    uploadContainer
+  }
+}

@@ -1,0 +1,719 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|social/ConversationItem default 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "height": "100%",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onLayout={[Function]}
+      style={
+        Object {
+          "height": "100%",
+          "position": "absolute",
+          "right": 0,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FD1D1D",
+            "height": 80,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 80,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_trash.png",
+            }
+          }
+          style={
+            Object {
+              "height": 16,
+              "width": 16,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+              "marginTop": 2,
+              "textAlign": "center",
+            }
+          }
+        >
+          Xoá
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    collapsable={false}
+    nativeID="animatedComponent"
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          undefined,
+          Object {
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "height": 80,
+            "padding": 16,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 48,
+                  "width": 48,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderRadius": 24,
+                      "height": 48,
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": 48,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 24,
+                        "height": 48,
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": 48,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    imageStyle={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 24,
+                        "height": 48,
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": 48,
+                      }
+                    }
+                    indicator={[Function]}
+                    onFastImageLoadEnd={[Function]}
+                    renderError={[Function]}
+                    resizeMode="cover"
+                    size={115}
+                    source={
+                      Object {
+                        "uri": "https://reactnative.dev/img/logo-og.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <ActivityIndicator
+                    animating={false}
+                    color="#26894F"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "space-between",
+                "marginLeft": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#313131",
+                    "flex": 1,
+                    "fontFamily": "Nunito-Bold",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                  }
+                }
+              >
+                Quis ipsum non minim aliquip elit sint eiusmod ex non eu anim ea.
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#A3A3A3",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 12,
+                    "includeFontPadding": true,
+                    "marginLeft": 16,
+                  }
+                }
+              >
+                10w
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#313131",
+                      "flex": 1,
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 14,
+                      "includeFontPadding": true,
+                    },
+                    Object {
+                      "color": "#767676",
+                    },
+                  ]
+                }
+              >
+                Cillum nisi deserunt nostrud adipisicing consequat id reprehenderit fugiat nulla cupidatat pariatur id.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|social/ConversationItem has unread count 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "height": "100%",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      onLayout={[Function]}
+      style={
+        Object {
+          "height": "100%",
+          "position": "absolute",
+          "right": 0,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FD1D1D",
+            "height": 80,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 80,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_trash.png",
+            }
+          }
+          style={
+            Object {
+              "height": 16,
+              "width": 16,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 12,
+              "includeFontPadding": true,
+              "marginTop": 2,
+              "textAlign": "center",
+            }
+          }
+        >
+          Xoá
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    collapsable={false}
+    nativeID="animatedComponent"
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          undefined,
+          Object {
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "height": 80,
+            "padding": 16,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 48,
+                  "width": 48,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderRadius": 24,
+                      "height": 48,
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": 48,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 24,
+                        "height": 48,
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": 48,
+                      },
+                    ]
+                  }
+                >
+                  <FastImageView
+                    imageStyle={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderRadius": 24,
+                        "height": 48,
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": 48,
+                      }
+                    }
+                    indicator={[Function]}
+                    onFastImageLoadEnd={[Function]}
+                    renderError={[Function]}
+                    resizeMode="cover"
+                    size={115}
+                    source={
+                      Object {
+                        "uri": "https://reactnative.dev/img/logo-og.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  />
+                  <ActivityIndicator
+                    animating={false}
+                    color="#26894F"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "justifyContent": "space-between",
+                "marginLeft": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#313131",
+                    "flex": 1,
+                    "fontFamily": "Nunito-Bold",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                  }
+                }
+              >
+                Quis ipsum non minim aliquip elit sint eiusmod ex non eu anim ea.
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#A3A3A3",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 12,
+                    "includeFontPadding": true,
+                    "marginLeft": 16,
+                  }
+                }
+              >
+                10w
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#313131",
+                      "flex": 1,
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 14,
+                      "includeFontPadding": true,
+                    },
+                    Object {
+                      "color": "#313131",
+                    },
+                  ]
+                }
+              >
+                Cillum nisi deserunt nostrud adipisicing consequat id reprehenderit fugiat nulla cupidatat pariatur id.
+              </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#E53030",
+                    "borderRadius": 100,
+                    "height": 18,
+                    "justifyContent": "center",
+                    "marginLeft": 16,
+                    "minWidth": 18,
+                    "paddingHorizontal": 5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 12,
+                      "includeFontPadding": true,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  99
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

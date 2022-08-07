@@ -1,0 +1,17 @@
+query getB2C2CProjectDetailByIdFo($b2C2CProjectId: Uuid!) {
+  getB2C2CProjectDetailByIdFo(b2C2CProjectId: $b2C2CProjectId) {
+    b2C2CProject {
+      b2C2CProjectId
+      b2C2CProjectName
+      b2CDetailPath
+      b2CProjectId
+      investorId
+      investorName
+      isActive
+      propertyTypeId
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

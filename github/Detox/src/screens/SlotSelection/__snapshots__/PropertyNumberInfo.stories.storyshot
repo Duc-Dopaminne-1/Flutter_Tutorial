@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|b2c/PropertyNumberInfo default 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View>
+    <Text>
+      Tab Item
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 10,
+              "height": "100%",
+              "width": 10,
+            },
+            Object {
+              "backgroundColor": "#E0E0E0",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 12,
+                "includeFontPadding": true,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#E0E0E0",
+                "fontFamily": "Nunito-Bold",
+                "includeFontPadding": true,
+              },
+            ]
+          }
+        >
+          Title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 18,
+                "includeFontPadding": true,
+              },
+              Object {
+                "color": "#E0E0E0",
+                "fontFamily": "Nunito-Bold",
+                "includeFontPadding": true,
+              },
+            ]
+          }
+        >
+          200
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 10,
+              "height": "100%",
+              "width": 10,
+            },
+            Object {
+              "backgroundColor": "#E0E0E0",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginLeft": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 12,
+                "includeFontPadding": true,
+                "marginTop": 4,
+              },
+              Object {
+                "color": "#313131",
+              },
+            ]
+          }
+        >
+          Title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 18,
+                "includeFontPadding": true,
+              },
+              Object {
+                "color": "#313131",
+              },
+            ]
+          }
+        >
+          200
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

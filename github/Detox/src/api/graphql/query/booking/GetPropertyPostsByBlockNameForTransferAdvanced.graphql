@@ -1,0 +1,126 @@
+query propertyPostsByBlockNameForTransferAdvanced(
+  $input: GetPropertyPostsByBlockNameForTransferAdvancedInput!
+) {
+  propertyPostsByBlockNameForTransferAdvanced(request: $input) {
+    blockName
+    totalOfPropertyPosts
+    totalOfEmptyPropertyPosts
+    totalOfSoldPropertyPosts
+    totalOfBookedPropertyPosts
+    propertyPosts {
+      floor
+      propertyPosts {
+        propertyPostId
+        propertyCode
+        price
+        priceNoVat
+        priceVat
+        numberOfBedrooms
+        numberOfBathrooms
+        numberOfBookingTransactions
+        assigned
+        direction
+        buildingArea
+        unitOfMeasure {
+          unitOfMeasureId
+          unitOfMeasureCode
+          unitOfMeasureName
+          numberOfDecimal
+          multiplyWithBaseUnit
+          isRound
+        }
+        saleTrackingStatusId
+        saleTrackingStatusName
+        saleTrackingStatusDescription
+      }
+    }
+    # emptyPropertyPosts {
+    #   floor
+    #   propertyPosts {
+    #     propertyPostId
+    #     propertyCode
+    #     price
+    #     numberOfBedrooms
+    #     numberOfBathrooms
+    #     numberOfBookingTransactions
+    #     assigned
+    #     unitOfMeasure {
+    #       unitOfMeasureId
+    #       unitOfMeasureCode
+    #       unitOfMeasureName
+    #       numberOfDecimal
+    #       multiplyWithBaseUnit
+    #       isRound
+    #     }
+    #     saleTrackingStatusId
+    #     saleTrackingStatusName
+    #     saleTrackingStatusDescription
+    #   }
+    # }
+    # bookedPropertyPosts {
+    #   floor
+    #   propertyPosts {
+    #     propertyPostId
+    #     propertyCode
+    #     price
+    #     numberOfBedrooms
+    #     numberOfBathrooms
+    #     numberOfBookingTransactions
+    #     assigned
+    #     unitOfMeasure {
+    #       unitOfMeasureId
+    #       unitOfMeasureCode
+    #       unitOfMeasureName
+    #       numberOfDecimal
+    #       multiplyWithBaseUnit
+    #       isRound
+    #     }
+    #     saleTrackingStatusId
+    #     saleTrackingStatusName
+    #     saleTrackingStatusDescription
+    #   }
+    # }
+    # soldPropertyPosts {
+    #   floor
+    #   propertyPosts {
+    #     propertyPostId
+    #     propertyCode
+    #     price
+    #     numberOfBedrooms
+    #     numberOfBathrooms
+    #     numberOfBookingTransactions
+    #     assigned
+    #     unitOfMeasure {
+    #       unitOfMeasureId
+    #       unitOfMeasureCode
+    #       unitOfMeasureName
+    #       numberOfDecimal
+    #       multiplyWithBaseUnit
+    #       isRound
+    #     }
+    #     saleTrackingStatusId
+    #     saleTrackingStatusName
+    #     saleTrackingStatusDescription
+    #   }
+    # }
+  }
+}
+
+# {
+#   "input":
+#   {
+#     "blockName": "{{SALE_BLOCK_NAME}}",
+#     "saleSeasonId": "{{SALE_SEASON_ID}}",
+#     "propertyTypeId": "2e2b0611-e1fc-4406-b13f-8afafff1c675",
+#     "direction": "SOUTH",
+#     "fromArea": 0,
+#     "toArea": 10000000,
+#     "fromNumberOfBathrooms": 0,
+#     "fromNumberOfBedrooms":0,
+#     "fromPrice": 0,
+#     "toPrice": 1000000000000,
+#     "isBooking": false,
+#     "feeAmount": 50000000,
+#     "buyerId": ""
+#   }
+# }

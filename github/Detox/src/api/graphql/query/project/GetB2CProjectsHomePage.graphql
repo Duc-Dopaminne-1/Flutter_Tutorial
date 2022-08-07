@@ -1,0 +1,37 @@
+query GetFoProjectsHomePageV1($input: GetFoProjectsHomePageV1Input!) {
+  getFoProjectsHomePageV1(getFoProjectsHomePageV1Input: $input) {
+    projectInfoDtos {
+      projectId
+      projectName
+      featurePhotos
+      overviewMediaInfo
+      isFollowed
+      investorOwnerName
+      investorOwnerLogo
+      investorOwnerInfo
+      projectStatusId
+      projectStatusName
+      sortOrder
+      propertyTypeId
+      totalArea
+      overallDescription
+      startYear
+      projectAddress {
+        cityId
+        cityName
+        districtId
+        districtName
+        wardId
+        wardName
+        streetName
+        homeAddress
+        __typename
+      }
+      minPrice
+      commissionRates
+      detailPath
+      __typename
+    }
+    __typename
+  }
+}

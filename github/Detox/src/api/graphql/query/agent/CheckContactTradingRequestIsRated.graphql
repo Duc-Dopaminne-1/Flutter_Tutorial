@@ -1,0 +1,3 @@
+query CheckContactTradingRequestIsRated($input: Uuid!) {
+  checkContactTradingRequestIsRated(supportRequestId: $input)
+}

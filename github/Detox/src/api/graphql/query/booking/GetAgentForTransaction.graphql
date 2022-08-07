@@ -1,0 +1,25 @@
+query GetAgentForTransaction($request: GetAgentForTransactionInput!, $page: Int, $pageSize: Int) {
+  agentForTransaction(request: $request, page: $page, pageSize: $pageSize) {
+    edges {
+      agentId
+      agentCode
+      firstName
+      lastName
+      agentRankName
+      agentRankingDescription
+      rating
+      profilePhoto
+    }
+    totalCount
+  }
+}
+
+# {
+#   "request": {
+#     "saleSeasonId": "{{SALE_SEASON_ID}}",
+#     "propertyPostId": "{{SALE_PROPERTY_POST_ID}}",
+#     "keywords": null
+#   },
+#   "pageSize": 20,
+#   "page": 1
+# }

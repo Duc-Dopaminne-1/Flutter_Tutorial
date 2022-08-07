@@ -1,0 +1,3872 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|Call/Video answering 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D4E7DC",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/logo_circle.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 50,
+              "height": 100,
+              "justifyContent": "center",
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+    </View>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "includeFontPadding": true,
+          "marginHorizontal": 16,
+          "marginTop": 180,
+        }
+      }
+    >
+      84984120491
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "marginTop": 8,
+        }
+      }
+    >
+      Đang gọi...
+    </Text>
+    <View
+      style={
+        Object {
+          "bottom": 50,
+          "left": 60,
+          "position": "absolute",
+          "right": 60,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/video.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Gọi Video
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/numpad.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(255,255,255,0.35)",
+                    "borderRadius": 32,
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#A3A3A3",
+                  },
+                ]
+              }
+            >
+              Bàn phím
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 40,
+              "marginTop": 24,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/mute.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Tắt tiếng
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/volume.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Loa ngoài
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#FD1D1D",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/end-call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|Call/Video calling 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D4E7DC",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/logo_circle.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 50,
+              "height": 100,
+              "justifyContent": "center",
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+    </View>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "includeFontPadding": true,
+          "marginHorizontal": 16,
+          "marginTop": 180,
+        }
+      }
+    >
+      84984120491
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "marginTop": 8,
+        }
+      }
+    >
+      Đang gọi...
+    </Text>
+    <View
+      style={
+        Object {
+          "bottom": 50,
+          "left": 60,
+          "position": "absolute",
+          "right": 60,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#FD1D1D",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/end-call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#26894F",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|Call/Video default 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D4E7DC",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/logo_circle.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 50,
+              "height": 100,
+              "justifyContent": "center",
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+    </View>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "includeFontPadding": true,
+          "marginHorizontal": 16,
+          "marginTop": 180,
+        }
+      }
+    >
+      84984120491
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "marginTop": 8,
+        }
+      }
+    >
+      Đang gọi...
+    </Text>
+    <View
+      style={
+        Object {
+          "bottom": 50,
+          "left": 60,
+          "position": "absolute",
+          "right": 60,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/video.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Gọi Video
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/numpad.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(255,255,255,0.35)",
+                    "borderRadius": 32,
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#A3A3A3",
+                  },
+                ]
+              }
+            >
+              Bàn phím
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 40,
+              "marginTop": 24,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/mute.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Tắt tiếng
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/volume.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Loa ngoài
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#FD1D1D",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/end-call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|Call/Video disable video 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D4E7DC",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/logo_circle.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 50,
+              "height": 100,
+              "justifyContent": "center",
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+    </View>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "includeFontPadding": true,
+          "marginHorizontal": 16,
+          "marginTop": 180,
+        }
+      }
+    >
+      84984120491
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "marginTop": 8,
+        }
+      }
+    >
+      Đang gọi...
+    </Text>
+    <View
+      style={
+        Object {
+          "bottom": 50,
+          "left": 60,
+          "position": "absolute",
+          "right": 60,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/video.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Gọi Video
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/numpad.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(255,255,255,0.35)",
+                    "borderRadius": 32,
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#A3A3A3",
+                  },
+                ]
+              }
+            >
+              Bàn phím
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 40,
+              "marginTop": 24,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/mute.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Tắt tiếng
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/volume.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Loa ngoài
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#FD1D1D",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/end-call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|Call/Video disable volume 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D4E7DC",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/logo_circle.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 50,
+              "height": 100,
+              "justifyContent": "center",
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+    </View>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "includeFontPadding": true,
+          "marginHorizontal": 16,
+          "marginTop": 180,
+        }
+      }
+    >
+      84984120491
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "marginTop": 8,
+        }
+      }
+    >
+      Đang gọi...
+    </Text>
+    <View
+      style={
+        Object {
+          "bottom": 50,
+          "left": 60,
+          "position": "absolute",
+          "right": 60,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/video.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Gọi Video
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/numpad.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(255,255,255,0.35)",
+                    "borderRadius": 32,
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#A3A3A3",
+                  },
+                ]
+              }
+            >
+              Bàn phím
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 40,
+              "marginTop": 24,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#E53030",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/mute.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#FFFFFF",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Tắt tiếng
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/volume.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Loa ngoài
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#FD1D1D",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/end-call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|Call/Video enable speaker 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D4E7DC",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/logo_circle.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 50,
+              "height": 100,
+              "justifyContent": "center",
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+    </View>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "includeFontPadding": true,
+          "marginHorizontal": 16,
+          "marginTop": 180,
+        }
+      }
+    >
+      84984120491
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "marginTop": 8,
+        }
+      }
+    >
+      Đang gọi...
+    </Text>
+    <View
+      style={
+        Object {
+          "bottom": 50,
+          "left": 60,
+          "position": "absolute",
+          "right": 60,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/video.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Gọi Video
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/numpad.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(255,255,255,0.35)",
+                    "borderRadius": 32,
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#A3A3A3",
+                  },
+                ]
+              }
+            >
+              Bàn phím
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginBottom": 40,
+              "marginTop": 24,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/mute.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#313131",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Tắt tiếng
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 32,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "width": 64,
+                  },
+                  Object {
+                    "backgroundColor": "#E53030",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/assets/images/call/volume.png",
+                  }
+                }
+                style={
+                  Object {
+                    "tintColor": "#FFFFFF",
+                  }
+                }
+              />
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#313131",
+                    "fontFamily": "Nunito-Regular",
+                    "fontSize": 14,
+                    "includeFontPadding": true,
+                    "marginTop": 4,
+                    "textAlign": "center",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Loa ngoài
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#FD1D1D",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/end-call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots z|Call/Video show dtmf 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D4E7DC",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#F2994A",
+              "borderRadius": 50,
+              "borderWidth": 50,
+              "height": 100,
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/logo_circle.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 50,
+              "height": 100,
+              "justifyContent": "center",
+              "position": "absolute",
+              "top": 60,
+              "width": 100,
+            },
+            [Function],
+          ]
+        }
+      />
+    </View>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "includeFontPadding": true,
+          "marginHorizontal": 16,
+          "marginTop": 180,
+        }
+      }
+    >
+      Tổng đài TopenLand
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "marginTop": 8,
+        }
+      }
+    >
+      Đang gọi...
+    </Text>
+    <View
+      style={
+        Object {
+          "bottom": 50,
+          "left": 60,
+          "position": "absolute",
+          "right": 60,
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              1
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              2
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              3
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              4
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              5
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              6
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              7
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              8
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              9
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              *
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              0
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 32,
+                "height": 64,
+                "justifyContent": "center",
+                "margin": 4,
+                "opacity": 1,
+                "width": 64,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              #
+            </Text>
+          </View>
+        </View>
+        <Text />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 32,
+                  "height": 64,
+                  "justifyContent": "center",
+                  "width": 64,
+                },
+                Object {
+                  "backgroundColor": "#FD1D1D",
+                },
+                undefined,
+              ]
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/images/call/end-call.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#FFFFFF",
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 20,
+              "left": 20,
+              "right": 20,
+              "top": 20,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "position": "absolute",
+              "right": 50,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#313131",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "includeFontPadding": true,
+              }
+            }
+          >
+            Ẩn
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

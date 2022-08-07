@@ -1,0 +1,17 @@
+query GetAgentLastSubscriptionPackage {
+  getAgentLastSubscriptionPackageByCurrentUser {
+    agentSubscriptionPackageDto {
+      isActive
+      packageBoughtTime
+      subscriptionInvoiceId
+      subscriptionPackageEndTime
+      subscriptionPackageId
+      subscriptionPackageStartTime
+      agentSubscriptionPackageId
+      hasBoughtNewPackage
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

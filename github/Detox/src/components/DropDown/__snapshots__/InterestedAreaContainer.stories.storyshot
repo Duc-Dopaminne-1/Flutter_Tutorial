@@ -1,0 +1,2165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|auth/InterestedAreaContainer default 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "marginRight": 8,
+          "paddingLeft": 15,
+        }
+      }
+    >
+      <Text>
+        Bình Chánh, Hồ Chí Minh
+      </Text>
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "margin": 6,
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 15,
+                "height": 30,
+                "width": 30,
+              },
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View>
+          <Text
+            accessibilityElementsHidden={true}
+            allowFontScaling={false}
+            importantForAccessibility="no-hide-descendants"
+            pointerEvents="none"
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#313131",
+                  "fontSize": 20,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 20,
+                    "transform": Array [
+                      Object {
+                        "scaleX": 1,
+                      },
+                    ],
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ],
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            󰅖
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "marginRight": 8,
+          "paddingLeft": 15,
+        }
+      }
+    >
+      <Text>
+        Hòa Vang, Đà Nẵng
+      </Text>
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "margin": 6,
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 15,
+                "height": 30,
+                "width": 30,
+              },
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View>
+          <Text
+            accessibilityElementsHidden={true}
+            allowFontScaling={false}
+            importantForAccessibility="no-hide-descendants"
+            pointerEvents="none"
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#313131",
+                  "fontSize": 20,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 20,
+                    "transform": Array [
+                      Object {
+                        "scaleX": 1,
+                      },
+                    ],
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ],
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            󰅖
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E6E9ED",
+          "borderRadius": 20,
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "center",
+          "marginBottom": 8,
+          "marginRight": 8,
+          "paddingLeft": 15,
+        }
+      }
+    >
+      <Text>
+        Hoàng Sa, Đà Nẵng
+      </Text>
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "margin": 6,
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 15,
+                "height": 30,
+                "width": 30,
+              },
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View>
+          <Text
+            accessibilityElementsHidden={true}
+            allowFontScaling={false}
+            importantForAccessibility="no-hide-descendants"
+            pointerEvents="none"
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#313131",
+                  "fontSize": 20,
+                },
+                Array [
+                  Object {
+                    "lineHeight": 20,
+                    "transform": Array [
+                      Object {
+                        "scaleX": 1,
+                      },
+                    ],
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ],
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            󰅖
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "height": 0,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={Object {}}
+      >
+        <View
+          pointerEvents="auto"
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#CCD1D9",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "minHeight": 45,
+                "opacity": 1,
+                "paddingHorizontal": 10,
+                "paddingLeft": 10,
+                "paddingRight": 16,
+                "paddingVertical": 0,
+                "width": "100%",
+              }
+            }
+          >
+            <Modal
+              animationType="none"
+              deviceHeight={null}
+              deviceWidth={null}
+              hardwareAccelerated={false}
+              hideModalContentWhileAnimating={true}
+              onBackdropPress={[Function]}
+              onModalHide={[Function]}
+              onModalWillHide={[Function]}
+              onModalWillShow={[Function]}
+              onRequestClose={[Function]}
+              panResponderThreshold={4}
+              scrollHorizontal={false}
+              scrollOffset={0}
+              scrollOffsetMax={0}
+              scrollTo={null}
+              statusBarTranslucent={false}
+              supportedOrientations={
+                Array [
+                  "portrait",
+                  "landscape",
+                ]
+              }
+              swipeThreshold={100}
+              transparent={true}
+              visible={false}
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                forwardedRef={[Function]}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "black",
+                    "bottom": 0,
+                    "height": 1334,
+                    "left": 0,
+                    "opacity": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 750,
+                  }
+                }
+              />
+              <View
+                onLayout={[Function]}
+                pointerEvents="box-none"
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "margin": 37.5,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                        ],
+                      },
+                      Object {
+                        "flex": 1,
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "justifyContent": "flex-end",
+                        "margin": 0,
+                      },
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                    Object {
+                      "paddingBottom": 0,
+                    },
+                  ]
+                }
+              >
+                <View
+                  deviceHeight={null}
+                  deviceWidth={null}
+                  forwardedRef={[Function]}
+                  hideModalContentWhileAnimating={true}
+                  onBackdropPress={[Function]}
+                  onModalHide={[Function]}
+                  onModalWillHide={[Function]}
+                  onModalWillShow={[Function]}
+                  panResponderThreshold={4}
+                  pointerEvents="box-none"
+                  scrollHorizontal={false}
+                  scrollOffset={0}
+                  scrollOffsetMax={0}
+                  scrollTo={null}
+                  statusBarTranslucent={false}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "flex-end",
+                      "margin": 0,
+                      "transform": Array [
+                        Object {
+                          "translateY": 0,
+                        },
+                      ],
+                    }
+                  }
+                  supportedOrientations={
+                    Array [
+                      "portrait",
+                      "landscape",
+                    ]
+                  }
+                  swipeThreshold={100}
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#fff",
+                        "borderTopLeftRadius": 8,
+                        "borderTopRightRadius": 8,
+                        "height": 800.4,
+                        "paddingTop": 16,
+                      }
+                    }
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "fontSize": 16,
+                              "marginBottom": 16,
+                              "textAlign": "center",
+                              "width": "100%",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                            Object {
+                              "color": "#26894F",
+                            },
+                          ]
+                        }
+                      >
+                        Tỉnh/Thành phố
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "#cacaca",
+                          "height": 1,
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <TextInput
+                      onBlur={[Function]}
+                      onChangeText={[Function]}
+                      onFocus={[Function]}
+                      placeholder="Nhập vào từ khóa"
+                      returnKeyType="done"
+                      selectionColor="#26894F"
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#cacaca",
+                            "borderRadius": 5,
+                            "borderWidth": 1,
+                            "height": 40,
+                            "marginHorizontal": 24,
+                            "marginTop": 16,
+                            "paddingLeft": 8,
+                          },
+                          Object {
+                            "fontFamily": "Nunito-Regular",
+                          },
+                        ]
+                      }
+                      underlineColorAndroid="transparent"
+                    />
+                    <RCTScrollView
+                      ListEmptyComponent={[Function]}
+                      data={
+                        Array [
+                          Object {
+                            "checked": false,
+                            "id": 1,
+                            "name": "Hồ Chí Minh",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 2,
+                            "name": "Hà Nội",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 3,
+                            "name": "Đà Nẵng",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 4,
+                            "name": "Bình Dương",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 5,
+                            "name": "Đồng Nai",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 6,
+                            "name": "Khánh Hòa",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 7,
+                            "name": "Hải Phòng",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 8,
+                            "name": "Long An",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 9,
+                            "name": "Quảng Nam",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 10,
+                            "name": "Bà Rịa Vũng Tàu",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 11,
+                            "name": "Đắk Lắk",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 12,
+                            "name": "Cần Thơ",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 13,
+                            "name": "Bình Thuận  ",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 14,
+                            "name": "Lâm Đồng",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 15,
+                            "name": "Thừa Thiên Huế",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 16,
+                            "name": "Kiên Giang",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 17,
+                            "name": "Bắc Ninh",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 18,
+                            "name": "Quảng Ninh",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 19,
+                            "name": "Thanh Hóa",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 20,
+                            "name": "Nghệ An",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 21,
+                            "name": "Hải Dương",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 22,
+                            "name": "Gia Lai",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 23,
+                            "name": "Bình Phước",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 24,
+                            "name": "Hưng Yên",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 25,
+                            "name": "Bình Định",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 26,
+                            "name": "Tiền Giang",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 27,
+                            "name": "Thái Bình",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 28,
+                            "name": "Bắc Giang",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 29,
+                            "name": "Hòa Bình",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 30,
+                            "name": "An Giang",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 31,
+                            "name": "Vĩnh Phúc",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 32,
+                            "name": "Tây Ninh",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 33,
+                            "name": "Thái Nguyên",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 34,
+                            "name": "Lào Cai",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 35,
+                            "name": "Nam Định",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 36,
+                            "name": "Quảng Ngãi",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 37,
+                            "name": "Bến Tre",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 38,
+                            "name": "Đắk Nông",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 39,
+                            "name": "Cà Mau",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 40,
+                            "name": "Vĩnh Long",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 41,
+                            "name": "Ninh Bình",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 42,
+                            "name": "Phú Thọ",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 43,
+                            "name": "Ninh Thuận",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 44,
+                            "name": "Phú Yên",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 45,
+                            "name": "Hà Nam",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 46,
+                            "name": "Hà Tĩnh",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 47,
+                            "name": "Đồng Tháp",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 48,
+                            "name": "Sóc Trăng",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 49,
+                            "name": "Kon Tum",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 50,
+                            "name": "Quảng Bình",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 51,
+                            "name": "Quảng Trị",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 52,
+                            "name": "Trà Vinh",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 53,
+                            "name": "Hậu Giang",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 54,
+                            "name": "Sơn La",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 55,
+                            "name": "Bạc Liêu",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 56,
+                            "name": "Yên Bái",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 57,
+                            "name": "Tuyên Quang",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 58,
+                            "name": "Điện Biên",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 59,
+                            "name": "Lai Châu",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 60,
+                            "name": "Lạng Sơn",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 61,
+                            "name": "Hà Giang",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 62,
+                            "name": "Bắc Kạn",
+                          },
+                          Object {
+                            "checked": false,
+                            "id": 63,
+                            "name": "Cao Bằng",
+                          },
+                        ]
+                      }
+                      getItem={[Function]}
+                      getItemCount={[Function]}
+                      keyExtractor={[Function]}
+                      keyboardShouldPersistTaps="handled"
+                      onContentSizeChange={[Function]}
+                      onLayout={[Function]}
+                      onMomentumScrollBegin={[Function]}
+                      onMomentumScrollEnd={[Function]}
+                      onScroll={[Function]}
+                      onScrollBeginDrag={[Function]}
+                      onScrollEndDrag={[Function]}
+                      removeClippedSubviews={false}
+                      renderItem={[Function]}
+                      scrollEventThrottle={50}
+                      stickyHeaderIndices={Array []}
+                      style={
+                        Object {
+                          "marginTop": 16,
+                          "paddingHorizontal": 24,
+                          "paddingTop": 1,
+                        }
+                      }
+                      viewabilityConfigCallbackPairs={Array []}
+                    >
+                      <View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Hồ Chí Minh
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Hà Nội
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Đà Nẵng
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Bình Dương
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Đồng Nai
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Khánh Hòa
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Hải Phòng
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Long An
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Quảng Nam
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          onLayout={[Function]}
+                          style={null}
+                        >
+                          <View
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            nativeID="animatedComponent"
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "borderBottomColor": "#eaeaea",
+                                "borderBottomWidth": 1,
+                                "flexDirection": "row",
+                                "opacity": 1,
+                                "paddingVertical": 12,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#333",
+                                    "flex": 1,
+                                    "fontSize": 16,
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                ]
+                              }
+                            >
+                              Bà Rịa Vũng Tàu
+                            </Text>
+                            <Text
+                              allowFontScaling={false}
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#777777",
+                                    "fontSize": 20,
+                                  },
+                                  Object {
+                                    "textAlign": "right",
+                                    "width": 30,
+                                  },
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              󰐽
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "height": 0,
+                            }
+                          }
+                        />
+                      </View>
+                    </RCTScrollView>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "marginHorizontal": 16,
+                          "marginVertical": 16,
+                        }
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "alignSelf": "center",
+                            "backgroundColor": "#fff",
+                            "borderColor": "#26894F",
+                            "borderRadius": 25,
+                            "borderWidth": 1,
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "fontFamily": "Nunito-Regular",
+                            "height": 36,
+                            "justifyContent": "center",
+                            "marginLeft": 5,
+                            "marginRight": 5,
+                            "opacity": 1,
+                            "paddingHorizontal": 16,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                              },
+                              Object {
+                                "fontFamily": "Nunito-Regular",
+                              },
+                              Object {
+                                "color": "#26894F",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          Hủy
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </Modal>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "gray",
+                    "flex": 1,
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "fontFamily": "Nunito-Regular",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Tỉnh/Thành phố
+            </Text>
+          </View>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#313131",
+                  "fontSize": 24,
+                },
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "height": 22,
+                    "justifyContent": "center",
+                    "position": "absolute",
+                    "right": 5,
+                    "top": 20,
+                    "zIndex": 1,
+                  },
+                  Object {},
+                ],
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            󰍝
+          </Text>
+        </View>
+      </View>
+      <View
+        style={Object {}}
+      >
+        <View
+          pointerEvents="none"
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E6E9ED",
+                "borderColor": "#CCD1D9",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "minHeight": 45,
+                "opacity": 1,
+                "paddingHorizontal": 10,
+                "paddingLeft": 10,
+                "paddingRight": 16,
+                "paddingVertical": 0,
+                "width": "100%",
+              }
+            }
+          >
+            <Modal
+              animationType="none"
+              deviceHeight={null}
+              deviceWidth={null}
+              hardwareAccelerated={false}
+              hideModalContentWhileAnimating={true}
+              onBackdropPress={[Function]}
+              onModalHide={[Function]}
+              onModalWillHide={[Function]}
+              onModalWillShow={[Function]}
+              onRequestClose={[Function]}
+              panResponderThreshold={4}
+              scrollHorizontal={false}
+              scrollOffset={0}
+              scrollOffsetMax={0}
+              scrollTo={null}
+              statusBarTranslucent={false}
+              supportedOrientations={
+                Array [
+                  "portrait",
+                  "landscape",
+                ]
+              }
+              swipeThreshold={100}
+              transparent={true}
+              visible={false}
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                forwardedRef={[Function]}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "black",
+                    "bottom": 0,
+                    "height": 1334,
+                    "left": 0,
+                    "opacity": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 750,
+                  }
+                }
+              />
+              <View
+                onLayout={[Function]}
+                pointerEvents="box-none"
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "margin": 37.5,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                        ],
+                      },
+                      Object {
+                        "flex": 1,
+                        "justifyContent": "center",
+                      },
+                      Object {
+                        "justifyContent": "flex-end",
+                        "margin": 0,
+                      },
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                    Object {
+                      "paddingBottom": 0,
+                    },
+                  ]
+                }
+              >
+                <View
+                  deviceHeight={null}
+                  deviceWidth={null}
+                  forwardedRef={[Function]}
+                  hideModalContentWhileAnimating={true}
+                  onBackdropPress={[Function]}
+                  onModalHide={[Function]}
+                  onModalWillHide={[Function]}
+                  onModalWillShow={[Function]}
+                  panResponderThreshold={4}
+                  pointerEvents="box-none"
+                  scrollHorizontal={false}
+                  scrollOffset={0}
+                  scrollOffsetMax={0}
+                  scrollTo={null}
+                  statusBarTranslucent={false}
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "flex-end",
+                      "margin": 0,
+                      "transform": Array [
+                        Object {
+                          "translateY": 0,
+                        },
+                      ],
+                    }
+                  }
+                  supportedOrientations={
+                    Array [
+                      "portrait",
+                      "landscape",
+                    ]
+                  }
+                  swipeThreshold={100}
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#fff",
+                        "borderTopLeftRadius": 8,
+                        "borderTopRightRadius": 8,
+                        "height": 800.4,
+                        "paddingTop": 16,
+                      }
+                    }
+                  >
+                    <View>
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "fontSize": 16,
+                              "marginBottom": 16,
+                              "textAlign": "center",
+                              "width": "100%",
+                            },
+                            Object {
+                              "fontFamily": "Nunito-Regular",
+                            },
+                            Object {
+                              "color": "#26894F",
+                            },
+                          ]
+                        }
+                      >
+                        Quận/Huyện
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "#cacaca",
+                          "height": 1,
+                          "width": "100%",
+                        }
+                      }
+                    />
+                    <TextInput
+                      onBlur={[Function]}
+                      onChangeText={[Function]}
+                      onFocus={[Function]}
+                      placeholder="Nhập vào từ khóa"
+                      returnKeyType="done"
+                      selectionColor="#26894F"
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#cacaca",
+                            "borderRadius": 5,
+                            "borderWidth": 1,
+                            "height": 40,
+                            "marginHorizontal": 24,
+                            "marginTop": 16,
+                            "paddingLeft": 8,
+                          },
+                          Object {
+                            "fontFamily": "Nunito-Regular",
+                          },
+                        ]
+                      }
+                      underlineColorAndroid="transparent"
+                    />
+                    <RCTScrollView
+                      ListEmptyComponent={[Function]}
+                      data={Array []}
+                      getItem={[Function]}
+                      getItemCount={[Function]}
+                      keyExtractor={[Function]}
+                      keyboardShouldPersistTaps="handled"
+                      onContentSizeChange={[Function]}
+                      onLayout={[Function]}
+                      onMomentumScrollBegin={[Function]}
+                      onMomentumScrollEnd={[Function]}
+                      onScroll={[Function]}
+                      onScrollBeginDrag={[Function]}
+                      onScrollEndDrag={[Function]}
+                      removeClippedSubviews={false}
+                      renderItem={[Function]}
+                      scrollEventThrottle={50}
+                      stickyHeaderIndices={Array []}
+                      style={
+                        Object {
+                          "marginTop": 16,
+                          "paddingHorizontal": 24,
+                          "paddingTop": 1,
+                        }
+                      }
+                      viewabilityConfigCallbackPairs={Array []}
+                    >
+                      <View>
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "alignSelf": "center",
+                                "color": "gray",
+                                "fontSize": 16,
+                                "paddingTop": 16,
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "fontFamily": "Nunito-Regular",
+                              },
+                            ]
+                          }
+                        >
+                          Chưa có dữ liệu hiển thị
+                        </Text>
+                      </View>
+                    </RCTScrollView>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "marginHorizontal": 16,
+                          "marginVertical": 16,
+                        }
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "alignSelf": "center",
+                            "backgroundColor": "#fff",
+                            "borderColor": "#26894F",
+                            "borderRadius": 25,
+                            "borderWidth": 1,
+                            "flex": 1,
+                            "flexDirection": "row",
+                            "fontFamily": "Nunito-Regular",
+                            "height": 36,
+                            "justifyContent": "center",
+                            "marginLeft": 5,
+                            "marginRight": 5,
+                            "opacity": 1,
+                            "paddingHorizontal": 16,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "fontSize": 16,
+                                "fontWeight": "bold",
+                              },
+                              Object {
+                                "fontFamily": "Nunito-Regular",
+                              },
+                              Object {
+                                "color": "#26894F",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          Hủy
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </Modal>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "gray",
+                    "flex": 1,
+                    "fontSize": 14,
+                  },
+                  Object {
+                    "fontFamily": "Nunito-Regular",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Quận/Huyện
+            </Text>
+          </View>
+          <Text
+            allowFontScaling={false}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "color": "#767676",
+                  "fontSize": 24,
+                },
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "center",
+                    "height": 22,
+                    "justifyContent": "center",
+                    "position": "absolute",
+                    "right": 5,
+                    "top": 20,
+                    "zIndex": 1,
+                  },
+                  Object {},
+                ],
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            󰍝
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#26894F",
+            "borderRadius": 8,
+            "borderStyle": "dashed",
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingHorizontal": 31,
+            "paddingVertical": 9,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/ic_add_square.png",
+            }
+          }
+          style={
+            Object {
+              "height": 13,
+              "width": 13,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#26894F",
+              "fontSize": 12,
+              "marginLeft": 9,
+            }
+          }
+        >
+          Thêm khu vực
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,8 @@
+query GetAvatar($userId: Uuid) {
+  userById(userId: $userId) {
+    userDto {
+      profilePhoto
+      profilePhotos
+    }
+  }
+}

@@ -1,0 +1,16 @@
+query GetStaffGroups(
+  $page: Int
+  $pageSize: Int
+  $where: StaffGroupDtoFilter
+  $orderBy: StaffGroupDtoSort
+) {
+  staffGroups(page: $page, pageSize: $pageSize, where: $where, order_by: $orderBy) {
+    edges {
+      staffGroupId
+      staffGroupName
+      staffGroupDescription
+      staffTypeId
+    }
+    totalCount
+  }
+}

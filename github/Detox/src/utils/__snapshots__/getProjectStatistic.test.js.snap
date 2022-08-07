@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getProjectStatistic 1`] = `
+Object {
+  "availableText": "Còn trống",
+  "availableValue": 98,
+  "countDownTime": 1604484000000,
+  "statusLabel": "Có đặt chỗ",
+  "statusValue": 0,
+}
+`;
+
+exports[`getProjectStatistic 2`] = `
+Object {
+  "availableText": "Còn trống",
+  "availableValue": 0,
+  "countDownTime": null,
+  "statusLabel": "Đã cọc, bán",
+  "statusValue": 0,
+}
+`;

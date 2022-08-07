@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|c2c/PropertyPostCrawler ItemList 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#CCD1D9",
+      "borderRadius": 8,
+      "borderWidth": 1,
+      "marginBottom": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 16,
+          "includeFontPadding": true,
+        }
+      }
+    >
+      Bán căn hộ chung cư Cityland Park Hills: DT 70m2, 2PN, 2WC giá bán 3.6 tỷ LH 0936.322.476 Hưng
+    </Text>
+    <Text
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#767676",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 14,
+          "includeFontPadding": true,
+          "lineHeight": 26,
+        }
+      }
+    >
+      Phan Văn Trị, 10, Gò Vấp, Hồ Chí Minh.
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 26,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#E53030",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+          3.6 tỷ
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#313131",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 16,
+              "includeFontPadding": true,
+            }
+          }
+        >
+           - 
+          70
+           m2
+        </Text>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#313131",
+            "fontFamily": "Nunito-Regular",
+            "fontSize": 16,
+            "includeFontPadding": true,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#CCD1D9",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 16,
+          "includeFontPadding": true,
+        }
+      }
+    >
+      Liên hệ
+      : 
+    </Text>
+    <Text
+      numberOfLines={2}
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Bold",
+          "fontSize": 16,
+          "includeFontPadding": true,
+        }
+      }
+    >
+      093 632 24 76
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 56,
+        "padding": 12,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "#26894F",
+          "borderRadius": 8,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "color": "#26894F",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Xóa khỏi danh sách
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": undefined,
+            "height": undefined,
+            "width": 8,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#26894F",
+          "borderRadius": 8,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginHorizontal": 8,
+            },
+            Object {
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Xử lý tin đăng
+      </Text>
+    </View>
+  </View>
+</View>
+`;

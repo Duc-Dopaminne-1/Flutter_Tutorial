@@ -1,0 +1,23 @@
+query GetBuyerInfoByCurrentUserForTransaction {
+  getBuyerInfoByCurrentUserForTransaction {
+    buyerInfoDto {
+      firstName
+      lastName
+      phoneNumber
+      email
+      gender
+      dob {
+        toDateTime
+      }
+      nationalId
+      permanentAddress
+      contactAddress
+      nationalIdType
+      nationalIdIssuePlace
+      nationalIdIssueDate
+    }
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

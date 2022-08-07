@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* TpfClientSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TpfClientSampleTests.m */; };
+		082DFF467A934768AF9DF901 /* Poppins Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8CF67586D358403BA657DE02 /* Poppins Regular.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17A972E43AD240DC8A556BFF /* Lato SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F17CA93853D4E7EB4757424 /* Lato SemiBold.ttf */; };
+		1873AD2DDE6E449091570FC6 /* Montserrat Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448CD1C51DC84A2EAA7223D5 /* Montserrat Medium.ttf */; };
+		199B7DC22010440AA992778A /* Montserrat Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667A7D3943214BB59FAE367D /* Montserrat Regular.ttf */; };
+		19C1A976987F483E872B3162 /* Nunito Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1234513FA64484A992D58B /* Nunito Black.ttf */; };
+		2B0C9883370C4A568AC95A2B /* Poppins Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5E70E5C3AF4E25AC8C9065 /* Poppins Italic.otf */; };
+		41828ADB13BB463789C978EB /* Lato Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CDBBEFEC61D455695099F4D /* Lato Black.ttf */; };
+		5BA8C721CFEEB9848A3D663F /* libPods-TpfClientSample-TpfClientSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEC91687D2F61C1AB8908C5 /* libPods-TpfClientSample-TpfClientSampleTests.a */; };
+		736AAD3EC6EF186D4DD6804D /* libPods-TpfClientSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAA8FFA477A0912CF39171E /* libPods-TpfClientSample.a */; };
+		7E6F0C99A554439F93FC4D77 /* Nunito Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D89A8931727433ABA95D32C /* Nunito Bold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8AE1DEBCD17446A79D8A64CB /* Nunito Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F864422018D419399C9526E /* Nunito Regular.ttf */; };
+		AEBF31B6DDB3422F992646DE /* Poppins Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3293D1B2E6764CBDA9DFD5A2 /* Poppins Bold.otf */; };
+		AEE4B06167C04721B9FB3925 /* Montserrat Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE4C2B7F9843D3AA4ACD48 /* Montserrat Italic.ttf */; };
+		B39CDAD727ED4B4D9B61A6D5 /* Lato Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D600E187B8324A32BEC2D2DD /* Lato Bold.ttf */; };
+		BBF625FE19664DEBB834CA24 /* Lato Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0649814730416480B4DF86 /* Lato Italic.ttf */; };
+		BC1427C74A454DE088A49C04 /* Lato Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C6966E9C2424CFD970F88A7 /* Lato Medium.ttf */; };
+		BC8FF2AAD43A4C5A83645837 /* Poppins SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0924ABED81714A7EA12F294B /* Poppins SemiBold.otf */; };
+		C233887626944754A2F3DF3D /* Nunito Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01259573486644CFAD8ADEA4 /* Nunito Italic.ttf */; };
+		C5DBE4845DAE4F44B188E2FF /* Nunito Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A1ED9205DD349ECAD7242C5 /* Nunito Medium.ttf */; };
+		CFE48C3687AB430EBDCDF657 /* Poppins Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92A82C59FAF44E57BD791BAA /* Poppins Black.otf */; };
+		D2DC7B258DC84D3799285EEA /* Nunito SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34FD24268D6545ABAF175BF0 /* Nunito SemiBold.ttf */; };
+		D2EDB765B26E4228B2A03CB7 /* Montserrat Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAEDA2CF65FB404999E1DBB9 /* Montserrat Bold.ttf */; };
+		DF37A456C39A4B1F8C9CBF80 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		E32CF73D39BB4549BBFEACE1 /* Montserrat SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E261FB8C36488FA6786A16 /* Montserrat SemiBold.ttf */; };
+		EFC0C7C9314441CC8D265FC4 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		F3B3297ABE4D4D42999C7299 /* Montserrat Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 345F3A3BB79D43AEB32D4607 /* Montserrat Black.ttf */; };
+		F85767996D2049A88547EE49 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		FB4DA64DA009460F90D65DC5 /* Poppins Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73F12A5A5E7C4348A7C61DDD /* Poppins Medium.otf */; };
+		FC46F11BF4FE4609BD652862 /* Lato Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B395C0B6BCF4234B33C4791 /* Lato Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = TpfClientSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* TpfClientSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpfClientSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TpfClientSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TpfClientSampleTests.m; sourceTree = "<group>"; };
+		01259573486644CFAD8ADEA4 /* Nunito Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito Italic.ttf"; path = "../fonts/Nunito Italic.ttf"; sourceTree = "<group>"; };
+		0924ABED81714A7EA12F294B /* Poppins SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins SemiBold.otf"; path = "../fonts/Poppins SemiBold.otf"; sourceTree = "<group>"; };
+		0D0649814730416480B4DF86 /* Lato Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato Italic.ttf"; path = "../fonts/Lato Italic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TpfClientSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpfClientSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TpfClientSample/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TpfClientSample/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TpfClientSample/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TpfClientSample/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TpfClientSample/main.m; sourceTree = "<group>"; };
+		1A1ED9205DD349ECAD7242C5 /* Nunito Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito Medium.ttf"; path = "../fonts/Nunito Medium.ttf"; sourceTree = "<group>"; };
+		1B395C0B6BCF4234B33C4791 /* Lato Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato Regular.ttf"; path = "../fonts/Lato Regular.ttf"; sourceTree = "<group>"; };
+		1E5E70E5C3AF4E25AC8C9065 /* Poppins Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Italic.otf"; path = "../fonts/Poppins Italic.otf"; sourceTree = "<group>"; };
+		1F864422018D419399C9526E /* Nunito Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito Regular.ttf"; path = "../fonts/Nunito Regular.ttf"; sourceTree = "<group>"; };
+		2AAA8FFA477A0912CF39171E /* libPods-TpfClientSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TpfClientSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3293D1B2E6764CBDA9DFD5A2 /* Poppins Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Bold.otf"; path = "../fonts/Poppins Bold.otf"; sourceTree = "<group>"; };
+		345F3A3BB79D43AEB32D4607 /* Montserrat Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat Black.ttf"; path = "../fonts/Montserrat Black.ttf"; sourceTree = "<group>"; };
+		34FD24268D6545ABAF175BF0 /* Nunito SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito SemiBold.ttf"; path = "../fonts/Nunito SemiBold.ttf"; sourceTree = "<group>"; };
+		3C6966E9C2424CFD970F88A7 /* Lato Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato Medium.ttf"; path = "../fonts/Lato Medium.ttf"; sourceTree = "<group>"; };
+		3D89A8931727433ABA95D32C /* Nunito Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito Bold.ttf"; path = "../fonts/Nunito Bold.ttf"; sourceTree = "<group>"; };
+		448CD1C51DC84A2EAA7223D5 /* Montserrat Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat Medium.ttf"; path = "../fonts/Montserrat Medium.ttf"; sourceTree = "<group>"; };
+		4CDBBEFEC61D455695099F4D /* Lato Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato Black.ttf"; path = "../fonts/Lato Black.ttf"; sourceTree = "<group>"; };
+		667A7D3943214BB59FAE367D /* Montserrat Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat Regular.ttf"; path = "../fonts/Montserrat Regular.ttf"; sourceTree = "<group>"; };
+		6F17CA93853D4E7EB4757424 /* Lato SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato SemiBold.ttf"; path = "../fonts/Lato SemiBold.ttf"; sourceTree = "<group>"; };
+		73F12A5A5E7C4348A7C61DDD /* Poppins Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Medium.otf"; path = "../fonts/Poppins Medium.otf"; sourceTree = "<group>"; };
+		818C549B899815FCBDD7769F /* Pods-TpfClientSample-TpfClientSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpfClientSample-TpfClientSampleTests.release.xcconfig"; path = "Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TpfClientSample/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CF67586D358403BA657DE02 /* Poppins Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Regular.otf"; path = "../fonts/Poppins Regular.otf"; sourceTree = "<group>"; };
+		92A82C59FAF44E57BD791BAA /* Poppins Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins Black.otf"; path = "../fonts/Poppins Black.otf"; sourceTree = "<group>"; };
+		9ABE4C2B7F9843D3AA4ACD48 /* Montserrat Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat Italic.ttf"; path = "../fonts/Montserrat Italic.ttf"; sourceTree = "<group>"; };
+		9D6F4BB2E751C0AA725A77B4 /* Pods-TpfClientSample-TpfClientSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpfClientSample-TpfClientSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FEC91687D2F61C1AB8908C5 /* libPods-TpfClientSample-TpfClientSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TpfClientSample-TpfClientSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E261FB8C36488FA6786A16 /* Montserrat SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat SemiBold.ttf"; path = "../fonts/Montserrat SemiBold.ttf"; sourceTree = "<group>"; };
+		C91710DED3B0EE44AB948F61 /* Pods-TpfClientSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpfClientSample.debug.xcconfig"; path = "Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample.debug.xcconfig"; sourceTree = "<group>"; };
+		CBAFCEE40F000DE8C6B58AC0 /* Pods-TpfClientSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpfClientSample.release.xcconfig"; path = "Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample.release.xcconfig"; sourceTree = "<group>"; };
+		CF1234513FA64484A992D58B /* Nunito Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito Black.ttf"; path = "../fonts/Nunito Black.ttf"; sourceTree = "<group>"; };
+		D600E187B8324A32BEC2D2DD /* Lato Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato Bold.ttf"; path = "../fonts/Lato Bold.ttf"; sourceTree = "<group>"; };
+		EAEDA2CF65FB404999E1DBB9 /* Montserrat Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat Bold.ttf"; path = "../fonts/Montserrat Bold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA8C721CFEEB9848A3D663F /* libPods-TpfClientSample-TpfClientSampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736AAD3EC6EF186D4DD6804D /* libPods-TpfClientSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* TpfClientSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* TpfClientSampleTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = TpfClientSampleTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* TpfClientSample */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = TpfClientSample;
+			sourceTree = "<group>";
+		};
+		2BFD7412DB0B49DD82886C04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBBEFEC61D455695099F4D /* Lato Black.ttf */,
+				D600E187B8324A32BEC2D2DD /* Lato Bold.ttf */,
+				0D0649814730416480B4DF86 /* Lato Italic.ttf */,
+				3C6966E9C2424CFD970F88A7 /* Lato Medium.ttf */,
+				1B395C0B6BCF4234B33C4791 /* Lato Regular.ttf */,
+				6F17CA93853D4E7EB4757424 /* Lato SemiBold.ttf */,
+				345F3A3BB79D43AEB32D4607 /* Montserrat Black.ttf */,
+				EAEDA2CF65FB404999E1DBB9 /* Montserrat Bold.ttf */,
+				9ABE4C2B7F9843D3AA4ACD48 /* Montserrat Italic.ttf */,
+				448CD1C51DC84A2EAA7223D5 /* Montserrat Medium.ttf */,
+				667A7D3943214BB59FAE367D /* Montserrat Regular.ttf */,
+				C1E261FB8C36488FA6786A16 /* Montserrat SemiBold.ttf */,
+				CF1234513FA64484A992D58B /* Nunito Black.ttf */,
+				3D89A8931727433ABA95D32C /* Nunito Bold.ttf */,
+				01259573486644CFAD8ADEA4 /* Nunito Italic.ttf */,
+				1A1ED9205DD349ECAD7242C5 /* Nunito Medium.ttf */,
+				1F864422018D419399C9526E /* Nunito Regular.ttf */,
+				34FD24268D6545ABAF175BF0 /* Nunito SemiBold.ttf */,
+				92A82C59FAF44E57BD791BAA /* Poppins Black.otf */,
+				3293D1B2E6764CBDA9DFD5A2 /* Poppins Bold.otf */,
+				1E5E70E5C3AF4E25AC8C9065 /* Poppins Italic.otf */,
+				73F12A5A5E7C4348A7C61DDD /* Poppins Medium.otf */,
+				8CF67586D358403BA657DE02 /* Poppins Regular.otf */,
+				0924ABED81714A7EA12F294B /* Poppins SemiBold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				2AAA8FFA477A0912CF39171E /* libPods-TpfClientSample.a */,
+				9FEC91687D2F61C1AB8908C5 /* libPods-TpfClientSample-TpfClientSampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* TpfClientSample */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* TpfClientSampleTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				CDB4E193EE2823E47EA8F9CE /* Pods */,
+				2BFD7412DB0B49DD82886C04 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* TpfClientSample.app */,
+				00E356EE1AD99517003FC87E /* TpfClientSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB4E193EE2823E47EA8F9CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C91710DED3B0EE44AB948F61 /* Pods-TpfClientSample.debug.xcconfig */,
+				CBAFCEE40F000DE8C6B58AC0 /* Pods-TpfClientSample.release.xcconfig */,
+				9D6F4BB2E751C0AA725A77B4 /* Pods-TpfClientSample-TpfClientSampleTests.debug.xcconfig */,
+				818C549B899815FCBDD7769F /* Pods-TpfClientSample-TpfClientSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* TpfClientSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TpfClientSampleTests" */;
+			buildPhases = (
+				4E440058AD57A0F187A9FA3F /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				84C4B0BA80C6418C221BC840 /* [CP] Embed Pods Frameworks */,
+				7F57C8E7D3604A243B350F15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = TpfClientSampleTests;
+			productName = TpfClientSampleTests;
+			productReference = 00E356EE1AD99517003FC87E /* TpfClientSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* TpfClientSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TpfClientSample" */;
+			buildPhases = (
+				7C440523626A2581CE9658E2 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				0EED007F527A32D3B718B7F8 /* [CP] Embed Pods Frameworks */,
+				2B174BAB3F866D5CF6F302FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TpfClientSample;
+			productName = TpfClientSample;
+			productReference = 13B07F961A680F5B00A75B9A /* TpfClientSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TpfClientSample" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* TpfClientSample */,
+				00E356ED1AD99517003FC87E /* TpfClientSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				EFC0C7C9314441CC8D265FC4 /* BuildFile in Resources */,
+				F85767996D2049A88547EE49 /* BuildFile in Resources */,
+				DF37A456C39A4B1F8C9CBF80 /* BuildFile in Resources */,
+				41828ADB13BB463789C978EB /* Lato Black.ttf in Resources */,
+				B39CDAD727ED4B4D9B61A6D5 /* Lato Bold.ttf in Resources */,
+				BBF625FE19664DEBB834CA24 /* Lato Italic.ttf in Resources */,
+				BC1427C74A454DE088A49C04 /* Lato Medium.ttf in Resources */,
+				FC46F11BF4FE4609BD652862 /* Lato Regular.ttf in Resources */,
+				17A972E43AD240DC8A556BFF /* Lato SemiBold.ttf in Resources */,
+				F3B3297ABE4D4D42999C7299 /* Montserrat Black.ttf in Resources */,
+				D2EDB765B26E4228B2A03CB7 /* Montserrat Bold.ttf in Resources */,
+				AEE4B06167C04721B9FB3925 /* Montserrat Italic.ttf in Resources */,
+				1873AD2DDE6E449091570FC6 /* Montserrat Medium.ttf in Resources */,
+				199B7DC22010440AA992778A /* Montserrat Regular.ttf in Resources */,
+				E32CF73D39BB4549BBFEACE1 /* Montserrat SemiBold.ttf in Resources */,
+				19C1A976987F483E872B3162 /* Nunito Black.ttf in Resources */,
+				7E6F0C99A554439F93FC4D77 /* Nunito Bold.ttf in Resources */,
+				C233887626944754A2F3DF3D /* Nunito Italic.ttf in Resources */,
+				C5DBE4845DAE4F44B188E2FF /* Nunito Medium.ttf in Resources */,
+				8AE1DEBCD17446A79D8A64CB /* Nunito Regular.ttf in Resources */,
+				D2DC7B258DC84D3799285EEA /* Nunito SemiBold.ttf in Resources */,
+				CFE48C3687AB430EBDCDF657 /* Poppins Black.otf in Resources */,
+				AEBF31B6DDB3422F992646DE /* Poppins Bold.otf in Resources */,
+				2B0C9883370C4A568AC95A2B /* Poppins Italic.otf in Resources */,
+				FB4DA64DA009460F90D65DC5 /* Poppins Medium.otf in Resources */,
+				082DFF467A934768AF9DF901 /* Poppins Regular.otf in Resources */,
+				BC8FF2AAD43A4C5A83645837 /* Poppins SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		0EED007F527A32D3B718B7F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B174BAB3F866D5CF6F302FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample/Pods-TpfClientSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E440058AD57A0F187A9FA3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TpfClientSample-TpfClientSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C440523626A2581CE9658E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TpfClientSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F57C8E7D3604A243B350F15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C4B0BA80C6418C221BC840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TpfClientSample-TpfClientSampleTests/Pods-TpfClientSample-TpfClientSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* TpfClientSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* TpfClientSample */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6F4BB2E751C0AA725A77B4 /* Pods-TpfClientSample-TpfClientSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TpfClientSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpfClientSample.app/TpfClientSample";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818C549B899815FCBDD7769F /* Pods-TpfClientSample-TpfClientSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = TpfClientSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpfClientSample.app/TpfClientSample";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91710DED3B0EE44AB948F61 /* Pods-TpfClientSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y8BNHFJT3;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TpfClientSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akc.sdkclient;
+				PRODUCT_NAME = TpfClientSample;
+				PROVISIONING_PROFILE_SPECIFIER = com.akc.sdkclient;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAFCEE40F000DE8C6B58AC0 /* Pods-TpfClientSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y8BNHFJT3;
+				INFOPLIST_FILE = TpfClientSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.6;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akc.sdkclient;
+				PRODUCT_NAME = TpfClientSample;
+				PROVISIONING_PROFILE_SPECIFIER = com.akc.sdkclient;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TpfClientSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TpfClientSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TpfClientSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

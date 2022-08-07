@@ -1,0 +1,25 @@
+{
+  "common": {
+    "backButton": "BackButton"
+  },
+  "login": {
+    "screenId": "LoginScreen",
+    "loginButton": "LoginButton",
+    "forgotButton": "ForgotButton"
+  },
+  "search": {
+    "screenId": "SearchScreen",
+    "filterButton": "FilterButton",
+    "mapButton": "MapButton",
+    "sortButton": "SortButton"
+  },
+  "profile": {
+    "screenId": "ProfileScreen",
+    "fullNameLabel": "FullNameLabel",
+    "rankLabel": "RankLabel"
+  },
+  "notification": {
+    "screenId": "NotificationScreen",
+    "readAllButton": "ReadAllButton"
+  }
+}

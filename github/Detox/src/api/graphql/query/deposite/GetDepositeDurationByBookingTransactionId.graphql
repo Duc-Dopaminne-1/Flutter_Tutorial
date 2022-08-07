@@ -1,0 +1,8 @@
+query GetDepositeDurationByBookingTransactionId($transactionId: Uuid!) {
+  depositeDurationByBookingTransactionId(bookingTransactionId: $transactionId) {
+    ableConfirmDeposite
+    beginDepositeDatetime
+    endDepositeDatetime
+    endDepositeTimeInSecond
+  }
+}

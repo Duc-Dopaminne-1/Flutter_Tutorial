@@ -1,0 +1,67 @@
+query GetCurPropertyPostsByAgentIdForPublic(
+  $agentId: Uuid!
+  $first: PaginationAmount
+  $after: String!
+  $where: PropertyPostForPublicDtoFilter
+) {
+  curPropertyPostsByAgentIdForPublic(
+    agentId: $agentId
+    first: $first
+    after: $after
+    where: $where
+  ) {
+    edges {
+      node {
+        isFollowed
+        totalFollower
+        totalShare
+        #totalSpam
+        direction
+        #isPrivate
+        propertyPostId
+        createdByUserId
+        propertyTypeId
+        propertyName
+        postTitle
+        price
+        images
+        numberOfBedrooms
+        numberOfBathrooms
+        buildingArea
+        #capetAreas
+        commission
+        saleCommissionCurrencyUnitId
+        propertyPostApprovalStatusId
+        #unitOfMeasureId
+        unitOfMeasure {
+          unitOfMeasureId
+          unitOfMeasureCode
+          unitOfMeasureName
+          numberOfDecimal
+          multiplyWithBaseUnit
+          isRound
+        }
+        propertyAddress {
+          homeAddress
+          streetName
+          wardName
+          cityName
+          districtName
+        }
+        forSale
+        forRent
+        propertyPostForRentDto {
+          propertyPostForRentId
+          rentCommission
+          rentCommissionCurrencyUnitId
+          rentPeriod
+          rentPrice
+          isRented
+        }
+        propertyCode
+      }
+      cursor
+    }
+    totalCount
+  }
+}

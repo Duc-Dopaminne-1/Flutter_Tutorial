@@ -1,0 +1,7 @@
+mutation CreateUserReportSpam($input: CreateUserReportSpamInput!) {
+  createUserReportSpam(createUserReportSpamInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

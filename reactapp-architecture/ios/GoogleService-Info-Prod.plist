@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>979965172912-9ph3l4r6amv6q0b8nsuf04lg13n8b50g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.979965172912-9ph3l4r6amv6q0b8nsuf04lg13n8b50g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAsCsaa-qRgPo3i4Da19nYHrZh8PXhTVFo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>979965172912</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>showsourcing</string>
+	<key>PROJECT_ID</key>
+	<string>showsourcing-4d8ec</string>
+	<key>STORAGE_BUCKET</key>
+	<string>showsourcing-4d8ec.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:979965172912:ios:855939e3c0b514bdb46f75</string>
+	<key>DATABASE_URL</key>
+	<string>https://showsourcing-4d8ec.firebaseio.com</string>
+</dict>
+</plist>

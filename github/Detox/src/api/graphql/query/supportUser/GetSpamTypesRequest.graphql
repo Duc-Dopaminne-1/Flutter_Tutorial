@@ -1,0 +1,11 @@
+query GetSpamTypes {
+  spamTypes {
+    edges {
+      spamTypeId
+      spamTypeName
+      spamTypeDescription
+      sortOrder
+      isActive
+    }
+  }
+}

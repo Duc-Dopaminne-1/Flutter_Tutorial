@@ -1,0 +1,9 @@
+query GetTopenerServiceRequestTypes($where: RequestTypeDtoFilter, $orderBy: RequestTypeDtoSort) {
+  topenerServiceRequestTypes(where: $where, order_by: $orderBy, pageSize: 999) {
+    edges {
+      requestTypeId
+      requestTypeName
+      requestTypeDescription
+    }
+  }
+}

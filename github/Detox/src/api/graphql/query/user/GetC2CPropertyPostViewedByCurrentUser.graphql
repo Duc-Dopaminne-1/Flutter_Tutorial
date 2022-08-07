@@ -1,0 +1,25 @@
+query GetC2CPropertyPostsViewedByCurrentUserFO($page: Int, $pageSize: Int) {
+  getC2CPropertyPostsViewedByCurrentUserFO(page: $page, pageSize: $pageSize) {
+    edges {
+      propertyPostId
+      images
+      price
+      postTitle
+      propertyTypeId
+      buildingArea
+      direction
+      propertyAddress {
+        countryId
+        cityId
+        districtId
+        districtName
+        wardId
+        homeAddress
+        streetName
+        cityName
+        wardName
+      }
+    }
+    totalCount
+  }
+}

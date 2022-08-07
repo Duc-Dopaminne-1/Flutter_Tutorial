@@ -1,0 +1,22 @@
+query GetConsultantsSuggestionC2C(
+  $page: Int
+  $pageSize: Int
+  $input: GetConsultantsSuggestionC2CRequestInput
+) {
+  consultantsSuggestionC2C(page: $page, pageSize: $pageSize, request: $input) {
+    totalCount
+    edges {
+      userId
+      userName
+      fullName
+      staffId
+      staffCode
+      isGroupLeader
+      profilePhoto
+      staffRankingId
+      rating
+      staffGroupDescription
+      staffGroupId
+    }
+  }
+}

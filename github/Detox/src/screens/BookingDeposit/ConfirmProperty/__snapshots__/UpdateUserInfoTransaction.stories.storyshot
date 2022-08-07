@@ -1,0 +1,4464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|b2c/UpdateUserInfoTransaction default 1`] = `
+Array [
+  <Text
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    testID="storyConfigId"
+  >
+    {"isCaptureScrollViewContent":true,"isHaveApolloNetwork":true}
+  </Text>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="captureButton"
+  >
+    <Text>
+      Capture
+    </Text>
+    <Text
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      testID="captureURL"
+    />
+  </View>,
+  <RCTScrollView
+    testID="captureScrollView"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#EBEFFF",
+              "flexDirection": "row",
+              "padding": 16,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/ic_status_info.png",
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "flex": 1,
+                "fontFamily": "Nunito-Regular",
+                "includeFontPadding": true,
+                "marginLeft": 8,
+              }
+            }
+          >
+            Các thông tin sẽ được cập nhật vào hồ sơ Topener của bạn. Vui lòng cập nhật thông tin đầy đủ, chuẩn xác
+          </Text>
+        </View>
+        <RCTScrollView
+          automaticallyAdjustContentInsets={false}
+          contentInset={
+            Object {
+              "bottom": 0,
+            }
+          }
+          enableAutomaticScroll={true}
+          enableOnAndroid={false}
+          enableResetScrollToCoords={false}
+          extraHeight={75}
+          extraScrollHeight={0}
+          getScrollResponder={[Function]}
+          handleOnScroll={[Function]}
+          keyboardDismissMode="interactive"
+          keyboardOpeningTime={250}
+          keyboardSpace={0}
+          onScroll={[Function]}
+          resetKeyboardSpace={[Function]}
+          scrollEventThrottle={1}
+          scrollForExtraHeightOnAndroid={[Function]}
+          scrollIntoView={[Function]}
+          scrollToEnd={[Function]}
+          scrollToFocusedInput={[Function]}
+          scrollToPosition={[Function]}
+          showsVerticalScrollIndicator={true}
+          style={
+            Object {
+              "paddingHorizontal": 16,
+            }
+          }
+          update={[Function]}
+          viewIsInsideTabBar={false}
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Tên
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder="Nhập tên"
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#E4E4E4",
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+                value="Nguyen"
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Họ và tên đệm
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder="Nhập họ và tên đệm"
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#E4E4E4",
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+                value="Thinh"
+              />
+            </View>
+            <View
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#828282",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 15,
+                        "includeFontPadding": true,
+                      },
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "fontFamily": "Nunito-Bold",
+                          "includeFontPadding": true,
+                        },
+                        Object {},
+                      ],
+                    ]
+                  }
+                >
+                  Ngày sinh
+                   
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  Object {
+                    "disabled": false,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#CCD1D9",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "justifyContent": "center",
+                        "marginTop": 8,
+                        "minHeight": 45,
+                        "paddingHorizontal": 8,
+                        "paddingVertical": 8,
+                      },
+                      Object {},
+                      undefined,
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "fontFamily": "Nunito-Regular",
+                          "includeFontPadding": true,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    05/08/2021
+                  </Text>
+                </View>
+              </View>
+              <Modal
+                animationType="none"
+                hardwareAccelerated={false}
+                isVisible={false}
+                onHide={[Function]}
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "black",
+                      "bottom": 0,
+                      "height": 1334,
+                      "left": 0,
+                      "opacity": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 750,
+                    }
+                  }
+                />
+              </Modal>
+            </View>
+            <View
+              pointerEvents="auto"
+              style={
+                Object {
+                  "marginBottom": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#828282",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 15,
+                        "includeFontPadding": true,
+                      },
+                      Array [
+                        Object {
+                          "marginBottom": 8,
+                        },
+                        Object {
+                          "color": "#313131",
+                          "fontFamily": "Nunito-Bold",
+                          "includeFontPadding": true,
+                          "marginVertical": 16,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Giới tính
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "width": "100%",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "borderColor": "#E4E4E4",
+                          "borderRadius": 12,
+                          "borderWidth": 2,
+                          "height": 24,
+                          "justifyContent": "center",
+                          "padding": 1,
+                          "width": 24,
+                        },
+                        undefined,
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "width": 12,
+                      }
+                    }
+                  />
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "flex": 1,
+                          "fontFamily": "Nunito-Regular",
+                          "fontSize": 14,
+                          "includeFontPadding": true,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Nam
+                  </Text>
+                </View>
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "borderColor": "#E4E4E4",
+                          "borderRadius": 12,
+                          "borderWidth": 2,
+                          "height": 24,
+                          "justifyContent": "center",
+                          "padding": 1,
+                          "width": 24,
+                        },
+                        undefined,
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "width": 12,
+                      }
+                    }
+                  />
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "flex": 1,
+                          "fontFamily": "Nunito-Regular",
+                          "fontSize": 14,
+                          "includeFontPadding": true,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Nữ
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Email
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder="Nhập email"
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#E4E4E4",
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+                value="hungthinh222@topenland.com"
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Số điện thoại
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder="Nhập số điện thoại"
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#E4E4E4",
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+                value="0927117271"
+              />
+            </View>
+            <View
+              pointerEvents="auto"
+              style={
+                Object {
+                  "marginBottom": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#828282",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 15,
+                        "includeFontPadding": true,
+                      },
+                      Array [
+                        Object {
+                          "marginBottom": 8,
+                        },
+                        Object {
+                          "color": "#313131",
+                          "fontFamily": "Nunito-Bold",
+                          "includeFontPadding": true,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Loại giấy tờ
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "width": "100%",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "borderColor": "#E4E4E4",
+                          "borderRadius": 12,
+                          "borderWidth": 2,
+                          "height": 24,
+                          "justifyContent": "center",
+                          "padding": 1,
+                          "width": 24,
+                        },
+                        undefined,
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "width": 12,
+                      }
+                    }
+                  />
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "flex": 1,
+                          "fontFamily": "Nunito-Regular",
+                          "fontSize": 14,
+                          "includeFontPadding": true,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    CMND
+                  </Text>
+                </View>
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "borderColor": "#E4E4E4",
+                          "borderRadius": 12,
+                          "borderWidth": 2,
+                          "height": 24,
+                          "justifyContent": "center",
+                          "padding": 1,
+                          "width": 24,
+                        },
+                        undefined,
+                        undefined,
+                        Object {},
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "width": 12,
+                      }
+                    }
+                  />
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "flex": 1,
+                          "fontFamily": "Nunito-Regular",
+                          "fontSize": 14,
+                          "includeFontPadding": true,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    CCCD
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Mã số
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder="Nhập mã số CMND/CCCD"
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#E4E4E4",
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+                value={null}
+              />
+            </View>
+            <View
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#828282",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 15,
+                        "includeFontPadding": true,
+                      },
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "fontFamily": "Nunito-Bold",
+                          "includeFontPadding": true,
+                        },
+                        Object {},
+                      ],
+                    ]
+                  }
+                >
+                  Ngày cấp
+                   
+                </Text>
+              </View>
+              <View
+                accessibilityState={
+                  Object {
+                    "disabled": false,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#CCD1D9",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "justifyContent": "center",
+                        "marginTop": 8,
+                        "minHeight": 45,
+                        "paddingHorizontal": 8,
+                        "paddingVertical": 8,
+                      },
+                      Object {},
+                      undefined,
+                    ]
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#313131",
+                          "fontFamily": "Nunito-Regular",
+                          "includeFontPadding": true,
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    05/08/2018
+                  </Text>
+                </View>
+              </View>
+              <Modal
+                animationType="none"
+                hardwareAccelerated={false}
+                isVisible={false}
+                onHide={[Function]}
+                transparent={true}
+                visible={false}
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "black",
+                      "bottom": 0,
+                      "height": 1334,
+                      "left": 0,
+                      "opacity": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "width": 750,
+                    }
+                  }
+                />
+              </Modal>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Nơi cấp
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder="Nhập nơi cấp"
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#E4E4E4",
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+                value="123"
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#828282",
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 15,
+                      "includeFontPadding": true,
+                    },
+                    Object {
+                      "color": "#313131",
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 20,
+                      "includeFontPadding": true,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                Địa chỉ thường trú
+                 
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                        "paddingTop": 4,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Tỉnh/Thành phố
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <View
+                pointerEvents="auto"
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#CCD1D9",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "opacity": 1,
+                      "paddingHorizontal": 10,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "paddingVertical": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <Modal
+                    animationType="none"
+                    deviceHeight={null}
+                    deviceWidth={null}
+                    hardwareAccelerated={false}
+                    hideModalContentWhileAnimating={true}
+                    onBackdropPress={[Function]}
+                    onModalHide={[Function]}
+                    onModalWillHide={[Function]}
+                    onModalWillShow={[Function]}
+                    onRequestClose={[Function]}
+                    panResponderThreshold={4}
+                    scrollHorizontal={false}
+                    scrollOffset={0}
+                    scrollOffsetMax={0}
+                    scrollTo={null}
+                    statusBarTranslucent={false}
+                    supportedOrientations={
+                      Array [
+                        "portrait",
+                        "landscape",
+                      ]
+                    }
+                    swipeThreshold={100}
+                    transparent={true}
+                    visible={false}
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      forwardedRef={[Function]}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "black",
+                          "bottom": 0,
+                          "height": 1334,
+                          "left": 0,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 750,
+                        }
+                      }
+                    />
+                    <View
+                      onLayout={[Function]}
+                      pointerEvents="box-none"
+                      style={
+                        Array [
+                          Array [
+                            Object {
+                              "margin": 37.5,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 0,
+                                },
+                              ],
+                            },
+                            Object {
+                              "flex": 1,
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "justifyContent": "flex-end",
+                              "margin": 0,
+                            },
+                            Object {
+                              "margin": 0,
+                            },
+                          ],
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        deviceHeight={null}
+                        deviceWidth={null}
+                        forwardedRef={[Function]}
+                        hideModalContentWhileAnimating={true}
+                        onBackdropPress={[Function]}
+                        onModalHide={[Function]}
+                        onModalWillHide={[Function]}
+                        onModalWillShow={[Function]}
+                        panResponderThreshold={4}
+                        pointerEvents="box-none"
+                        scrollHorizontal={false}
+                        scrollOffset={0}
+                        scrollOffsetMax={0}
+                        scrollTo={null}
+                        statusBarTranslucent={false}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "margin": 0,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                        supportedOrientations={
+                          Array [
+                            "portrait",
+                            "landscape",
+                          ]
+                        }
+                        swipeThreshold={100}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#fff",
+                              "borderTopLeftRadius": 8,
+                              "borderTopRightRadius": 8,
+                              "height": 800.4,
+                              "paddingTop": 16,
+                            }
+                          }
+                        >
+                          <View>
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "fontSize": 16,
+                                    "marginBottom": 16,
+                                    "textAlign": "center",
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                  Object {
+                                    "color": "#26894F",
+                                  },
+                                ]
+                              }
+                            >
+                              Tỉnh/Thành phố
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "backgroundColor": "#cacaca",
+                                "height": 1,
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <TextInput
+                            onBlur={[Function]}
+                            onChangeText={[Function]}
+                            onFocus={[Function]}
+                            placeholder="Nhập vào từ khóa"
+                            returnKeyType="done"
+                            selectionColor="#26894F"
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#cacaca",
+                                  "borderRadius": 5,
+                                  "borderWidth": 1,
+                                  "height": 40,
+                                  "marginHorizontal": 24,
+                                  "marginTop": 16,
+                                  "paddingLeft": 8,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                            underlineColorAndroid="transparent"
+                          />
+                          <RCTScrollView
+                            ListEmptyComponent={[Function]}
+                            data={
+                              Array [
+                                Object {
+                                  "checked": true,
+                                  "id": 1,
+                                  "name": "Hồ Chí Minh",
+                                },
+                              ]
+                            }
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            keyboardShouldPersistTaps="handled"
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "marginTop": 16,
+                                "paddingHorizontal": 24,
+                                "paddingTop": 1,
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <View>
+                              <View
+                                onLayout={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  accessible={true}
+                                  focusable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Object {
+                                      "alignItems": "center",
+                                      "borderBottomColor": "#eaeaea",
+                                      "borderBottomWidth": 1,
+                                      "flexDirection": "row",
+                                      "opacity": 1,
+                                      "paddingVertical": 12,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#333",
+                                          "flex": 1,
+                                          "fontSize": 16,
+                                        },
+                                        Object {
+                                          "fontFamily": "Nunito-Regular",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Hồ Chí Minh
+                                  </Text>
+                                  <Text
+                                    allowFontScaling={false}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#26894F",
+                                          "fontSize": 20,
+                                        },
+                                        Object {
+                                          "textAlign": "right",
+                                          "width": 30,
+                                        },
+                                        Object {
+                                          "fontFamily": "Material Design Icons",
+                                          "fontStyle": "normal",
+                                          "fontWeight": "normal",
+                                        },
+                                        Object {},
+                                      ]
+                                    }
+                                  >
+                                    󰗡
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </RCTScrollView>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "marginHorizontal": 16,
+                                "marginVertical": 16,
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#fff",
+                                  "borderColor": "#26894F",
+                                  "borderRadius": 25,
+                                  "borderWidth": 1,
+                                  "flex": 1,
+                                  "flexDirection": "row",
+                                  "fontFamily": "Nunito-Regular",
+                                  "height": 36,
+                                  "justifyContent": "center",
+                                  "marginLeft": 5,
+                                  "marginRight": 5,
+                                  "opacity": 1,
+                                  "paddingHorizontal": 16,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                    Object {
+                                      "color": "#26894F",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                Hủy
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </Modal>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "gray",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "fontFamily": "Nunito-Regular",
+                        },
+                        Object {
+                          "color": "#333",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    Hồ Chí Minh
+                  </Text>
+                </View>
+                <Text
+                  allowFontScaling={false}
+                  onPress={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontSize": 24,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "height": 22,
+                          "justifyContent": "center",
+                          "position": "absolute",
+                          "right": 5,
+                          "top": 20,
+                          "zIndex": 1,
+                        },
+                        Object {},
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰍝
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                        "paddingTop": 4,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Quận/Huyện
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <View
+                pointerEvents="auto"
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#CCD1D9",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "opacity": 1,
+                      "paddingHorizontal": 10,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "paddingVertical": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <Modal
+                    animationType="none"
+                    deviceHeight={null}
+                    deviceWidth={null}
+                    hardwareAccelerated={false}
+                    hideModalContentWhileAnimating={true}
+                    onBackdropPress={[Function]}
+                    onModalHide={[Function]}
+                    onModalWillHide={[Function]}
+                    onModalWillShow={[Function]}
+                    onRequestClose={[Function]}
+                    panResponderThreshold={4}
+                    scrollHorizontal={false}
+                    scrollOffset={0}
+                    scrollOffsetMax={0}
+                    scrollTo={null}
+                    statusBarTranslucent={false}
+                    supportedOrientations={
+                      Array [
+                        "portrait",
+                        "landscape",
+                      ]
+                    }
+                    swipeThreshold={100}
+                    transparent={true}
+                    visible={false}
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      forwardedRef={[Function]}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "black",
+                          "bottom": 0,
+                          "height": 1334,
+                          "left": 0,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 750,
+                        }
+                      }
+                    />
+                    <View
+                      onLayout={[Function]}
+                      pointerEvents="box-none"
+                      style={
+                        Array [
+                          Array [
+                            Object {
+                              "margin": 37.5,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 0,
+                                },
+                              ],
+                            },
+                            Object {
+                              "flex": 1,
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "justifyContent": "flex-end",
+                              "margin": 0,
+                            },
+                            Object {
+                              "margin": 0,
+                            },
+                          ],
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        deviceHeight={null}
+                        deviceWidth={null}
+                        forwardedRef={[Function]}
+                        hideModalContentWhileAnimating={true}
+                        onBackdropPress={[Function]}
+                        onModalHide={[Function]}
+                        onModalWillHide={[Function]}
+                        onModalWillShow={[Function]}
+                        panResponderThreshold={4}
+                        pointerEvents="box-none"
+                        scrollHorizontal={false}
+                        scrollOffset={0}
+                        scrollOffsetMax={0}
+                        scrollTo={null}
+                        statusBarTranslucent={false}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "margin": 0,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                        supportedOrientations={
+                          Array [
+                            "portrait",
+                            "landscape",
+                          ]
+                        }
+                        swipeThreshold={100}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#fff",
+                              "borderTopLeftRadius": 8,
+                              "borderTopRightRadius": 8,
+                              "height": 800.4,
+                              "paddingTop": 16,
+                            }
+                          }
+                        >
+                          <View>
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "fontSize": 16,
+                                    "marginBottom": 16,
+                                    "textAlign": "center",
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                  Object {
+                                    "color": "#26894F",
+                                  },
+                                ]
+                              }
+                            >
+                              Quận/Huyện
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "backgroundColor": "#cacaca",
+                                "height": 1,
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <TextInput
+                            onBlur={[Function]}
+                            onChangeText={[Function]}
+                            onFocus={[Function]}
+                            placeholder="Nhập vào từ khóa"
+                            returnKeyType="done"
+                            selectionColor="#26894F"
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#cacaca",
+                                  "borderRadius": 5,
+                                  "borderWidth": 1,
+                                  "height": 40,
+                                  "marginHorizontal": 24,
+                                  "marginTop": 16,
+                                  "paddingLeft": 8,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                            underlineColorAndroid="transparent"
+                          />
+                          <RCTScrollView
+                            ListEmptyComponent={[Function]}
+                            data={Array []}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            keyboardShouldPersistTaps="handled"
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "marginTop": 16,
+                                "paddingHorizontal": 24,
+                                "paddingTop": 1,
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <View>
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "alignSelf": "center",
+                                      "color": "gray",
+                                      "fontSize": 16,
+                                      "paddingTop": 16,
+                                      "textAlign": "center",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                  ]
+                                }
+                              >
+                                Chưa có dữ liệu hiển thị
+                              </Text>
+                            </View>
+                          </RCTScrollView>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "marginHorizontal": 16,
+                                "marginVertical": 16,
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#fff",
+                                  "borderColor": "#26894F",
+                                  "borderRadius": 25,
+                                  "borderWidth": 1,
+                                  "flex": 1,
+                                  "flexDirection": "row",
+                                  "fontFamily": "Nunito-Regular",
+                                  "height": 36,
+                                  "justifyContent": "center",
+                                  "marginLeft": 5,
+                                  "marginRight": 5,
+                                  "opacity": 1,
+                                  "paddingHorizontal": 16,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                    Object {
+                                      "color": "#26894F",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                Hủy
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </Modal>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#767676",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Chọn quận/huyện
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "gray",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "fontFamily": "Nunito-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text
+                  allowFontScaling={false}
+                  onPress={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontSize": 24,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "height": 22,
+                          "justifyContent": "center",
+                          "position": "absolute",
+                          "right": 5,
+                          "top": 20,
+                          "zIndex": 1,
+                        },
+                        Object {},
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰍝
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                        "paddingTop": 4,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Phường/Xã
+                   
+                  <Text
+                    style={
+                      Object {
+                        "color": "#FD1D1D",
+                      }
+                    }
+                  >
+                    *
+                  </Text>
+                </Text>
+              </View>
+              <View
+                pointerEvents="auto"
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#CCD1D9",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "opacity": 1,
+                      "paddingHorizontal": 10,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "paddingVertical": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <Modal
+                    animationType="none"
+                    deviceHeight={null}
+                    deviceWidth={null}
+                    hardwareAccelerated={false}
+                    hideModalContentWhileAnimating={true}
+                    onBackdropPress={[Function]}
+                    onModalHide={[Function]}
+                    onModalWillHide={[Function]}
+                    onModalWillShow={[Function]}
+                    onRequestClose={[Function]}
+                    panResponderThreshold={4}
+                    scrollHorizontal={false}
+                    scrollOffset={0}
+                    scrollOffsetMax={0}
+                    scrollTo={null}
+                    statusBarTranslucent={false}
+                    supportedOrientations={
+                      Array [
+                        "portrait",
+                        "landscape",
+                      ]
+                    }
+                    swipeThreshold={100}
+                    transparent={true}
+                    visible={false}
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      forwardedRef={[Function]}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "black",
+                          "bottom": 0,
+                          "height": 1334,
+                          "left": 0,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 750,
+                        }
+                      }
+                    />
+                    <View
+                      onLayout={[Function]}
+                      pointerEvents="box-none"
+                      style={
+                        Array [
+                          Array [
+                            Object {
+                              "margin": 37.5,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 0,
+                                },
+                              ],
+                            },
+                            Object {
+                              "flex": 1,
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "justifyContent": "flex-end",
+                              "margin": 0,
+                            },
+                            Object {
+                              "margin": 0,
+                            },
+                          ],
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        deviceHeight={null}
+                        deviceWidth={null}
+                        forwardedRef={[Function]}
+                        hideModalContentWhileAnimating={true}
+                        onBackdropPress={[Function]}
+                        onModalHide={[Function]}
+                        onModalWillHide={[Function]}
+                        onModalWillShow={[Function]}
+                        panResponderThreshold={4}
+                        pointerEvents="box-none"
+                        scrollHorizontal={false}
+                        scrollOffset={0}
+                        scrollOffsetMax={0}
+                        scrollTo={null}
+                        statusBarTranslucent={false}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "margin": 0,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                        supportedOrientations={
+                          Array [
+                            "portrait",
+                            "landscape",
+                          ]
+                        }
+                        swipeThreshold={100}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#fff",
+                              "borderTopLeftRadius": 8,
+                              "borderTopRightRadius": 8,
+                              "height": 800.4,
+                              "paddingTop": 16,
+                            }
+                          }
+                        >
+                          <View>
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "fontSize": 16,
+                                    "marginBottom": 16,
+                                    "textAlign": "center",
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                  Object {
+                                    "color": "#26894F",
+                                  },
+                                ]
+                              }
+                            >
+                              Phường/Xã
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "backgroundColor": "#cacaca",
+                                "height": 1,
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <TextInput
+                            onBlur={[Function]}
+                            onChangeText={[Function]}
+                            onFocus={[Function]}
+                            placeholder="Nhập vào từ khóa"
+                            returnKeyType="done"
+                            selectionColor="#26894F"
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#cacaca",
+                                  "borderRadius": 5,
+                                  "borderWidth": 1,
+                                  "height": 40,
+                                  "marginHorizontal": 24,
+                                  "marginTop": 16,
+                                  "paddingLeft": 8,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                            underlineColorAndroid="transparent"
+                          />
+                          <RCTScrollView
+                            ListEmptyComponent={[Function]}
+                            data={Array []}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            keyboardShouldPersistTaps="handled"
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "marginTop": 16,
+                                "paddingHorizontal": 24,
+                                "paddingTop": 1,
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <View>
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "alignSelf": "center",
+                                      "color": "gray",
+                                      "fontSize": 16,
+                                      "paddingTop": 16,
+                                      "textAlign": "center",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                  ]
+                                }
+                              >
+                                Chưa có dữ liệu hiển thị
+                              </Text>
+                            </View>
+                          </RCTScrollView>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "marginHorizontal": 16,
+                                "marginVertical": 16,
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#fff",
+                                  "borderColor": "#26894F",
+                                  "borderRadius": 25,
+                                  "borderWidth": 1,
+                                  "flex": 1,
+                                  "flexDirection": "row",
+                                  "fontFamily": "Nunito-Regular",
+                                  "height": 36,
+                                  "justifyContent": "center",
+                                  "marginLeft": 5,
+                                  "marginRight": 5,
+                                  "opacity": 1,
+                                  "paddingHorizontal": 16,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                    Object {
+                                      "color": "#26894F",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                Hủy
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </Modal>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#767676",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Chọn phường/xã
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "gray",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "fontFamily": "Nunito-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text
+                  allowFontScaling={false}
+                  onPress={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontSize": 24,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "height": 22,
+                          "justifyContent": "center",
+                          "position": "absolute",
+                          "right": 5,
+                          "top": 20,
+                          "zIndex": 1,
+                        },
+                        Object {},
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰍝
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  Object {
+                    "marginTop": 16,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Số nhà, đường
+                   
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder=""
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "borderColor": "#CCD1D9",
+                      "borderWidth": 1,
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+                value="123"
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#828282",
+                      "fontFamily": "Nunito-Regular",
+                      "fontSize": 15,
+                      "includeFontPadding": true,
+                    },
+                    Object {
+                      "color": "#313131",
+                      "fontFamily": "Nunito-Bold",
+                      "fontSize": 20,
+                      "includeFontPadding": true,
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                Địa chỉ thường trú
+                 
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                Object {
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#E4E4E4",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "paddingTop": 2,
+                    },
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                󰄱
+              </Text>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333333",
+                        "fontFamily": "Nunito-Regular",
+                        "fontSize": 15,
+                        "includeFontPadding": true,
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Thông tin như địa chỉ thường trú
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                        "paddingTop": 4,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Tỉnh/Thành phố
+                   
+                </Text>
+              </View>
+              <View
+                pointerEvents="auto"
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#CCD1D9",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "opacity": 1,
+                      "paddingHorizontal": 10,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "paddingVertical": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <Modal
+                    animationType="none"
+                    deviceHeight={null}
+                    deviceWidth={null}
+                    hardwareAccelerated={false}
+                    hideModalContentWhileAnimating={true}
+                    onBackdropPress={[Function]}
+                    onModalHide={[Function]}
+                    onModalWillHide={[Function]}
+                    onModalWillShow={[Function]}
+                    onRequestClose={[Function]}
+                    panResponderThreshold={4}
+                    scrollHorizontal={false}
+                    scrollOffset={0}
+                    scrollOffsetMax={0}
+                    scrollTo={null}
+                    statusBarTranslucent={false}
+                    supportedOrientations={
+                      Array [
+                        "portrait",
+                        "landscape",
+                      ]
+                    }
+                    swipeThreshold={100}
+                    transparent={true}
+                    visible={false}
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      forwardedRef={[Function]}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "black",
+                          "bottom": 0,
+                          "height": 1334,
+                          "left": 0,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 750,
+                        }
+                      }
+                    />
+                    <View
+                      onLayout={[Function]}
+                      pointerEvents="box-none"
+                      style={
+                        Array [
+                          Array [
+                            Object {
+                              "margin": 37.5,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 0,
+                                },
+                              ],
+                            },
+                            Object {
+                              "flex": 1,
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "justifyContent": "flex-end",
+                              "margin": 0,
+                            },
+                            Object {
+                              "margin": 0,
+                            },
+                          ],
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        deviceHeight={null}
+                        deviceWidth={null}
+                        forwardedRef={[Function]}
+                        hideModalContentWhileAnimating={true}
+                        onBackdropPress={[Function]}
+                        onModalHide={[Function]}
+                        onModalWillHide={[Function]}
+                        onModalWillShow={[Function]}
+                        panResponderThreshold={4}
+                        pointerEvents="box-none"
+                        scrollHorizontal={false}
+                        scrollOffset={0}
+                        scrollOffsetMax={0}
+                        scrollTo={null}
+                        statusBarTranslucent={false}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "margin": 0,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                        supportedOrientations={
+                          Array [
+                            "portrait",
+                            "landscape",
+                          ]
+                        }
+                        swipeThreshold={100}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#fff",
+                              "borderTopLeftRadius": 8,
+                              "borderTopRightRadius": 8,
+                              "height": 800.4,
+                              "paddingTop": 16,
+                            }
+                          }
+                        >
+                          <View>
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "fontSize": 16,
+                                    "marginBottom": 16,
+                                    "textAlign": "center",
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                  Object {
+                                    "color": "#26894F",
+                                  },
+                                ]
+                              }
+                            >
+                              Tỉnh/Thành phố
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "backgroundColor": "#cacaca",
+                                "height": 1,
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <TextInput
+                            onBlur={[Function]}
+                            onChangeText={[Function]}
+                            onFocus={[Function]}
+                            placeholder="Nhập vào từ khóa"
+                            returnKeyType="done"
+                            selectionColor="#26894F"
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#cacaca",
+                                  "borderRadius": 5,
+                                  "borderWidth": 1,
+                                  "height": 40,
+                                  "marginHorizontal": 24,
+                                  "marginTop": 16,
+                                  "paddingLeft": 8,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                            underlineColorAndroid="transparent"
+                          />
+                          <RCTScrollView
+                            ListEmptyComponent={[Function]}
+                            data={
+                              Array [
+                                Object {
+                                  "checked": false,
+                                  "id": 62,
+                                  "name": "Bắc Kạn",
+                                },
+                                Object {
+                                  "checked": false,
+                                  "id": 63,
+                                  "name": "Cao Bằng",
+                                },
+                              ]
+                            }
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            keyboardShouldPersistTaps="handled"
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "marginTop": 16,
+                                "paddingHorizontal": 24,
+                                "paddingTop": 1,
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <View>
+                              <View
+                                onLayout={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  accessible={true}
+                                  focusable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Object {
+                                      "alignItems": "center",
+                                      "borderBottomColor": "#eaeaea",
+                                      "borderBottomWidth": 1,
+                                      "flexDirection": "row",
+                                      "opacity": 1,
+                                      "paddingVertical": 12,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#333",
+                                          "flex": 1,
+                                          "fontSize": 16,
+                                        },
+                                        Object {
+                                          "fontFamily": "Nunito-Regular",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Bắc Kạn
+                                  </Text>
+                                  <Text
+                                    allowFontScaling={false}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#777777",
+                                          "fontSize": 20,
+                                        },
+                                        Object {
+                                          "textAlign": "right",
+                                          "width": 30,
+                                        },
+                                        Object {
+                                          "fontFamily": "Material Design Icons",
+                                          "fontStyle": "normal",
+                                          "fontWeight": "normal",
+                                        },
+                                        Object {},
+                                      ]
+                                    }
+                                  >
+                                    󰐽
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                onLayout={[Function]}
+                                style={null}
+                              >
+                                <View
+                                  accessible={true}
+                                  focusable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Object {
+                                      "alignItems": "center",
+                                      "borderBottomColor": "#eaeaea",
+                                      "borderBottomWidth": 1,
+                                      "flexDirection": "row",
+                                      "opacity": 1,
+                                      "paddingVertical": 12,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#333",
+                                          "flex": 1,
+                                          "fontSize": 16,
+                                        },
+                                        Object {
+                                          "fontFamily": "Nunito-Regular",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Cao Bằng
+                                  </Text>
+                                  <Text
+                                    allowFontScaling={false}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#777777",
+                                          "fontSize": 20,
+                                        },
+                                        Object {
+                                          "textAlign": "right",
+                                          "width": 30,
+                                        },
+                                        Object {
+                                          "fontFamily": "Material Design Icons",
+                                          "fontStyle": "normal",
+                                          "fontWeight": "normal",
+                                        },
+                                        Object {},
+                                      ]
+                                    }
+                                  >
+                                    󰐽
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "height": 0,
+                                  }
+                                }
+                              />
+                            </View>
+                          </RCTScrollView>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "marginHorizontal": 16,
+                                "marginVertical": 16,
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#fff",
+                                  "borderColor": "#26894F",
+                                  "borderRadius": 25,
+                                  "borderWidth": 1,
+                                  "flex": 1,
+                                  "flexDirection": "row",
+                                  "fontFamily": "Nunito-Regular",
+                                  "height": 36,
+                                  "justifyContent": "center",
+                                  "marginLeft": 5,
+                                  "marginRight": 5,
+                                  "opacity": 1,
+                                  "paddingHorizontal": 16,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                    Object {
+                                      "color": "#26894F",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                Hủy
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </Modal>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#767676",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Chọn tỉnh/thành phố
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "gray",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "fontFamily": "Nunito-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text
+                  allowFontScaling={false}
+                  onPress={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontSize": 24,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "height": 22,
+                          "justifyContent": "center",
+                          "position": "absolute",
+                          "right": 5,
+                          "top": 20,
+                          "zIndex": 1,
+                        },
+                        Object {},
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰍝
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                        "paddingTop": 4,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Quận/Huyện
+                   
+                </Text>
+              </View>
+              <View
+                pointerEvents="auto"
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#CCD1D9",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "opacity": 1,
+                      "paddingHorizontal": 10,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "paddingVertical": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <Modal
+                    animationType="none"
+                    deviceHeight={null}
+                    deviceWidth={null}
+                    hardwareAccelerated={false}
+                    hideModalContentWhileAnimating={true}
+                    onBackdropPress={[Function]}
+                    onModalHide={[Function]}
+                    onModalWillHide={[Function]}
+                    onModalWillShow={[Function]}
+                    onRequestClose={[Function]}
+                    panResponderThreshold={4}
+                    scrollHorizontal={false}
+                    scrollOffset={0}
+                    scrollOffsetMax={0}
+                    scrollTo={null}
+                    statusBarTranslucent={false}
+                    supportedOrientations={
+                      Array [
+                        "portrait",
+                        "landscape",
+                      ]
+                    }
+                    swipeThreshold={100}
+                    transparent={true}
+                    visible={false}
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      forwardedRef={[Function]}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "black",
+                          "bottom": 0,
+                          "height": 1334,
+                          "left": 0,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 750,
+                        }
+                      }
+                    />
+                    <View
+                      onLayout={[Function]}
+                      pointerEvents="box-none"
+                      style={
+                        Array [
+                          Array [
+                            Object {
+                              "margin": 37.5,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 0,
+                                },
+                              ],
+                            },
+                            Object {
+                              "flex": 1,
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "justifyContent": "flex-end",
+                              "margin": 0,
+                            },
+                            Object {
+                              "margin": 0,
+                            },
+                          ],
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        deviceHeight={null}
+                        deviceWidth={null}
+                        forwardedRef={[Function]}
+                        hideModalContentWhileAnimating={true}
+                        onBackdropPress={[Function]}
+                        onModalHide={[Function]}
+                        onModalWillHide={[Function]}
+                        onModalWillShow={[Function]}
+                        panResponderThreshold={4}
+                        pointerEvents="box-none"
+                        scrollHorizontal={false}
+                        scrollOffset={0}
+                        scrollOffsetMax={0}
+                        scrollTo={null}
+                        statusBarTranslucent={false}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "margin": 0,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                        supportedOrientations={
+                          Array [
+                            "portrait",
+                            "landscape",
+                          ]
+                        }
+                        swipeThreshold={100}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#fff",
+                              "borderTopLeftRadius": 8,
+                              "borderTopRightRadius": 8,
+                              "height": 800.4,
+                              "paddingTop": 16,
+                            }
+                          }
+                        >
+                          <View>
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "fontSize": 16,
+                                    "marginBottom": 16,
+                                    "textAlign": "center",
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                  Object {
+                                    "color": "#26894F",
+                                  },
+                                ]
+                              }
+                            >
+                              Quận/Huyện
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "backgroundColor": "#cacaca",
+                                "height": 1,
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <TextInput
+                            onBlur={[Function]}
+                            onChangeText={[Function]}
+                            onFocus={[Function]}
+                            placeholder="Nhập vào từ khóa"
+                            returnKeyType="done"
+                            selectionColor="#26894F"
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#cacaca",
+                                  "borderRadius": 5,
+                                  "borderWidth": 1,
+                                  "height": 40,
+                                  "marginHorizontal": 24,
+                                  "marginTop": 16,
+                                  "paddingLeft": 8,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                            underlineColorAndroid="transparent"
+                          />
+                          <RCTScrollView
+                            ListEmptyComponent={[Function]}
+                            data={Array []}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            keyboardShouldPersistTaps="handled"
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "marginTop": 16,
+                                "paddingHorizontal": 24,
+                                "paddingTop": 1,
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <View>
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "alignSelf": "center",
+                                      "color": "gray",
+                                      "fontSize": 16,
+                                      "paddingTop": 16,
+                                      "textAlign": "center",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                  ]
+                                }
+                              >
+                                Chưa có dữ liệu hiển thị
+                              </Text>
+                            </View>
+                          </RCTScrollView>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "marginHorizontal": 16,
+                                "marginVertical": 16,
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#fff",
+                                  "borderColor": "#26894F",
+                                  "borderRadius": 25,
+                                  "borderWidth": 1,
+                                  "flex": 1,
+                                  "flexDirection": "row",
+                                  "fontFamily": "Nunito-Regular",
+                                  "height": 36,
+                                  "justifyContent": "center",
+                                  "marginLeft": 5,
+                                  "marginRight": 5,
+                                  "opacity": 1,
+                                  "paddingHorizontal": 16,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                    Object {
+                                      "color": "#26894F",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                Hủy
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </Modal>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#767676",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Chọn quận/huyện
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "gray",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "fontFamily": "Nunito-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text
+                  allowFontScaling={false}
+                  onPress={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontSize": 24,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "height": 22,
+                          "justifyContent": "center",
+                          "position": "absolute",
+                          "right": 5,
+                          "top": 20,
+                          "zIndex": 1,
+                        },
+                        Object {},
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰍝
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginTop": 16,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                        "paddingTop": 4,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Phường/Xã
+                   
+                </Text>
+              </View>
+              <View
+                pointerEvents="auto"
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#FFFFFF",
+                      "borderColor": "#CCD1D9",
+                      "borderRadius": 8,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "opacity": 1,
+                      "paddingHorizontal": 10,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "paddingVertical": 0,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <Modal
+                    animationType="none"
+                    deviceHeight={null}
+                    deviceWidth={null}
+                    hardwareAccelerated={false}
+                    hideModalContentWhileAnimating={true}
+                    onBackdropPress={[Function]}
+                    onModalHide={[Function]}
+                    onModalWillHide={[Function]}
+                    onModalWillShow={[Function]}
+                    onRequestClose={[Function]}
+                    panResponderThreshold={4}
+                    scrollHorizontal={false}
+                    scrollOffset={0}
+                    scrollOffsetMax={0}
+                    scrollTo={null}
+                    statusBarTranslucent={false}
+                    supportedOrientations={
+                      Array [
+                        "portrait",
+                        "landscape",
+                      ]
+                    }
+                    swipeThreshold={100}
+                    transparent={true}
+                    visible={false}
+                  >
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      forwardedRef={[Function]}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "black",
+                          "bottom": 0,
+                          "height": 1334,
+                          "left": 0,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "width": 750,
+                        }
+                      }
+                    />
+                    <View
+                      onLayout={[Function]}
+                      pointerEvents="box-none"
+                      style={
+                        Array [
+                          Array [
+                            Object {
+                              "margin": 37.5,
+                              "transform": Array [
+                                Object {
+                                  "translateY": 0,
+                                },
+                              ],
+                            },
+                            Object {
+                              "flex": 1,
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "justifyContent": "flex-end",
+                              "margin": 0,
+                            },
+                            Object {
+                              "margin": 0,
+                            },
+                          ],
+                          Object {
+                            "paddingBottom": 0,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        deviceHeight={null}
+                        deviceWidth={null}
+                        forwardedRef={[Function]}
+                        hideModalContentWhileAnimating={true}
+                        onBackdropPress={[Function]}
+                        onModalHide={[Function]}
+                        onModalWillHide={[Function]}
+                        onModalWillShow={[Function]}
+                        panResponderThreshold={4}
+                        pointerEvents="box-none"
+                        scrollHorizontal={false}
+                        scrollOffset={0}
+                        scrollOffsetMax={0}
+                        scrollTo={null}
+                        statusBarTranslucent={false}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "margin": 0,
+                            "transform": Array [
+                              Object {
+                                "translateY": 0,
+                              },
+                            ],
+                          }
+                        }
+                        supportedOrientations={
+                          Array [
+                            "portrait",
+                            "landscape",
+                          ]
+                        }
+                        swipeThreshold={100}
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "#fff",
+                              "borderTopLeftRadius": 8,
+                              "borderTopRightRadius": 8,
+                              "height": 800.4,
+                              "paddingTop": 16,
+                            }
+                          }
+                        >
+                          <View>
+                            <Text
+                              style={
+                                Array [
+                                  Object {
+                                    "fontSize": 16,
+                                    "marginBottom": 16,
+                                    "textAlign": "center",
+                                    "width": "100%",
+                                  },
+                                  Object {
+                                    "fontFamily": "Nunito-Regular",
+                                  },
+                                  Object {
+                                    "color": "#26894F",
+                                  },
+                                ]
+                              }
+                            >
+                              Phường/Xã
+                            </Text>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "backgroundColor": "#cacaca",
+                                "height": 1,
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <TextInput
+                            onBlur={[Function]}
+                            onChangeText={[Function]}
+                            onFocus={[Function]}
+                            placeholder="Nhập vào từ khóa"
+                            returnKeyType="done"
+                            selectionColor="#26894F"
+                            style={
+                              Array [
+                                Object {
+                                  "borderColor": "#cacaca",
+                                  "borderRadius": 5,
+                                  "borderWidth": 1,
+                                  "height": 40,
+                                  "marginHorizontal": 24,
+                                  "marginTop": 16,
+                                  "paddingLeft": 8,
+                                },
+                                Object {
+                                  "fontFamily": "Nunito-Regular",
+                                },
+                              ]
+                            }
+                            underlineColorAndroid="transparent"
+                          />
+                          <RCTScrollView
+                            ListEmptyComponent={[Function]}
+                            data={Array []}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            keyboardShouldPersistTaps="handled"
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            stickyHeaderIndices={Array []}
+                            style={
+                              Object {
+                                "marginTop": 16,
+                                "paddingHorizontal": 24,
+                                "paddingTop": 1,
+                              }
+                            }
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <View>
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "alignSelf": "center",
+                                      "color": "gray",
+                                      "fontSize": 16,
+                                      "paddingTop": 16,
+                                      "textAlign": "center",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                  ]
+                                }
+                              >
+                                Chưa có dữ liệu hiển thị
+                              </Text>
+                            </View>
+                          </RCTScrollView>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "justifyContent": "center",
+                                "marginHorizontal": 16,
+                                "marginVertical": 16,
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              focusable={true}
+                              onClick={[Function]}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#fff",
+                                  "borderColor": "#26894F",
+                                  "borderRadius": 25,
+                                  "borderWidth": 1,
+                                  "flex": 1,
+                                  "flexDirection": "row",
+                                  "fontFamily": "Nunito-Regular",
+                                  "height": 36,
+                                  "justifyContent": "center",
+                                  "marginLeft": 5,
+                                  "marginRight": 5,
+                                  "opacity": 1,
+                                  "paddingHorizontal": 16,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Array [
+                                    Object {
+                                      "fontSize": 16,
+                                      "fontWeight": "bold",
+                                    },
+                                    Object {
+                                      "fontFamily": "Nunito-Regular",
+                                    },
+                                    Object {
+                                      "color": "#26894F",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                Hủy
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </Modal>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#767676",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Chọn phường/xã
+                  </Text>
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "gray",
+                          "flex": 1,
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "fontFamily": "Nunito-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text
+                  allowFontScaling={false}
+                  onPress={[Function]}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontSize": 24,
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "height": 22,
+                          "justifyContent": "center",
+                          "position": "absolute",
+                          "right": 5,
+                          "top": 20,
+                          "zIndex": 1,
+                        },
+                        Object {},
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  󰍝
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "paddingVertical": 8,
+                  },
+                  Object {
+                    "marginTop": 16,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#313131",
+                        "fontFamily": "Nunito-Bold",
+                        "fontSize": 14,
+                        "includeFontPadding": true,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Số nhà, đường
+                   
+                </Text>
+              </View>
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={true}
+                keyboardType="default"
+                maxLength={128}
+                onChangeText={[Function]}
+                placeholder=""
+                returnKeyType="done"
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "borderRadius": 8,
+                      "fontFamily": "Nunito-Regular",
+                      "includeFontPadding": true,
+                      "marginTop": 8,
+                      "minHeight": 45,
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 8,
+                    },
+                    Object {},
+                    Object {
+                      "color": "#313131",
+                    },
+                    Object {
+                      "borderColor": "#CCD1D9",
+                      "borderWidth": 1,
+                      "paddingLeft": 10,
+                    },
+                  ]
+                }
+                value="321"
+              />
+            </View>
+          </View>
+        </RCTScrollView>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "padding": 16,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignSelf": "center",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#313131",
+                  "fontFamily": "Nunito-Regular",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              Giá tham gia đặt cọc: 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#FC4B5B",
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 12,
+                  "includeFontPadding": true,
+                }
+              }
+            >
+              20,000 VND
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#26894F",
+                "borderRadius": 8,
+                "flexDirection": "row",
+                "height": 48,
+                "justifyContent": "center",
+                "marginTop": 8,
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Nunito-Bold",
+                    "fontSize": 16,
+                    "includeFontPadding": true,
+                    "marginHorizontal": 8,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Tiếp theo
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

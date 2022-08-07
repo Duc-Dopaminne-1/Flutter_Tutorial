@@ -1,0 +1,13 @@
+query ValidateNumberOfPostByUserId(
+  $validateNumberOfPostByUserIdInput: ValidateNumberOfPostByUserIdInput!
+) {
+  validateNumberPostByUserId(
+    validateNumberOfPostByUserIdInput: $validateNumberOfPostByUserIdInput
+  ) {
+    errorCode
+    errorMessage
+    errorMessageCode
+
+    isValid
+  }
+}

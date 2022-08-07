@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots z|notification/ListCheckHighlightItems default 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "flex-start",
+        "backgroundColor": "#E9F3ED",
+        "borderRadius": 100,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 8,
+        "marginRight": 8,
+        "opacity": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#26894F",
+            "fontSize": 16,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#26894F",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 16,
+          "includeFontPadding": true,
+          "marginLeft": 4,
+        }
+      }
+    >
+      Tất cả (0)
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "flex-start",
+        "backgroundColor": "#E8E8E8",
+        "borderRadius": 100,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 8,
+        "marginRight": 8,
+        "opacity": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 16,
+          "includeFontPadding": true,
+          "marginLeft": 0,
+        }
+      }
+    >
+      Giao dịch (0)
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "flex-start",
+        "backgroundColor": "#E8E8E8",
+        "borderRadius": 100,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 8,
+        "marginRight": 8,
+        "opacity": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 16,
+          "includeFontPadding": true,
+          "marginLeft": 0,
+        }
+      }
+    >
+      Gợi ý (0)
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "flex-start",
+        "backgroundColor": "#E8E8E8",
+        "borderRadius": 100,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 8,
+        "marginRight": 8,
+        "opacity": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#313131",
+          "fontFamily": "Nunito-Regular",
+          "fontSize": 16,
+          "includeFontPadding": true,
+          "marginLeft": 0,
+        }
+      }
+    >
+      Hệ thống (0)
+    </Text>
+  </View>
+</View>
+`;

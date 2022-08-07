@@ -1,0 +1,33 @@
+query GetProjects(
+  $order_by: ProjectDtoSort
+  $page: Int
+  $pageSize: Int
+  $where: ProjectDtoFilter
+  $projectName: String!
+) {
+  projectsForPublic(
+    order_by: $order_by
+    page: $page
+    pageSize: $pageSize
+    where: $where
+    projectName: $projectName
+  ) {
+    edges {
+      projectId
+      projectName
+      projectAddress {
+        projectAddressId
+        cityId
+        districtId
+        wardId
+        streetName
+        homeAddress
+        longitude
+        latitude
+        cityName
+        districtName
+        wardName
+      }
+    }
+  }
+}

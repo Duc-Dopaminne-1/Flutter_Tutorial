@@ -1,0 +1,90 @@
+query GetProjectDetail($projectId: Uuid!) {
+  foProjectById(projectId: $projectId) {
+    isFollowed
+    totalFollower
+    bankInfo
+    commissionRates
+    projectStatusDescription
+    projectTypeName
+    projectTypeDescription
+    facilitiesDescription
+    facilitiesMediaInfo
+    startYear
+    totalArea
+    overallDescription
+    featurePhotos
+    groundPlanDescription
+    groundPlanMediaInfo
+    investorOwnerName
+    investorDetailPath
+    investorId
+    # investorOwnerInfo # changed from investorOwnerEmail
+    investorOwnerLogo
+    isFeaturesProject
+    # lastModified #projectById has this but foProjectById not
+    # modifiedBy #projectById has this but foProjectById not
+    locationDescription
+    locationMediaInfo
+    overviewDescription
+    overviewMediaInfo
+    partnersInfo
+    projectAddressId
+    projectAddress {
+      projectAddressId
+      cityId
+      districtId
+      wardId
+      streetName
+      homeAddress
+      longitude
+      latitude
+      cityName
+      districtName
+      wardName
+    }
+    projectItems {
+      id
+      title
+      photo
+      cost
+      commission
+      sortOrder
+    }
+    projectCode
+    projectDescription
+    projectId
+    totalShare
+    projectName
+    projectPostStatusId
+    projectPostStatusName
+    projectProgress
+    projectStatusId
+    propertyTypeId
+    saleProgramDescription
+    saleProgramMediaInfo
+    handoverMaterialDescription
+    handoverMaterialMediaInfo
+    legalInformationDescription
+    legalInformationMediaInfo
+    sizingDescription
+    sizingMediaInfo
+    sortOrder
+    minPrice
+    projectStatusName
+    #for booking feature
+    saleSeasonInfo {
+      saleSeasonId
+      seasonName
+      saleSeasonStatusId
+      startBookingDatetime
+      genericBasketDatetime
+      endBookingDatetime
+      openDatetime
+      closeDatetime
+      allTopenersCanViewProducts
+      # isSkipBooking api lack this information at this moment
+      maxBookingNumber
+    }
+    detailPath
+  }
+}

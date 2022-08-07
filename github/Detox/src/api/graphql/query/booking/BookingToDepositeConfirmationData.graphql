@@ -1,0 +1,36 @@
+query BookingToDepositeConfirmationData($transactionId: Uuid!, $propertyPostId: Uuid!) {
+  bookingTransactionDetail(bookingTransactionId: $transactionId, propertyPostId: $propertyPostId) {
+    bookingTransactionId
+    transactionAmount
+    saleAgentInfo {
+      agentId
+    }
+    customerInfo {
+      customerId
+      customerFirstName
+      customerLastName
+      customerPhone
+      customerEmail
+    }
+    propertyPostInfo {
+      blockCode
+      blockName
+      numberOfFloor
+      floor
+      propertyCode
+      propertyName
+      propertyPostId
+      propertyTypeName
+      price
+    }
+    consultantInfo {
+      staffId
+      staffCode
+      fullName
+      profilePhoto
+      email
+      rating
+      phoneNumber
+    }
+  }
+}

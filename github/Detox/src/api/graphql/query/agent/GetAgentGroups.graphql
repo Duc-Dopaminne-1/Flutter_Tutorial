@@ -1,0 +1,11 @@
+query GetAgentGroups($where: AgentGroupDtoFilter) {
+  agentGroups(where: $where, pageSize: 999999, order_by: {agentGroupName: ASC}) {
+    totalCount
+    edges {
+      agentGroupId
+      agentGroupName
+      agentGroupDescription
+      agentGroupLevel
+    }
+  }
+}

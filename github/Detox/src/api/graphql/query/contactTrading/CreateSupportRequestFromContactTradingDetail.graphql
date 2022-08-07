@@ -1,0 +1,10 @@
+mutation CreateSupportRequestFromContactTradingDetail(
+  $input: CreateSupportRequestFromContactTradingDetailRequestInput!
+) {
+  createSupportRequestFromContactTradingDetail(request: $input) {
+    errorCode
+    errorMessageCode
+    errorMessage
+    supportRequestId
+  }
+}

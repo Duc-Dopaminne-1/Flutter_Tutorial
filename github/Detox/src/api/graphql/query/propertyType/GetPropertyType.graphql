@@ -1,0 +1,19 @@
+query GetPropertyTypes(
+  $where: PropertyTypeDtoFilter
+  $page: Int
+  $pageSize: Int
+  $order_by: PropertyTypeDtoSort
+) {
+  propertyTypes(where: $where, page: $page, pageSize: $pageSize, order_by: $order_by) {
+    totalCount
+    edges {
+      isActive
+      path
+      propertyTypeId
+      propertyTypeName
+      propertyTypeDescription
+      postUsageFields
+      projectUsageFields
+    }
+  }
+}

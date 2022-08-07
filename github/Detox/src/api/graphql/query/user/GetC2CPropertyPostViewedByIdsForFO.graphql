@@ -1,0 +1,30 @@
+query GetC2CPropertyPostViewedByIdsForFO(
+  $getC2CPropertyPostViewedByIdsForFOInput: GetC2CPropertyPostViewedByIdsForFOInput!
+) {
+  getC2CPropertyPostViewedByIdsForFO(propertyPostIds: $getC2CPropertyPostViewedByIdsForFOInput) {
+    c2CPropertyPostViewedDtos {
+      propertyPostId
+      images
+      price
+      postTitle
+      propertyTypeId
+      buildingArea
+      direction
+      detailPathForSale
+      detailPathForRent
+      forRent
+      forSale
+      propertyAddress {
+        countryId
+        cityId
+        districtId
+        districtName
+        wardId
+        homeAddress
+        streetName
+        cityName
+        wardName
+      }
+    }
+  }
+}

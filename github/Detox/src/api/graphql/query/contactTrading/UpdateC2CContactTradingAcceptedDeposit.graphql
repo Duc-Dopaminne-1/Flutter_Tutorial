@@ -1,0 +1,9 @@
+mutation UpdateC2CContactTradingAcceptedDeposit(
+  $input: UpdateC2CContactTradingAcceptedDepositInput!
+) {
+  updateC2CContactTradingAcceptedDeposit(updateC2CContactTradingAcceptedDepositInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

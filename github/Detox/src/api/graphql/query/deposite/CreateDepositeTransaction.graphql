@@ -1,0 +1,29 @@
+mutation CreateDepositeTransaction($input: CreateDepositeTransactionInput!) {
+  createDepositeTransaction(createDepositeTransactionInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+    depositeTransactionDto {
+      depositeTransactionId
+      depositeStatusId
+
+      propertyPostId
+      isLatest
+      customerId
+      bookingTransactionId
+    }
+  }
+}
+
+# {
+#   "input": {
+#     "depositeStatusId": "bf8f1cbf-49d1-4d94-9a83-bfbc9a3c9b52",
+
+#     "propertyPostId": "63899bf7-90f9-445f-88a9-3c0d0dae59fb",
+#     "saleAgentId": "7266403c-6961-4041-9ce4-6d28d2fb9807",
+#     "bookingTransactionId": "836bc808-1d71-43b4-8e64-766c2d186ba7",
+#     "paymentMethod": "ONLINE",
+
+#     "customerId": "83756763-d927-46f7-9ede-7acfc821c3d8"
+#   }
+# }

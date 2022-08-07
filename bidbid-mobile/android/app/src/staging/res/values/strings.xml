@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">@string/APP_NAME</string>
+    <string name="facebook_app_id" translatable="false">@string/FACEBOOK_ID</string>
+    <string name="fb_login_protocol_scheme" translatable="false">@string/FB_URL_SCHEMA</string>
+    <string name="google_map_api" translatable="false">@string/GOOGLE_MAP_API_KEY</string>
+    <string name="branch_key" translatable="false">@string/BRANCH_KEY</string>
+    <string name="branch_host" translatable="false">@string/BRANCH_HOST</string>
+    <color name="white">#FFF</color>
+    <string moduleConfig="true" name="CodePushDeploymentKey">@string/CODE_PUSH_ANDROID</string>
+</resources>

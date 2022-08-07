@@ -1,0 +1,154 @@
+before_all do
+  puts "before all"
+end
+
+after_all do |lane, options|
+  puts "after all"
+end
+
+lane :get_changelog do
+  sh("cat ../ReleaseNote.md")
+end
+
+lane :get_version_code do
+  version_code = ENV["BUILD_BUILDID"] || 1
+  # version_code = appcenter_fetch_version_number(
+  #   api_token: ENV["APPCENTER_API_TOKEN"],
+  #   owner_name: ENV["APPCENTER_OWNER_NAME"],
+  #   app_name: ENV["APPCENTER_IOS_APP_NAME"]
+  # )["build_number"]
+  # puts version_code
+end
+
+lane :get_version_name do
+  package = load_json(json_path: "./package.json")
+  version_name = package["version"] || "0.0.1"
+end
+
+lane :set_version do
+  # ANDROID
+  android_set_version_code(
+    version_code: get_version_code,
+    gradle_file: "./android/app/build.gradle"
+  )
+  increment_version_name(
+    gradle_file_path: "./android/app/build.gradle",
+    version_name: get_version_name
+  )
+  # IOS
+  increment_build_number(
+    build_number: get_version_code,
+    xcodeproj: "ios/DevTopenland.xcodeproj"
+  )
+  increment_version_number(
+    xcodeproj: './ios/DevTopenland.xcodeproj',
+    version_number: get_version_name
+  )
+end
+
+lane :push_git_tag do
+  tag = "mobile/#{ENV['ENV_NAME']}/#{get_version_code}"
+  puts tag
+  add_git_tag(
+    force: true,
+    tag: tag,
+    message: get_changelog
+  )
+  push_git_tags(force: true, tag: tag)
+end
+
+platform :android do
+  desc 'Clean android build'
+  lane :clean do
+    gradle(task: 'clean', project_dir: "android/")
+  end
+
+  desc 'Upload to App Center.'
+  lane :upload_appcenter do |options|
+    file = options[:file] || ENV["APPCENTER_DISTRIBUTE_FILE"]
+    puts file
+    appcenter_upload(
+      api_token: ENV["APPCENTER_API_TOKEN"],
+      owner_name: ENV["APPCENTER_OWNER_NAME"],
+      owner_type: ENV["APPCENTER_OWNER_TYPE"],
+      app_os: ENV["APPCENTER_APP_OS_ANDROID"],
+      app_platform: ENV["APPCENTER_APP_PLATFORM"],
+      app_name: ENV["APPCENTER_ANDROID_APP_NAME"],
+      app_display_name: ENV["APPCENTER_ANDROID_APP_DISPLAY_NAME"],
+      file: file,
+      destination_type: ENV["APPCENTER_DISTRIBUTE_DESTINATION_TYPE"] || "group",
+      destinations: ENV["FL_DISTRIBUTE_GROUP"] || ENV["APPCENTER_DISTRIBUTE_DESTINATIONS"],
+      release_notes: get_changelog,
+    )
+  end
+
+  desc 'Qa/Uat/Sec target: Build the Android application.'
+  lane :build_target do |options|
+    gradle(
+      task: ENV["FL_GRADLE_TASK"] || 'app:assemble',
+      build_type: 'Release',
+      project_dir: 'android/'
+    )
+  end
+
+  desc 'Qa target: Build and deploy to app center the Android application.'
+  lane :appcenter_target do |options|
+    build_target(target: options[:target])
+    upload_appcenter
+  end
+end
+
+
+platform :ios do
+  desc 'Fetch certificates and provisioning profiles'
+  lane :certificates do
+    if ENV["IS_CLOUD_BUILD"] == 'True'
+      is_ci && setup_ci(force: true)
+    end
+    match()
+  end
+
+  desc 'Build the iOS application.'
+  lane :build_target do |options|
+    certificates
+    gym(
+      workspace: './ios/DevTopenland.xcworkspace',
+      scheme: "DevTopenland",
+      configuration: "Release",
+      include_bitcode: false,
+      include_symbols: true,
+      derived_data_path: "./ios/build",
+      output_directory: "./ios/build"
+    )
+    upload_symbols_to_crashlytics(
+      dsym_path: "./ios/build/DevTopenland.app.dSYM.zip",
+      gsp_path: "./ios/DevTopenland/GoogleService-Info.plist",
+      binary_path: "ios/Pods/FirebaseCrashlytics/upload-symbols",
+      debug: false
+    )
+  end
+
+  desc 'Fetch certificates, build and upload to App Center.'
+  lane :appcenter_target do |options|
+    build_target(target: options[:target])
+    upload_appcenter()
+  end
+
+  lane :upload_appcenter do |options|
+    file = options[:file] || ENV["APPCENTER_DISTRIBUTE_FILE"]
+    puts file
+    appcenter_upload(
+      api_token: ENV["APPCENTER_API_TOKEN"],
+      owner_name: ENV["APPCENTER_OWNER_NAME"],
+      owner_type: ENV["APPCENTER_OWNER_TYPE"],
+      app_os: ENV["APPCENTER_APP_OS_IOS"],
+      app_platform: ENV["APPCENTER_APP_PLATFORM"],
+      app_name: ENV["APPCENTER_IOS_APP_NAME"],
+      app_display_name: ENV["APPCENTER_IOS_APP_DISPLAY_NAME"],
+      file: file,
+      destination_type: ENV["APPCENTER_DISTRIBUTE_DESTINATION_TYPE"] || "group",
+      destinations: ENV["FL_DISTRIBUTE_GROUP"] || ENV["APPCENTER_DISTRIBUTE_DESTINATIONS"],
+      release_notes: get_changelog,
+    )
+  end
+end

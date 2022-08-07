@@ -1,0 +1,10 @@
+query GetSupportRequestClosingReasons {
+  getSupportRequestClosingReasons(pageSize: 100) {
+    edges {
+      id
+      name
+      description
+      type
+    }
+  }
+}

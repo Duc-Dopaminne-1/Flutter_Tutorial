@@ -1,0 +1,11 @@
+query GetBanks($pageSize: Int) {
+  banks(pageSize: $pageSize) {
+    edges {
+      bankId
+      bankName
+      bankDescription
+      bankCode
+      isActive
+    }
+  }
+}

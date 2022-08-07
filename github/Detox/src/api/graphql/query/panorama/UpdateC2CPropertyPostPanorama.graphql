@@ -1,0 +1,7 @@
+mutation UpdateC2CPropertyPostPanorama($input: UpdateC2CPropertyPostPanoramaInput!) {
+  updateC2CPropertyPostPanorama(updateC2CPropertyPostPanoramaInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,7 @@
+mutation SharePropertyPostById($input: SharePropertyPostInput!) {
+  sharePropertyPost(sharePropertyPostInput: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "showsourcing-schema",
+  "description": "ShowSourcing realm database common schema",
+  "version": "0.0.0",
+  "author": "ShowSourcing",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node print.js"
+  },
+  "devDependencies": {
+    "realm": "2.23.0"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}

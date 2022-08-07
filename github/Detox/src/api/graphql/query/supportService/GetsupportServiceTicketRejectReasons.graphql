@@ -1,0 +1,12 @@
+query GetsupportServiceTicketRejectReasons(
+  $orderBy: SupportServiceTicketRejectReasonDtoSort
+  $page: Int
+) {
+  supportServiceTicketRejectReasons(order_by: $orderBy, page: $page, pageSize: 999) {
+    edges {
+      supportServiceTicketRejectReasonId
+      supportServiceTicketRejectReasonName
+      supportServiceTicketRejectReasonDescription
+    }
+  }
+}

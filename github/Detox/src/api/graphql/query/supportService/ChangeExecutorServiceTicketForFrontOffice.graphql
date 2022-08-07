@@ -1,0 +1,7 @@
+mutation ChangeExecutorServiceTicketForFrontOffice($input: ChangeExecutorServiceTicketInput!) {
+  changeExecutorServiceTicketForFrontOffice(input: $input) {
+    errorCode
+    errorMessage
+    errorMessageCode
+  }
+}

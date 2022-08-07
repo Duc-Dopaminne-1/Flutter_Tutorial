@@ -1,0 +1,12 @@
+query GetQnaPage($input: GetPagesWithPaging!) {
+  qnaPage(request: $input) {
+    edges {
+      createdBy
+      createdDatetime
+      title
+      body
+    }
+    totalCount
+    currentPage
+  }
+}
